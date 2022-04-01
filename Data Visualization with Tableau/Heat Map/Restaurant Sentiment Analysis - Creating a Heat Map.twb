@@ -1,0 +1,582 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20211.22.0212.1521                               -->
+<workbook original-version='18.1' source-build='2021.1.12 (20211.22.0212.1521)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='Restaurant Sentiment Analysis (Restaurant Sentiment Analysis)' inline='true' name='federated.1bskedz0kcb4vv1biu8j90qtfyru' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='Restaurant Sentiment Analysis' name='excel-direct.024hexy02ykkhz1dk7kn3162fgmg'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/Users/Adrian/Downloads/Data/Restaurant Sentiment Analysis.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='excel-direct.024hexy02ykkhz1dk7kn3162fgmg' name='Restaurant Sentiment Analysis' table='[&apos;Restaurant Sentiment Analysis$&apos;]' type='table'>
+          <columns gridOrigin='A1:J36:no:A1:J36:0' header='yes' outcome='6'>
+            <column datatype='string' name='Reset' ordinal='0' />
+            <column datatype='string' name='Review' ordinal='1' />
+            <column datatype='string' name='Season' ordinal='2' />
+            <column datatype='string' name='Super Reviewer (Over 100 Reviews)' ordinal='3' />
+            <column datatype='string' name='Time of Day' ordinal='4' />
+            <column datatype='string' name='Weather' ordinal='5' />
+            <column datatype='real' name='3 Year Revenue Avg. by Season' ordinal='6' />
+            <column datatype='real' name='Sentiment Score' ordinal='7' />
+            <column datatype='integer' name='F1' ordinal='8' />
+            <column datatype='real' name='Temperature (Fahrenheit)' ordinal='9' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='excel-direct.024hexy02ykkhz1dk7kn3162fgmg' name='Restaurant Sentiment Analysis' table='[&apos;Restaurant Sentiment Analysis$&apos;]' type='table'>
+          <columns gridOrigin='A1:J36:no:A1:J36:0' header='yes' outcome='6'>
+            <column datatype='string' name='Reset' ordinal='0' />
+            <column datatype='string' name='Review' ordinal='1' />
+            <column datatype='string' name='Season' ordinal='2' />
+            <column datatype='string' name='Super Reviewer (Over 100 Reviews)' ordinal='3' />
+            <column datatype='string' name='Time of Day' ordinal='4' />
+            <column datatype='string' name='Weather' ordinal='5' />
+            <column datatype='real' name='3 Year Revenue Avg. by Season' ordinal='6' />
+            <column datatype='real' name='Sentiment Score' ordinal='7' />
+            <column datatype='integer' name='F1' ordinal='8' />
+            <column datatype='real' name='Temperature (Fahrenheit)' ordinal='9' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Restaurant Sentiment Analysis]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:J36:no:A1:J36:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>6</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Reset</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Reset]</local-name>
+            <parent-name>[Restaurant Sentiment Analysis]</parent-name>
+            <remote-alias>Reset</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Restaurant Sentiment Analysis_2ED1C195E8014F1BA1B54B44B0879D49]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Review</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Review]</local-name>
+            <parent-name>[Restaurant Sentiment Analysis]</parent-name>
+            <remote-alias>Review</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Restaurant Sentiment Analysis_2ED1C195E8014F1BA1B54B44B0879D49]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Season</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Season]</local-name>
+            <parent-name>[Restaurant Sentiment Analysis]</parent-name>
+            <remote-alias>Season</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Restaurant Sentiment Analysis_2ED1C195E8014F1BA1B54B44B0879D49]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Super Reviewer (Over 100 Reviews)</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Super Reviewer (Over 100 Reviews)]</local-name>
+            <parent-name>[Restaurant Sentiment Analysis]</parent-name>
+            <remote-alias>Super Reviewer (Over 100 Reviews)</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Restaurant Sentiment Analysis_2ED1C195E8014F1BA1B54B44B0879D49]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Time of Day</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Time of Day]</local-name>
+            <parent-name>[Restaurant Sentiment Analysis]</parent-name>
+            <remote-alias>Time of Day</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Restaurant Sentiment Analysis_2ED1C195E8014F1BA1B54B44B0879D49]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Weather</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Weather]</local-name>
+            <parent-name>[Restaurant Sentiment Analysis]</parent-name>
+            <remote-alias>Weather</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Restaurant Sentiment Analysis_2ED1C195E8014F1BA1B54B44B0879D49]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>3 Year Revenue Avg. by Season</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[3 Year Revenue Avg. by Season]</local-name>
+            <parent-name>[Restaurant Sentiment Analysis]</parent-name>
+            <remote-alias>3 Year Revenue Avg. by Season</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Restaurant Sentiment Analysis_2ED1C195E8014F1BA1B54B44B0879D49]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Sentiment Score</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Sentiment Score]</local-name>
+            <parent-name>[Restaurant Sentiment Analysis]</parent-name>
+            <remote-alias>Sentiment Score</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Restaurant Sentiment Analysis_2ED1C195E8014F1BA1B54B44B0879D49]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F1</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F1]</local-name>
+            <parent-name>[Restaurant Sentiment Analysis]</parent-name>
+            <remote-alias>F1</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Restaurant Sentiment Analysis_2ED1C195E8014F1BA1B54B44B0879D49]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Temperature (Fahrenheit)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Temperature (Fahrenheit)]</local-name>
+            <parent-name>[Restaurant Sentiment Analysis]</parent-name>
+            <remote-alias>Temperature (Fahrenheit)</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Restaurant Sentiment Analysis_2ED1C195E8014F1BA1B54B44B0879D49]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <_.fcp.ObjectModelTableType.true...column caption='Restaurant Sentiment Analysis' datatype='table' name='[__tableau_internal_object_id__].[Restaurant Sentiment Analysis_2ED1C195E8014F1BA1B54B44B0879D49]' role='measure' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='Restaurant Sentiment Analysis' id='Restaurant Sentiment Analysis_2ED1C195E8014F1BA1B54B44B0879D49'>
+            <properties context=''>
+              <relation connection='excel-direct.024hexy02ykkhz1dk7kn3162fgmg' name='Restaurant Sentiment Analysis' table='[&apos;Restaurant Sentiment Analysis$&apos;]' type='table'>
+                <columns gridOrigin='A1:J36:no:A1:J36:0' header='yes' outcome='6'>
+                  <column datatype='string' name='Reset' ordinal='0' />
+                  <column datatype='string' name='Review' ordinal='1' />
+                  <column datatype='string' name='Season' ordinal='2' />
+                  <column datatype='string' name='Super Reviewer (Over 100 Reviews)' ordinal='3' />
+                  <column datatype='string' name='Time of Day' ordinal='4' />
+                  <column datatype='string' name='Weather' ordinal='5' />
+                  <column datatype='real' name='3 Year Revenue Avg. by Season' ordinal='6' />
+                  <column datatype='real' name='Sentiment Score' ordinal='7' />
+                  <column datatype='integer' name='F1' ordinal='8' />
+                  <column datatype='real' name='Temperature (Fahrenheit)' ordinal='9' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Restaurant Sentiment Analysis'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true'>&lt;Sheet Name&gt;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Restaurant Sentiment Analysis (Restaurant Sentiment Analysis)' name='federated.1bskedz0kcb4vv1biu8j90qtfyru' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1bskedz0kcb4vv1biu8j90qtfyru'>
+            <column datatype='string' name='[Season]' role='dimension' type='nominal' />
+            <column datatype='real' name='[Sentiment Score]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Super Reviewer (Over 100 Reviews)]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Time of Day]' role='dimension' type='nominal' />
+            <column-instance column='[Sentiment Score]' derivation='Avg' name='[avg:Sentiment Score:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Season]' derivation='None' name='[none:Season:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Super Reviewer (Over 100 Reviews)]' derivation='None' name='[none:Super Reviewer (Over 100 Reviews):nk]' pivot='key' type='nominal' />
+            <column-instance column='[Time of Day]' derivation='None' name='[none:Time of Day:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='width' field='[federated.1bskedz0kcb4vv1biu8j90qtfyru].[none:Season:nk]' value='115' />
+          </style-rule>
+          <style-rule element='header'>
+            <format attr='width' field='[federated.1bskedz0kcb4vv1biu8j90qtfyru].[none:Super Reviewer (Over 100 Reviews):nk]' value='320' />
+            <format attr='width' field='[federated.1bskedz0kcb4vv1biu8j90qtfyru].[none:Time of Day:nk]' value='148' />
+          </style-rule>
+          <style-rule element='field-labels'>
+            <format attr='color' value='#000000' />
+            <format attr='font-size' value='12' />
+            <format attr='font-weight' value='bold' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='color' field='[federated.1bskedz0kcb4vv1biu8j90qtfyru].[none:Time of Day:nk]' value='#000000' />
+            <format attr='font-weight' field='[federated.1bskedz0kcb4vv1biu8j90qtfyru].[none:Time of Day:nk]' value='bold' />
+            <format attr='font-size' field='[federated.1bskedz0kcb4vv1biu8j90qtfyru].[none:Time of Day:nk]' value='12' />
+            <format attr='color' field='[federated.1bskedz0kcb4vv1biu8j90qtfyru].[none:Super Reviewer (Over 100 Reviews):nk]' value='#000000' />
+            <format attr='font-weight' field='[federated.1bskedz0kcb4vv1biu8j90qtfyru].[none:Super Reviewer (Over 100 Reviews):nk]' value='bold' />
+            <format attr='font-size' field='[federated.1bskedz0kcb4vv1biu8j90qtfyru].[none:Super Reviewer (Over 100 Reviews):nk]' value='10' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='color' value='#000000' />
+            <format attr='font-size' value='10' />
+            <format attr='font-weight' value='bold' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.1bskedz0kcb4vv1biu8j90qtfyru].[avg:Sentiment Score:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='datalabel'>
+                <format attr='color-mode' value='user' />
+                <format attr='color' value='#ffffff' />
+                <format attr='font-size' value='11' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.1bskedz0kcb4vv1biu8j90qtfyru].[none:Time of Day:nk] / [federated.1bskedz0kcb4vv1biu8j90qtfyru].[none:Super Reviewer (Over 100 Reviews):nk])</rows>
+        <cols>[federated.1bskedz0kcb4vv1biu8j90qtfyru].[none:Season:nk]</cols>
+      </table>
+      <simple-id uuid='{54EF38C5-59A2-4D6E-8FB7-3855CA5A9B9A}' />
+    </worksheet>
+  </worksheets>
+  <windows saved-dpi-scale-factor='0.875' source-height='30'>
+    <window class='worksheet' maximized='true' name='Restaurant Sentiment Analysis'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1bskedz0kcb4vv1biu8j90qtfyru].[avg:Sentiment Score:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.1bskedz0kcb4vv1biu8j90qtfyru].[avg:Sentiment Score:qk]</field>
+            <field>[federated.1bskedz0kcb4vv1biu8j90qtfyru].[none:Season:nk]</field>
+            <field>[federated.1bskedz0kcb4vv1biu8j90qtfyru].[none:Super Reviewer (Over 100 Reviews):nk]</field>
+            <field>[federated.1bskedz0kcb4vv1biu8j90qtfyru].[none:Time of Day:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{FB71EEAD-E81B-4E05-A553-DC78AA5207CA}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='298' name='Restaurant Sentiment Analysis' width='384'>
+      iVBORw0KGgoAAAANSUhEUgAAAYAAAAEqCAYAAAAcQIc3AAAACXBIWXMAAA7DAAAOwwHHb6hk
+      AAAgAElEQVR4nO3df3BU9b3/8ed+J8ykC6lJbx0WKQQ1kaDNlXwRuKEYlB+VpNAGiw0I9VaQ
+      jQ6/ktLIV5YicFkocGtChdsvQbD1QiWtCL16EyhC5UdNwSBqBAOJQKRA+OI1qaEbZrIz5/vH
+      bsJusrtZyJIfnNdjZmf2x/mcfe+yOa/z+ZzPOVgMwzAQERHT+V+dXYCIiHQOBYCIiEkpAERE
+      TEoBICJiUgoAERGTUgCIiJiUAkBExKQUACIiJqUAEBExKQWAiIhJKQBERExKASAiYlIKABER
+      k1IAiIiYlAJARMSkFAAiIialABARMSkFgIiISSkARERMSgEgImJSCgAREZNSAIiImJQCQETE
+      pBQAIiImpQAQETEpBYCIiEkpAERETEoBICJiUgoAERGTUgCIiJiUAkBExKQUACIiJqUAEBEx
+      KQWAiIhJKQBERExKASAiYlIKABERk1IAiIiYlAJARMSkFAAiIialABARMSkFgIiISSkARERM
+      SgEgImJSCgAREZNSAIiImJQCQETEpBQAIiImpQAQETEpBYCIiEkpAERETEoBICJiUgoAERGT
+      UgCIiJiUAkBExKQUACIiJqUAEBExKQWAiIhJKQBERExKASAiYlIKABERk1IAiIiYlAJARMSk
+      FAAiIialABARMSkFgIiISSkARERMSgEgImJSCgAREZNSAIiImJQCQETEpBQAIiImpQAQETEp
+      BYCIiEkpAERETEoBICJiUgoAERGTUgCIiJiUAkBExKQUACIiJqUAEBExKQWAiIhJKQBERExK
+      ASAiYlIKABERk1IAiIiYlAJARMSkFAAiIialABARMSkFgIiISSkARERMSgEgImJSCgAREZNS
+      AIiImJQCQETEpKLau4KysrJI1CEiIh1MPQAREZOyGIZhdHYRIiLS8dQDEBExKQWAiIhJKQBE
+      RExKASAiYlIKABERk1IAiIiYlAJARMSkFABdThUFIyxYLNdv2SXtXec1zuwpYNaYQfSPu77e
+      uP6T2XIuAiWLSLfU7ktB3LSSbCwZhWEsGEu/JBuJgycxMeuHZI0fQp/oW17d7cNdwfr0VOa+
+      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
+    </thumbnail>
+  </thumbnails>
+</workbook>
