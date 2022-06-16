@@ -1,0 +1,196 @@
+Design Methodology of Off-Grid PV Solar Powered System (A Case Study of Solar Powered Bus Shelter) 
+Author: Ayaz A. Khamisani Advisors: Dr. Peter Ping Liu, Dr. Jerry Cloward, Dr. Rendong Bai 
+Table of content 
+Page 
+List of figures 03 Abstract 04 Introduction 05 Photovoltaic Cells 06 Working Principle of Solar Panels 07 Principle 07 Types of PV Systems 08 Standalone or Off-Grid Systems 09 Integrated or Grid-Tied System 10 Methodology of Designing an Off-Grid PV System 10 Site assessment 11 Shed analysis 11 Sun Hour 11 Tilt Angle 12 Energy Calculations 13 Panel Sizing 13 Battery Sizing 14 Invertor 14 Charge Controller 15 Proposal to Convert 7th Street Bus Stand into a Standalone PV System. 16 Site Assessment 17 Calculating Energy Usage 18 Calculate Wattage of the Solar Panels 19 Battery Sizing 19 Invertor Sizing 20 Charge Controller Sizing 20 Conclusion 20 Reference 22 
+
+List of figures Page 
+1. Figure 1 working of solar cell: 
+08 
+2. 
+Figure 2 Off-Grid solar PV system 
+
+3. 
+Figure 3 Grid-tied PV system 10 
+
+4. 
+Figure 4 Sun hours across US 12 
+
+5. 
+Figure 5 7th street existing bus shelter 17 
+
+6. 
+Figure 6 CAD representation of the shelter 18 
+
+
+09 
+
+Abstract 
+Solar energy has incredible potential to power our daily lives. Researchers suggest that the amount of sunlight that strikes the Earth's surface in an hour and a half is enough to handle the entire world's energy consumption for a full year. 
+Solar power system is one of the best renewable energy technology which is not only cost effective but environment friendly as well. For my research, I have suggested methodologies that may be applicable to other off grid applications. I will be explaining design methodology using an example of an off-grid bus shelter. Off-grid or standalone systems can be defined as independent systems that are not connected to any electrical grid. These come in different sizes and are mostly used in location where there is little access to grid infrastructure. 
+The off-grid bus shelter project will completely depend on the solar energy i.e. solar photovoltaics will harvest electricity to supply the devices such as lighting LED, Wi-Fi router and advertising billboard. A battery backup would be used as a continuous power supply in case of the worst weather. 
+This paper will focus on how methodology of off grid systems/stand-alone systems can help to reduce the dependency of grid and allow us to live in self-sufficient manners without reliance on one or more public utilities. Further, a PV system will be designed for a bus shelter at EIU to demonstrate the concept. 
+
+Introduction 
+Energy is a necessity like food and water. Everything around us requires energy. Over the years there has been an increasein the earth’s population which is directly proportional to the energy used as well. All the possible gadgets and equipment need some or the other kind of energy to function. With depleting fossil fuel reserves it becomes necessary to identify viable renewable energy resources that can decrease the dependency on fossil fuels. 
+Solar energy is the most abundant form of energy available to us. It is approximated that 10000 TW worth of solar energy is incident on earth’s surface in a day (Bosshard, 2006). According to a report, the world energy consumption in 2015 was 17.4 TW altogether (Seger, 2016). There has been a minimal increase in the energy consumption every year, approximately 1-1.5% annual growth. The world’s total energy consumption is expected to grow by 56% by the year 2040 (U.S Energy Information Administration, 2013). Comparing current consumption, projected growth in two decades, and the amount of solar radiation received in an hour we can just imagine the potential solar energy holds. The total energy consumed is not small fraction of what we receive in an hour. 
+Despite this energy potential available to us the current utilization of solar energy is less than 5% globally. There are countries that are taking initiatives to switch from using fossil fuels to solar applications. These countries form a pool called the G-20 countries which have taken the global leadership to adopt renewable resources of energy. Germany is one of the G­20 countries that has switched its energy needs to approximately 38% to solar, and aims to go completely stop its dependency on nuclear and replace it with solar by the year 2050 (Richardson, 2017). Similarly, most of the countries have abundant solar potential and can take a lesson from Germany. 
+Apart from harvesting the resource and decreasing the dependency on fossil fuel because they are limited, one must understand the consequences of using fossil fuels. Burning of fossil fuels for energy has an adverse effect on the environment. It releases CO2 into the atmosphere which is responsible for the greenhouse effect. Further, it also causes the ozone layer to be depleted. These mentioned phenomena can cause several events to occur such as; acid rain, air pollution, land pollution because of excavating operations, etc. 
+A 4 KW solar panel used in homes for 25 years can offset 199,697 lbs of CO2, is equivalent to planting, and is equal to 208,166 (RGS-Rethink your roof, n.d.). It is fascinating that how much just one home can make an impact in the environment by using Solar panels. One could imagine, what would be the benefit of using this technology on larger scale. 
+
+Photovoltaic Cells 
+In the 18th century, Swiss physicists assembled a warm trap, which was a small-scale greenhouse. He developed a hot box, by a glass box in another larger glass box, a total of up to five boxes. When they are proposed to coordinate the sun illumination, the temperature in the deepest box can be raised to 108 degrees Celsius; warm enough to soak water and cook food. These crates can be considered the world's first solar collection. In the late 1950, some organizations and research facilities began to create a silicon based solar cell that considers the goal of controlling Earth-orbiting satellites. These include RCA, Hoffman Electronics, and in addition, the U.S. Army Alert Corps (Desideri, Zapparelli, & Garroni, 2013). 
+A solar cell, or photovoltaic cell, is an electrical device that converts the energy of photons that are incident on it to electrical energy, which is a natural and synthetic marvel. A separate cell unit can be connected to a frame module, also known as a solar panel. Different solar cells in a unified set, all arranged in the plane represents a solar photovoltaic board or module. PV modules usually have a glass in front of the panel, allowing light to pass through, while ensuring that the semiconductor plate is protected inside the case. 
+Solar cells are usually associated, and arranged in series or parallel module, depending upon the requirement of the customer. The parallel interface unit gets higher current; however, the problem, for example, that shadow effects can turn off weaker (less bright) parallel strings (different permutations of cells) can cause great unpleasant effects and may cause damage because of their enlightened complicity and the reversal of dark cell tendencies. A series of stacked units are usually autonomous and not parallel, but starting from 2014, each module provides a singular power box on a regular basis and connects in parallel. 
+
+Working Principle of Solar Panels 
+In the previous discussion it has been established that there is abundance of solar energy available to be harvested. A brief discussion of what PV cells is also being covered. It is necessary that we understand how these cells generate electricity so that we can design systems that can be in tandem with these basic concepts. The following discussion will explain how the cells generate electricity. 
+Principle: Sun is a powerhouse of energy and this energy moves around in the form of electromagnetic radiations. These radiations are of several types such as light, radio waves, etc. 
+depending upon the wavelength of the radiations emitted. A very less percentage of sun’s radiations reach the earth’s atmosphere in the form of visible light. Solar cells use this visible light to make electrons. Different wavelength of light is used by different solar cells. 
+Solar cells are made up of semiconductor materials, such as silicon, which is used to produce electricity. The electricity is conducted as a stream of tiny particles called electrons and the stream is called electric current. Two main types of electric currents are; DC (direct current) in which the flow of current is in the same direction while in AC (Alternating current) it may reverse the direction of current. A typical solar cell has two layers of silicon, which is n-type at the top and p-type at the bottom. When sunlight strikes the solar cell, the electrons are absorbed by silicon, they flow between n and p-layers to produce electric current and the current leaves the cell through the metal contact. The electricity generated is of AC type. 
+
+Figure 1 working of solar cell 
+
+Types of PV Systems 
+With growing demand for PV systems, the utilities provided an option for the consumers to connect their systems to the grid. This step introduced a new term called “Net Metering.” Net metering allows the consumers to send back the electricity they generate from their PV systems to the grid. This is possible because of the grid-tied connection enabled by the utility. Similarly, we also have systems that are independent and do not require themselves to be connected to the grid such systems are called off-grid systems or standalone systems. Both the systems have been explained in detail below: 
+
+1. Standalone or Off-Grid Systems 
+The off-grid system term states the system not relating to the gird facility. Primarily, the system which is not connected to the main electrical grid is term as off-grid PV system (Weis, 2013). Off-grid system also called standalone system or mini grid which can generate the power and run the appliances by itself. Off-grid systems are suitable for the electrification of small community. Off-grid electrification system is viable for the remote areas in the countries where they do have little or no access to the electricity because of the distinct living and spread population in the vast area. The off-grid system refers to the support that would be adequate for a living without depending on the grid or other system. Electrical energy in the off-gird system produced through the Solar photovoltaic panels needs to be stored or saved because requirement from the load can be different from the solar panel output, battery bank is also used for the purpose generally. 
+
+Figure 2. Off-Grid solar PV system 
+This project is considering the viability of having an off-grid PV system which can be used to power a bus shelter. This concept can also be utilized on a larger scale to support all types of homes which are in remote areas and where the cost of connecting cables and other infrastructure of electricity to the house is expensive. 
+
+2. Integrated or Grid-Tied System 
+Grid connected photovoltaic power system is an electricity generating system which is linked to the utility gird (energy.gov, n.d.). This photovoltaic system contains solar panel, inverter and the equipment to provide connection to the grid. Grid connected systems are feasible for various setup such as residential. Commercial and larger scale grid tied system different than the off grid solar power systems. Usually grid connected system does not need battery backup, because when system generate the energy more than the load it will automatically transfer to the linked utility gird. 
+01111nM1•i11rru.c. 
+
+Figure 3. Grid-tied PV system 
+In the residential setups grid connected rooftop systems usually having the capability of 10 kilowatts which could be enough to meet the house requirements, and the excess would feed the grid which can be used by other consumers connected to the grid. The feedback or excess power transfer system works through a meter to track the transferred power.  In some instances, PV system wattage could be less than the normal consumption due to several different factors and in this scenario, consumer will utilize the grid energy. 
+Methodology of Designing an Off-Grid PV System 
+
+Site assessment 
+In the introduction of solar photovoltaic (PV) clusters for private, commercial, or agricultural operations; a crucial idea is to determine the merits of the site (Franklin, 2017). Identifying the place and position of the panels is a crucial step in designing a PV system as the later components will be streamlined to this step. A few concepts and tips one must keep in mind while performing the site assessment are: 
+1. 
+Shade Analysis: Shading can be a problem for the solar panels as they decrease the maximum power that can be generated. Several factors contribute to this issue, the most common cause of shade on a solar panel are; 1) Shade from neighboring trees and buildings in vicinity, 2) typical cloudy weather, and 3) shade from adjacent solar panels (Solar Choice, 2016). While designing a solar PV system one must investigate these factors thoroughly so that maximum output can be obtained. One of the tools most commonly used is solar pathfinder which gives the direction of the sun through out the year and how much any specific area will receive sunlight throughout the year (Solar Pathfinder, n.d.). Apart from having this tool, it is important that the site assessment is done properly to locate the best site keeping in mind all the aspects. 
+
+2. 
+Sun hours: Sun hours are important to know how much radiance will be required to generate the needed output wattage. This parameter gives us the knowledge of number of hours an area will receive maximum sunlight (Franklin, 2017). With advances in technology we have this data available online and anyone can use it. We have studied the data from NREL and NASA but for our project we will be using data given by 
+
+
+NREL as it is giving information of the Sun hours to a closer proximity to Charleston. The following chart gives the required information of the Sun hours depending on different zones classified by NREL. 
+Photovoltaic 
+
+Figure 4 Sun hours across U.S 
+3. Tilt angle: Tilt angle is the setting of the panels one needs to have to get the maximum radiance. Ideally the tilt angle is the latitude of the geographic location. It is suggested to have an adjustable panel frames as the sun hours keep changing with respect to the tilt in winters and summers. Hence for any area a specific tilt angle is calculated to get the maximum radiance through out the year for a fixed panel. Also, it is advised to have the panels facing the south to get the maximum afternoon sun. A couple of devices are used in the process of finding the tilt angle and the radiance that will fall upon panel at that tilt angle are inclinometer and pyranometer, respectively. An inclinometer is kept on the panel and the degrees are read to find the latitude of the area as it is perpendicular to the Sun’s radiations when it is at its highest point in the sky. Pyranometer measures the solar irradiance that will fall at a given tilt angle. It measures solar irradiance in Watts per meter Sq. (W/m^2) (Franklin, 2017). 
+
+Energy Calculations 
+The consensus is to add wattage of the equipment that are going to be powered using the PV system. Alternatively, for this task we can use baseload calculators that are available on the internet. We have used one such tool to calculate the baseload of our project, the following link will direct to the website which has the calculator (Wholesale solar , n.d.) Every device has fixed power consumption that can be found on its name plate details. This data from all the devices that are going to be used should be retrieved. The website mentioned above provides a table where this information needs to be entered. Other data that needs to be entered is number of each appliance that are going to be used and number of hours the appliance is supposed to remain ON. Up on filling the required data the website generates a table that give the total Watt-hours that are going to be used i.e. the total energy consumed or the wattage of the PV system. 
+Another point one must pay attention to is the system voltage. It is required that the system level chosen before we further probe into designing. Subsequent equipment designing would be based on the system voltage level. 
+
+Panel Sizing 
+Once the total load to be energized using the PV system is calculated we must find out what area of solar panels would be required to generate that much amount of power. It is an inherent property of any panel to have internal losses. This factor should be kept in mind. As in the energy calculation we have already found the total watt-hours, for finding the wattage of panels that would be required we need to divide the total watt-hours with peak sun hours (Pelamis wave power, n.d.). 
+Another useful tool that can be used is PV WATTS that helps use to calculate panel sizing just by putting the parameters such as energy consumption, tilt angle, and Sun hour. We have used this same website to calculate the solar panels. (NREL, n.d.) The website also enables the user to get the size of the panels that would be required to generate the required wattage. Battery Sizing PV battery system assesses various strategies from a financial perspective. The valuable existence of the battery is limited to 5,000 cycles or in the planned living time of 20 years. The maintenance of photovoltaic and rechargeable annual activities and expenditure systems is set at 1.5% per the speculative cost. Assume that the cost system for the battery and PV is comparable to their size. Following is a formula that will enable to calculate what size of battery they should have. (Leonics, n.d.) Battery Capacity (Ah) = Total Watt-hours per day used by appliances x Days of autonomy 
+(0.85 x 0.6 x nominal battery voltage) 
+
+Inverter 
+Inverter deals with following main tasks of energy: (ALTE store, n.d.) 
+. 
+Convert DC from PV module to AC 
+
+. 
+Ensure that the cycle of alternating current cycles is 60 cycles 
+
+. 
+Reduce voltage variations 
+
+. 
+Ensure that the condition of the AC waveform is suitable for the application 
+
+
+Most system-connected inverters can be introduced externally, and most of the off-grid inverters are not weather-resistant. There are basically two types of grid intelligent Inverters: Those designed for batteries and those designed for systems without battery-connected inverter systems and give excellent void-quality strength. For matrix associations, the inverter should have a "useful-interactive" typeface, which is printed specifically for the publication name. 
+Grid-connected systems measure the power of extracting PV clusters rather than a bunch of prerequisite buildings. It asserts that what each power supply needs are what the matrix-related PV system can give naturally is drawn from the net. 
+Invertors used for solar PV systems are usually based upon the total wattage of the solar panels, as the invertor will be continuously converting the power generated. The second consideration one must investigate, is the voltage level of the system. For example, if the system is designed to generate 2000 Watts at a voltage level of 12 V then the invertor selected should be rated 12V, 2000 Watts (Alternative Energy, n.d.). 
+
+Charge Controller 
+The charge controller, sometimes referred to as a photovoltaic controller or charger, is only necessary for the system which involves a battery (Wholesale Solar, n.d.). The main capacity of the charge controller is to counteract the battery spoofing. The basic function of charge controller is to monitor charging and discharging of the battery. It prevents the battery from being completely charged or discharged. This is important because over charging can lead to destruction of the battery and under charging decreases the battery life. Another important reason to use a charge controller is to prevent a reverse current flowing from battery to the system. 
+There are two types of controllers that are widely available in the market; 1) Pulse width Modulation (PWM), 2) Maximum Power Point Tracking (MPPT) (Northern Arizon Wind and Sun, n.d.) 
+1. 
+Pulse width modulation: A pulse width modulation charge controller is set match the input power of the battery irrespective of the power generated by the panels. There is an inherent loss in power observed in this type of charger. 
+
+2. 
+Maximum Power Point Tracking (MPPT): This type of charger helps to get the optimum charging power for any given point of time and offers better efficiency that PWM. 
+
+
+Though the MPPT charge controllers enable you to have better efficiencies and provides more power than compared to PWM for similar condition, the main cause of not opting for MPPT is price of it (Solar Guy, 2016). MPPT charge controllers are more expensive than PWM controllers. Keeping this parameter in mind, this project will be using a PWM charge controller for realizing the concept. To select the size of charge controller one must know the voltage level of the system and the maximum operating current. It is a usual practice to over size the controller for safety reasons. 
+
+Proposal to Convert 7th Street Bus Stand into a Standalone PV System 
+Bus shelters are common in every structure one can find in urban and sub-urban settings and most of them are tied to the grid to provide electricity. But most of the rural and sub-urban areas do not have this facility of having their bus shelters electrified through grid. In such place we could use the off-grid or standalone PV system which can function without the grids assistance. 
+Eastern Illinois University has always been a leader in embracing new technologies that promotes betterment of the environment and its students. Panther shuttle bus-stops across the campus serve hundreds of the students on a day-to-day basis. Currently, all the bus stops on the campus are not connected with the existing electrical grid. Hence, taking an initiative to serve the students an also realizing a proof of concept for standalone systems the following PV system has been designed. 
+
+Site Assessment 
+First step in designing an off-grid bus shelter would be find a location to install the panels. Some factors that were taking into consideration while making a choice between various options. More emphasis was given to the most used bus shelters, few of the bus shelters were filtered out considered how often they were used. Secondly, a bus shelter with few surrounding structures was a priority to avoid shading problem. For these reasons, 7th street bus shelter was chosen. 
+
+Figure 5. 7th street bus shelter 
+In the above picture, it is visible that the roof of the shelter in shape of dome which will have to be replaced to mount the panels on top. The next picture is of an AutoCAD drawing which shows the dimensions of the shelter. 
+:::;;: 
+
+Figure 6 CAD representation of the shelter 
+
+Calculating Energy Usage 
+Appliance  Appliance categories  Quantity  Watts (V*A) Multi* 1.5 for AC  Operation Hours/day “from table”  Watts Hours/day  
+LED Lights  Night use  2  3  14  80  
+High Flux LED  Night use  6  18  14  1008  
+Cell phone charger  24 Hours use  2  5  15  150  
+WI-FI router  24 Hours use  1  20  24  480  
+Solar charger controller  24 Hours use  1  1  24  24  
+Sensor  24 Hours use  1  1  24  24  
+Total Watt Hours per day  1770.00  
+
+1770Wh/day 3 sun hours/day = 590W 
+590.W0.8 (system losses) =737.5W Wh = 737.5W x 30 days Wh = 22,125 Watt-hours (22.125 kWh/month) The project will be dealing with lower voltage devices hence a 12V system is chosen. 
+
+Calculate Wattage of the Solar Panels 
+1770Wh/day 3 sun hours/day = 590W 590W 0.8 (system losses) =737.5W 737.5/250 = 2.95(3 Solar panels 250watts) For the project we would be using 3 panels of 250 Watts each. 
+
+Battery Sizing 
+Battery Capacity (Ah) = Total Watt-hours per day used by appliances x Days of autonomy 
+(0.85 x 0.6 x nominal battery voltage) For this project, the daily average energy consumption per day is 1770 (W-h/day) for the month of December. Battery Capacity (Ah) = 1770 x 2 (0.85 x 0.6 x 12) = (1770/ (0.85x0.6x12)) x2 = 1770/0.85=2082.35 = 2082.35/0.6=3470.5 
+=3470.5/12=289.2 289.2x2=578.4 
+578.4 Ah Battery Capacity required for the system 
+
+Invertor Sizing 
+As explained previously that the invertor size should be based on the wattage and voltage level of the system. This project employees a 12V and 2000W system, hence the invertor that should be used should be of similar rating. 
+
+Charge Controller Sizing 
+For this project a PWM charge controller is to be used. Following steps will enable us to size the required charge controller. 
+Voltage level of the system: 12V 
+Maximum amperage: 10 A 
+There a PWM controller should be used with 12 V and 10 A with rated voltage and current specifications. 
+
+Conclusion 
+There is a cost associated with electrifying houses in rural areas that increases with distance between the grid and the houses. Such instances where the cost of electrification becomes enormously highly one can always use an off-grid PV system. Both type of systems viz. grid-tied and off-grid PV systems have their own advantages and disadvantages. Depending solely on the need one can decide what they would want to go for. It is trend that one can observe is that the grid-tied system is mostly found in urban and sub-urban setting where electrification of the area has already been achieved. The off-grid system is more suited to areas where the electrification is yet to be accomplished and/or the consumer choses not to supply back the energy generated at his/her end. 
+This paper provides the methodology of designing an off-grid PV system. Using a bus shelter at EIU an PV system was designed that would house certain necessary equipment such as WIFI module, charging points, lights, and sensors that would provide service to the students who would be using it. The design methodology is not limited to only bus shelters but could also be used for different purposes where ever a need of having an off-grid system arises. Economical aspect of the system has not been covered in this paper due to the availability of numerous vendors in the market. Upon identifying the system capacity, one can search the best option of different equipment depending on their financial preferences. 
+
+Bibliography 
+ALTE store. (n.d.). THE ROLE OF AN INVERTER IN A SOLAR ELECTRIC SYSTEM. Retrieved from ALTE store: https://www.altestore.com/howto/the-role-of-an-inverter­in-a-solar-electric-system-a15/ 
+Alternative Energy. (n.d.). Solar Inverter Sizing. Retrieved from altenergy: http://www.altenergy.org/renewables/solar/DIY/inverter-sizing.html 
+Bosshard, P. (2006). An Assessment of Solar Energy Conversion Technologies and Research Opportunities. Standford university. Retrieved from Stanford.edu. 
+Desideri, U., Zapparelli, F., & Garroni, E. (2013). Comparative analysis of concentrating solar power and photovoltaic technologies: Technical and environmental evaluations. Science Direct, 765-784. 
+energy.gov. (n.d.). Grid-Connected Renewable Energy Systems. Retrieved from Energy.gov: https://www.energy.gov/energysaver/grid-connected-renewable-energy-systems 
+Franklin, E. (2017, August). Solar Photovoltaic (PV) Site Assessment. Retrieved from Cooperative extention: https://extension.arizona.edu/sites/extension.arizona.edu/files/pubs/az1697-2017.pdf 
+Leonics. (n.d.). How to design solar pv system. Retrieved from Leonics: http://www.leonics.com/support/article2_12j/articles2_12j_en.php 
+Northern Arizon Wind and Sun. (n.d.). All About Maximum Power Point Tracking (MPPT) Solar Charge Controllers. Retrieved from Northern Arizon Wind and Sun: https://www.solar-electric.com/learning-center/batteries-and-charging/mppt-solar­charge-controllers.html 
+NREL. (n.d.). NREL's PV Watt calculator. Retrieved from NREL: https://pvwatts.nrel.gov/ 
+Pelamis wave power. (n.d.). Solar Panel Size Guide: How Much Do You Need For Your Home? Retrieved from .pelamiswave.com: https://www.pelamiswave.com/solar­panel-size-guide/ 
+RGS-Rethink your roof. (n.d.). Head to Head: Benefits of Solar Energy vs Fossil Fuels. Retrieved from RGS: https://rgsenergy.com/home-solar/solar-vs-traditional-power/ 
+Richardson, L. (2017, May 14). Solar electricity vs. fossil fuels: how do they compare? Retrieved from Energsage: https://news.energysage.com/solar-energy-vs-fossil-fuels/ 
+Seger, B. (2016, September 23). Global Energy Consumption: The Numbers for Now and in the Future. Retrieved from LinkedIn: https://www.linkedin.com/pulse/global-energy­consumption-numbers-now-future-brian-seger/ 
+Solar Choice. (2016, November 16). Why even partial shading is bad for solar power systems. Retrieved from Solar Choice: https://www.solarchoice.net.au/blog/partial­shading-is-bad-for-solar-panels-power­systems/?nabe=4658498117042176:0&utm_referrer=https%3A%2F%2Fwww.google .com%2F 
+Solar Guy. (2016, April 7). Size your PWM Charge Controller With Our New Free Solar Charge Controller Calculator! Retrieved from SOLAR PANEL SECRETS EXPOSED: http://solarpanelsvenue.com/size-pwm-charge-controller/ 
+Solar Pathfinder. (n.d.). Retrieved from https://www.solarpathfinder.com/PF 
+U.S Energy Information Administration. (2013, July 25). EIA projects world energy consumption will increase 56% by 2040. Retrieved from Today in Energy: https://www.eia.gov/todayinenergy/detail.php?id=12251 
+Weis, C. (2013, January). Considerations for Off-Grid PV Systems. Retrieved from Home Power: https://www.homepower.com/articles/solar-electricity/design­installation/considerations-grid-pv-systems 
+Wholesale solar . (n.d.). https://www.wholesalesolar.com/solar-information/start­here/offgrid-calculator. Retrieved from Wholesale solar: https://www.wholesalesolar.com/solar-information/start-here/offgrid-calculator 
+Wholesale Solar. (n.d.). An Introduction to Charge Controllers. Retrieved from Wholesale Solar: https://www.wholesalesolar.com/solar-information/charge-controller-article 
+
+

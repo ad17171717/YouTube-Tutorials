@@ -1,0 +1,1257 @@
+Waste 
+Management 
+75 
+(2018) 
+450–458 
+
+
+Contents lists available at ScienceDirect 
+
+Waste Management 
+journal homepage: www.elsevier.com/locate/wasman 
+
+Imprint logo
+Journal logo
+
+Global status of recycling waste solar panels: A review 
+Yan Xu 1, Jinhui Li . 
+, Quanyin Tan . 
+, Anesia Lauren Peters 1, Congren Yang 1 
+
+State Key Joint Laboratory of Environment Simulation and Pollution Control, School of Environment, Tsinghua University, Beijing 100084, China 
+article info abstract 
+Article history: 
+Received 21 June 2017 Revised 13 January 2018 Accepted 25 January 2018 Available online 19 February 2018 
+Keywords: 
+Waste solar panels Crystalline silicon solar panels Recycling Policy 
+With the enormous growth in the development and utilization of solar-energy resources, the prolifera­tion of waste solar panels has become problematic. While current research into solar panels has focused on how to improve the ef.ciency of the production capacity, the dismantling and recycling of end-of-life (EOL) panels are seldom considered, as can be seen, for instance, in the lack of dedicated solar-panel recy­cling plants. EOL solar-panel recycling can effectively save natural resources and reduce the cost of pro­duction. To address the environmental conservation and resource recycling issues posed by the huge amount of waste solar panels regarding environmental conservation and resource recycling, the status of the management and recycling technologies for waste solar panels are systemically reviewed and dis­cussed in this article. This review can provide a quantitative basis to support the recycling of PV panels, and suggests future directions for public policy makers. At present, from the technical aspect, the research on solar panel recovery is facing many problems, and we need to further develop an economi­cally feasible and non-toxic technology. The research on solar photovoltaic panels’ management at the end of life is just beginning in many countries, and there is a need for further improvement and expansion of producer responsibility. 
+ 2018 Elsevier Ltd. All rights reserved. 
+
+Contents 
+1. 
+Introduction......................................................................................................... 450 
+
+2. 
+Typesofsolarpanelsand resourcesusedincomponents ..................................................................... 451 
+
+3. 
+Productionofsolarpanelsandrelated wastegeneration..................................................................... 452 
+
+4. 
+Techniquesforsolar-panelrecycling ..................................................................................... 453 
+
+4.1. Componentrepair ............................................................................................... 453 
+4.2. Moduleseparation.... ........................................................................................... 454 
+4.3. Extractionofsiliconand raremetalelementsfromcomponents. ......................................................... 456 
+
+5. 
+Policiesforsolar-panelrecycling.... ..................................................................................... 456 
+
+6. 
+Discussionandconclusions ............................................................................................. 457 Acknowledgements................................................................................................... 457 References .......................................................................................................... 457 
+
+
+. Corresponding authors at: Room 805, Sino-Italian Environmental and Energy-ef.cient Building, School of Environment, Tsinghua University, Haidian District, Beijing 100084, China (J. Li). Room 825, Sino-Italian Environmental and Energy-ef.cient Building, School of Environment, Tsinghua University, Haidian District, Beijing 100084, China (Q. Tan). 
+E-mail addresses: jinhui@tsinghua.edu.cn 
+(J. Li), tqytsinghua@foxmail.com 
+
+
+(Q. Tan). 
+Room 825, Sino-Italian Environmental and Energy-ef.cient Building, School of Environment, Tsinghua University, Haidian District, Beijing 100084, China. 
+https://doi.org/10.1016/j.wasman.2018.01.036 
+
+0956-053X/ 2018 Elsevier Ltd. All rights reserved. 
+1. Introduction 
+Solar, as a form of renewable energy, offers many advantages. It is safe, reliable, ef.cient, and non-polluting, and can be widely dis­tributed. Solar energy—especially photovoltaic (PV) technology— has become a hot topic of global interest. The use of PV power 
+Y. Xu et al. / Waste Management 75 (2018) 450–458 
+has skyrocketed during the past several decades, as part of the glo­bal effort to expand clean energy production, and it presents enor­mous market potential. PV power is expected to produce a signi.cant portion of the energy consumed worldwide, and to become one of the primary global energy sources in this century (Bakhiyi 
+et 
+al., 
+2014). Developed countries, such as the United States, Japan, and Germany, have launched large-scale PV develop­ment plans to stimulate the PV industry (Chi 
+et 
+al., 
+2014). The glo­bal demand for PV power increased from 1 GW (GW) in 2004 to 57 GWs in 2015: an annual growth rate of more than 20%, faster than any other industry, including other emerging renewable energy industries. It has been suggested that PV power will the leading type of new energy development in the future (Luo 
+et 
+al., 
+2008; 
+Winneker, 
+2013). 
+In China, the switch to solar energy may be an even more crit­ical reform. In recent years, with the country’s rapid economic growth, environmental conditions have been deteriorating (Duan 
+et 
+al., 
+2008, 
+2011). In Beijing, for example, air pollution has become a key issue, as it affects the livelihoods and health of residents. Since the extensive utilization of fossil fuels is one of the main sources of air pollution, the energy industry has a major share of responsibility for solving these environmental problems. Fortu­nately, though, the trends in energy reform are changing the struc­ture of the energy system, reducing the proportion of coal in power generation, and promoting the development of new energy sources. It has been estimated that the solar-energy resource reserves in China are equivalent to 1700 billion tons of standard coal each year, indicating an enormous potential for the develop­ment and utilization of solar energy resources in China (Liu 
+and 
+Zhang, 
+2010). 
+Nevertheless, solar panels themselves present another environ­mental issue: when their useful life is over, they become a form of hazardous waste. Because solar panels have a long service life, the recycling of waste panels was not a concern during their .rst 25 years of development. A considerable number of the .rst batch of solar panels installed are now being retired, however, and sound management of end-of-life solar panels is gradually becoming an important environmental issue (Aman 
+et 
+al., 
+2015). Solar-panel recycling is particularly bene.cial for environmental protection, because silicon production is a process of intensive energy con­sumption, and the energy and cost needed to recover silicon from recycled solar panels are equivalent to only one third of those of manufacturing silicon directly (Choi 
+and 
+Fthenakis, 
+2010) In addi­tion, the heavy metals lead, tin, and cadmium also predominate in solar panels (Bakhiyi 
+et 
+al., 
+2014; 
+Galan 
+et 
+al., 
+2005), and these heavy metals can pollute the environment and pose threats to human health. Therefore, the recovery of waste solar panels can reduce energy waste and environmental pollution (Cucchiella 
+et 
+al., 
+2015). 
+In July 2012, the European Union of.cially revised the waste electrical and electronic equipment (WEEE) directive, adding PV components as discarded electronic devices, so that they will be included under the ten categories of WEEE. Henceforth, solar PV elements will be included in the electronic waste management sys­tem, and must be collected and recycled (Bio Intelligence Service, 
+2011; 
+McDonald 
+and 
+Pearce, 
+2010). 
+The newly launched PV waste management regulations require that all solar panels that have reached their end of life—whether from age or because they are damaged and their warranty period has expired—must be properly dealt with (Czanderna 
+and 
+Pern, 
+1996). Furthermore, all manufacturers of PV panels who supply components to the European market must pay a recycling fee. There are, however, few countries taking action outside the EU, pri­marily because there is an extremely low volume waste PV panels available for recycling, and the cost of recycling the panels is too high for the process to be cost bene.cial (Yamashita 
+et 
+al., 
+2003; 
+Wambach, 
+2004). There are only a handful of PV panel processing and recycling facilities around the world, and end-of-life solar PV panel management is a newly emerging .eld that needs further research and development. 
+The aim of this study was to provide an up-to-date review of the production and waste generation of solar panels and an outline of the present status of recovery efforts, including policies on end-of­life solar-panel management and recycling. This review also intends to provide a qualitative or semi-quantitative basis to sup­port the recycling of PV panels, and to suggest future directions for public policymakers. 
+2. Types of solar panels and resources used in components 
+A typical solar-energy system consists of a solar panel, a solar controller, and a battery or group of batteries. If the output power is 220 V (AC) or 110 V, an inverter is also needed as part of the con­.guration 
+(Fig. 
+1). Crystalline silicon solar panels are installed in solar arrays and have great recycling value. 
+Solar panels, also known as solar or photovoltaic modules (PV modules), work by using the photovoltaic effect of the semicon­ductor material in the panel to convert solar radiation directly into electrical energy. The solar panel is made up of several solar cells in series; these make up the key component of the system. The func­tion of the battery group is to store the energy emitted by the solar panel when it is illuminated so that it can be supplied to the load at any time. The function of the controller is to automatically prevent overcharge of the battery. The function of inverter is to convert the direct current into alternating current. 
+Solar panels can be classi.ed into three generations: (1) Crys­talline silicon (monocrystalline or multi-crystalline); (2) thin .lm (amorphous silicon, cadmium telluride, copper indium gallium selenide -CIGS); and (3) concentrator photovoltaics and emerging technologies (CPV solar panels, dye-sensitized solar panels, organic solar panels, and hybrid panels). Since monocrystalline and poly­crystalline silicon panels have higher conversion ef.ciency than thin .lm, they are presently (and will likely remain) the most widely used commercial solar-panel materials. Up until 2012, crys­talline silicon panels accounted for about 90% of the global PV mar­ket, while third-generation solar panels have not yet been commercialized on a large scale. 
+Solar panels are the base power generation units of a solar energy system, and can be independently used. A typical panel includes an aluminum (Al) alloy frame, tempered glass, a battery piece, EVA (ethylene/vinyl acetate copolymer), and a backboard (TPT, Topotecan Hydrochloride) (Fig. 
+2)(Yin 
+and 
+Hao, 
+2009). 
+Tables 
+1 
+and 
+2 
+detail the PV panel composition and recyclable elements. After disassembly and extraction, the weight of the var­ious resources from a typical solar panel is as follows: glass 54.7%, Al 12.7%, adhesive sealant 10%, silicon 3.1%, and other 19.5% (Cheng 
+and 
+Wang, 
+2007; 
+Miles 
+et 
+al., 
+2005). 
+It can be seen that Al and glass account for a large proportion of PV panels, indicating that the loss of potentially reusable resources occurs across all types of PV panels. The loss of rare metals, in par­ticular indium, gallium and germanium, is another effect of the non-recirculation of PV panels, which contain all of these rare met­als. Indium is present in amorphous silicon and copper indium gal­lium selenide panels. Gallium is present in copper indium gallium selenide, concentrating photovoltaic (CPV) panels and emerging panel technologies. Germanium is present in amorphous silicon, concentrating photovoltaic (CPV) panels, and emerging panel tech­nologies. While these rare metals account for only 1 percent of the PV panel volume, their value is signi.cant. 
+After the recycling of PV panels, products can be obtained from reprocessing the components making up the Al frame, the silver 
+
+Y. Xu et al. / Waste Management 75 (2018) 450–458 
+Unlabelled image
+Fig. 1. Constituents of a solar energy system. (A) solar panel, (B) solar controller, (C) battery and (D) inverter (needed if the output power is 220 V (AC) or 110 V). 
+Unlabelled image
+
+grid line, the tin copper wire and the glass. The crystalline silicon in crystalline silicon PV panels, and the rare metals such as indium, gallium, germanium, tellurium, in thin .lm PV panels, concentrator PV panels, and panels using other emerging technologies, can be recycled for new equipment production, and these advantages are attracting increasing interest from researchers globally. However, mixed plastic is dif.cult to recycle for use in products, although it can be used for energy. In addition to these advanta­geous materials, there are toxic heavy metals, such as cadmium and lead, although these account for less than 1% wt. of the PV pan­els. These heavy metals will sink in the residues from recycling and cause the residue to be classi.ed as hazardous waste that needs to be sent to a hazardous-waste land.ll. 
+End-of-life solar-panel recycling can effectively save natural resources and reduce the cost of production. It also provides a large number of semiconductors and other raw materials for the solar-panel industry itself. While current research into solar panels is focused on how to improve their ef.ciency and production capac­ity, the recycling and dismantling of waste panels are seldom con­sidered. There are still, for instance, no speci.c solar-panel recycling plants. Yet recovering Si and other raw materials from 
+Table 1 
+Composition of a solar-energy system. 
+Table 2 
+Composition of crystalline silicon solar panels. 
+Recyclable material  Content (kg/kWp)  
+Frame  Al 12.771  
+Polycrystalline silicon chips Silver bar line Tinned wire  Si 3.101 Ag 0.03 Cu 0.451  
+Glass  Glass 54.721  
+Background Adhesive sealant  Plastic 17.091 10%  
+
+
+waste solar panels could be a promising approach to compensate for the consumption of Si and other raw materials in the produc­tion process. Consequently, the need for environmentally sound management of waste solar panels has become urgent, especially because no effective collection or disposal system for the increas­ing stream of waste solar panels has been developed or implemented. 
+3. Production of solar panels and related waste generation 
+The development and utilization of renewable energy are nec­essary because the consumption of fossil-fuel energy has led to environmental issues, such as climate change and air pollution. Solar energy is an important one of these renewable energy sources. Fig. 
+3 
+shows that the global installed capacity of PV increased from 23.0 GW in 2009 to 207.9 GW in 2016. Germany is the country with the largest installed capacity, although its pro­portion of world installation decreased from 27% in 2011 to 20% in 2015 (Fig. 
+4). From 2011 to 2015, China’s share of the global PV market increased from 4% to 22%. In 2013, Europe had the greatest share of the global PV market, but a dramatic change occurred in 2014 as Asia took the lead from Europe, now representing 60% of the global market (Weckend 
+et 
+al., 
+2016). 
+Units Main components 
+
+Tempered glass Glass Battery piece Silicon, cadmium, selenium, tellurium, gallium, molybdenum, indium, etc. EVA (ethylene/vinyl-acetate copolymer) (C2H4)x(C4H6O2)y; chemical properties: general polymer Backboard TPT, TPE, etc. Al alloy frame 97% Al Junction box Box body (including copper or plastic terminal), lid, diode, cables, connectors Silica gel Highly active adsorption materials, and amorphous material with chemical formula SiO2nH2O 
+Y. Xu et al. / Waste Management 75 (2018) 450–458 
+Fig.3.GlobalgrowthofPVtechnologies.Datasource:EuropeanPhotovoltaicIndustry 
+Association 
+(EPIA, 
+2015). 
+Unlabelled image
+Fig. 4. Global installed capacity of photovoltaics by region, 2011–2014. Data source: European Photovoltaic Industry Association (EPIA, 
+2015). 
+Taking China as an example: according to the forecast of solar-panel waste by the Chinese Association of Renewable Energy, Chi­na’s solar-panel waste began to be produced in 2015, and the cumulative amount of waste will increase rapidly starting in 2020, becoming critical around 2030. Therefore, the disposal and recycling of solar panels will become an important environmental issue in China over the next decade or so (Feng, 
+2011; 
+Wang 
+et 
+al., 
+2014). 
+The amount of global installed PV panels is rising sharply and is expected to grow rapidly in the coming years, as the normal useful life of a solar panel is 25 years. The total quantity of end-of-life PV panels is anticipated to reach 9.57 million tons by 2050 (Monier 
+and 
+Hestin, 
+2011). Fig. 
+5 
+shows the market share of solar panels by technology group. In 2014, silicon-based (C-Si) panels owned 92% of the market share; those based on copper indium gallium (di)selenide (CIGS), 2%; and those based on cadmium telluride (CdTe), 5%; with 1% going to those based on other materials (CPV, dye-sensitized, organic, hybrids). From 2014 to 2030, the market share of C-Si PV panels is expected to decrease from 92% to 44.8%, while third-generation PV panels’ market share has been rising rapidly, and is expected to reach 44.1%, up from 1%, over the same period of time. 
+Therefore, among discarded solar products, the most important to recycle in the next few years are, in order: silicon-based (C-Si) 
+Fig. 5. Market share of solar panels by technology group, 2014–2030. Data source: Weckend 
+et 
+al. 
+(2016). 
+panels, CIGS, CdTe, and other types. The main environmental prob­lems linked with PV panels, if they are not properly disposed of, are: leaching of lead, leaching of cadmium, loss of recoverable resources (1 million tons of Al, 0.3 million tons of silicon, 7.4 mil­lion tons of glass) and loss of recoverable rare metals (silver, indium, gallium and germanium). From the point of view of reduc­ing carbon emissions by recycling, it has been shown that the car­bon emissions from recycled Al production comes to only 4.16% of the emissions for the same amount of Al produced from natural minerals (Ding 
+et 
+al., 
+2012). Taking the recycling of CIGS PV panels as an example, when the collection, transportation, recycling, and disposal stages are all considered, the carbon emissions for the recycling of Ga and In would be 230 kgCO2-Eq for 1 m2 CIGS PV panels, according to an assessment by Peters 
+(2016). Thus there will be a signi.cant potential for carbon emissions reduction when the collection, transportation, and recycling of waste PV panels are effectively organized. 
+However, in addition to small amounts of cadmium and lead, PV panels contain other substances that are hazardous to both humans and the environment. Nevertheless, while such other materials may also leach from PV panels, these two hazardous sub-stances—cadmium and lead—produce the largest effects on both groups, even though they account for less than 1% of the content of PV panels. 
+4. Techniques for solar-panel recycling 
+Currently, research into solar-panel recycling is being carried out mainly in Europe, Japan, and the United States (Bohland 
+and 
+Ansimov, 
+1997; 
+Bombach 
+et 
+al., 
+2005, 
+2006; 
+Doni 
+and 
+Dughiero, 
+2012; 
+Palitzsch 
+and 
+Loser, 
+2012). Most solar-panel recycling stud­ies have focused on silicon extraction and the recycling of rare metal elements. At present, there are three methods of processing waste solar panels: component repair, module separation, and the removal of silicon and other rare metal elements from among the components. Fig. 
+6 
+shows the recycling techniques for the different kinds of solar panels. 
+4.1. Component repair 
+The replacement of components is intended to overhaul sys­tems and prevent the electrical failure of board groups, but does not involve the separation of components or materials recycling. Lin 
+et 
+al. 
+(2011) 
+adopted two kinds of methods to dismantle and analyze faults in the junction box, which can increase the output power of old solar panels. However, such methods can only be used if the external junction box and outer layer encapsulation .lm are 
+
+Y. Xu et al. / Waste Management 75 (2018) 450–458 
+Unlabelled image
+aging. Further processing becomes necessary when the compo­nents age. 
+4.2. Module separation 
+Physical separation includes the mechanical separation of bro­ken panels but does not involve separating out any particular type of material. 
+Doi 
+et 
+al. 
+(2001) 
+prescribed the recovery of silicon panels from conventional crystalline silicon solar panels using an organic sol­vent method. From tests using multiple types of organic solvents to dissolve the EVA .lm, it was found that trichloroethylene could melt cross-linked EVA samples kept at 80 C. Applying this method to a ‘‘one-panel” module (125  125 mm), it was found that mechanical pressure is necessary to suppress the swelling of the EVA. After immersing the module in trichloroethylene at 80 C for ten days, the silicon panel was recovered successfully with no damage. 
+Dong 
+(2009) 
+studied a method of dismantling solar panels and component separation based on physical and chemical properties, structure, and materials. By comparing the advantages and disad­vantages of the three methods for solar-panel disposal (arti.cial disassembly, use of an organic solvent, and heat treatment), they identi.ed the heat treatment process as the optimal solution. The crystal silicon processing method consists of three steps. First, the Al electrodes on the backs of the panels are removed with a sodium hydroxide solution. Next, the silver positive electrode grid line is recovered using a saltpeter solution. Finally, an HF solution is used to remove any anti-re.ectors on the surface of the polysil­icon, to recover and recycle high-purity polysilicon. Yingli New Energy Resources Co., Ltd. of China studied a physical method for recycling solar-panel components. First, during the arti.cial disas­sembly, panels were crushed and cryogenically broken further into tiny particles, yielding a mixture of different types of materials that could be processed using the electrostatic separation method. However, this method is not suf.cient for extracting a single com­ponent in the developmental stage. And manual methods, even those using various tools, are insuf.cient for dismantling crys­talline silicon solar panels. However, much of the current research on the topic is focused on crystalline silicon solar panels, and the technology required to dismantle them is the critical part of the method. Actually extinguishing the EVA .lm by using high-temperature pyrolysis, or dissolving the EVA by using acid, alkali and organic solvents, have been effective techniques. 
+Kim 
+and 
+Lee 
+(2012) 
+used an organic solvent-assisted ultrasonic method to improve the dissolution rate of the EVA, and utilized tri­chloroethylene, o-dichlorobenzene, benzene, toluene, and other organic solvents to dissolve the EVA .lm from solar panels. They 
+Table 3 
+Comparison of solar-panel recycling technologies. 
+Key technology  Methods  Results -advantages  Disadvantages  References  
+Component repair  Two kinds of methods to dismantle and analyze faults in the junction box  Can increase the output power of old solar panels  Can be used only if the external junction box and outer layer are aging  Lin 
+et 
+al. 
+(2011) 
+ 
+Module separation  Organic solvent method Compared three methods: arti.cial disassembly, use of organic solvent to dissolve components, and heat treatment Arti.cial disassembly, crushing, cryogenic breaking and electrostatic separation Organic solvent-assisted ultrasonic method Heat treatment and chemical etching methods  Mechanical pressure is critical to suppress the swelling of the EVA. The silicon panel was recovered successfully with no damage The heat treatment process was the optimal solution Obtained a mixture of different types of materials Signi.cantly shortens the dissolution time of EVA in organic solvents Module separation  Organic liquid waste produced Did not involve the resource recovery of silicon Not suf.cient for single component separation; still in the laboratory research stage Organic liquid waste produced Non-puri.ed silicon wafers  Doi 
+et 
+al. 
+(2001) 
+Dong 
+(2009) 
+Yingli 
+New 
+Energy 
+Resources 
+Co., 
+Ltd. 
+of 
+China 
+Kim 
+and 
+Lee 
+(2012) 
+Klugmann-Radziemska 
+et 
+al. 
+(2009, 
+2010a,b) 
+ 
+Recycling of silicon  Cement-based thermal insulation system and chemical method  Recycling of silicon  Organic liquid waste produced  Fernandez 
+et 
+al. 
+(2011) 
+ 
+Recycling of rare metals  Grinding and hydrometallurgy Physical and chemical methods: blasting, mechanical processing and dissolution of the semiconductor, and precipitation, plating and ion exchange Recycling (CdTe and CIS) by wet mechanical treatment such as grinding and .otation, or dry mechanical processing methods such as vacuum blasting Treated multiple types of solar panels together. Two physical methods were used: panels were broken and then heat-treated or broken with a hammer  Recycling of indium and gallium Recycling of cadmium telluride; net cost estimated at $0.04–$0.06/W Recycling (CdTe and CIS) Mix of recycled polysilicon, amorphous silicon, and CdTe solar panels; glass directly recycled  High price of chemicals High price of chemicals Process is complicated All types of mixtures, hard to separate  Guangdong 
+Xiandao 
+Rare 
+Material 
+Co., 
+Ltd, 
+(2011) 
+Sasala 
+et 
+al. 
+(1996) 
+Berger 
+et 
+al. 
+(2010) 
+Granataa 
+et 
+al. 
+(2014) 
+ 
+
+Y. Xu et al. / Waste Management 75 (2018) 450–458 
+Y. Xu et al. / Waste Management 75 (2018) 450–458 
+studied the effects of the concentration of different solvents, tem­peratures, ultrasonic power, radiation times, etc. The results showed that at 450 W ultrasonic power and a temperature of 70 C, the EVA .lm could be completely dissolved in 3 mol/L of toluene after one hour. This method signi.cantly shortens the dis­solution time of EVA in organic solvents, but could also lead to an organic liquid waste problem. Klugmann-Radziemska 
+et 
+al. 
+(2009, 
+2010a,b) 
+explored the feasibility of recycling silicon from waste crystal silicon solar-panel components by heat treatment and chemical methods. First, the panels were divided into their con­stituents of .at glass, Al frames, and backplanes by heat treatment; then, the chemical method was used to remove the re.ector on the surface of the panel, the p-n semiconductor junction, and the before-and-after surface metal electrodes. The heat treatment and organic solvent processing methods are often used to separate the various components of solar panels (Katsuya 
+et 
+al., 
+2003). Crys­talline silicon panels consist of a panel electrode and an anti-re.ection .lm coating, and a series of chemical etchings must be conducted to reduce the panel groups to pure silicon wafers. The chemical etching process involves removing the metal layer, removing the re.ector, and doping the p-n junction, followed by surface polishing, cleaning, and drying. 
+4.3. Extraction of silicon and rare metal elements from components 
+Silicon and precious metals can be recycled from solar panels. Thin-.lm solar-panel recycling has been the subject of consider­able research (Berger 
+et 
+al., 
+2010). Fernandez 
+et 
+al. 
+(2011) 
+studied crystal silicon panel recycling in a cement-based thermal insula­tion system. They used the chemical method, with acid, alkali sol­vent, and organic solvents to remove or dissolve the EVA .lm. Vital Materials Limited Company (Guangdong 
+Xiandao 
+Rare 
+Material 
+Co. 
+Ltd., 
+2011) processes solar panels containing materials such as indium and gallium using hydrometallurgy, after .ne grinding to recover the materials from the solar panels. Their process includes liquid extraction, with gallium salt and lithium salt added to the water extraction; separation; recycling; .ltering; etc. Sasalaet 
+et 
+al. 
+(1996) 
+recycled the cadmium telluride from thin-.lm solar panels using physical and chemical methods. First, mechanical pro­cessing was performed via blasting with 40,000 psi water. Second, the semiconductor and metal were dissolved with 6% sulfuric acid and 15% hydrogen peroxide. Third, precipitation, plating, and ion exchange were conducted. Results showed that the net cost was $0.04–$0.06/W. Berger 
+et 
+al. 
+(2010) 
+also studied the recycling of thin-.lm solar panels, such as recycling CdTe and CIS by wet mechanical treatment: for example, using grinding and .otation, or by dry mechanical processing methods such as vacuum blasting. Granataa 
+et 
+al. 
+(2014) 
+treated multiple types of solar panels together. Two physical methods were used to mix together recy­cled polysilicon, amorphous silicon, and CdTe solar panels, which were broken and then heat-treated or broken with a hammer before the glass was directly recycled. 
+Table 
+3 
+summarizes various solar-panel recycling technologies. There are many studies on the laboratory processing of solar pan­els, but only two methods of complete treatment process have been investigated for industrial application and development. Deutsche Solar, a company that deals with crystalline silicon solar-panel modules, and First Solar Company, have both adopted the method of mechanical and chemical processing for thin-.lm solar panels (McDonald 
+and 
+Pearce, 
+2010). 
+The reprocessing of solar panels in China is limited to the repair of components and simple separation, which fail to classify and recycle the particular constituents, and are inferior to techniques used abroad. However, the treatment and disposal technologies applied in other countries have problems as well. For example, the crushing process produces a large amount of dust containing glass .ber and resin, emanates poison gas, and creates noise pollu­tion (Yang 
+et 
+al., 
+2004). The inorganic acid dissolution method can be effective for EVA separation only, and the process produces nitrogen oxides and other harmful gases (Bruton 
+et 
+al., 
+1994), which require respiratory protection equipment for employees to avoid associated health risks. Further, the method does not con­sider the removal of frames or the reuse of silicon wafers, and the residual liquid is hard to dispose of. 
+The EVA dissolution time for conventional organic solvents is much longer, although it can be signi.cantly shortened by using ultrasonically assisted organic solvents. However, it also generates a large amount of volatile organic liquid waste, which is dif.cult to treat. The heat treatment method combined with chemical pro­cessing is the most advanced technology in this regard, but it has the downside of generating waste gas from pyrolysis, and requires high energy consumption. 
+5. Policies for solar-panel recycling 
+Britain was the .rst country in the European Union to formally approve the EU’s WEEE directive on photovoltaic components pro­cessing. The British regulations, which took effect on January 1, 2014, require all the PV panels produced or imported into the UK market to have a registered product conformity plan, and all man­ufacturers of solar panels must provide all of the critical data related to the panels, such as the number produced or imported and their distribution channels. 
+Germany has also revised its electrical and electronic equip­ment (WEEE) regulations, requiring that all photovoltaic compo­nent manufacturers and importers register their products and assume obligations for end-of-life treatment; offenders will face huge .nes. 
+In the Czech Republic, PV Cycle, a European organization responsible for WEEE-compliant PV module take-back and recy­cling, and Retina, a photovoltaic waste processor, have entered into a joint venture for the recovery and recycling of waste solar panels. As a non-pro.t, member-based organization, PV Cycle offers col­lective and tailor-made waste management and legal compliance services for companies and waste processors throughout the world. Their staff includes solar-panel waste management consul­tants as well as traditional scientists. Retina, meanwhile, will be responsible for the Czech Republic’s rehabilitation and recycling management. 
+WEEELABEX organization, located in Czech, is also involved in a project aimed at collecting, storing, processing, and recycling waste electrical and electronic equipment throughout Europe, including the preparation of standards and the monitoring of waste-processing companies. 
+Very few countries outside the EU market have taken any mea­sures to regulate waste solar panels. Japan, though, has taken a .rst step toward solar-panel recycling. Not only have the national .rst-class solar-energy equipment manufacturing enterprises actively participated in research on recycling technology, together with the advanced European countries, but a local company has also researched and developed recovery technology. The environment ministry has also required manufacturers to be involved in recy­cling waste solar panels. In addition, a Japanese wholly owned sub­sidiary of Shell Oil Company formally joined the European photovoltaic international organization. And NPC, a solar-panel manufacturing and inspection equipment manufacturer, is setting up a joint venture with the industrial waste-processing Hamada Company to recycle solar panels. The two companies will jointly participate in the New Energy Industrial Technology Development organization (NEDO) implementation of 2016 photovoltaic recy­cling technology development projects. 
+Y. Xu et al. / Waste Management 75 (2018) 450–458 
+Although it lags behind Europe, the U.S. state of California, as the single largest solar market, has a proposal to supervise and control the processing of waste solar-equipment components. DTSC (California department of toxic substances control) plans to limit the land.ll disposal of components containing harmful substances by promoting recycling. In 2010, DTSC proposed a solar-panel manufacturer recycling project, to treat solar panels as hazardous waste. American silicon .lm panle producer and utility-scale project developer First Solar has established factories in the United States, Germany, and Malaysia, for recycling solar-equipment waste Through recycling and reuse, about 95% of the Cd and about 90% of the glass can be reused for new components. 
+In less than a decade, China has become the world leader of installed PV capacity, while policies and regulations for solar-panel recycling are still non-existent there (Ding 
+et 
+al., 
+2016; 
+Zhao, 
+2012). Even the environmental protection organization has not studied the solar-panel waste problem, and there are few recy­cling enterprises or institutions. Only a handful of enterprises, such as Yingli and Trina Solar Company, are carrying out research on solar panels, and these projects have only been active for a few years. The Chinese Environmental Science Research Institute is car­rying out an environmental management study of the photovoltaic industry’s impact on the environment, including the effects of recycled solar-equipment components. Yet these efforts are hin­dered by the paucity of waste components available for research, since presently, most PV panels have not yet reached the end-of­life stage. 
+The extended producer responsibility system has been proven to be an effective approach for the management of many types of waste, especially electronic waste (Weckend 
+et 
+al., 
+2016). Strength­ening producers’ responsibility through the life cycle of PV panels could be an ef.cient approach for sustainable material manage­ment, and relevant measures could be implemented from the fol­lowing aspects (Eberspacher 
+and 
+Fthenaki, 
+1997; 
+Frisson 
+et 
+al., 
+1998; 
+Fthenakis, 
+2000; 
+Fthenakis 
+et 
+al., 
+2008). First, the responsibil­ity of carrying out eco design should be strengthened in the existing regulations, since the design stage helps to minimize the impacts on environment and resources from the production, collection and recycling processes (Miao, 
+2015). Second, the use of recycled mate­rials in the production of new panels should be encouraged by set­ting target percentages, while still guaranteeing quality product performance and safety. Third, incentive measures should be legis­lated, to encourage producers to participate in collection and recy­cling activities, to take advantages of the producers’ logistic network for new products and manufacturing technology, and establish a closed-loop green supply chain (Qu, 
+2015). In addition, information disclosure will allow public participation in monitoring the producers’ responsibility implementation, with mandatory dis­closure to the public and targeted disclosure to the collection and recycling sectors (Tang, 
+2007). 
+6. Discussion and conclusions 
+Current research on solar panels has focused mainly on how to improve the production ef.ciency of crystalline silicon solar pan­els. However, processes for retrieving and dismantling waste pan­els should also be considered. In China, there is no dedicated crystalline silicon solar-panel recycling system; therefore, the direct disposal of retired solar panels is a serious issue, as recover­able resources are being wasted. 
+Solar-panel recycling is a long, involved process, and the recy­cling system chain is incomplete. Although there are no rare earth metals in solar panels, the positive panel terminals are made of sil­ver, which has recycling value, and there are numerous other valu­able elements—including indium, gallium and germanium—within the components. Yet recycling waste solar panels presents several problems, such as the release of solvent emissions during the recy­cling process. However, by using an activated carbon .ber adsorp­tion recycling condensation device along with a solvent re.ning and dewatering device, the organic gas generated can be turned into a high-purity liquid organic solvent after recycling. Hence the process can meet the requirements for recycling, reduce the discharge of pollutants into the atmosphere, and protect the envi­ronment. Although the investment in environmental protection equipment can signi.cantly increase a company’s production costs, it can also create economic bene.ts associated with environ­mental protection. 
+Future outcomes of current research, development and testing efforts for photovoltaic-panel recycling techniques are dif.cult to assess. Another challenge for the recycling of PV panels is their long lifetime, estimated as 25 years. Not enough policies are cur­rently being developed to handle these problems. 
+Policies and regulations on solar-panel recycling have until now been omitted from the waste electrical and electronic equipment (WEEE) directive in China. We propose that a recycling industry standard be developed for waste from photovoltaic power genera­tion, requiring manufacturers to be responsible for recycling. Poli­cies and regulations to encourage recycling and safe disposal of waste should be devised as well. At the same time, the manage­ment of waste panels and hazardous waste is necessary, and a pen­alty can be assessed for improperly disposing of, or buying and selling, waste panels. Also, the government should take measures to compel solar equipment manufacturing .rms to disclose envi­ronmental information, strengthen the supervision of the media, the public, and non-governmental organizations, and achieve a good balance among the stakeholders. The results of this review demonstrate the need to extend the responsibilities of the produc­ers not only in the PV manufacturing sector but also throughout the entire energy industry. 
+Acknowledgements 
+This study was .nancially supported by the National Key Tech­nologies R&D Program (No. 2014BAC03B04). 
+References 
+Aman, 
+M.M., 
+Solangi, 
+K.H., 
+Hossain, 
+M.S., 
+Badarudin, 
+A., 
+Jasmon, 
+G.B., 
+Mokhlis, 
+H., 
+
+Bakar, 
+A.H.A., 
+Kazi, 
+S.N., 
+2015. 
+A 
+review 
+of 
+safety, 
+health 
+and 
+environmental 
+
+(SHE) 
+issues 
+of 
+solar 
+energy 
+system. 
+Renew. 
+Sustainable 
+Energy 
+Rev. 
+41, 
+1190– 
+
+1204. Bakhiyi, 
+B., 
+Labreche, 
+F., 
+Zayed, 
+J., 
+2014. 
+The 
+photovoltaic 
+industry 
+on 
+the 
+path 
+to 
+a 
+
+sustainable 
+future 
+– 
+environmental 
+and 
+occupational 
+health 
+issues. 
+Environ. 
+Int. 
+
+73, 
+224–234. Berger, 
+W., 
+Simon, 
+F.G., 
+Weimann, 
+K., 
+Alsema, 
+E.A., 
+2010. 
+A 
+novel 
+approach 
+for 
+the 
+
+recycling 
+of 
+thin 
+.lm 
+photovoltaic 
+modules. 
+Resour. 
+Conserv. 
+Recy. 
+54, 
+711–718. Bio Intelligence Service, 2011. Study on photovoltaic panels supplementing the 
+impact assessment for a recast of the WEEE directive. <http://ec.europa.eu/ 
+
+environment/waste/weee/pdf/Study%20on%20PVs%20Bio%20.nal.pdf>. Bohland, J.R., Ansimov, I.I., 1997. Possibility of recycling of silicon PV modules. In: 
+26th IEEE PV Specialist Conference. Bombach, A., Muller, K., Rover, I., 2005. Recycling of solar panels and modules-
+recent improvements. In: 20th European Photovoltaic Solar Energy Conference, 
+Barcelona, Spain. Bombach, E., Rover, I., Muller, A., Schlenker, S., Wambach, K., Kopecek, R., 
+Wefringhaus, E., 2006. Technical experience during thermal and chemical 
+recycling of a 23 year old PV generator formerly installed on Pellworm Island. 
+In: 21st European Photovoltaic Solar Energy Conference, Dresden, Germany, pp. 
+2048–2053. Bruton, T.M, Scott, R.D.W., Nagle, J.P., 1994. Recycling of high value, high energy 
+content components of silicon PV modules. In: 12th EC-PVSEC, pp. 303–304. Cheng, 
+Z.X., 
+Wang, 
+X.L., 
+2007. 
+The 
+expatriates 
+of 
+the 
+solar 
+energy 
+photovoltaic 
+panel. 
+
+J. Inf. 
+Rec. 
+Mater. 
+8, 
+41–47. Chi, 
+X., 
+Wang, 
+M.Y.L., 
+Reuter, 
+M.A., 
+2014. 
+E-waste 
+collection 
+channels 
+and 
+household 
+recycling 
+behaviors 
+in 
+Taizhou 
+of 
+China. 
+J. 
+Clean. 
+Prod. 
+80, 
+87–95. 
+Choi, 
+J.K., 
+Fthenakis, 
+V., 
+2010. 
+Design 
+and 
+optimization 
+of 
+photovoltaics 
+recycling 
+infrastructure. 
+Environ. 
+Sci. 
+Technol. 
+44, 
+8678–8683. 
+
+Y. Xu et al. / Waste Management 75 (2018) 450–458 
+Cucchiella, 
+F., 
+D’Adamo, 
+I., 
+Rosa, 
+P., 
+2015. 
+End-of-life 
+of 
+used 
+photovoltaic 
+modules: 
+a 
+.nancial 
+analysis. 
+Renew. 
+Sustainable 
+Energy 
+Rev. 
+47, 
+552–561. 
+Czanderna, 
+A.W., 
+Pern, 
+F.J., 
+1996. 
+Encapsulation 
+of 
+PV 
+modules 
+using 
+ethylene 
+vinyl 
+acetate 
+copolymer 
+as 
+a 
+pottant: 
+a 
+critical 
+review. 
+Sol. 
+Energy 
+Mat. 
+Sol. 
+Panels 
+43, 
+101–181. 
+Ding, 
+M., 
+Xu, 
+Z., 
+Wang, 
+W., 
+Wang, 
+X., 
+Song, 
+Y., 
+Chen, 
+D., 
+2016. 
+A 
+review 
+on 
+China’s 
+large-scale 
+PV 
+integration: 
+progress, 
+challenges 
+and 
+recommendations. 
+Renew. 
+Sustainable 
+Energy 
+Rev. 
+53, 
+639–652. 
+Ding, 
+N., 
+Gao, 
+F., 
+Wang, 
+Z.H., 
+Gong, 
+X.Z., 
+2012. 
+Comparative 
+analysis 
+of 
+primary 
+aluminum 
+and 
+recycled 
+aluminum 
+on 
+energy 
+consumption 
+and 
+greenhouse 
+gas 
+emission. 
+Chin. 
+J. 
+Nonferrous 
+Met. 
+22, 
+2908. 
+Doi, 
+T., 
+Tsuda, 
+I., 
+Unagida, 
+H., 
+Murata, 
+A., 
+Sakuta, 
+K., 
+Kurokawa, 
+K., 
+2001. 
+Experimental 
+study 
+on 
+PV 
+module 
+recycling 
+with 
+organic 
+solvent 
+method. 
+Sol. 
+Energy 
+Mater. 
+Sol. 
+Panels 
+67, 
+397–403. 
+Doni, A., Dughiero, F., 2012. Electrothermal heating process applied to c-Si PV recycling. In: 38th IEEE Photovoltaic Specialists Conference, Austin, TX, pp. 757– 762. 
+Dong, 
+L., 
+2009. 
+Research 
+on 
+Waste 
+Crystalline 
+Silicon 
+Solar 
+Panels 
+Resource 
+Recovery. 
+Southwest 
+Jiaotong 
+University. 
+Duan, 
+H., 
+Huang, 
+Q., 
+Wang, 
+Q., 
+Zhou, 
+B., 
+Li, 
+J., 
+2008. 
+Hazardous 
+waste 
+generation 
+and 
+management 
+in 
+China: 
+a 
+review. 
+J. 
+Hazard. 
+Mater. 
+158, 
+221–227. 
+Duan, 
+W., 
+Chen, 
+G., 
+Ye, 
+Q., 
+Chen, 
+Q., 
+2011. 
+The 
+situation 
+of 
+hazardous 
+chemical 
+accidents 
+in 
+China 
+between 
+2000 
+and 
+2006. 
+J. 
+Hazard. 
+Mater. 
+186, 
+1489–1494. 
+Eberspacher, C.H., Fthenakis, V., 1997. Disposal and recycling of end-of-life PV modules. In: 26th PV SC, Anaheim, CA. 
+European Photovoltaic Industry Association (EPIA), 2015. Global market outlook for photovoltaics 2013–2017. <http://www.fotovoltaica.com/fv-look.pdf>. 
+Feng, 
+X.H., 
+2011. 
+The 
+characteristics 
+and 
+development 
+of 
+solar 
+LED 
+lighting 
+system. 
+Sci. 
+Technol. 
+Inf. 
+36, 
+3. 
+Fernandez, 
+L.J., 
+Ferrer, 
+R., 
+Aponte, 
+D.F., 
+Fernandez, 
+P., 
+2011. 
+Recycling 
+silicon 
+solar 
+cell 
+waste 
+in 
+cement-based 
+systems. 
+Sol. 
+Energ. 
+Mat. 
+Sol. 
+C. 
+95, 
+1701–1706. 
+Frisson, L. et al., 1998. Cost elective recycling of PV modules and the impact on environment, life cycle, energy payback time and cost. WCPEC-2, pp. 2210–2213. 
+Fthenakis, 
+V., 
+2000. 
+End-of-life 
+management 
+and 
+recycling 
+of 
+PV 
+modules. 
+Energy 
+Policy 
+28, 
+1051–1058. 
+Fthenakis, 
+V.M., 
+Kim, 
+H.C., 
+Alsema, 
+E., 
+2008. 
+Emissions 
+from 
+photovoltaic 
+lifecycles. 
+Environ. 
+Sci. 
+Technol. 
+42, 
+2168–2174. 
+Galan, J.E., Lopez, L., Wambach, K., Rover, I., 2005. Recovering of waste monocrystal silicon solar panels in order to be used in PV modules manufacturing. In: 20th European Photovoltaic Solar Energy Conference, Barcelona, Spain. 
+Granataa, 
+G., 
+Pagnanelli, 
+F., 
+Moscardini, 
+E., 
+Havlik, 
+T., 
+Toro, 
+L., 
+2014. 
+Recycling 
+of 
+photovoltaic 
+panels 
+by 
+physical 
+operations. 
+Sol. 
+Energy 
+Mater. 
+Sol. 
+Panels 
+123, 
+239–248. 
+Guangdong Xiandao Rare Material Co. Ltd, 2011. Recovery of copper indium gallium selenide thin-.lm solar panel, involves crushing solar panel, soaking in sulfuric acid, .ltering, extracting, separating, stripping extraction liquid, adding reducing agent to raf.nate and .ltering (Chn) CN 103184338-A[P] 2011-12-29. 
+Katsuya, Y., Akimasa, U., Koji, O., 2003. Research and development on recycling and reuse treatment technologies for crystalline silicon photovoltaic modules. In: Third World Congress on PV Energy, Osaka, Japan. 
+Kim, 
+Y., 
+Lee, 
+J., 
+2012. 
+Dissolution 
+of 
+ethylene 
+vinyl 
+acetate 
+in 
+crystalline 
+silicon 
+PV 
+modules 
+using 
+ultrasonic 
+irradiation 
+and 
+organic 
+solvent. 
+Sol. 
+Energy 
+Mater. 
+Sol. 
+Panels 
+98, 
+317–322. 
+Klugmann-Radziemska, 
+E., 
+Ostrowski, 
+P., 
+2009. 
+Chemical 
+treatment 
+of 
+crystalline 
+silicon 
+solar 
+panels 
+as 
+a 
+method 
+of 
+recovering 
+pure 
+silicon 
+from 
+photovoltaic 
+modules. 
+Renewable 
+Energy 
+2009, 
+1–9. 
+Klugmann-Radziemska, 
+E., 
+Ostrowski, 
+P., 
+Drabczyk, 
+K., 
+Panek, 
+P., 
+Szkodo, 
+M., 
+2010a. 
+Experiment 
+validation 
+of 
+crystalline 
+silicon 
+solar 
+panels 
+recycling 
+by 
+thermal 
+and 
+chemical 
+methods. 
+Sol. 
+Energy 
+Mater. 
+Sol. 
+Panels 
+94, 
+2275–2282. 
+Klugmann-Radziemska, 
+E., 
+Ostrowski, 
+P., 
+2010b. 
+Chemical 
+treatment 
+of 
+crystalline 
+silicon 
+solar 
+panels 
+as 
+a 
+method 
+of 
+recovering 
+pure 
+silicon 
+from 
+photovoltaic 
+modules. 
+Renewable 
+Energy 
+38, 
+1751–1759. 
+Lin, 
+W., 
+Chen, 
+E., 
+Sun, 
+Y.L., 
+2011. 
+Analysis 
+of 
+old 
+photovoltaic 
+component 
+junction 
+box 
+disassembling 
+mode. 
+Sol. 
+Energy 
+7, 
+26–29. 
+Liu, 
+Y.L., 
+Zhang, 
+Y.F., 
+2010. 
+Solar 
+photovoltaic 
+industry 
+development 
+prospect 
+in 
+China. 
+China 
+New 
+Technol. 
+Prod. 
+11, 
+13. 
+Luo, 
+D.W., 
+Zhang, 
+G.L., 
+Zhang, 
+J., 
+Li, 
+J., 
+Li, 
+T.J., 
+2008. 
+Principle 
+and 
+research 
+progress 
+on 
+preparation 
+solar 
+grade 
+(SoG) 
+silicon 
+by 
+metallurgical 
+route. 
+Foundry 
+Technol. 
+29 
+(12), 
+1721–1726. 
+McDonald, 
+N.C., 
+Pearce, 
+J.M., 
+2010. 
+Producer 
+responsibility 
+and 
+recycling 
+solar 
+photovoltaic 
+modules. 
+Energy 
+Policy 
+38, 
+7041–7047. 
+Miao, 
+X., 
+2015. 
+Research 
+on 
+the 
+Extended 
+Producer 
+Responsibility 
+of 
+Electronic 
+Waste 
+Recycling. 
+Huazhong 
+University 
+of 
+Science 
+& 
+Technology. 
+Miles, 
+R.W., 
+Hynes, 
+K.M., 
+Forbes, 
+I., 
+2005. 
+Photovoltaic 
+solar 
+panels: 
+an 
+overview 
+of 
+state 
+of-the-art 
+panel 
+development 
+and 
+environment 
+issues. 
+Prog. 
+Cryst. 
+Growth 
+Ch. 
+51, 
+1–42. 
+Monier, V., Hestin, M., 2011. Study on Photovoltaic panels supplementing the impact assessment for a recast of the WEEE directive. In: Service, B.I. (Ed.), A Project Under the Framework Contract ENV.G.4/FRA/2007/0067, Paris, France, 10. 
+Palitzsch, W., Loser, U., 2012. Economic PV waste recycling solutions – results from R & D and practice. In: 38th IEEE Photovoltaic Specialists Conference, Austin, TX, pp. 628–631. 
+Peters, 
+A.L., 
+2016. 
+Potential 
+Economic 
+and 
+Environmental 
+Impacts 
+of 
+Recycling 
+End­
+of-Life 
+Solar 
+Panels 
+in 
+China 
+with 
+Emphasis 
+on 
+Gallium 
+and 
+Indium. 
+Tsinghua 
+University. 
+Qu, Y., 2015. Study on legal issue of electronic waste in EU. North China Power University. 
+Sasala, 
+R.A., 
+Bohland, 
+J., 
+Smigielskic, 
+K., 
+1996. 
+Physical 
+and 
+Chemical 
+Pathways 
+for 
+Economic 
+Recycling 
+of 
+Cadmium 
+Telluride 
+Thin-.lm 
+Photovoltaic 
+Modules. 
+Solar 
+Panels 
+Inc., 
+Toledo, 
+OH. 
+Tang, 
+S.J., 
+2007. 
+Discussion 
+on 
+the 
+Extended 
+Producer 
+Responsibility 
+Regime. 
+Chongqing 
+University. 
+Wambach, K., 2004. Recycling of solar panels and photovoltaic modules. In: 19th European Photovoltaic Solar Energy Conference, Paris, France, pp. 2018–2023. 
+Wang, 
+Y.H., 
+Luo, 
+G.L., 
+Guo, 
+Y.W., 
+2014. 
+Why 
+is 
+there 
+overcapacity 
+in 
+China’s 
+PV 
+industry 
+in 
+its 
+early 
+growth 
+stage? 
+Renewable 
+Energy 
+72, 
+188–194. 
+Weckend, S., Wade, A., Heath, G., 2016. End-of-Life Management: SolarPhotovoltaic Panels.51. 
+Winneker, C., 2013. Global Market Outlook for Photovoltaics 2013–2017. <http:// 
+www.construction21.org/articles/h/report–global-market-outlook-for­
+photovoltaics-2013-2017.html>. 
+Yamashita, K., Umemoto, A., Okamoto, K., 2003. Research and development on recycling and reuse treatment technologies for crystalline silicon photovoltaic modules. In: Third World Congress on PV Energy, Osaka, Japan. 
+Yang, 
+Y.F., 
+Gai, 
+G.S., 
+Xu, 
+S.M., 
+Chen, 
+Q.R., 
+2004. 
+The 
+situation 
+of 
+recycle 
+of 
+waste 
+printed 
+circuit 
+board 
+and 
+the 
+existing 
+problems. 
+Environ. 
+Pollut. 
+Control 
+26, 
+193–195. 
+Yin, 
+S., 
+Hao, 
+J.H., 
+2009. 
+A 
+review: 
+solar 
+photovoltaic 
+power 
+generation 
+technology 
+application 
+in 
+China. 
+Electric 
+Power 
+Technol. 
+03, 
+1–4. 
+Zhao, Y.W., 2012. China photovoltaic industry development status and prospects. In: 22nd International Photovoltaic Science and Engineering Conference, Hangzhou, pp. 1–8. 
+
+
+

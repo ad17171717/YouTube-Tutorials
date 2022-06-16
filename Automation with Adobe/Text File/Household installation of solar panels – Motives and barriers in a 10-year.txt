@@ -1,0 +1,961 @@
+Energy Policy 113 (2018) 1–8 
+
+
+Contents lists available at ScienceDirect 
+
+Energy Policy 
+journal homepage: www.elsevier.com/locate/enpol 
+
+
+
+Household installation of solar panels – Motives and barriers in a 10-year perspective Jenny Palm 
+Lund University, International Institute for Industrial Environmental Economics (IIIEE), Box 196, SE-221 00 Lund, Sweden 
+ARTICLE INFO ABSTRACT 
+Keywords: 
+Solar panels Photovoltaic (PV) Prosumer Motives Barriers Adoption 
+
+This article compares what homeowners identi.ed as motives and barriers for installing photovoltaic panels in Sweden in 2008–2009 and in 2014–2016. Earlier research has provided snapshots of existing barriers and motives, but not analyzed changes over time, as is done here. Between 2008 and 2014, the PV market in Sweden changed profoundly, with the introduction of subsidies and changes in rules, making it easier for households to sell electricity they produce. At the same time, regulations have increased for the households. 
+Environmental motives have been consistent over the years. Financial incentives had become an important motive by 2014–2016. The investment cost remained a barrier, even though it has been reduced over the years. New barriers in the second period are problems relating to increased administrative burden and .nding in­formation about market conditions such as which companies exist and how much a household will be paid when selling electricity to the grid. In 2008–2009, households installed the PV panels on their own and installation was a major barrier. This had changed radically by 2014–2016, when most of the households studied bought turnkey systems with installation included. 
+1. Introduction 
+Rapid growth in the adoption of renewable energy technologies is of great importance for a sustainable future and the number of consumers producing electricity at home, so-called “prosumers” (To.er, 
+1980), is rapidly increasing in many European countries. In Sweden too the number of prosumers is increasing. Earlier studies have presented a snapshot of motives and barriers for households to become prosumers, but there is a lack of studies that compare motives and barriers over time. This article will compare how households in Sweden have ex­pressed motives and barriers for installing photovoltaic panels at two di.erent occasions. The .rst survey was done in 2008–09 and the second in 2014–16. The main question in this article is: Have barriers and motives changed during these years, and if so, how? 
+The share of photovoltaics (PV) in the Swedish energy mix is not large; it was not even 1% in 2014 (Lindahl, 
+2015). But it is a market in transition, which makes it interesting to study. Sweden has a lower solar radiation compared with countries more in the south since the maximum insolation angle is only 58 degrees in the far south of Sweden. Still the annual solar in.ux in the southern half of Sweden is comparable to that in northern Germany and the potential is estimated at 10–40 TWh/year (Muyingo, 
+2015). Most Swedes live in the southern parts, 88% of the population. Most PV panels are also installed in the south and it is also there the largest expansion can be expected. In a long time perspective the average global solar radiation has increased with about 8% from the mid-1980s until 2016. From about 900 kWh/ m2 in 1985 to 961 kWh/m2 in 2016 (Lindahl, 
+2015; SMHI 
+(Swedish 
+Meteorological 
+and 
+Hydrological 
+Institute), 
+2017). The global radiation di.er between the seasons, during the winter 2016 it was 33 kWh/m2 and during the summer 465 kWh/m2 (SMHI, 
+2017). Stridh 
+et 
+al. 
+(2014) 
+calculate that a yield of about 800–1100 kWh/kW per year can be ex­pected during a year with typical solar irradiation for systems with reasonable good azimuth, tilt and without major shading e.ects. This gives a capacity factor of 9,1–12,6%. The yearly production from an optimally oriented PV system in Sweden is 800–1000 kWh per installed kilowatt (Palm, 
+2017b). 
+At the end of 2009, PV had an installed capacity of 8 MW in Sweden (Lindahl, 
+2014) and most of the installations were o.-grid. Since then the market has expanded and at the end of 2014, the installed capacity of PVs had grown to 60 MW (of which 10 MW were o.-grid) (Lindahl, 
+2015). There has also been a change in Swedes’ attitudes toward PVs: it has gone from being seen as a technology for the enthusiast to one that many Swedes can see themselves investing in. For example, a survey carried out by E.ON in April 2016 showed that 73% of respondents (out of 2012 people interviewed) said that they wanted to install PV panels (E.ON., 
+2016). 
+Since 2008, I have followed the PV market through di.erent pro­jects, and have interviewed homeowners in Sweden interested in 
+
+E-mail address: Jenny.palm@iiiee.lu.se. 
+http://dx.doi.org/10.1016/j.enpol.2017.10.047 
+
+
+Received 18 June 2017; Received in revised form 14 October 2017; Accepted 26 October 2017 
+Available online 31 October 2017 0301-4215/ © 2017 Elsevier Ltd. All rights reserved. 
+
+investing in PV panels and becoming prosumers (To.er, 
+1980). The .rst wave of interviews were conducted in 2008–2009 and the second wave of interviews in 2014–2016. Analyses of the PV systems used by households often focus on policy, market and .nancial issues, while issues of motives, social networks, barriers and environmental behavior are not studied (Luthander 
+et 
+al., 
+2015). The aim of this paper is to highlight the sociotechnical context from the prosumers’ viewpoint and to compare how households’ motives for and barriers to adopting PVs have changed over the years. The article discuss which motives and barriers have persisted, disappeared or appeared over the period. 
+This article is structured as follows: the next section discusses earlier research on motives and barrier for PV adoption, followed by a de­scription of the study method and material, comparison of motives and barriers, and conclusions. 
+2. Earlier research on motives and barriers for PV adoption 
+Buying a PV system is a high-involvement decision in which households usually invest a lot of time and consideration before making a decision (Jager, 
+2006). Due to the complexity of the decision people will have far from complete information on the issue and will act in accordance with the theory on bounded rationality. Many di.erent drivers and barriers will be involved in the decision-making process. 
+In earlier research important drivers have been identi.ed, see Table 
+1 
+below. The driver mentioned most often is environmental concerns (Balcombe 
+et 
+al., 
+2013; 
+Enlund 
+and 
+Eriksson, 
+2016; 
+Palm 
+and 
+Tengvard, 
+2011; 
+Wittenberg 
+and 
+Matthies, 
+2016). Balcombe 
+et 
+al. 
+(2013) 
+however discuss that even if environmental bene.t is a sig­ni.cant factor in the decision to install PV for the purpose of micro-generation, this does not necessary mean that households are prepared to pay extra for it. Schelly's 
+(2014) 
+study is based on interviews with 48 people across the state of Wisconsin. The study suggests, in line with Balcombe 
+et 
+al. 
+(2013) 
+that environmental values alone are not enough, and are not always necessary, to motivate adoption of PVs. 
+Another motivation found in earlier research is to save money by buying less electricity from the grid or selling their own produced electricity. A related driver is to install PVs as protection against future high costs (Balcombe 
+et 
+al., 
+2014; 
+Enlund 
+and 
+Eriksson, 
+2016; 
+Islam, 
+2014; 
+Juntunen, 
+2014; 
+Palm 
+and 
+Tengvard, 
+2011; 
+Shwom 
+and 
+Lorenzen, 
+2012; 
+Wittenberg 
+and 
+Matthies, 
+2016). The introduction of feed-in tari.s has also increased adoption of microgeneration, for ex­ample in the UK (Balcombe 
+et 
+al., 
+2013, 
+2014) and Germany (Scha.er 
+and 
+Brun, 
+2015). 
+Another identi.ed driver is that someone in the household has a technical interest and wants to try out PV technology. To become self-su.cient in electricity is also mentioned as a symbolic reason, to show others that the family cares about the environment and how energy is produced (Balcombe 
+et 
+al., 
+2013, 
+2014; 
+Juntunen, 
+2014; 
+Palm 
+and 
+Tengvard, 
+2011; 
+Wittenberg 
+and 
+Matthies, 
+2016). 
+In earlier studies peer e.ects have been highlighted as an important factor for homeowners to invest in PV (see Palm, 
+2017a 
+for an overview 
+Table 1 
+Summaries of motives in earlier research. 
+Motives 
+Testing new technology; technical interests Increase convenience Earning money Cost e.ciency Protecting against future high cost Environmental bene.t Security of supply Symbolic reasons Self-su.ciency Social networks, peer e.ects 
+Table 2 
+Summaries of barriers in earlier research. 
+Barriers 
+Finance; investment cost, long pay-o. time Lack of subsidies Uncertainty and mistrust that the system will perform as desired Aesthetic and impact on residence Hard to .nd objective experts Satis.ed with existing system Do not want to change routines Perceived increase in maintenance Presence of di.erent opinion within a household Uncertainty around regulations and subsidies Technical .aws Poor compatibility with existing infrastructure Take place on a small scale Lack of organizational and institutional support 
+of earlier research). Most studies have however not done any thorough study of peer e.ects. Palm's 
+(2017a) 
+study did so and he speci.cally chose to analyze what e.ects peers such as relatives, friends and neighbors have on the adoption of PVs. The peer e.ects he .nds are mainly that peers function to con.rm that PV systems work as intended and without hassle. Peers do not contribute unexpected information or more advanced information. Palm also found that peer e.ects occurred through existing and close relationships rather than between neighbors that did not already know each other. Passive peer e.ect (i.e., just seeing PVs) were less important than active e.ects (through direct in­terpersonal contact). 
+Barriers or hindrances to adopt PVs have also been studied, see Table 
+2 
+for a summary of these. Here .nancial barriers are most often discussed, involving high investment cost, long pay-o. time and lack of subsidies (Balcombe 
+et 
+al., 
+2013, 
+2014; 
+Enlund 
+and 
+Eriksson, 
+2016; 
+Palm 
+and 
+Tengvard, 
+2011). Acceptable pay-o. has been analyzed by Scarpa 
+and 
+Willis 
+(2010) 
+for microgeneration and estimated at 3–5 years, which in a PV perspective is not long. Balcombe 
+et 
+al. 
+(2013) 
+discuss that FIT has reduced pay-o. time in UK for PVs to 11 years from 35 to 58 years. This is of course a huge reduction but the pay-o. time is still higher than the calculated acceptable pay-o. time. Schelly 
+(2014) 
+found however that pay-back periods are less important than the par­ticular timing of economic events within a household. Many used for example inherited money to pay for their solar system or timed their installation to occur just before retirement with the purpose to reduce the electricity bills after retirement. 
+More barriers mentioned in earlier research are uncertainty and mistrust that the system will perform as desired (Balcombe 
+et 
+al., 
+2013; 
+Palm, 
+2017b; 
+Palm 
+and 
+Tengvard, 
+2011). A perceived increase in maintenance and the complexity associated with a system change is a barrier for adoption. Inconvenience when it comes to major changes in the garden or roof is a barrier. A barrier can also be that you are sa­tis.ed with the existing energy system and do not want the incon­venience of changing routines. Microgeneration is seen as a “resistant innovation,” since increased uptake requires adopters to considerably alter their daily routines and habits, which represents an inconvenience (Balcombe 
+et 
+al., 
+2013). 
+Aesthetics and disapproval from neighbors have been mentioned in some studies (Balcombe 
+et 
+al., 
+2013; 
+Enlund 
+and 
+Eriksson, 
+2016; 
+Palm 
+and 
+Tengvard, 
+2011). Value of the home is not a major issue. Studies on how property values are a.ected however show con.icting results, sometimes tending to increase and sometimes decreasing or not chan­ging (Balcombe 
+et 
+al., 
+2013). 
+The di.culty in .nding trustworthy information on microgenera­tion is also a major obstacle to adoption, particularly for those con­sidering PVs, despite e.orts by the government and microgeneration interest groups to reduce this barrier (Balcombe 
+et 
+al., 
+2013, 
+2014). 
+More barriers found are lack of organizational and institutional support for new technologies and that consumers are suspicious of new technologies (Palm, 
+2017b). 
+
+In relation to motives and barriers for adoption of PVs, Jager 
+(2006) 
+observed that short-term outcomes will be negative such as .nancial investment, administrative procedures and construction work. Positive outcomes are more abstract and partly manifest in the long term. 
+Other observations are that the adoption of microgeneration di.ers between age groups. Balcombe 
+et 
+al. 
+(2013) 
+show that it is lower below age 45 and above age 65. The 45–64 age group is more aware, has a more positive attitude and is more likely to install. Adoption is more common in larger houses, which can be explained by available space, higher energy use or higher household income. Homes with larger fa­milies may have less disposable income but there is no signi.cant dif­ference in investments. One explanation might be that they have less money but plan to stay longer in their house which bene.ts adoption in microgeneration. The presence of di.ering opinions in a household might however be a problem for adoption (Balcombe 
+et 
+al., 
+2013). 
+In Tables 
+1, 
+2 
+motives and barriers in earlier research are sum­marized. 
+The adoption of PV needs to be understood in a socio-cultural per­spective and how prosumers integrate with solar technology in their everyday life. Earlier research has studied motives and barriers to adoption at certain times in a country, but so far no one has discussed changes over time. How have motives and barriers been transformed over the years, which have disappeared and which have entered the market? That will be discussed next in relation to the developments in Sweden. 
+3. Changes in the Swedish PV market and policies targeting households 
+There were radical changes in the supply of PV panels in Sweden between the two waves of interviews, i.e., between 2008 and 2016. These include a signi.cant increase in the number of suppliers and changes in the service they provide: 
+In 2008–2009, there were mainly two companies that marketed small-scale electricity production to ordinary households: Egen El and Home Energy. Egen El (literally “your own electricity”) attracted massive media attention in 2008–2009 (Palm 
+and 
+Tengvard, 
+2011). The company sells small-scale PV panels and wind turbines, allowing households to buy power plants that are easy to install and connect to their houses. It marketed its product as something designed for ordinary people. According to Egen El's website, their products were so easy to install that anyone could do it without expert help. Home Energy, in contrast, provided free installation of its products, but at that time their market share was so small that they had just a handful of homeowners as customers. 
+In 2014, Lindahl 
+(2014) 
+identi.ed more than 100 companies that sold and/or installed PV modules and/or systems in Sweden in 2014. In 2014–2016, a number of companies had a business model in which they o.ered packages to households where everything was included: PV panels, contacts with the grid company, installation, feedback and monitoring systems. 
+Campoccia 
+et 
+al. 
+(2014) 
+emphasize that the competitiveness of solar PV in most European countries relies on some form of governmental subsidy. In Sweden there has been sweeping changes in the policy support framework for PV panels. In 2009, a subsidy was introduced for the installation of PV panels for households. In the beginning, it was possible to get subsidies for 60% of the installation cost, including material and labor costs. Thereafter it has been reduced as follows: 
+July 2009–Nov. 2011, subsidies for 60% of installation cost Nov. 2011–Jan. 2013, subsidies for 45% of installation cost Feb. 2013–Dec. 2014, subsidies for 35% of installation cost Since 1 January 2015, subsidies for 20% of installation cost 
+Since 2015 subsidies can only be applied for if the system costs are less than 3700 EUR excluding VAT/kWp (Lindahl, 
+2014). The subsidy scheme has had a positive impact on the market. First, it a.ected de­mand. One indication of this is that the subsidy is running out and the wait list is long. From 2009 and until the end of 2016 about 14,380 households had applied for subsidies and 6290 had been granted sup­port and 4864 have been disbursed (Lindahl, 
+2016). Second, it a.ected supply: several companies started marketing products targeting the household sector. 
+The cost of paying for a mandatory new meter was shifted from households to grid companies. When a household wants to start deli­vering electricity to the grid, it needs a new electric meter. Until April 2010, households had to pay for the costs of changing meters. After that, the grid company had to make the change without charging the homeowner (Government 
+Bill 
+2009/10:51). 
+In 2015, a tax reduction of 0.06 EUR/kWh was introduced for micro producers of renewable electricity. This cannot, however, exceed 1800 EUR per year (Swedish 
+Energy 
+Agency, 
+2015). 
+In 2013, households owning a PV system were obliged to register for and pay Value Added Tax (VAT). This happened because, according to a decision in the European court, “the sale of electricity from a PV system located on, or adjacent to, a private residence is an economic activity when the electricity produced continuously is supplied into the grid for remuneration. The PV system is therefore obliged to register for, and pay VAT, regardless of the amount of electricity that is sold” (Lindahl, 
+2015). The requirement to pay VAT was heavily criticized and this requirement was abandoned in January 2017. The Swedish government referred to the Council directive 2006/112/60 on the common system of value added tax, which makes it possible to exempt transactions below 10,000 EUR from VAT. 
+In addition, between 2008 and 2016, the price for PV panels de­creased. In 2014 a household had to pay a quarter of the 2010 price (Lindahl, 
+2014). 
+4. Method 
+This paper is based on new material and a re-analysis of datasets available from our previous research. In the .rst wave of interviews, which were done in 2008–2009, we interviewed 20 households. In the second wave of interviews, which were carried out in 2014–2016, we interviewed 43 households. Two adults were present during two of the interviews in the .rst wave and in three interviews in the second wave; in all other cases only one adult was interviewed. All households were on-grid. 
+
+4.1. Interviews overview 
+In the .rst wave of interviews, participants were recruited through the customer records of the two companies that marketed their PV systems to “average Swedes” without any technological expertise (Egen El and Home Energy). The opportunities for .nding households for the .rst wave of interviews were limited. We sought to .nd households that wanted to install PVs on their permanent homes and not, for example, on their summer houses. The managers of the two companies contacted households and asked whether they wanted to participate in the study; the interested households either contacted us directly or we received their names and phone numbers from the managers. Altogether around 1000 households that have registered as interested in investing in PVs were contacted. Of those most were of the managers described as ‘curious’ of the concept and the estimation were that around 100 were buyers or potential buyers the coming year. We were mainly interested in those households that had made a decision or starting the adoption process. All of these households that wanted to participate were in­cluded in the study. In the .rst wave, we interviewed 20 households all together. Nine households had bought a system, eight households were still considering buying one, and three had decided not to buy a system (see Table 
+3 
+for a summary). At that time, Home Energy was new to the Swedish market. All but three households interviewed were Egen El customers and therefore needed to install the products on their own. 
+
+J. Palm  Energy Policy 113 (2018) 1–8  
+Table 3 The households interviewed and their decision-making phase.  
+Decision-making phase the interviewed households were in when interviewed  2008–2009  2014–2016, interviewed in .rst round  2014–2016, interviewed in the .rst and the second round  
+Under consideration to buy Bought but not installed (PV installation not included) Bought and will be installed (turnkey product with installation included) PVs installed the same week as the interview PVs installed for one year or more Decided not to buy TOTAL  8 7 2 3 20  5 17 7 14 43  17 2 19  
+
+By the time we did the second wave of interviews, the market had expanded so much that we could recruit participants in many di.erent ways: through the customer register from three PV suppliers, through the public records of those that had applied for subsidies to install PV and through a call for participants published on a popular PV blog in Sweden, “Bengt's Villablog”. We prioritized households that had not yet installed their PV system, because the idea with the project was to compare how the households perceived being prosumers before having PV and how they perceived it one year after the installation. Again we were looking for households installing PVs on their permanent houses. It was hard to .nd enough households before installation so in the end we also interviewed households that had owned the PV system for a year or more. 
+In the second wave we interviewed 43 households in total. Of those 14 households had owned their system for a year or more when we interviewed them. We interviewed 29 householders before or during the installation phase. Of those 29, we returned to 19 households after a year to see if they did install PV panels and, if they did, how they had experienced one year as prosumers. Two households had not installed PV panels (see Table 
+3 
+for a summary). 
+The interviews were semi-structured and we used similar interview guides in the two studies (Alvesson 
+and 
+Torhell, 
+2011; 
+Kvale 
+and 
+Brinkmann, 
+2009). The guides covered the following topics: (a) back­ground data; (b) .rst contact with the concept of small-scale electricity production and the reason the households are interested; (c) barriers to and enablers of product adoption; (d) information received on the various products studied; (e) pros and cons of various studied solutions; 
+(f) decision made or the decision-making stage they were in; and (g) energy use—awareness and e.ciency measures implemented. 
+The interviews were recorded using an MP3 recorder/player and then transcribed. The interviewees are anonymized in this paper and will simply be referred to as Household 1–20 (for the 2008–2009 study) and Household 21–63 (for the 2014–2016 study). When two members of a single household were interviewed, we indicated this by appending “a” or “b” to the household's number. 
+4.2. Characteristics of the households 
+Balcombe 
+et 
+al. 
+(2013) 
+.nd correlation between awareness and social class, income and education for those adopting PVs. They found that di.erent segments adopt in di.erent technologies, and that PVs are adopted by a high-earning academic elite. 
+On average, the households we interviewed were middle-aged; their income and education level is higher than the Swedish average. 
+4.2.1. Age 
+In the .rst wave, the average age of the interviewees was 47 and their ages ranged from 31 to 75. In the second wave, the average age of the interviewees was 58 and their ages ranged from 32 to 81. 
+
+
+4.2.2. Income 
+Earlier studies have demonstrated a relationship between household income and investments in PV systems (Abu-Arqoub 
+et 
+al., 
+2014; 
+Gallegos 
+et 
+al., 
+2014; 
+Jiang 
+and 
+Zhu, 
+2012; 
+Scha.er 
+and 
+Brun, 
+2015). In our sample, the income was higher than the Swedish average. The average income for households with two adults in Sweden was around 50,000 EUR/year for both periods and during this period Sweden has had an increase in real wage by 2,4% (Statistic 
+Sweden, 
+2014). Not all of our households wanted to reveal their income. In 2008–2009 the 12 households who told us their income on average earned 68,000 EUR/ year. In the second wave, on average the 30 households had an income of 85,000 EUR/year. When factoring in in.ation, the households in the .rst wave earned around 10,000 Euros less than the households inter­viewed in the second wave. 
+We do not have a statistical sample so it is not possible to draw general conclusions from this. But the rise in income between the two periods is surprising. The recent decrease in production costs and the introduction of policies to change the market (e.g. subsidies) should make it possible for households with a di.erent income status to invest in solar panels (but that is not mirrored in our sample). 
+
+4.2.3. Social status and education 
+Fischer 
+and 
+Sauter 
+(2004) 
+suggest, in contrast to the authors above, that income is not the reason for the greater number of installations among higher earners, but rather that it is due to social status and education. In 2008–2009, 16 of the 20 interviewed had a university degree. In 2014–2016, 26 households (60%) had a university degree, 11 (26%) had a high school degree and 6 (14%) had elementary school or did not answer the question. 
+
+4.2.4. Energy consumption 
+In both studies, the households’ total consumption of electricity and heat varied greatly from 3000 kWh to 30,000 kWh per year. The dif­ferences were mainly due to the heating system installed, the size of the dwelling and size of the family. In this sense, there was no di.erence between the households interviewed in the .rst and second waves. The average energy consumption for a villa is 25,000 kWh per year in­cluding electrical heating, where of heating stands for 15,000 kWh. 
+5. Comparison of the results between the 2008–09 and 2014–16 survey 
+This section presents a comparison of the two sets of results on the motives and barriers that the households identi.ed for adopting or not adopting PVs and what the installation process was like during the two periods. 
+
+
+
+5.1. Households' motives for investing in PV panels 
+In both studies, we asked the households why they wanted to invest in PV panels. The reasons mentioned in the .rst wave of interviews are presented .rst, followed by those mentioned in the second wave, after which the similarities and di.erences are discussed. 
+
+5.1.1. The .rst interview wave: early adopters motivated by environmental reasons 
+In the .rst wave of interviews, all respondents emphasized the en­vironment as a reason for installing a PV panel. Statements included, for example: “It is the environment, we must think about it” (Household 8). This was often combined with something about the family's lifestyle and the importance of living in harmony with nature. Household 17 gave an example of a common answer: 
+In our family we discuss what we eat, who produces the food we eat, and all these things. We have had this environmental concern all our lives. We are members of Greenpeace and the Swedish Society for Nature Conservation and so on. 
+The investment in solar panels was described as having an im­portant symbolic dimension, a way to set an example for others. It was a way to show neighbors and friends that it is possible to act and do something, even as an individual. Household 5 expressed this as fol­lows: 
+If other people see that I have bought a system, then maybe they will follow my example. This way I can help spread the concept of producing one's own electricity and perhaps make it more common in the future. 
+The households also saw their investment as way to create a market for PV panels among ordinary people. Another common motive households had for making the investment was as a protest against big multinational energy companies. 
+The choice to go ahead and produce my own energy is also a way to take a stand against the big electricity companies and the dirty en­ergy they produce. It's sort of like “No, I just won’t have that!” (Household 4) 
+At the time of the .rst wave of interviews, the Swedish state was investigating whether it would be easier and cheaper for individuals to sell the electricity they had produced back to the grid. With a few ex­emptions, households were not prosumers at this time, and the house­holds we interviewed planned to use all the electricity they produced. In line with this, most households expressed no plans to earn money from producing energy; one exception was Household 14. 
+The choice to go ahead and produce my own energy s that you can just send the electricity that you don’t use back to the grid. In the summertime, you don’t use that much electricity anyway and then I might just as well sell it back … And then, maybe ten years from now, it will be like a form of retirement pension. But for now, I’m waiting for Parliament to decide what's going to happen. 
+Others were more pragmatic and stated that, from a .nancial per­spective, the investment was not viable: “I probably have the most expensive electricity bill in this neighborhood” (Household 2). 
+A .nal motive that the households cited concerned the technology itself, the delight of actually producing one's own electricity. It was seen as a “fun” concept. They enjoyed watching their electricity meters in­dicating the kilowatts they produced themselves. 
+
+5.1.2. The second interview wave: the rise of economic motivations 
+In the second wave of interviews, almost all the households men­tioned environmental concerns. Three households did not mention environmental aspects (Households 21, 36, 50) as a reason to install PV. What was common to all households however was that they all saw the investment as a purely .nancial decision, as a way to earn money. 
+In the second wave of interviews, the households did not relate their environmental motives to lifestyle in the same way as those in the .rst wave. The concern for the environment was put more in a social change perspective and the importance of contributing to the common good. 
+Lifestyle is not mentioned as often in the answers, but the re.ections related more to the household being part of a social change to develop a low-carbon community: 
+It is a positive thing for both the society and myself. (Household 46) 
+I am interested for both reasons, my own consumption and pro­duction, but also, how to say this, in relation to a societal perspec­tive. It makes you interested in… I also became interested in how electricity in society is produced. (Household 55) 
+The symbolic aspect, to set an example for others, was also men­tioned in wave two. But a more common reason that the households mentioned was being inspired by others, such as neighbors or an ex­hibition, or other event where PVs were shown: 
+My neighbors have a big system. And I was inspired by that. (Household 32) 
+Last spring they showed PVs in Holbo. It was a company that showed the panels. Our intentions were not at all to buy PVs, but an electric bicycle. But after this event we started to read about it and we realized that our house had a good location [for PVs]. (Household 39) 
+In the second wave of interviews, a more common motive was to become independent of the energy companies and go o.-grid. This wish was related to another factor only present in the second wave and that was the availability of electric vehicles (EV). At the time of the .rst wave, EV were not available, but in the second wave one household owned an EV and seven households told us about their plans to invest in one in the near future. These families wanted to be able to charge their EV with electricity they had produced. 
+The idea is to buy an EV that I can charge during the summer. (Household 23) 
+In the second wave, economic incentives, such as being able to make a pro.t out of the investment, were discussed much more than in the .rst wave. The households in the second wave did not need to pay to install a meter to measure both their production and consumption. All of the households sold or planned to sell their electricity to the grid. When selling the electricity the income is the price of electricity sales + electricity certi.cate + tax deduction. When buying electricity the households pay a .xed grid price and a variable fee consisting of energy fee + energy tax + transfer fee. The price for 1 kWh hour is around EUR 0,1 for a household when buying from the grid. 
+The households had also thought about pay-back time, and most expected that the investment would be pro.table. In the second round, saving or earning money was a reality and the households expected to earn money by selling the electricity back to the grid or save money because they would be able to buy less electricity from their power company. 
+It will pay back immediately. I will earn 50 Euros per month, even if you include the loan on the panels. And also, the value of the house will rise. (Household 26) 
+In the second wave of interviews, technological reasons for in­vesting in PV, such as being curious about the technology or .nding it fun to work with PVs, were also mentioned, but to a lesser extent than in the .rst wave. 
+
+
+5.1.3. Comparison of motives between the two interview waves 
+Between the two sets of interviews, there had been a shift in households’ reasons for investing in PVs. In the .rst wave, the house­holds were pioneers, resembling early adopters, who invested in PV panels for environmental reasons. In the second wave, the households gave mainly economic reasons for investing in PVs. The new policies that allowed households to sell the electricity to the grid and that provided a subsidy, together with the lower prices on PV panels, made it much cheaper for households to invest in PVs. This made pay-back time and pro.t of interest for the households in the second wave. 
+
+In both studies, the investment in PVs was described as having an important symbolic value. In the second wave, several commented that they had been inspired by seeing PVs in their surroundings. This was not the case in the .rst wave, simply because not many had been in­stalled at that time and there were not many exhibitions targeting homeowners. 
+Another change between the two interview waves was the in­troduction of EV and some of the households dreaming of having an EV charged by the electricity they produced (compare also Haunstrup 
+Christensen 
+et 
+al., 
+2017). This also indicates that PV can act as a gateway technology and enable other low-carbon technologies such as EVs. It was also more common in the second study to have a vision of going o.-grid in the future. 
+5.2. Perceived barriers to adopting PVs 
+5.2.1. The .rst interview wave: cost, lack of regulations, technology and installation 
+High costs were a barrier to investing in PVs and none of our in­terviewed households had received any subsidies (which were in­troduced in 2009). The low electricity price in Sweden also made the investment less attractive. In the .rst wave, the installed PV panels were always a supplementary source of electricity, providing some of the electricity consumed by the household. The cost of panels was so high at this time that many households regarded installing them to be a rather bad investment, from an economic perspective: 
+4000 EUR for a solar panel is very expensive per kilowatt hour. For people working with energy, this idea is probably quite stupid. (Household 16) 
+This household was still considering buying and had not made a .nal decision at the time. In the .rst wave of interviews, no one really expected to gain any money from the investment. The investment was done for other reasons, such as the environment, as discussed above. 
+A common re.ection was: 
+I probably have the most expensive electricity bill in this neigh­borhood. (Household 2) 
+Three households had decided not to buy PVs because of the high investment cost. Eight households were still considering buying PV, but thought the high investment cost was a major barrier. 
+Lack of applicable regulations and procedures for handling admin­istrative requirements was a major barrier; rules and systems were not in place for households because the concept of them producing their own electricity was new. The households felt that the grid companies were trying to hinder the installation of new meters and that by not giving clear answers, they were prolonging the permission process: 
+They cannot give a straight answer but refer to various paragraphs. It is very unclear … it is hard to move on in the process. (Household 17) 
+In addition, many households were frustrated by the lack of knowledge among o.cial agencies, such as local authorities and the Swedish Energy Agency. They expected the authorities to inform them about what opportunities they have to become prosumers, but usually they found it di.cult to .nd anyone who knew more than the house­holds themselves. In the second wave of interviews, households were less critical of the authorities and many said that they had received a great deal of support from the Swedish Energy Agency. However, sev­eral households thought the energy companies were a barrier for other reasons. One reason related to the meters that the households needed to have when they installed PV panels. The grid companies had to wait until after the installation to change the meters; sometimes it could take between six to eight weeks before the grid company changed the meter, and during this time the households could not use their panels. 
+Some households viewed the technology itself as a hindrance. They said that it was not advantageous to buy a product when it was new and not tested properly: 
+It is a gadget. There is anxiety that it is there and can fall down and become damaged. What are we supposed to do if something hap­pens? (Household 1a) 
+Many households had bought but not installed the panels when we interviewed them. They had ordered the products over the Internet, which was easy to do, but installation was not included. Households could .nd the information on the companies’ websites; however, most households could not manage the electrical installation on their own because they lacked the required competence. And most households lacked information on how to install the PVs for optimal functioning. The households that had installed the PVs themselves all included a man who was a craftsman by profession. 
+
+
+
+
+5.2.2. The second interview wave: cost, administration, information and installation process 
+In the second wave, the economic factors were less of an issue, though they were still mentioned. The amount of the investment was quite similar in both studies, although the households in the second study received much larger PV panels for the same amount of money as those in the .rst study. In this second wave, all the households were micro producers (i.e., net consumers of electricity on a yearly basis with many households selling surplus electricity to the grid during the summer). 
+Most households had calculated pay-back time, but the results dif­fered a lot depending on how they had calculated future electricity prices and the income on selling their electricity. Two households had decided not to install PVs due to the high investment costs (21 and 24). In both cases, the householders had academic education and had a higher than average income and reasoned in similar ways. They decided that installing PV was too expensive an investment, mainly because the pay-back time was too long. Both wanted a pay-back time of 8–10 years, but could not see that happening with current electricity prices. The reduction in subsidies to 20% also made the investment less at­tractive for Household 21. Household 24 thought that they would not receive a subsidy, because the money would run out. 
+Two other households (41 and 49) that had been skeptical about whether they could earn any money from the investment, did, however, invest in PVs and thought they would get the investment cost back in 20 years. The other households were convinced that they would earn money from the investment. 
+In the second wave, the most common barrier mentioned related to administrative issues. Before they could become prosumers, households needed to establish several contacts and .ll out many forms to apply for subsidies, change the meter, and sell the electricity to a power com­pany. Additionally, some had to acquire a building permit from their municipality. Some households also applied for a green certi.cate, a system introduced in 2003 by the government to increase the use of renewable electricity. The basic principle of the green electricity cer­ti.cate system is that producers of renewable electricity receive one certi.cate from the government for each MWh they produce. The average price for a certi.cate was 196 EUR/MWh in 2014. Most micro producers do not apply for them simply because the income that cer­ti.cates provide is not worth the added administrative burden. The meter registering the electricity produced is most often placed between the building and the grid, with the result that it is only the excel pro­duction from a PV system that generates certi.cates and not the self-consumed electricity (Lindahl, 
+2015, 
+2016). In our study, seven households had the certi.cate or had applied for it, usually because the installation company helped the household with this application as part of the turnkey system. 
+Most households had applied for subsidies and the process was long. 
+
+After they had applied, they received no information about when to expect an answer and needed to repeatedly contact the authorities for updates. Around 10 of our households have chosen to use an ROT-tax deduction instead. “ROT” is a collective term for measures to renovate and upgrade existing residential properties. The ROT-tax deduction was 50% of labor costs up to a maximum of 5000 EUR for the installation of PV systems. Normally a household will earn most money from using subsidies. The bene.t of using ROT instead of subsidies is that the ROT-tax deduction scheme has no waiting time and households are sure of receiving it. A household receiving ROT is not eligible for subsidies and vice versa. 
+The administrative process that was criticized the most related to the requirement to pay VAT for the electricity produced. To be able to pay VAT, households needed to start a company, which required .lling out forms for the taxation authority. The forms were not adapted to households and householders found them complicated to .ll out. They needed to contact the relevant authority several times. Households were frustrated as this generated a great deal of administrative work for a .nal VAT amount that was small (from 0.1 to 5 Euros per year). The VAT requirement will be abandoned in 2017, but when it existed, it created a lot of annoyance. 
+I .lled out three or four di.erent forms and they were general forms that were not suited for micro producers. It was really awkward. My wife and I had to start a company and become partners and then she had to sign a letter that said that I would be responsible for the company. It was so stupid. And there was no easy information to get that applied for us. I had to call several times and eventually I reached someone at the taxation authority that could provide sup­port. (Household 22) 
+Another barrier related to power companies was that not all of them buy micro-produced electricity, and some required a household to be a customer before it would buy the electricity it generated. This created a barrier for households that had signed a long-term contract with an­other electricity supplier: 
+We have a contract with Telinet and they don’t buy our electricity. But now we have made contact with some energy companies that do buy micro-produced electricity but then we have to wait until our contract with Telinet ends. (Household 47) 
+In the second wave of interviews, a new barrier had appeared re­lated to the quick development of the market. While many companies were marketing PVs to the households, households had trouble deciding between them; no evaluation existed of the companies nor was there even an easily accessible list of companies for households to choose from. No comparison existed of the companies and the products they o.ered. The quotes that households received from di.erent companies were not standardized, so it was not possible to compare them. In ad­dition, the quotes were often so technical that it was hard for the households to understand them. 
+Another perceived barrier mentioned only in the second wave of interviews was a lack of objective information. Almost all information the households found was from energy companies and companies that sold PV panels. An interesting .nding in the second study was the in­.uence of a blog, Bengt's Villablog, in which a professor writing as a private person tries to disseminate knowledge about everything con­cerning installations of PV panels. The blog covers most issues of in­terest for households and most of our households mentioned it when we asked how they had found information. 
+Another related barrier was the di.culty in .nding information about which companies buy electricity and at what price. Households pointed to lack of information (especially on the web) about this and most households found it di.cult to .nd companies willing to pay for the electricity they produce. And when they did .nd a company, the households did not have much bargaining power. This results in a non­functional market, where the price households are paid for their electricity varies from spot price minus 0.005 EUR to as high as 0.2 EUR 
++ VAT. 
+Most households had bought a turnkey unit. Some households had chosen a company that went bankrupt so they had to .nd a new in­staller. Several households also told us that the workers that installed the equipment did not speak Swedish and seemed to lack the right education. One household stated that they had to help the workers to install the equipment (Household 50). Several others said that there were problems with delays and that they needed to call several times before the workers showed up. There were also problems with workers that lacked necessary safety equipment when on the roof. 
+
+
+5.2.3. Comparison of barriers between the two interview waves 
+Cost was a barrier mentioned in both studies. Even though the price of solar panels had been reduced substantially during this period, subsidies had been introduced and it was possible to sell self-produced electricity, the upfront investment cost for PVs is high. In the second period the households had started to calculate pay-o. time, with very di.erent results. Calculating pay-o. time is hard and will depend e.g. on how the household calculated future electricity price and interest rate. For some the expected pay-o. time became so long that they chose not to invest in PVs. In the .rst round the upfront cost was the main reason for those who referred to economic barriers for not investing in PVs. Lack of regulations and mistrust in the technology was mentioned in the .rst wave, but that had disappeared by the second wave of in­terviews. 
+In the second wave new barriers were that the possibilities to be­come prosumers also had created administrative processes that some­times were complicated and time consuming. Another barrier ap­pearing was the lack of neutral information given from an actor without any interest in selling PVs. 
+In the .rst wave of interviews, we spent a fair amount of time un­derstanding how the households coped with installation issues; we could cover this quickly in the second study. In the second wave there were other problems occurring in relation to the installation process, such as .nding a trustworthy installation company that delivered on time and met all regulations in the area. 
+The design of PV panels was not a major issue in either round of interviews, but a few households did mention it. Some households simply thought that having PVs on the roof looked ugly. In the second study, households had more designs to choose from, but several ex­pressed surprise that most PVs were so similar in their design. 
+6. Conclusions 
+As shown above solar energy is far from reaching its potential. The share is not even 1% of the energy mix, despite the fact that the solar in.ux in southern half of Sweden (where most people live) is compar­able to that in northern Germany. The market for PVs has however expanded between 2008–2009 and 2014–2016. Many new PV suppliers targeting households have entered the market and turnkey equipment has been developed. More and more Swedes are interested in becoming prosumers, which, for example, could be seen in increased number of applications for subsidies. The introduction of subsidies had clearly contributed to increased demand, even though the subsidies have a cap and it is not clear how many applicants would receive any money. Some households have chosen to use the ROT-tax deduction instead of ap­plying for a subsidy to be sure to get some money back. 
+The subsidies, together with it becoming easier and more pro.table to sell micro-generated electricity to the grid, have probably con­tributed to the shift in who became prosumers and what motivated them to invest in PVs. The .rst wave of interviewees included many pioneers who had invested in PVs mainly for environmental reasons. In the second wave, the households were more motivated by economic reasons, and pay-back time and pro.t were new concepts that came up during the second interviews. The importance of .nancial pro.tability 
+
+J. Palm 
+of a PV system has been discussed in earlier studies from other coun­tries, but now this is also a factor in Sweden. Another huge change between the two periods was the introduction of EVs, which allows new visions about having a car charged by the self-produced electricity. 
+Cost was a barrier that had persisted over the years, even if the adoption of PV has become cheaper thanks to lower product costs and the introduction of a subsidy scheme. The earlier installation barriers have disappeared. The turnkey equipment has made it much easier to become prosumers, and many companies have been established with the business model to sell a concept including everything from the technology, installation and feedback equipment. This is however a market still under development and some suppliers have gone bankrupt and others have problems ful.lling their requirements. In the second wave the challenge for households is not to have the PVs installed but to .nd trustworthy and professional installation companies. 
+The problems with .nding a “good” installer is connected to a new barrier entering the market. The rapid increase in suppliers in the PV market has made many interested in becoming prosumers. Information about di.erent PV panels, suppliers and how to sell electricity has not, however, developed at the same pace. Many rules exist for becoming a prosumer in Sweden today and there is a lack of “facilitators” who can help perspective prosumers to navigate the market. This suggests that acting as a facilitator could be included in a company's business model or that new ‘brokers’ enter the markets and bring buyers and sellers together and facilitate the transaction. However, many households in the second round wanted neutral and objective information, and it is a question for further research whether a company can ful.l this demand or if it would be better done by a public actor such as municipal energy advisers or the Swedish Energy Agency. 
+Acknowledgements 
+This work was supported by the Swedish Energy Agency under Grant no. 37511-1. 
+References 
+Abu-Arqoub, 
+M., 
+Issa, 
+G.F., 
+Shubita, 
+A.F., 
+Banna, 
+A.A., 
+2014. 
+Demand-driven 
+algorithm 
+
+for 
+sharing 
+and 
+distribution 
+of 
+photovoltaic 
+power 
+in 
+a 
+small 
+local 
+area 
+grid. 
+Int. 
+J. 
+
+Inf. 
+Technol. 
+Web 
+Eng. 
+9, 
+45–58. Alvesson, 
+M., 
+Torhell, 
+S.-E., 
+2011. 
+Intervjuer: 
+genomfande, 
+tolkning 
+och 
+re.exivitet. 
+
+Liber, 
+Malm. Balcombe, 
+P., 
+Rigby, 
+D., 
+Azapagic, 
+A., 
+2013. 
+Motivations 
+and 
+barriers 
+associated 
+with 
+
+adopting 
+microgeneration 
+energy 
+technologies 
+in 
+the 
+UK. 
+Renew. 
+Sustain. 
+Energy 
+
+Rev. 
+22, 
+655–666. Balcombe, 
+P., 
+Rigby, 
+D., 
+Azapagic, 
+A., 
+2014. 
+Investigating 
+the 
+importance 
+of 
+motivations 
+
+and 
+barriers 
+related 
+to 
+microgeneration 
+uptake 
+in 
+the 
+UK. 
+Appl. 
+Energy 
+130, 
+
+403–418. Campoccia, 
+A., 
+Dusonchet, 
+L., 
+Telaretti, 
+E., 
+Zizzo, 
+G., 
+2014. 
+An 
+analysis 
+of 
+feed’in 
+tari.s 
+
+for 
+solar 
+PV 
+in 
+six 
+representative 
+countries 
+of 
+the 
+European 
+Union. 
+Sol. 
+Energy 
+107, 
+
+530–542. E.ON., 2016. Svenskarna tror på solrevolution. Enlund, 
+T., 
+Eriksson, 
+E., 
+2016. 
+Fnybar 
+energi 
+fr 
+alla. 
+Slutrapport 
+Green 
+Leap, 
+KTH. 
+
+Energy Policy 113 (2018) 1–8 
+KTH, 
+Green 
+Leap, 
+Stockholm. 
+Fischer, C., Sauter, R., 2004. Users as pioneers: transformation in the electricity system, microCHP and the role of the users, In: Proceedings of the Berlin Conference on Human Dimensions of Global Environmental Change, pp. 319–337. 
+Gallegos, 
+R., 
+Tapia, 
+E., 
+Romero, 
+S., 
+2014. 
+Impact 
+of 
+the 
+subsidy 
+on 
+the 
+electric 
+rate 
+in 
+the 
+use 
+of 
+renewable 
+energy 
+for 
+net 
+zero 
+housing 
+in 
+Mexicali, 
+Mexico. 
+WIT 
+Trans. 
+Ecol. 
+Environ. 
+181, 
+291–300. 
+Government Bill 2009/10:51. Enklare och tydligare regler fr fnybar elproduktion, m.m. 
+Haunstrup Christensen, T., Friis, F., Moe Skjsvold, T., 2017. Changing practices of en­ergy consumption: the in.uence of smart grid solutions in households. In: ECEEE 2017 Summer Study. Presqu'île de Giens, France. 
+Islam, 
+T., 
+2014. 
+Household 
+level 
+innovation 
+di.usion 
+model 
+of 
+photo-voltaic 
+(PV) 
+solar 
+cells 
+from 
+stated 
+preference 
+data. 
+Energy 
+Policy 
+65, 
+340–350. 
+Jager, 
+W., 
+2006. 
+Stimulating 
+the 
+di.usion 
+of 
+photovoltaic 
+systems: 
+a 
+behavioural 
+per­
+spective. 
+Energy 
+Policy 
+34, 
+1935–1943. 
+Jiang, 
+A., 
+Zhu, 
+Y., 
+2012. 
+Impact 
+of 
+incentives 
+and 
+system 
+e.ciency 
+on 
+the 
+life 
+cycle 
+cost 
+of 
+photovoltaic 
+systems. 
+Int. 
+J. 
+Constr. 
+Educ. 
+Res. 
+8, 
+204–222. 
+Juntunen, 
+J.K., 
+2014. 
+Domestication 
+pathways 
+of 
+small-scale 
+renewable 
+energy 
+technol­
+ogies. 
+Sustain.: 
+Sci. 
+Pract. 
+Policy 
+10, 
+4–18. 
+Kvale, 
+S., 
+Brinkmann, 
+S., 
+2009. 
+InterViews: 
+Learning 
+the 
+Craft 
+of 
+Qualitative 
+Research 
+Interviewing. 
+Sage 
+Publications, 
+Los 
+Angeles. 
+Lindahl, J., 2014. IEA-PVPS National Survey Report of PV power applications in Sweden 2014. Technical report. IEA-PVPS. 
+Lindahl, J., 2015. IEA-PVPS National Survey Report of PV power applications in Sweden 2015. Technical report. IEA-PVPS. 
+Lindahl, J., 2016. IEA-PVPS National Survey Report of PV power applications in Sweden 2016. Technical report. IEA-PVPS. 
+Luthander, 
+R., 
+Widén, 
+J., 
+Nilsson, 
+D., 
+Palm, 
+J., 
+2015. 
+Photovoltaic 
+self-consumption 
+in 
+buildings: 
+a 
+review. 
+Appl. 
+Energy 
+142, 
+80–94. 
+Muyingo, 
+H., 
+2015. 
+Organizational 
+challenges 
+in 
+the 
+adoption 
+of 
+building 
+applied 
+pho­
+tovoltaics 
+in 
+the 
+Swedish 
+tenant-owner 
+housing 
+sector. 
+Sustainability 
+7, 
+3637–3664. 
+Palm, 
+A., 
+2017a. 
+Peer 
+e.ects 
+in 
+residential 
+solar 
+photovoltaics 
+adoption—a 
+mixed 
+methods 
+study 
+of 
+Swedish 
+users. 
+Energy 
+Res. 
+Soc. 
+Sci. 
+26, 
+1–10. 
+Palm, 
+A., 
+2017b. 
+Residential 
+Solar 
+Photovoltaics 
+Deployment: 
+Barriers 
+and 
+Drivers 
+in 
+Space. 
+International 
+Institute 
+for 
+Industrial 
+Environmental 
+Economics 
+(IIIEE), 
+Lund 
+University, 
+Lund. 
+Palm, 
+J., 
+Tengvard, 
+M., 
+2011. 
+Motives 
+for 
+and 
+barriers 
+to 
+household 
+adoption 
+of 
+small-scale 
+production 
+of 
+electricity: 
+examples 
+from 
+Sweden. 
+Sustain.: 
+Sci. 
+Pract. 
+Policy 
+7, 
+6–15. 
+Scarpa, 
+R., 
+Willis, 
+K., 
+2010. 
+Willingness-to-pay 
+for 
+renewable 
+energy: 
+primary 
+and 
+dis­
+cretionary 
+choice 
+of 
+British 
+households' 
+for 
+micro-generation 
+technologies. 
+Energy 
+Econ. 
+32, 
+129–136. 
+Scha.er, 
+A.J., 
+Brun, 
+S., 
+2015. 
+Beyond 
+the 
+sun 
+– 
+socioeconomic 
+drivers 
+of 
+the 
+adoption 
+of 
+small-scale 
+photovoltaic 
+installations 
+in 
+Germany. 
+Energy 
+Res. 
+Soc. 
+Sci. 
+10, 
+220–227. 
+Schelly, 
+C., 
+2014. 
+Residential 
+solar 
+electricity 
+adoption: 
+what 
+motivates, 
+and 
+what 
+mat­
+ters? 
+A 
+case 
+study 
+of 
+early 
+adopters. 
+Energy 
+Res. 
+Soc. 
+Sci. 
+2, 
+183–191. 
+Shwom, 
+R., 
+Lorenzen, 
+J.A., 
+2012. 
+Changing 
+household 
+consumption 
+to 
+address 
+climate 
+change: 
+social 
+scienti.c 
+insights 
+and 
+challenges. 
+Wiley 
+Interdiscip. 
+Rev.: 
+Clim. 
+Change 
+3, 
+379–395. 
+SMHI (Swedish Meteorological and Hydrological Institute), 2017. Klimatindikator – globalstrålning. SMHI. <http://www.smhi.se/klimatdata/meteorologi/stralning/ 
+stralning-1.17841>. 
+Statistic Sweden, 2014. Hushållens ekonomi (HEK). 
+Stridh, B., Yard, S., Larsson, D., Karlsson, B., 2014. Pro.tability of PV electricity in Sweden. In: Proceedings of the 2014 IEEE 40th Photovoltaic Specialist Conference (PVSC), pp. 1492–1497. 
+Swedish Energy Agency, 2015. Energiläget 2015, ET2015:08, Eskilstuna: Energimyndigheten. 
+To.er, 
+A., 
+1980. 
+The 
+Third 
+Wave. 
+Collins, 
+London. 
+Wittenberg, 
+I., 
+Matthies, 
+E., 
+2016. 
+Solar 
+policy 
+and 
+practice 
+in 
+Germany: 
+how 
+do 
+re­
+sidential 
+households 
+with 
+solar 
+panels 
+use 
+electricity? 
+Energy 
+Res. 
+Soc. 
+Sci. 
+21, 
+199–211. 
+
+
+
+
+

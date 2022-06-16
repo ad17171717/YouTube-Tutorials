@@ -1,0 +1,255 @@
+Energy Conversion and Management 220 (2020) 112972 
+
+
+Contents lists available at ScienceDirect 
+
+Energy Conversion and Management 
+journal homepage: www.elsevier.com/locate/enconman 
+
+
+
+A new performance assessment methodology of bifacial photovoltaic solar panels for o.shore applications 
+Ahmed Hasan. 
+, Ibrahim Dincer 
+
+Clean Energy Research Laboratory, Faculty of Engineering and Applied Science, University of Ontario Institute of Technology, 2000 Simcoe Street North, Oshawa, Ontario L1H 7K4, Canada 
+ARTICLE INFO ABSTRACT 
+Keywords: 
+Bifacial module Solar energy Photovoltaics O.shore Renewable energy 
+
+This paper proposes a novel use of bifacial photovoltaic solar panel modules for o.shore power production. The proposed bifacial photovoltaic module utilizes the re.ected solar irradiance from the water surface. The per­formance of the system is assessed through simulating a bifacial photovoltaic module mounted on a .oater covered with aluminum sheets. The performance of the proposed system is simulated under various operating and design parameters including the location of the sun throughout the day, solar irradiance intensity, as well as wavy and still water conditions and orientation of the module using the COMSOL. It is found that the north/ south facing bifacial module experienced a maximum of 55% increase in exposure to irradiance compared to a mono-facial module when operating on the water surface. As for the east/west facing module, it experiences a maximum of 31% exposure to irradiance relative to a mono-facial module. The wavy water simulation yielded similar results, the maximum increase in irradiance exposure is 49% and 33% for the north/south and east/west facing module. Moreover, the energy e.ciency of a bifacial module is assessed relative to a mono-facial module. The minimum and maximum energy e.ciency gains are calculated as 2.8% and 11.9%, respectively. 
+1. Introduction 
+Solar photovoltaics (PVs) were introduced in 1983 by Charles Fritts with a 30 cm2 PV cell made of Gold and Selenium [1]. After the in­troduction of PV, the next major step in the development of the PV technology happened in 1954 [2]. In 1954 at Bell Labs, Chapin, Fuller and Pearson built single silicon crystals for the use in PV cell that works on the basis of P-N junctions. Bell labs, developed a PV cell that achieved an energy conversion e.ciency ranging from 5% to 6%. These discoveries and improvements in the PV cell technology solidi.ed the idea of using solar as a source of energy. The development of PV panels has been increasing as the shift to a renewable energy became neces­sary. Nowadays, the energy e.ciency of commercial PV panels has increased to an energy e.ciency of 22.8% which was achieved by Sun Power [3], and in addition, lab-scale PV solar e.ciency reached an outstanding over 40% [4]. 
+Part of the extensive research headed towards focusing on im­proving the performance of the PV cells through material enhancement and bifaciality. In a study conducted by Jia [5], the bifacial solar cells reached an e.ciency of 12.4% using mc-Si thin .lm solar cells. The authors also found that a bifacial e.ciency of 14% and above is rea­listic if installed in optimal conditions. The study concluded that the bifacial cells outperformed the mono-facial cells by 24%. Some other researchers focused on solar trackers, which as its name suggest help the solar panel to keep its face towards the solar position. It was found that the solar tracking system was able to increase the overall power output ranging from 10% to 100% depending on the geographical conditions [5]. However, the installation cost of the solar tracking system, its various moving parts, the maintenance costs and the mo­torization all should be taken into consideration while considering the increase in the total power production [2]. Solar trackers can be clas­si.ed into three main categories based on its working principle, passive, microprocessor, and .nally electro-optically controlled units. 
+The .rst category of solar trackers is passive, as it operates based on the di.erence in exposure to solar irradiance between two containers [6]. The two containers contain a heat transfer .uid, where the dif­ference in solar irradiatiance between the two containers, causes a temperature di.erence between the .uids. The temperature di.erence causes the hotter .uid to travel from one container to the another to achieve to an equilibrium between them and as a result the solar PV panel moves. Such a system does not have to consume electrical energy and does not require a control system, which makes it the least de­manding system of the other categories. However, with their low electrical consumption advantage, the system has the disadvantage of 
+
+
+. Corresponding author. E-mail addresses: Ahmed.Hasan@ontariotechu.net 
+(A. Hasan), Ibrahim.Dincer@uoit.ca 
+(I. Dincer). 
+https://doi.org/10.1016/j.enconman.2020.112972 
+
+
+Received 10 February 2020; Received in revised form 5 May 2020; Accepted 13 May 2020 
+Available online 12 June 2020 0196-8904/ © 2020 Elsevier Ltd. All rights reserved. 
+
+A. Hasan and I. Dincer Energy Conversion and Management 220 (2020) 112972 
+
+
+Nomenclature 
+A Area (m2) 
+Irradiance (W/m2) 
+k wave vector 
+k wave vector n vector 
+P Power (W) 
+q ray vector 
+T0 Ambient temperature (K) 
+Greek Letters 
+. Angular Frequency 
+low accuracy. The microprocessor category of solar trackers is based on calculating the solar position for various points in time and driving the motors to direct the solar PV panel towards the sun [7]. The electro-optically controlled units control the motors through the di.erence between the lighting on two photo resistors. The third class of solar trackers is the most accurate. However, with the solar tracking system it consumes electrical energy and usually requires a very precise in­stallation and can lead to problems in duration with cloudy days. 
+Another way of enhancing the operation of the solar panel is maintaining the solar panel at the optimum working temperature [8].It was found that the solar PV e.ciency is signi.cantly a.ected by the panel operating temperature [9,10]. It was found that the solar PV panel is very sensitive to temperature variation, where an increase in 1 °C in the operating PV temperature will lead to a decrease in its conversion e.ciency by an average of 0.45% [11]. Thus, researchers have focused on maintaining the solar PV panel operating temperature within the optimum operation range. Furthermore, other researchers, including Ref. [12], have focused on integrated PV based applications where they can use the heat extracted from the PV system for use in various applications, such as heating, drying and HVAC applications. One of the most expensive cooling technology applied to solar PV pa­nels is the water spray technology, which is also applied to clean the surface of the panels [12,13]. Researchers achieved an increase in the total power production of the solar panels of 15% [14], 17% [13] 
+and up to 60% [12]. The use of o.shore bifacial PV is also an underexplored area in the literature, as most of the researchers explore mono-facial o.shore modules [15]. Several studies have been performed for the use of renewable s for continuous power production such as OTEC [16,17] 
+and others that rely on storage such wind and solar [18], however, there is a need to explore the use of bifacial solar PV. According to a study performed by Lehr et al. [19], the bifacial perovskite/crystalline silacion (c-si) tandem PV can e.ectively be used to increase the energy yield of more conventional bi/mono-facial PV modules. The authors reported that the bifacial c-Si single junction PV performed 24–38% less than the textured perovskite/c-Si 2 T tandem PV modules, where the testing surface was grass. In another study [20], bifacial modules were able to reach a conversion e.ciency of 12.4% in a mc-Si thin .lm con.guration. The bifacial conversion e.ciency could potentially reach an e.ciency of 14%. In comparison to a mono-facial con.gura­tion, the bifacial con.guration performance was 24% better than that of the mono-facial con.guration. 
+With all the proposed technologies and methods of enhancing the solar PV panel e.ciencies, none of the proposed systems applies a technology to increase the area utilization of the available panels. This paper proposes the use of bifacial photovoltaic solar panel for o.shore power production, which is novel and has not been discussed and in­vestigated in the literature. The proposed bifacial photovoltaic solar panel consists of having two conventional solar panels .xed back-to­back where the backward facing solar panel takes advantage of the re.ected solar radiation from the sea surface. The performance of the d Partial derivative . Energy e.ciency 
+Subscripts 
+back Back face of the bifacial panel front Front face of the bifacial panel sun Sun 
+Acronyms 
+PV Photovoltaic 
+
+bifacial system (with the added advantage) is assessed through simu­lating a single set of bifacial photovoltaic solar panel mounted on .oater covered with aluminum sheets .oating on the waters surface. The proposed system is then modeled and simulated on the COMSOL Multiphysics software. The speci.c objective of this study is to develop a methodology for assessing the performance of the novel use of a bi-facial PV module for o.shore energy production by considering the gain in performance from the re.ected irradiance from the water to the back of the bifacial PV module. The model is then simulated under various design and operating conditions including the variation of the solar radiation direction, water conditions and module orientation. Furthermore, this allows for the characterization of the performance of bifacial modules for o.shore purposes which is technically lacking in the literature. 
+2. Modeling, simulation and analysis 
+In this paper the use of bifacial photovoltaic solar panels for o.­shore power production is proposed. The bifacial PV cells allow for the utilization of the solar radiation re.ected from the water surface leading to an increase in energy production. The surface area utilization also increases which in turn reduces the fault detection and problems of solar farm size. Another advantage of the proposed system is that it increases the energy density per unit area of the solar farm. A schematic diagram of the considered solar panel used for o.shore power pro­duction is shown in Fig. 
+1. As shown in Fig. 
+1, the solar based o.shore power production used the conventional structure and build of con­ventional solar panels, around on average half a day of available use-able solar irradiance (which varies based on the season and inclination of the solar panel. As shown in Fig. 
+1, the problem of the solar panels heating up is dealt with by proposing the integration of heat pipes embedded in a copper plate between the two opposing panels. This allows for the assumption of a constant surface temperature of the panel, therefore the maximum e.ciency can be assumed. The system does not account for heat transfer e.ects experienced from the solar rays. However, this paper will focus on the solar radiation distribution and the power production, where the temperature distribution and the cooling of the solar panels will be discussed in future work. This paper will investigate the performance of using the proposed structure of bi-facial solar panels in comparison to single face solar panel with the exact same structure and simulated for the same operation and design conditions. The water domain will be simulated using two di.erent conditions, which include still and wavy water. The wave length of the water wave was chosen to be 4 m, with an amplitude of 0.2 m, the dimensions of the proposed bifacial solar photovoltaic panels are shown in Fig. 
+2, where each set is mounted on a .oater covered with sheets of aluminum to enhance the performance of the system, which has a diameter of 2 m and a height of 0.38 m. The solar panels are at a height of 1.65 m and it has a 3 × 4 panels con.guration, where each panel is 1×1m2 area panel. 
+
+
+A. Hasan and I. Dincer 
+
+Energy Conversion and Management 220 (2020) 112972 
+In order to investigate the performance of the proposed o.shore power production system two models are developed and integrated to simulate a problem with multi-physics properties. As mentioned earlier the three-dimensional radiation model is developed and simulated in COMSOL Multiphysics software. The solar irradiance received by the solar panels, is integrated over the area giving the solar incident power received by the bifacial module. The incident power received by the front and back of the PV panel modules can be used to show the ef­fectiveness of o.shore bifacial solar module. 
+
+2.1. Numerical simulation 
+In order to investigate the performance of the proposed bifacial solar panel and whether it will be able to produce additional electrical energy, an integrated model is proposed to simulate the bifacial solar panel for o.shore power production in various conditions. The in­tegrated model is simulated using the radiation distribution model on COMSOL Multiphysics. The direction of the incident solar radiation on a speci.ed location on the Earth’s surface is known based on its rota­tion. The change in the incident solar radiation on the surface of the earth leads to having the solar panel surface subjected to solar radiation for a limited time. However, without solar tracking capable PV modules the solar radiation can be captured fully throughout the day because of its direction which may not align with the inclination and the direction the panel is facing. The proposed system is made to increase the utili­zation of the incident solar radiation throughout the entire day without solar tracking. This will be performed as mentioned previously by capturing the re.ected radiation from the surface of the water where the module is .oating above. The radiation distribution model is re­sponsible for predicting the solar radiation intensity on the front and 
+
+
+Fig. 2. The radiation distribution model selected boundary conditions. 
+A. Hasan and I. Dincer Energy Conversion and Management 220 (2020) 112972 
+the back surfaces of the bifacial solar panel throughout the day where solar irradiance is available. The speci.c location chosen was Ottawa, Canada, which is located in the northern hemisphere. The location set is to increase the accuracy of the simulation, where the location set the solar radiation variation throughout the day as well as the direction of the solar incident rays, which include elevation and azimuth angle of the sun. 
+The model integrates the radiation distribution model to provide the user with solar incident power. The solar incident power provides a numerical value for the power received by the surfaces of the bifacial module that are capable to convert the solar irradiance to electrical power. The governing equations that describes the developed radiation distribution model of the simulation model domain and used boundary conditions for the radiation distribution model are discussed in detail in the coming sections. 
+2.1.1. Radiation distribution model 
+The radiation distribution model simulated domain is shown in Fig. 
+2 
+as well as the selected boundary conditions used to setup the simulation, which is built and simulated in COMSOL Multiphysics as mentioned earlier. The shown set boundary conditions in Fig. 
+2 
+are for the case where the bifacial solar panel is .oating on water surface, where the water is deep enough so that the water feature is considered opaque rather than transparent. The ray trace model developed in this paper is based on and validated with a reported and published paper from the COMSOL library [21]. The published application includes a solar collector, where the ray particles were used to .nd the focal point of the dish collector. 
+The geometric optics module in the COMSOL is used to simulate the performance of the bifacial model through simulating the solar rays and their interaction with the developed bifacial PV panel. The material properties including the refractive index of the water, ice and the PV panel are presented in Table 
+1. The distance between the earth and the sun is far enough to assume the solar rays to be parallel. Simulating the solar incident rays is done through introducing the rays through a plane square surface on a distance of 10 m from the sea surface as shown in Fig. 
+2. The set boundary conditions are presented in Fig. 
+2, where the solar rays are introduced through an illuminated surface. The density of rays is selected as the initial position of the illuminated surface with a total number of rays passing through the window is 6000 rays. The 6000 rays are selected based on the ray independence study, which is presented later in the results and discussion section of the paper. 
+The ray property speci.cation is based on vacuum wavelength of 660 nm. The water surface boundary condition has the properties of di.usion scattering wall with an absorption coe.cient (refer to Table 
+1 
+for all the material properties). The upper and lower surfaces of the PV panels are selected to be a ray freeze wall equipped with deposited ray power, where each surface has it is own boundary wall condition. 
+
+2.1.2. Wave front ray tracing method governing equations 
+The ray tracing method was used in the simulated model, which couples the .rs order di.erential equations for the instantaneous rays positions q and wave vector k. The coupled equations are similar t the Hamiltonian formulation in the classical mechanics. Here, the angular 
+frequency is represented by ..  
+dqd.k()=#dtdk (1)  
+dkd.k()=#dtdq (2)  
+
+The ray release surface (illuminate surface) which in this case is the sun, is used to initialize the directions of the rays. When the rays are released from the surface their direction is set depending on the in­coming ray direction vector ni and the surface normal direction (out­ward) ns, as seen in Eq. (3). 
+nr =ni -2(ni×ns)ns (3) 
+The model also considers that some of the incoming radiation is absorbed by the receiving surface depending on the material used. Furthermore, the re.ected rays don’t always re.ect back in the exact direction as the receiving surface is not always smooth. The correction factor put into consideration takes into account the Rayleigh distribu­tion, as shown in Eq. (5) 
+
+..
+P.() =2 exp.-22 .#
+Ï¬.Ï¬.
+....(4) 
+As for the incident power ratio, it considers the total irradiance power received by the backward facing PV panel relative to the front facing PV panel. This is performed by integrating the solar irradiance received by both the working areas of the front and back PV faces of the bifacial module. The relations of incident power ration can be re­presented as seen in Eq. (5). 
+.IfrontdA
+IncidentPowerRatio=
+.IbackdA(5) 
+Here, Ifrontdenotes the solar irradiance received by the front surface of the bifacial PV solar panel, and Ibackdenotes the solar irradiance received by the back surface of the bifacial panel. 
+The incident power received can then be used to calculate the power produced by the bifacial module. This is due to the solar irradiance being dependent on the working area of the bifacial PV module. A conversion e.ciency of 17% was chosen in this study based on the PV operating parameters of Hasan and Dincer. The power produced from the PV cells are modeled as follows: 
+PPV =.PV ×Isolar ×APV (6) 
+where .PV is the e.ciency of the PV cell obtained, APV is the area of the 
+W
+PV cell in (m2) and I is the solar irradiance () received by the module. 
+m2 
+The energy e.ciency of the bifacial module can be de.ned based on the power produced divided by the total irradiance power received by the working surfaces of the module. 
+=PPV
+.PV 
+Isolar ×APV (7) 
+3. Results and discussion 
+The performance of the proposed bifacial solar panel for o.shore or cold isolated areas power production is assessed and discussed under various operating conditions. In the following section an assessment of the actual performance of the bifacial solar panels and how it stands in comparison to the single face panel will be discusses. 
+
+
+
+3.1. Mesh independence study results 
+A mesh independent study was performed to observe the e.ect of the number of elements on the incident power received from the sun on both surfaces of the Bifacial PV panel. In the case of the front upwards facing surface the incident power received for the last two mesh in­tervals (1.57 and 2.77 × 106) was simulated to be 8227.1 and 
+Table 1 
+Refractive index of the simulation materials and their absorption coe.cients. 
+Material  aRefractive 
+index, 
+ Refractive index,  Absorption  Ref.  
+real part  imaginary part  coe.cient  
+Water  1.3310  1.876 ×-10 8  0.210  
+Silicon  3.8365  0.015380  [22] 
+ 
+Air  1  1  0  [14] 
+ 
+
+a 
+The refractive index is considered at the wave length of 660 nm under vacuum conditions. 
+
+A. Hasan and I. Dincer Energy Conversion and Management 220 (2020) 112972 
+8124.2 W. The change in the last two intervals was calculated to be 1.25%. As for the downward facing surface, the last three mesh inter­vals reported an incident power being re.ected from the surface of the water as follows 2322.6, 2322.6 and 1935.5 W at mesh intervals of 1.22, 1.58, 2.77 × 106 elements. 
+The percent change for the last two intervals were calculated to be 0 and 16.6%. from the reported mesh independent study, it can be seen that as the mesh is transformed from 1.58 × 106 elements to 
+2.77 
+× 106 elements, the resulting incident power on the PV panel surfaces have less drastic changes and become steady. For example, for the upward facing panel when the mesh is transformed from 
+
+3.62 
+× 104 elements to 1.18 × 105 elements there was a 20.2% change in results. A similar case was found with the downward facing where the rate of change was calculated as 30, 57.1, 33.3, and 50% for the .rst 4 intervals in the mesh independent study. This drastic change could be related to the optics module in the simulation module. This comes as the re.ection was performed using 6000 rays and as the mesh becomes .ner, more of these rays would be re.ected. Fig. 
+3 
+displays the results of the mesh independent study. 
+
+
+
+3.2. The incident ray independence study results 
+An incident ray independent study was performed to observe the e.ect of the number of incident rays on the incident power received from the sun on both surfaces of the bifacial PV panel. In the case of the front upwards facing surface the incident power received for 6000 and 7000 rays was simulated to be 7872.8 and 7877.4 W. A 0.58% change was experienced when increasing the number of rays from 6000 to 7000 rays, the smallest change experienced throughout the study on the upward facing surface. The average rate of change throughout the study on the upward facing surface was calculated to be 1.43%, where the maximum change was found to be 2.8% when increasing the rays from 3000 to 4000 rays. 
+As for the downward facing surface, there was a higher average rate of change throughout the study than that of the upward facing surface. In the case of the downwards facing surface the incident power received for 6000 and 7000 rays was simulated to be 2480.7 and 2435.9 W. The average reported change was calculated to be 10.4%, where the max­imum rate of change was calculated as 22.2% when the number of rays increased from 4000 to 5000. The lowest rate of change was found to be 1.84% when the number of rays increased from 6000 to 7000. It can be seen in both cases upward and downward facing surfaces, stop ex­periencing any drastic change past 6000 rays. The number of incident rays throughout the assessment of an o.shore PV panel was kept constant at 6000 incident rays, as no signi.cant changes where ex­perienced after that. Fig. 
+4 
+displays the results of the ray independent study. 
+A study was performed to analyze the incident power ratio for a east/west facing solar panel. The incident power ratio allows for the assessment of the e.ectiveness of a bifacial module at varying solar positions throughout the day relative to a single face solar module. The readers should note that the single facing module shares the same geometry and position as the bifacial module. The incident power ratio considers the total irradiance power received by the backward facing PV panel relative to the front facing PV panel. The results of incident power ratio are shown in Fig. 
+5. When the suns position is at 30° a 13% increase in power is experienced by the bifacial module. The modules power output continues to increase by 31% when the suns position is at 90°. However, after the suns positions passes 90° the backward facing PV module receives more solar irradiance power than the front. At 120° the backward facing module is producing 183% more power than the front. Finally, at 150° the backward facing module is producing ap­proximately 600% more power than the front module. The drastic in­crease in power is due to the low irradiance power received by the front facing module as the suns position passes 90°. 
+Another study was performed to analyze the incident power ratio for a north/south facing solar panel. The study was performed to assess the incident power ratio e.ectiveness of a bifacial module that is facing north/south in comparison to east/west throughout the day. The in­cident power ratio considers the total irradiance power received by the backward facing PV panel relative to the front facing PV panel. The results of incident power ratio are shown in Fig. 
+6. When the suns po­sitions is at 30° a 55% increase in power was experienced by the bifacial module compared to the 13% from the east/west facing module. The modules incident ratio continues to decrease to 25% when the suns position is at 90°compared to the 31% in the previous study. However, after the suns positions passes 90° the incident power ratio continues to increase to 55% at 150°. The north/south facing module performed better than the east/west as both sides of the module received solar irradiance throughout the simulation. The east/west facing module front facing panel were receiving negligible amounts of solar irradiance when the suns position passed 90°. Therefore, the authors recommend when such modules are deployed in the northern hemisphere, they should be facing the north/south positions. 
+A study was performed to analyze the incident power ratio for a east/west facing solar panel with a wavy water surface. This assessment was performed to accommodate for the ripples that occur in the water as the tide changes in the waters. The wavy waters will create the 
+
+
+Fig. 3. Mesh independent study for the incident power on PV panel for the front and rear surface. 
+A. Hasan and I. Dincer Energy Conversion and Management 220 (2020) 112972 
+
+Fig. 4. Ray independent study for the incident power on PV panel for the front and rear surface. 
+
+Fig. 5. Variation of the incident power ratio with the variation of the sun angle on an east facing solar panel for six various incident angles. 
+incident rays to scatter therefore a.ecting the module incident power backward facing PV module is producing approximately 269% more ratio. The readers should note that the geometry is identical in all the power than the front module. The drastic increase in power is due to the studies for the bifacial module. The results of incident power ratio are low irradiance power received by the front facing module as the suns shown in Fig. 
+7. When the suns positions is at 30° a 13% increase in position passes 90°. It should be noted that the wavy waters e.ect on power is experienced by the bifacial module, which is similar to that of the incident power ratio is negative past 90° relative to that of the still the still water results. The modules power output continues to increase water. However, the overall performance is still in favor of that of a by 33% when the suns position is at 90°, which is a 3% gain in incident bifacial module rather than a single face module Fig. 
+8. power ratio relative to the still water results. However, after the suns Another study was performed to analyze the incident power ratio positions passes 90° the backward facing PV module receives more solar for a north/south facing solar panel with wavy water. The study was irradiance power than the front. At 120° the backward facing module is performed to assess the incident power ratio e.ectiveness with wavy producing 116% more power than the front. Finally, at 150° the waters with a bifacial module that is facing north/south in comparison 
+A. Hasan and I. Dincer Energy Conversion and Management 220 (2020) 112972 
+
+Fig. 6. Variation of the incident power ratio with the variation of the sun angle on a north facing solar panel for six various incident angles. 
+
+Fig. 7. Variation of the incident power ratio with the variation of the sun angle on an east facing solar panel for six various incident angles. 
+to east/west throughout the day. The results of incident power ratio are However, after the suns positions passes 90° the incident power ratio shown in Fig. 
+6. When the suns positions is at 30° a 49% increase in continues to increase to 49% at 150°, similar with the case with the still power was experienced by the bifacial module compared to the 13% water. even with the wavy waters the north/south facing module still from the East/West facing module with wavy water. performed better than the east/west facing module. This is mainly be-
+The modules incident ratio continues to decrease to 30% when the cause the East/West facing module front facing panel were receiving suns position is at 90°compared to the 33% in the previous study. negligible amounts of solar irradiance when the suns position passed 
+A. Hasan and I. Dincer Energy Conversion and Management 220 (2020) 112972 
+
+Fig. 8. Variation of the incident power ratio with the variation of the sun angle on the north/south facing solar panel for six various incident angles. 
+90°, as mentioned previously. 
+In a study the energy e.ciency of a bifacial PV module was assessed relative to a mono-facial PV module. In Fig. 
+9a the energy e.ciency of a east/west facing module was assessed. The maximum energy e.­ciency achieved was 25.3% at angle of 30°. At 90° the e.ciency was calculated to be 20.2%. However, as the angle of the sun passes the 90° position; the e.ciency of the bifacial module drops to 11.5% and 11.9% at the 60° and 30° positions. Throughout all the suns positions the east/west con.guration achieved a maximum of 11.9% gain in energy e.ciency, mainly due to the backward facing PV panels, cap­turing the re.ected solar irradiance at the 30° position. A similar case can be seen in Fig. 
+9b as the maximum energy e.ciency was calculated as 18.6% at the 90° position with a 3.5% gain over the mono-facial module. The maximum gain in e.ciency was achieved at the 60° po­sition where the gain was calculated as 4.6%. In this study, it can be seen that the overall the bifacial module achieved e.ciency gains in all positions and orientations over the mono-facial module. 
+4. Conclusions 
+This paper proposed a novel use of bifacial photovoltaic solar panel modules for o.shore power production. The proposed system was modeled and simulated on COMSOL Multiphysics software under var­ious water conditions, along with di.erent module positioning. Furthermore, the performance of the proposed system is simulated under various operating parameters including the location of the sun throughout a single day was considered as well as intensity of the solar radiation. It was found that the north/south facing bifacial solar panels experienced a maximum 55% of solar irradiance exposure compared to the single face panel when operating on the water surface. As for the east/west facing modules, it was found that a maximum 31% extra solar irradiance exposure was experienced compared to the single face panel when operating on the water surface. The wavy water simulation yielded similar results, the maximum increase in energy production was 49% and 33% for the north/south and east/west facing module. It should be noted that the north/south facing module yielded an overall better performance as the front and back PV panels were receiving solar irradiance throughout the day according to the simulation. The energy e.ciency of a bifacial PV module was assessed relative to a mono-facial PV. The minimum and maximum energy e.ciency gains were calcu­lated as 2.8% and 11.9%. The authors also recommend that a com­parison study between the proposed system with a .at and single axis 
+
+
+Fig. 9. Variation of the energy e.ciency and e.ciency gain with the variation of the suns angles as well as the module orientations: (a) east/west (b) north/south. 
+A. Hasan and I. Dincer Energy Conversion and Management 220 (2020) 112972 
+tracked solar panel should be simulated to compare the performance of the bifacial module. Furthermore, a cost analysis should be performed to further assess the bene.ts of a bifacial module. 
+CRediT authorship contribution statement 
+Ahmed Hasan: Corresponding author, Conceptualization, Methodology, Software, Data curation, Writing -original draft. Ibrahim Dincer: Supervision, Writing -review & editing. 
+Declaration of Competing Interest 
+The authors declare that they have no known competing .nancial interests or personal relationships that could have appeared to in.u­ence the work reported in this paper. 
+Acknowledgement 
+The authors acknowledge the support provided by the Natural Sciences and Engineering Research Council of Canada. 
+References 
+[1] Byrne 
+J, 
+Kurdgelashvili 
+L. 
+Handbook 
+of 
+Photovoltaic 
+Science 
+and 
+Engineering. 
+Wiley; 
+2010. 
+https://doi.org/10.1002/9780470974704. 
+
+[2] Bentaher H, Kaich H, Ayadi N, Ben Hmouda M, Maalej A, Lemmer U. A simple tracking system to monitor solar PV panels. Energy Convers Manag 2014;78:872–5. https://doi.org/10.1016/j.enconman.2013.09.042. 
+[3] Home Solar Panels, Commercial & Utility-Scale Solar Solutions | SunPower n.d. https://us.sunpower.com/solar-panels-technology/a-series-solar-panels (accessed November 11, 2019). 
+[4] Peng Z, Herfatmanesh MR, Liu Y. Cooled solar PV panels for output energy e.­ciency optimisation. Energy Convers Manag 2017;150:949–55. https://doi.org/10. 
+1016/j.enconman.2017.07.007. 
+[5] Abdallah S. The e.ect of using sun tracking systems on the voltage-current char­acteristics and power generation of .at plate photovoltaics. Energy Convers Manag 2004;45:1671–9. https://doi.org/10.1016/j.enconman.2003.10.006. 
+[6] Cli.ord MJ, Eastwood D. Design of a novel passive solar tracker. Sol Energy 2004;77:269–80. https://doi.org/10.1016/J.SOLENER.2004.06.009. 
+[7] Koussa M, Cheknane A, Hadji S, Haddadi M, Noureddine S. Measured and modelled improvement in solar energy yield from .at plate photovoltaic systems utilizing di.erent tracking systems and under a range of environmental conditions. Appl Energy 2011;88:1756–71. https://doi.org/10.1016/J.APENERGY.2010.12.002. 
+[8] Teo HG, Lee PS, Hawlader MNA. An active cooling system for photovoltaic modules. Appl Energy 2012;90:309–15. https://doi.org/10.1016/J.APENERGY.2011.01.017. 
+[9] Popovici CG, Hudisteanu SV, Mateescu TD, Chereches N-C. E.ciency improvement of photovoltaic panels by using air cooled heat sinks. Energy Procedia 2016;85:425–32. https://doi.org/10.1016/J.EGYPRO.2015.12.223. 
+[10] Du B, Hu E, Kolhe M. Performance analysis of water cooled concentrated photo-voltaic (CPV) system. Renew Sustain Energy Rev 2012;16:6732–6. https://doi.org/ 
+10.1016/J.RSER.2012.09.007. 
+[11] Zhu L, Raman AP, Fan S. Radiative cooling of solar absorbers using a visibly transparent photonic crystal thermal blackbody. Proc Natl Acad Sci USA 2015;112:12282–7. https://doi.org/10.1073/pnas.1509453112. 
+[12] Bahaidarah HMS. Experimental performance evaluation and modeling of jet im­pingement cooling for thermal management of photovoltaics. Sol Energy 2016;135:605–17. https://doi.org/10.1016/J.SOLENER.2016.06.015. 
+[13] Nižetic S, Coko D, Yadav A, Grubišic-Cabo F. Water spray cooling technique applied on a photovoltaic panel: The performance response. Energy Convers Manag 2016;108:287–96. https://doi.org/10.1016/J.ENCONMAN.2015.10.079. 
+[14] Jouhara H, Milko J, Danielewicz J, Sayegh MA, Szulgowska-Zgrzywa M, Ramos JB, et al. The performance of a novel .at heat pipe based thermal and PV/T (photo­voltaic and thermal systems) solar collector that can be used as an energy-active building envelope material. Energy 2016;108:148–54. https://doi.org/10.1016/J. 
+ENERGY.2015.07.063. 
+[15] Trapani K, Millar DL. Proposing o.shore photovoltaic (PV) technology to the en­ergy mix of the Maltese islands. Energy Convers Manag 2013;67:18–26. https://doi. 
+org/10.1016/j.enconman.2012.10.022. 
+[16] Hasan A, Dincer I. A New Integrated Ocean Thermal Energy Conversion-Based Trigeneration System for Sustainable Communities. J. Energy Resour. Technol. 2020;142(6). https://doi.org/10.1115/1.4045469. 
+[17] Hasan A, Dincer I. A New Integrated Ocean Thermal Energy Conversion-Based Trigeneration System for Sustainable Communities. Int. J. Hydrogen Energy 2020. https://doi.org/10.1016/j.ijhydene.2020.03.173. In press. 
+[18] Hasan A, Dincer I. Development of an Integrated Wind and PV System for Ammonia and Power Production for a Sustainable Community. J. Cleaner Prod. 2019. https:// 
+doi.org/10.1016/j.jclepro.2019.05.110. 
+[19] Lehr J, Langenhorst M, Schmager R, Gota F, Kirner S, Lemmer U, et al. Energy yield of bifacial textured perovskite/silicon tandem photovoltaic modules. Sol Energy Mater Sol Cells 2020;208:110367https://doi.org/10.1016/j.solmat.2019.110367. 
+[20] Jia G, Gawlik A, Plentz J, Andrä G. Bifacial multicrystalline silicon thin .lm solar cells. Sol Energy Mater Sol Cells 2017;167:102–8. https://doi.org/10.1016/J. 
+SOLMAT.2017.04.004. 
+[21] Comsol. Solar Dish Receiver. n.d. 
+[22] Silicon (Si) -University of Reading n.d. https://www.reading.ac.uk/ir-infra­redmaterials-si.aspx (accessed April 11, 2019). 
+
+
+
+
+
+

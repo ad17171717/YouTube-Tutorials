@@ -1,0 +1,190 @@
+POTENTIAL INDUCED DEGRADATION OF SOLAR CELLS AND PANELS 
+S. Pingel, O. Frank, M. Winkler, S. Oaryan, T. Geipel, H. Hoehne and J. Berghold SOLON SE, Am Studio 16, 12489 Berlin, Germany 
+ABSTRACT 
+Since solar energy generation is getting more and more important worldwide PV systems and solar parks are becoming larger consisting of an increasing number of solar panels being serially interconnected. As a consequence panels are frequently exposed to high relative potentials towards ground causing High Voltage Stress (HVS). The effect of HVS on long term stability of solar panels depending on the leakage current between solar cells and ground has been first addressed by NREL in 2005 [1). This potential degradation mechanism is not monitored by the typical PV tests listed in lEG 61215 [2). Depending on the technology different types of Potential Induced Degradation (PIO) occur. This paper is focusing on PIO of wafer based standard p-type silicon technology aiming on increasing life times for solar panels once exposed to external potentials in the field. A test setup is presented for simulation of the PIO in the lab and the influence of cell properties on PIO is demonstrated in order to reveal the cell being the precondition for the PIO. However, PIO can also be stopped or minimized on panel and system level as shown in the paper. 
+BACKGROUND 
+The most prominent case for PIO in silicon solar cell technology is Sunpower's polarization effect [4) but also other technologies like a-Si and ribbon silicon have been reported in the past to be prone to different types of PIO under certain circumstances-either reversible e.g. polarization or irreversible e.g. electro chemical corrosion [3). All known PIO effects have one common characteristic the degradation is depending on the polarity and level/extent of the potential between cell and ground. Different standards exist concerning the configuration of a PV system. E.g. in Europe system voltages up to 1000V and for the US only up to 600V are allowed. Some countries dictate or recommend PV system grounding configurations others do not. Accordingly, inverters technologies without transformer are commonly used in 
+Europe whereas in the US it is not common to use transformer less inverters since PV systems are usually grounded. It is the combination of several parameters such as high potential towards ground and a PIO prone solar cell embedded in a standard panel configuration which can cause significant power degradation in the field within a panel's life time. So the reduction of the PIO of standard H-pattern cells -first identified in 2009 -is a clear track for life time extension of a solar panel and for the reduction of the overall degradation of a panel after a certain amount of time. 
+To better understand the cause of PIO three different levels -system, panel and cell -are separately investigated. 
+System level 
+On system level the potential difference between ground and cell is the most important factor for PIO. The system voltage depends in first order on the number of panels serially interconnected and the irradiation and in second order on the panel temperature. Depending on the configuration of the grounding the potential of a cell towards ground is negative or positive. Three different possibilities exist -two of these are to ground one of the system poles (PV-/PV+ grounding) then all cells/panels are positive or negative towards ground or if no pole is grounded the resulting potential is not fixed for which reason it is called floating potential. In the latter case one part of the string has a negative and the other a positive potential towards ground. 
+
+1000 \' 
+
++1'­
+DC \'Uhl\J!,l' .lIr('t' 
+Figure 2 PID setup (left) and leakage currents (right). 
+
+
+
+If water penetrates the solar panel the leakage current rises due increasing conductivity of the encapsulation (ENG) material. The interaction of ENC material, back sheet foil, glass, and frame is resulting in certain leakage current paths as illustrated in figure 2. Additionally material properties production processes and panel layout do play a role for the HV-durability of panels. 
+Cell level 
+On cell level some process steps as well as the quality of the base material have been identified to significantly contribute to the extent of PIO tendency on cell level. In the result chapter we take a closer look at the different parameters that influence the PIO. 
+EXPERIMENTAL 
+For characterization of the cells and panels prior and after the PIO test a flash tester and a high resolution electroluminescence (EL) camera is used. A PIO setup was built to test coupons (single cell laminates) or standard panels consisting of sixty cells. The glass on the sunny side is flooded with water or covered with a wet blanket. This conductive front cover is connected to the positive pole and the panel contacts are connected to the negative pole of a power supply in order to generate a typical bias voltage of 1000V (maximum system voltage in Europe) for standard p-type solar cells. ChoOSing the setup described above a negative cell voltage versus ground -as occurring in the field -is simulated. A standard test is taking 100 hours and afterwards the samples are retested and the results are compared to the initial measurements. To investigate the leakage currents from cell to ground an ampere meter with data logger was used. In order to evaluate the impact of environmental factors such as temperature and humidity on the test -panels were placed in an environmental chamber under defined conditions. 
+EXPERIMENTAL RESULTS 
+System level 
+The following example (fig.3) shows an EL image of a floating system that is affected by PIO. The arrow indicates the rising system voltage. When going from negative potential (left) to positive potential (right) versus ground. Oegradation stops when the potential turns from negative to positive. 
+
+Figure 3 EL image of a floating PIO string with degraded panels on the side with negative potential. 
+In case the potential is not floating but fixed in the way that the PV-pole of the string is grounded PIO can be effectively prevented. 
+However, in the last years inverter development was resulting in higher efficient technologies partly due to the abandonment of transformers. As a consequence grounding is not possible and PIO has to be prevented with another approach. 
+Panel level 
+Taking a closer look at the PIO effect on the panel level as done in case of prone solar cells in a standard panel -see the following EL images before and after the PIO test with 1000V for 100hr. First in general the brightness of the picture is decreasing (not visible here) and second single cells are not uniformly affected. Some cells degrade heavily and seem to be short circuited while others appear to be stable. The reasons for this variation must be investigated on cell level as will be done in the next chapter. 
+
+Figure 4 EL image of a panel before (upper) and after (lower) 100hr 1000V PIO test -power loss was 32%. 
+The influence of the material composition in the panel was tested systematically with solar cells that are prone to PIO. A crosscheck with non sensitive cells showed no PIO for all material combinations. In the material comparison it turned out that an important factor to reduce PIO in case of prone solar cells is the type of ENC material. In the following figure is shown the leakage current at 1000V as a function of time during a temperature ramp up from ­20'C to 48'C in a humid atmosphere (50% RH). It can be seen that two different ENC materials are causing the peak leakage currents to differ by more than one order of magnitude. The panel can be described here as a capacitor being charged while the temperature is rising. Finally the full capacity is reached and the current drops. 
+
+
+lE-5 
+8 10 
+time [hr] 
+Figure 5 Leakage current for two panels with different 
+
+ENC material during a temperature ramp from -20'C to 
+Time 
+UocIsc FF 1(-12V)[A] 
+Rsh 
+[hr] [A] % 0 0,615 8,240 3,616 71,4
+48'C with 1000V applied voltage (RH 50%). 
+0,21 80,4 
+
+40  0,615  8,258  3,622  71,3  0,30  51,1  
+As a consequence of this significant difference in leakage  80  0,600  8,109  2,658  54,6  >10  0,5  
+current the PIO results with varying ENG materials differs  100  0,572  7,882  1,746  38,7  >10  0,2  
+
+strongly as shown below for three materials in combination reI. PIO 
+-52% -46% --100% 
+
+with prone solar cells. 
+100.0 
+80,0 
+" 
+
+60.0 
+c 
+a: 
+"l! 40,0 
+20,0 
+
+0.0 ­
+Material A Material B Material C 
+Figure 6 PIO comparison of three different ENC materials in panels with prone solar cells. 
+In order to minimize or avoid PIO on panel level and therefore to increase life time and reliability the appropriate material combination have to be found making sure that solar cells prone to PIO are combined with ENG materials resulting in low leakage currents on panel level. There are alternative materials to standard EVA better performing in respect to PIO but other criteria like price, handling, long term stability issues and availability have to be taken into account. So although it was shown that it is possible to suppress PIO in case of prone cells by switching the ENG material it seems to be even more favorable to minimize or avoid PIO on cell level which is discussed in the following chapter. 
+Cell level 
+The following two graphs show the evolution of the IV curve with ongoing PIO and the corresponding power degradation over time. 
+Table 1 Cell IV key parameter change during PIO. 
+The Isc is the parameter that is least affected but with advancing PIO Isc also degrades. Depending on the degree of PIO the junction is loosing its blocking characteristic under reverse bias or totally breaks down (ohmic shunt). This phenomenon can be visualized by EL images taken during a PIO test that are shown in the upper row. After 40hr local shunts appear along the edge of the cell that degrade further from diode to ohmic behavior, as can be seen in the reverse bias image in the lower row. First shunted areas appear bright but after further PIO evolution these areas do not emit any more breakdown light [6]. Finally after 100hr both images are dark because of dominating ohmic shunts. 
+
+Figure 8 EL image of a cell during PIO test (upper row) and reverse bias (-12V) image (lower row). 
+The leakage current in form of electrons or ions is resulting in an increased charge concentration above the solar cell in the ENG. These charges interact with the emitter and depletion layer and disrupt their function. From semiconductor industry similar effects are known as (time dependent) dielectric breakdown or surface inversion [5]. The electric field of these charge carriers is influencing the p-n-junction in that way that junction gets more conductive and the local shunt resistance drops. Sunpower applied a transistor model to the polarization effect [4] on their n­type back contact cell. In the case of standard p-type cells this model also works but the configuration needs to be switched from npn-to pnp-transistor. There are numerous factors on cell level being important in respect to PIO. In the following we present the parameters indentified to have a significant impact. 
+
+Wafer material 
+In joint experiments with different cells suppliers SOLON tested the influence of wafer material properties. The most In a typical process the emitter diffusion is the following step and an influence was expected and also found during the test. 
+80 
+70 
+60 
+50 
+"#. 
+. 40 a:: 
+30 
+20 
+10 
+
+
+promising parameter that can be varied here is the base o 
+"#. 
+Emitter sheet resistance [Ohm/sqj 
+Increasing the emitter sheet resistance leads to a higher sensitivity for degradation of the solar cells. This trend shows that the cell process optimizations like increasing the emitter sheet resistances as was done in the last years can lead to a higher tendency for PIO. 
+40 
+50 55 60 65
+resistivity. 
+
+.S o 
+a:: 
+p[Ocmj 
+Figure 9 Base resistivity dependence of PIO. 
+In two experiments base doping was varied by almost two orders of magnitude. The result is that increasing the base resistivity leads to more resistant solar cells concerning PIO since lower base doping leads to a wider depletion region at the junction when the emitter doping is held constant. 
+Within different experiments with cell suppliers where cells have been produced at constant cell processing parameters utilizing different wafer suppliers a significant batch dependence has been found. This could hint on systematic variation of certain wafer properties relevant for PIO. Lower quality silicon or comparably high concentrations of crystal defects seem to increase PIO but here results have to be further verified. 
+Emitter diffusion 
+The cell process typically starts with a cleaning followed by a texturization step -depending on wafer type and process acidic or alkaline textures are applied. Here the results do not show a clear trend. But for example if texturization is incomplete or residues are left on the surface the following process steps can be affected and hence also PIO. 
+Future trends like selective emitter technology must be watched and tested closely. Inhomogeneous emitter diffusion can also play an important role. 
+
+R_Sheet 1000q] 
+56,00 
+55,60 
+55,20 
+54,80 
+54,40 
+54,00 
+53,60 
+53,20 
+52,80 
+52,40 
+52,00 
+Figure 11 Lateral variation of sheet resistance on a mono crystalline wafer (four point probe). 
+In the image above the sheet resistance of a mono crystalline wafer (measured with a four point probe after POCL diffusion) is shown. The phases of the wafer show a higher sheet resistance and in general emitter doping is not totally constant over the whole area. Having in mind our findings for the emitter sheet resistance local variations can lead to higher PIO sensitivity. 
+Emitter back etching and edge isolation 
+Some cell manufactures use emitter back etching methods for edge isolation or for removal of the so called dead layer of the emitter. Oepending on process parameters the sheet resistance can be increased significantly and therefore PIO can be increased corresponding to figure 10. 
+
+
+In figure 12 EL images and reverse bias images at -12V of a solar cell with wet chemical edge isolation before and after a PIO test step of 20hr are shown. In the EL image the edge is turning dark while at reverse bias the edge signal is getting more intense explainable by an insufficient edge isolation. In this case described above edge isolation the emitter was removed not only on the edge but on the surface as well resulting in an emitter with locally high sheet resistance. This example shows that variations in the cell process which are thought to be of no relevance for later application can lead to degradation when the cell is exposed to a potential in the field. Here the PIO test reveals potential weaknesses of a solar cell. 
+Anti-reflective coating 
+The process step within cell production found most Besides the RI the layer thickness is important since these two parameters must be well adjusted to reduce reflectivity of the cell. The second result is that a reduction of layer thickness is resulting in lower PIO sensitivity (figure 13 thick and thin ARC method B). Going to thinner ARC layers with higher SilN ratio can be a feasible way of reducing PIO. The third parameter having an impact here is the homogeneity of the resulting SiN layer which is found to be clearly different for various SiN deposition methods ­see figure 13 process A&B. However, it can be stated that a homogenous process lowers the risk for PIO with standard thickness and RI. 
+General remark on cell process 
+Controlling PIO at the end of the cell line by special sorting criteria is not possible to our knowledge but adaption of cell processes as well as process control and sensitive wafer material choice allows avoiding PIO on cell level. 
+RECOVERY METHODS 
+Reverse potential 
+Provided that electrochemical corrosion is excluded laboratory test with at reverse polarity show that PIO is reversible also for standard solar cell similar to what was found by Sunpower for their back contact technology [4]. 
+
+important concerning PIO is the anti reflective coating (ARC) deposition. As shown by Sunpower this layer has a significant influence on the PIO effect for back contact cells [4]. In case of typical standard cells this layer consists of Si and N, the ratio of these elements, layer thickness and the deposition technique define the character of this layer. 
+* In semiconductor industry a comparable phenomenon is 0 a: known as dielectric breakdown of passivation layers -but not all properties can be transferred to solar cells [5]. 
+In the graph below the dependence of PIO on the Si-N ratio -corresponding to the refractive index (RI) and thereby to the optical characteristics -is shown. PIO rates 
+In the lab a similar behavior was found for the recovery of 
+
+time (hr) 
+were determined on panel and coupon level. First result: Si-rich layers tend to show lower degradation than N-rich layers. 
+
+As a consequence grounding of the positive pole of the PV system and thereby avoiding of harmful potentials leads to regeneration of affected solar panels. This recovery process takes time and the rate depends on the potential and environmental factors such as humidity and tem peratu re. 
+Temperature 
+Refractive index 
+PIO panels by temperature, storing PIO panels at around 100'C for 10 hours lead to a recovery close to 100% but 
+the initial power was not reached after this time step. 
+method dependence of PIO. 
+
+978-1-4244-5892-9/10/$26.00 ©2010 IEEE 002821 
+Authorized licensed use limited to: Temple University. Downloaded on June 15,2022 at 01:47:10 UTC from IEEE Xplore. Restrictions apply. 
+
+25 
+• 
+. 15 
+10 
+o 6 10
+""'M 
+Figure 15 PID recovery by temperature (-100'C). 
+This test shows that temperature is not only leading to a faster PID evolution (compare figure 5) because of increased leakage currents but it also plays an important role in for regeneration processes in a panel. But this recovery procedure at high temperature is not suitable as standard treatment since high temperature is stressing the panel materials and hence affects the long term stability. As shown the stability of the defect depends on the temperature. E.g. in [5] a similar semiconductor defect 
+(surface inversion) can be recovered by a high temperature step. Besides treatment on a hot plate or oven also other sources of heat can at least partly recover the solar cell, 
+e.g. UV treatment, climatic chamber test or applying a reverse or forward bias voltage to the panel's poles. 
+CONCLUSION 
+This paper presented a degradation mechanism called Potential Induced Degradation (PID) that is getting more important with growing PV system sizes going along with higher system voltages. It was shown that -although the origin of PID is on cell level -it can be minimized or avoided on all levels -system, panel and cell. The solution on system level is choosing an appropriate grounding scheme of the string poles while on panel level the properties of the encapsulation material determine the height of leakage currents that can in case of prone solar cells lead to PID. On cell level many parameters influence the PID stability of solar cells. Besides base material resistivity and emitter sheet resistance the most important parameter was found to be the anti-reflective coating since adaption of this layer can avoid the effect of PID. The PID effect can be reversed by switching the polarity and also high temperatures support regeneration. Taking these findings into account long term stability of solar panels can be significantly improved by adapting processes on all levels in order to minimize PID and therefore optimize the energy output of the PV system over a 25+ year life time. 
+OUTLOOK 
+The scenarios investigated with the laboratory test are simulating worst case conditions with high humidity and constantly high voltage. At SOLON an experiment is going on directly comparing laboratory results with outdoor data at different SOLON test sites (Berlin, Tucson, Carmignano) covering also the impact of different environmental conditions [7]. 
+ACKNOWLEDGEMENT 
+We would like to thank the cell suppliers for their fruitful discussions and their contribution to this work. 
+REFERENCES 
+[1] J.A. del Cueto, D. Trudell, and W. Sekulic, "Capabilities of the High Voltage Stress Test System at the Outdoor Test Facility", DOE Solar Energy Technologies Program Review Meeting, NRELlCP-520-38955, 2005 
+[2] IEC 61215, "Crystalline Silicon Terrestrial Photovoltaic Modules -Design Qualification and Type Approval" edition 2 (2005) 
+[3] RG. Ross Jr., G.R. Mon, L.C. Wen and RS. Sugimura, "Measurement and characterization of voltage-and current-induced degradation of thin-film photovoltaic modules", Solar Cells, Volume 27, Issues 1-4, 1989, Pages 289-298 
+[4] Swanson et aI., "The surface polarization effect in high­efficiency silicon solar cells", 2005 
+[5] R Blish, N. Durrant, "Semiconductor device reliability failure models", International SEMATECH, 2000 
+[6] Kasemann et aI., "Spatially resolved silicon solar cell characterization using infrared imaging methods", 2008 
+[7] 
+M. Wittner, T. Weber, W. Richardson, B. Striner, 
+
+N. 
+Baggio, "Global test site network paves the way to optimal site-related photovoltaic solution", this conference 
+
+
+
+
+

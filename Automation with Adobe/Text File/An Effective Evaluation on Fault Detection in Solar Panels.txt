@@ -1,0 +1,503 @@
+Review 
+An Effective Evaluation on Fault Detection in Solar Panels 
+Joshuva Arockia Dhanraj 1,2,3, Ali Mostafaeipour 1,4, Karthikeyan Velmurugan 1, Kuaanan Techato 1 , Prem Kumar Chaurasiya 5, Jenoris Muthiya Solomon 6, Anitha Gopalan 7 and Khamphe Phoungthong 1,* 
+Citation: Dhanraj, J.A.; Mostafaeipour, A.; Velmurugan, K.; Techato, K.; Chaurasiya, P.K.; Solomon, J.M.; Gopalan, A.; Phoungthong, K. An Effective Evaluation on Fault Detection in Solar Panels. Energies 2021, 14, 7770. https://doi.org/ 10.3390/en14227770 
+Academic Editor: Tapas Mallick 
+Received: 9 November 2021 Accepted: 17 November 2021 Published: 19 November 2021 
+Publisher’s Note: MDPI stays neutral with regard to jurisdictional claims in published maps and institutional affl­iations. 
+
+Copyright: © 2021 by the authors. Licensee MDPI, Basel, Switzerland. This article is an open access article distributed under the terms and conditions of the Creative Commons Attribution (CC BY) license (https:// creativecommons.org/licenses/by/ 4.0/). 
+1 Environmental Assessment and Technology for Hazardous Waste Management Research Center, Faculty of Environmental Management, Prince of Songkla University, Hat Yai, Songkhla 90110, Thailand; joshuva1991@gmail.com (J.A.D.); mostafaei@yazd.ac.ir (A.M.); karthi230407@gmail.com (K.V.); kuaanan.t@psu.ac.th (K.T.) 
+2 Smart Green Grid Solutions, Chennai 600040, India 3 Centre for Automation and Robotics (ANRO), Department of Mechanical Engineering, Hindustan Institute of 
+Technology and Science, Chennai 603103, India 4 Industrial Engineering Department, Yazd University, Yazd 8915818411, Iran 5 Faculty of Mechanical Engineering Department, Sagar Institute of Science and Technology, Gandhi Nagar, 
+Bhopal 462036, India; prem.chaurasiyaa@gmail.com 6 Department of Automobile Engineering, Dayananda Sagar College of Engineering, Bengaluru, Karnataka 560078, India; jenoris.555@gmail.com 
+7 Department of Nano Electronics, Materials and Sensors, Institute of Electronics and Communication Engineering, Saveetha School of Engineering, Saveetha Institute of Medical and Technical Sciences, Chennai 602105, India; anipsg09@gmail.com 
+* Correspondence: khamphe.p@psu.ac.th 
+Abstract: The world’s energy consumption is outpacing supply due to population growth and tech­nological advancements. For future energy demands, it is critical to progress toward a dependable, cost-effective, and sustainable renewable energy source. Solar energy, along with all other alternative energy sources, is a potential renewable resource to manage these enduring challenges in the energy crisis. Solar power generation is expanding globally as a result of growing energy demands and depleting fossil fuel reserves, which are presently the primary sources of power generation. In the realm of solar power generation, photovoltaic (PV) panels are used to convert solar radiation into energy. They are subjected to the constantly changing state of the environment, resulting in a wide range of defects. These defects should be discovered and remedied as soon as possible so that PV panels effciency, endurance, and durability are not compromised. This paper focuses on fve aspects, namely, (i) the various possible faults that occur in PV panels, (ii) the online/remote supervision of PV panels, (iii) the role of machine learning techniques in the fault diagnosis of PV panels, (iv) the various sensors used for different fault detections in PV panels, and (v) the benefts of fault identifcation in PV panels. Based on the investigated studies, recommendations for future research directions are suggested. 
+Keywords: fault detection; machine learning; solar panel; power effciency 
+
+1. Introduction 
+Reliability analysis has been carried out in the feld of solar energy, after taking into consideration the variation in operational and environmental conditions. Solar irradiation is a vital variable that facilitates the solar energy process. The prediction of faults in solar panels necessitates some suspicions depending on environmental parameters such as temperature, cloud amount, dust, irradiance level, and relative humidity [1]. Solar panel faults are not only the reason for the less effcient and frequent services of the plant but also could culminate into abnormal contexts. As a result, fault detection, when not given due attention, could end in power losses, and sometimes with the presence of faults in solar arrays, the whole system can meet with accidents. Several strategies may be used to provide promising failure detection in grid-connected solar systems. Some of them utilize weather 
+
+Energies 2021, 14, 7770. https://doi.org/10.3390/en14227770 https://www.mdpi.com/journal/energies 
+and astronomy data to detect faults in GCPV plants. However, other PV defect detection systems, such as Taka-Shima’s capacitance measurements, do not require any climatic data (irradiance, module temperature, shading quantity). Furthermore, sensor diagnosis signals are employed to warn of potential defects in the PV module of a grid-connected PV (GCPV) plant [2]. 
+The algorithm used for fault detection of a PV system can provide detailed information of current generation during the normal operating condition and, by way of corrective action, improves the performance of the solar power system through eliminating faults, thereby reducing power losses [3]. When one uses the one-diode model, which has to be calibrated because of its limited calibration variables, using observed temperatures and irradiances, PV arrays are able to forecast the maximum power coordinates of current, voltage, and power [4]. Fault detections can be performed another way with real-time monitoring and fault diagnostics of solar systems by estimating their starting ranges. Hence, when one can fnd the minimum and maximum threshold for a particular fault; this method enables the prompt monitoring of the solar system [5]. Another milestone in the realm of alternative energy resources was the application of infrared thermography (IRT) technology, which is a reliable, non-destructive, rapid, and cost-effective approach for determining the nature of defects in electrical installations. An IR camera is used to acquire infrared pictures. The picture of the faulty panel has to be compared with the view of a trim PV panel while considering the decision regarding the computation of a thermal condition [6]. 
+A parameter-based model has been used in several articles to report on the use of crucial parameters, such as total productive solar energy, coeffcient of the total heat exchange and the surrounding ambient temperature. These parameters were calculated using two working places on the PV module and a thermal camera focusing on the radiation for the relevant temperature A defect diagnosis for a specifc solar cell may be demonstrated using this parameter-based model. Building-integrated photovoltaic (BIPV) materials could be facades, roofs, windows, walls, and such related things that have been combined with solar material. For building owners, using such material for construction is quite expensive. For BIPV systems, the PV array needs to be modeled by using its real data. Multi-fault consequences on a real PV string can be used to investigate differences in I-V curves. To distinguish between the various faws, a PVG simulator established with a metaheuristic method must be used to examine a variety of parameters. Several fault identifcation tables have been presented to analyze PV plant malfunctions [7]. Moreover, some researchers have studied an intelligent fault diagnosis system using a kernel extreme learning machine (KELM) by using the inputs of a parametric model and, based on the model parameters, KELM was used to develop a fault diagnosis model. Finally, an improved Simulink­based PV modeling approach has been developed for fast simulation and data sample acquisition [8]. 
+Jianing Wu [9] released his suggestion on solar array failure utilizing tree fault analysis and FRPN models for determining the mechanism and cause of a solar array fault, while considering a spacecraft design. Online monitoring allows the consumers to maintain power control, reduce their maintenance work, avoid additional power cuts that lead to preventive maintenance. Santiago Silvestre et al. discussed OPC technology-based monitoring. The PV array’s major characteristics, such as output voltage, current, and power, are evaluated by the remote monitoring system, which analyses the observed data. The fault can be identifed by comparing the measured data and evaluating parameters in the PV system. Cristina Ventura [10] presented a novel proposal in a power plant where a SCADA system had been implemented and operational data had been collected. Comparison of measured and estimated data predicted the faults taking place in the PV plant. Dhimish et al. [11] proposed a methodology about parallel fault detection algorithm for GCPV. Within a set of operational conditions, various parameters were measured with the assistance of LabVIEW software. The algorithm would then aid in the classifcation of different issues such as a defective PV module or string, a faulty bypass diode, an MPPT device, or a bad DC/AC inverter unit. 
+
+Co¸sgun et al. discussed the involvement of robot vehicles in fault detection. In this process, they implemented the thermal energy monitoring by using a wireless robot car equipped with an RF and thermal camera, motor, and X-bee modules for assigning commands. Hence, the complete plant was monitored with less human involvement [12]. The literature has looked into several defect detection approaches for power electronics and fault detection. To the best of the authors’ knowledge, no work on a generalized defect detection approach for components or fault detection that is suited for arbitrary switching power converters and PV system confgurations has been disclosed. This article provides an engaging notion for research academics to understand the impact of faws on solar panels and what studies have been conducted using different methodologies including a machine learning approach to identify problems. This research also provides insight into how to carry out fault repair and increase solar panel power effciency. The paper is organized as follow: in Section 2 we discuss the faults occurring in PV panel followed by the online/remote supervision of PV panel in Section 3. The role of machine learning techniques in fault diagnosis is provided in Section 4 and various sensors are used for different fault detections in Section 5. Future directions to improve power effciency in PV panel by identifying the faults is provided in Section 6 followed by the conclusion and future directions regarding the monitoring of PV panels. 
+
+
+2. Faults Occurring in PV Panels 
+In addition to large-scale solar panels initiatives, a major chunk of studies analyze var­ious faults caused by issues such as installation faults, poor maintenance by the consumer, system overload, hardware issues, connection faults, malfunctions, and other environ­mental infuences such as dust, water droplets, bird droppings, and partial shadowing conditions. Figure 1 shows the classifcation of faults that occur in PV panel arrays and Figure 2 shows the possible faults that occur in the life cycle of a PV panel. Recent research into PV systems failure has resulted in the development of novel approaches for detecting and locating the different kinds of defects existing. These methods have assisted in the improvement of PV systems dependability and longevity. Figure 1 depicts the classifcation of several defect discovery procedures used to determine the kind and locality of faults in PV systems on both the DC and AC sides [13]. 
+
+Figure 1. Classifcation of faults that occur in PV array panel. 
+
+
+Figure 2. Possible faults that occur in the life cycle of PV panels. 
+If the defect is found on the PV system’s DC side, a microscopic study can be per­formed to determine the cause. Analytical approaches have been found to be quite bene­fcial for microscopic analysis. ATIR, SEM, and X-ray microtomography are some of the most important and latest microanalysis methods documented in the literature [14]. The decline in DC power output is the frst sign that a PV system is malfunctioning. How­ever, after examining the electrical properties of a PV system, it can be determined that a problem exists. The modules are visually inspected when the defect location has been determined [15]. Yellowing, cell fractures, corrosion in connectors links, electrical short circuit defects, bypass diode failure, back-layer polyethylene fractures, bubble formation and matrix cracking in the encapsulate, oxidation and discoloration in intersection wires, encapsulate discoloration, and other defects are visually inspected on the module. If a malfunction occurs on the PV system’s AC side, the system’s power fow will be zero. Concerning Figure 1, from the literature [16], the DC side of PV panels are more affected compared to the AC side and thus the major faults of the DC side of PV panels are discussed below such as partial shading fault, short circuit (SC) fault, open circuit (OC) fault, and faults in diode-blocking and bypass diode. 
+2.1. Partial Shading Fault 
+The chief source of power for solar panels is sunlight. Whenever the radiation of the sun is interrupted, the solar panels cannot be utilized effciently. Most of the solar panels fail to receive sunlight due to passing clouds, snowfall, the panel being covered by water, dirt and bird droppings, and due to tree shadow, which fnally results in power loss. Referring to Figure 3, in perilous situations, it is necessary to diagnose and indicate the problem to the operator [13]. 
+
+
+2.2. Short Circuit (SC) Fault 
+The solar panel suffers not only when it is exposed to sunlight but also during rain and snowfall; the water droplets might by chance descend into the PV modules. In addition to the above-mentioned situations, aging is a main factor for the short circuit fault, particularly when the solar panel is used for a long period. Figure 3 shows the short circuit fault. 
+
+
+Figure 3. Faults in PV panel array [13]. 
+
+
+2.3. Open Circuit (OC) Fault 
+In solar panels, the manufacturer uses many connections between PV modules or solar cells. Due to the aging of low-quality electrical wires and more loads, some disconnection might occur in the circuit. In such situations, the solar power panel fails to produce electrical energy. This kind of fault is called an open circuit fault. An example of an open circuit fault is shown in Figure 3. 
+
+2.4. Faults in Diodes—Blocking and Bypass Diodes 
+The diode used in solar PV panels is used as a feed check valve. Most commonly, two types of diodes are used: one is blocking diode and the other one is bypass diode. Blocking diodes are used to allow the electrical current only in one direction and are connected in series to the solar cell. Bypass diodes are connected in parallel and are used to prevent the backfow of current from strongly exposed cells to a weaker solar cell. Hence, it is highly essential to diagnose faults in solar panel diodes [14]. The online/remote supervision approach helps improve the fault detection of a solar system. The faults mentioned above are to be monitored with the help of remote supervision methodology as it helps the consumer with further maintenance activity [15]. 
+
+
+
+3. Online/Remote Supervision of PV Panel 
+Online monitoring systems comprise various sensors such as a temperature sensor, a voltage sensor, and a smart monitoring system with prescribed machine learning techniques adapted for system monitoring. The sensors measure the voltage and the temperature. Moreover, solar radiation is measured using reference solar cells [16]. In this type of monitoring system, communication is carried out via existing DC power lines, requiring no extra installation. This technology is called power line communication. The PV systems are arrayed to measure solar irradiance, voltage, and temperature. Santiago Silvestre et al. describe the monitoring of current, voltage, power, cosine, frequency, irradiance, partial shading, and module temperature. The parameters mentioned above are measured using Pt100 sensors and various sensors with calibrated solar cells closer to the geometric center. The invertor’s data acquisition system is used to record the data. Downloading data is handled by software that employs OPC HDA technology, and OPC uses fault detection algorithms for day-to-day review [17]. 
+
+Specifc sets of fault test data must be selected under different operating situations to maximize the fault detection in PV power generation. In certain temperature and irradiance conditions, a combination of PIC18F8720 microcontroller and Zigbee wireless sensor has been used to carry out the fault diagnosis [18]. One researcher used a wireless sensor for fault diagnosis in solar power panels by placing WSN nodes along with opposite sensors on the group of panels. After sensing a particular parameter, the diagnosing sensor is taken into consideration for continuing the simulation process. Furthermore, the fault diagnosis system must be equipped with telemonitoring panels for the successful implementation of a graphic user interface [19]. Another paper analyzed the characteristics of the terminals used in faulty PV strings and arrays. The paper primarily focused on how to decrease the current and voltage sensor by optimizing the sensor location and investigated the connections to analyze both healthy and faulty PV panels with MPPT tracking and solar array confguration [20]. 
+Based on the survey discussed above, it can be concluded that usually most of the people-using sensors can directly communicate through the power line and cables. How­ever, nowadays in large-scale solar power plants, both combined management and security maintenance are essential for the timely detection of problems, ensuring effciency in the functioning of the equipment. This work proposes a combined usage of an ATMEGA processor and IoT. These are all the techniques used for data processing thanks to which unwanted wiring, accessories, and unwanted expenditures could be controlled in solar panel fault diagnosis. Figure 4 shows the proposed experimental work for fault diagnosis in PV panels +. 
+
+Figure 4. Proposed experimental work for fault diagnosis in PV panel. 
+Table 1 shows the factors/faults which affect the performance of PV panels in the home grid, small-scale (mini) grid, and large grid farms. These faults are the most promi­nent problems in PV panels around the world and a monitoring suggestion is provided concerning the grid. 
+
+Table 1. Comparison of methodologies used for predominant defects in PV panel. 
+Monitoring Factors 
+Shading 
+Soiling 
+Dust Accumulation Weather Delamination Discoloration 
+7 of 14 
+Methodology Used  Methodology Adopted in the Grid System  Monitoring Method  
+Multi-objective optimization [21]  Home/large grid  Online  
+Hungarian PV system [22]  Mini-grid/large grid  Online  
+Sky illumination model [23]  Large grid  Online  
+Quantile regression neural network [24]  Home/large grid  Online  
+Machine learning approach [25]  Mini-grid/large grid  Online  
+Infrared thermography [26]  Home/large grid  Offine  
+Deep residual neural network [27]  Mini-grid/large grid  Online  
+Acoustic wave method [28]  Mini-grid/large grid  Online  
+Imaging technique [29]  Mini-grid/large grid  Offine  
+Inverse distance weighting [30]  Home/mini-grid/large grid  Online  
+Data analytics [31]  Home/mini-grid/large grid  Online  
+Theta-krill herd algorithm [32]  Home/mini-grid/large grid  Online  
+Electric discharge channel [33]  Mini-grid/large grid  Online  
+Thermal imaging [34]  Mini/large grid  Offine  
+Aging test [35]  Mini/large grid  Offine  
+I-V characteristic analysis [36]  Mini/large grid  Offine  
+Accelerated testing (AT) [37]  Mini-grid/large grid  Online  
+Spectroscopic investigation [38]  Mini-grid/large grid  Offine  
+
+
+
+
+4. Role of Machine Learning Techniques in Fault Diagnosis in PV Panels 
+Machine learning (ML) systems learn to recognize patterns in data with little or no human interaction. PV panels’ effciency, faults, and production can all be forecasted because they are dependent on environmental conditions. Improved forecasting techniques can assist energy frms and users in making the most of these installations [39]. Renewables have reduced long-term running costs, but initial equipment expenditures are usually considerable. If the user can forecast when the grid will be threatened, they can avoid it, saving a lot of money. Predictive analytics is one of the most effective machine learning applications in this feld. Machine learning algorithms are used in this process to analyze how the equipment operates to forecast when it will need to be repaired. Technicians can avoid costly breakdowns and avoid doing unneeded maintenance this way. Human inspectors can try to perform the same thing on their own, but they aren’t as successful. AI-assisted predictive maintenance is up to 25.3 percent more effcient and 24.6 percent more precise, according to one research [40]. These savings can help renewable energy projects become more cost-effective, allowing them to expand even further. As a result, machine learning plays a critical role in detecting defects in PV panels. Table 2 shows a wide variety of comparisons between machine learning algorithms used by different academics to acquire knowledge of the best ways to solve problems and maintain solar panels. According to Izgi et al. [12], data obtained from 750 W solar PV panels using an ANN to identify the horizon are capable of providing electricity forecast for small-scale solar power system applications. Upon observation, within a 5-min duration of frequency, it provided optimum solar prediction. Luca Bonsignore et al. [41] have published a paper on ANFIS using the Sugeno model, which has the time consumption limited to any other model. They use a hybrid model and I-V curves in the different sets of a PV module attained in various operating conditions. Chine et al. [42] performed an experimental study of 775 patterns of various data sets. Using a Matlab/Simscape simulation tool, they divided the data set into 80% and 20% training and testing, respectively, to test their model. The researcher attempted to choose the most effcient architecture for their ANN, based on the comparison between MLP and RBF. 
+Loftis A. Zadeh, Professor of Computer Science at the University of California in Berkeley invented fuzzy logic. It could mimic human thinking. It has been used with various linguistic variables holding IF-THEN rules as the base [43]. Qingqing Yang et al. worked on fault diagnosis on PV solar systems. They focused on two faults, namely, pole-to-pole faults and pole-to-ground faults. Mechanical stress causes pole-to-pole faults. When any branch drops or when there is lightning, a pole-to-ground fault occurs. The current signal explains the current of the power system. During the occurrence of the fault, the current might increase to an uncontrollable range by affecting the other electronic devices [44]. Yue Wu et al. have introduced a technique for fault detection of the solar array which has been validated using an SA-RBF extreme learning machine. It has a strong ability to classify the fault occurrences in solar panels. This method consumes less time and offers better accuracy in training and testing. The complete experiment was verifed using the SA-RBF-ELM fault diagnosis model [45]. Mahmoud Dhimish et al. have established that the short circuit fault can be detected precisely. The accuracy of fault detection was 95% after the implementation of a fuzzy logic system which was higher than that of the accuracy of fault detection before implementing the fuzzy logic system [46]. The comprehensive review of possible faults in PV systems discussed in this review paper, along with the machine learning techniques, is summarized in Table 2. 
+
+Table 2. Wide range of comparisons between machine learning techniques of various researchers. 
+Description of the Fault  Effects of Fault  Machine Learning Techniques  Use of Algorithm  
+Fault in orientation to the sun,  
+unlock mechanism fault, faults  
+during locking process,  
+deadlocking in hinges, faults of the transmission unit and  It has the potential to distort and vibrate solar panels.  Fuzzy reasoning Petri net.  To perform propagation.  
+vibration of panels, faults of the  
+cutter, faults of the mechanical  
+system [9].  
+The neuro-fuzzy model combines  
+Partial shading situation, upper earth, lower earth fault, diode short circuit fault [41].  Power loss and fre hazard.  Neuro-fuzzy approach.  the capabilities of neural networks and fuzzy logic. One is to gain knowledge from the experience, while the other is to  
+deliver a perfectly accurate result.  
+Module, connection fault, partial  
+shadow fault, shadow effect with faulty bypass diode, shadow  Power losses.  Artifcial neural network.  Isolates failures that have a unique set of characteristics.  
+effect with connection fault [42].  
+Short circuit and open circuit faults [47].  OC and SC faults in large PV systems create a signifcant variance in string current.  Grey wolf optimizer.  The method tracks the string current to account for the effect of nonuniform irradiance and associated module temperature.  
+The amount of failure data  
+Power inverter and solar tracker malfunctions [48].  Degradation in energy production.  Artifcial neural network.  accessible allows for early detection of breakdowns in PV  
+systems.  
+Critical faw, major faw, medium faw, small faw, minor faw, and no faw [49].  Excessive overheating reduces the power output causing failure in solar panels.  Fuzzy system.  The overall reliability of the system can be improved.  
+Line-to-ground faults, double  
+line-to-ground faults, line-to-line faults, cell faults, module faults, and bypass diode faults are all examples of line-to-ground  Other losses include instabilities, poor power generation, and other mishaps.  Fuzzy-logic-based method, support vector machine, feature-extraction-based classifers.  This classifer uses a model-based method to diagnose and localize line faults in cables and transmission lines.  
+faults [50].  
+The use of group decision theory  
+Fault localization [51].  Enterprise overall decision-making mistakes.  Fuzzy logic.  in PV array fault diagnostics enhances detection accuracy and  
+anti-interference capabilities.  
+
+
+5. Various Sensors Used for Different Fault Detections in PV Panels 
+To attain the possible outcomes, the proposed method requires both electrical and environmental data during the PV panel operation. Successful fault detection of the PV system fully depends on the various methodologies that have been implemented by various researchers. According to [5], for the passive part of the diagnosis, fault detection must be determined by ftting a normal threshold and a failure threshold. Here, each residue value was generated using the diagnostics method based on the model. The inactive part of the diagnosis data was measured distinctly with the instantaneous power produced by the PV system. The basic idea behind defect detection methods is that for a big solar system, the entire string must be exposed to various irradiance and temperature ranges. For a combination of defects and positions of the defective modules in the string, the resultant string current may be observed. These techniques have been used to formulate ftness functions [47]. Based on the survey [52,53], the action of the inverter might not consider some faults because during the occurrence of a failure, the inverter negates the fault reverse current by a voltage reduction of the system. The potential roles of sensors in the PV system and their confgurations are summarized in Table 3. 
+
+Table 3. Comparisons of various sensors with their confguration used in the experimental setup. 
+References Model of the Sensor Infuence of the Sensor on Fault Detection 
+• Voltage sensors. 
+To determine the cell temperature (Tc) using solar radiation (G) 
+
+[3] • Low-cost microcontroller-based smart monitoring system 
+and the normal operating cell temperature (NOCT). 
+
+(SMS) (K-type thermocouple). 
+• 
+I-V tester PROVA1011. 
+
+• 
+Incident irradiance sensor. 
+
+
+[8] Module temperature, irradiance levels are measured. 
+• 
+Infrared thermometer. 
+
+• 
+Temperature transducer. 
+
+• 
+Four Pt100 (class B) temperature sensors (-20 to 120 .C) 
+
+• 
+A 4–20 mA temperature transmitter for Pt100 
+
+
+[10] • Two PYRA 02 pyranometers from LP. 
+• Seneca T201DC current transducer, Thytronic NV10P interface protection control unit (4 to 20 mA). 
+• 
+Temperature-dependent photovoltaic (TPV) measurement 
+
+• 
+To obtain temperature information and determine the temperature of the surrounding environment 
+
+• 
+GHI and GPOA are being measured. 
+
+• 
+To measure the current and monitor the voltage and frequency relay. 
+
+
+
+• Davis weather station console (pyranometer). The voltage and current levels are measured using MPPT 
+[11] 
+
+• 
+Davis external temperature sensors. device sensors. 
+
+• 
+Davis external temperature sensor. To measure the global solar irradiance levels used to measure 
+
+
+[18] 
+
+• Davis pyranometer. all PV module temperatures. 
+[54] • Pt100 sensor and irradiance sensor Module temperature and irradiance conditions are measured. 
+• DS18B20 digital temperature sensor. 
+• To measure irradiance and temperature. 
+
+• TSL320B optical frequency. 
+[55] • The initial branch on the frst and second malfunctions in 
+• Conversion chip. 
+the solar (PV) monomers is measured. 
+
+• Voltage sensor. 
+A current sensor measures the current fowing across each PV 
+
+[56] • Current sensor. module string, with MPPT current fowing in both a healthy and a fault series. 
+• The TRITEC Spektron 300 is a silicon sensor with a sensor • Used to measure the solar irradiation on the PV modules accuracy of 5%. plane and positioned on the side of the PV modules. 
+[57] 
+
+• 
+Pt1000 is the PV module temperature sensor, T (K). • Mounted to the rear surface (Tedlar) of the PV string’s 
+
+• 
+NI DAQ-P 6015 is the DAQ module. center module. 
+
+• Irradiance and module temperature are measured using 
+
+
+• 
+An LM35 temperature sensor and a second-class 
+
+
+[58] these devices. 
+pyranometer with an RS-232 port. 
+• Voltage and current are measured with this device. 
+Multiple inexpensive sensors are employed in the PV system 
+
+[59] • Low-cost multi-sensor smart monitoring system (SMS). module to acquire/monitor solar irradiance, PV module temperature, voltage, and current. 
+
+6. The Benefts of Fault Identifcation in PV Panels 
+Permanent power losses can be defned as faults in solar panels, but if there are failure-specifc patterns that can be used, a more fne-grained analysis may be appropriate. The fault identifcation results in an improvement of the effciency of solar panels. The ability of a solar panel to convert sunlight into useful energy is measured by its performance [60]. When the sun shines on two solar panels with different ratings for the same amount of time, the more productive panel produces more energy than the less productive panel. The power generated by photovoltaic cells determines the effciency of a solar panel, which is impacted by cell composition, electric arrangement, components, and other factors. For maximum energy utilization and bill reductions, a top-tier solar panel effciency is essential. If one solar panel has a 21 percent effciency rating and the other has a 14 percent effciency rating, the 21 percent effcient panel will generate 50% more kilowatt-hours (kWh) of power under identical conditions [61,62]. 
+
+The most effcient solar panels on the market today have effciency ratings of up to 
+22.8 percent, although most solar panels have ratings of 15 to 17 percent. To maximize the amount of energy a system generates or make sure the least amount of electricity is bought from the utility, one should consider installing higher-effciency solar panels. This will ensure that the solar panel system generates the most energy possible. Several factors affect a solar panel’s effciency. The effciency of a solar panel is determined by the quantity of incoming sunlight it can convert into useable power. However, which factors contribute towards the ultimate conversion rate [63]. Solar cell researchers and manufacturers consider a variety of criteria while creating and producing successful solar panels, including the kind of material (polycrystalline silicon, cadmium telluride, monocrystalline silicon, and so on) that affects how light is converted to energy. Wiring and busing—the arrangement of wires and busbars on a solar panel that gather and transfer power have an impact on effciency. 
+The ability of a solar cell to absorb light on both sides of the cell (bifacial solar panels) is an important factor in the effciency equation for solar panels, as is their ability to produce different wavelengths of light [64]. Overall, scientists and researchers have a plethora of levers to pull when striving to improve solar panel effciency [65]. It all comes down to turning more incoming sunshine into electricity in the end. The article emphasizes the necessity for solar PV panel to increase effciency to meet climate targets. It also discusses cost-cutting, technological developments, and the necessity to prepare power systems for increased solar PV panel penetration [66]. Among the fndings: 
+• 
+By 2050, an increased solar PV system deployment combined with deep electrifcation may reduce CO2 emissions by 21% (almost 4.9 gigatonnes per year). 
+
+• 
+By the mid-century, solar PV systems might provide a quarter of worldwide power, making it the second largest generation source behind wind [67]. 
+
+• 
+By 2050, global capacity must be 18 times the current levels, or over 8000 gigawatts. 
+
+• 
+Asia will continue to dominate solar PV deployment, accounting for more than half of all installed capacity, followed by North America (20%) and Europe (10%). 
+
+• 
+Solar PV project costs, which are now lower than marginal fossil-fuel prices on a worldwide scale, are expected to continue to fall in the coming decades [68]. 
+
+• 
+Solar PV technology is a rapidly changing sector, with cost reductions being driven by advancements across the whole value chain. Floating PV technology is an excellent example, with global cumulative installed capacity surpassing one gigawatt in 2018 and signifcant room for expansion. 
+
+• 
+Rooftop solar PV systems have grown in popularity because of legislation such as net metering and tax incentives [69]. 
+
+• 
+The energy revolution has had a positive impact on society. By 2050, the worldwide solar business might employ more than 18 million people [70]. 
+
+
+
+
+7. Conclusions and Future Scope 
+In this paper, several articles have been gathered and reviewed concerning the recent advancement and research on fve aspects: (i) various possible faults that occur in PV panel, 
+(ii) online/remote supervision of PV panels, (iii) role of machine learning techniques in fault diagnosis of PV panels, (iv) various sensors used for different fault detections in PV panels and (v) benefts of fault identifcation in PV panels. From the fault classifcation point of view, various possible causes of faults, such as partial shading fault, short circuit fault, and open circuit fault, faults in diodes—blocking and bypass diodes—were discussed in detail. The various online techniques that are meant to monitor the errors occurring in PV panels based on the type of sensor used and the monitoring of the PV panels were discussed in this paper. Finally, this paper included the future and possible scope of the optimization of fault detection techniques. Through that, the cost and time incurred in the fault diagnosis of solar power panels can be reduced. This review concludes with a few suggestions based on the knowledge gap on certain perceptions, in pursuit of a comprehensive analysis through a literature survey, the following methodologies were identifed and proposed for the future scope: 
+
+1. 
+In solar panels, equipment-grounding conductors are one of the crucial elements that would start as grounding wires on the array and continue with the power wires through the rest of the system. WEEB is one of the alternatives for conventional grounding. However, in the washer–electrical equipment bond, diagnosing the grounding fault is highly challenging. 
+
+2. 
+If one needs to measure fault current readings and transient state readings, it might not be possible to record the temporary state of current since the instruments have a slow sampling rate. The IoT can update the data only with a sampling rate of 30 s, which is far from the sampling rate meant to capture the fault current event. When one uses a digital storage oscilloscope, it becomes possible to record the fault event in real time. 
+
+3. 
+The IoT can be used to update the status of the panel and data rate less than the 30 s sampling rate. If a signal varies much faster than this rate, it may not be updated in the cloud since it depends on the network’s speed and web updating speed. A single-shot external signal out is required for an analog oscilloscope, as well as a particular camera to record the image. With the advent of digitalization, the same signal may now be saved in memory and displayed on a DSO screen, as well as transferred to a PC through USB, RS-232, GPIB, LAN, and other means. Oscilloscopes are increasingly using high-speed serial data bus technologies such as PCI Express, SATA, and HDMI. These connections enable quicker data transfers since the memory depth of digital storage oscilloscopes has been raised to two giga-points. It offers inventive techniques such as a quick response and an effcient and robust network. To meet the expenditure spent towards intelligent sensing platforms, it is highly recommended for medium and large-scale solar power generation systems. 
+
+
+This paper would recommend two important aspects to the plant owners who want to ensure their plant’s safety. One is remote supervision through the application of the Internet of things (IoT) and the other is to ensure the safety of the operator and protects them from shocks and accidents due to the ground faults in solar panels. 
+Author Contributions: Conceptualization, J.A.D.; J.M.S. and K.P.; software, A.M. and A.G.; validation, K.T.; formal analysis, J.A.D.; K.V. and K.P.; investigation, A.M. and K.T.; resources, J.A.D. and P.K.C.; data curation, A.G. and K.P.; writing—original draft preparation, J.A.D. and K.P.; writing—review and editing, K.P., P.K.C., K.V. and K.T.; supervision, J.M.S. and K.P.; project administration, K.T.; funding acquisition, J.A.D. All authors have read and agreed to the published version of the manuscript. 
+Funding: This research was supported from Prince of Songkla University and Ministry of Higher Ed­ucation, Science, Research and Innovation under the Reinventing University Project (Grant Number REV64018). 
+Institutional Review Board Statement: Not applicable. 
+
+Informed Consent Statement: Not applicable. 
+Data Availability Statement: Not applicable. 
+Conficts of Interest: The authors declare no confict of interest. 
+
+
+
+Abbreviation 
+ANN Artifcial neural network ATIR Attenuated total refectance infrared microscopy BIPV Building-integrated photovoltaic panels DSO Digital storage oscilloscope FRPN Fuzzy reasoning Petri net FTA Fault tree analysis GCPV Grid-connected photovoltaic panels GPIB General purpose interface bus HAD Historical data access HDMI High-defnition multimedia interface IoT Internet of things IRT Infrared thermography technology KELM Kernel extreme learning machine LAN Local area network MLP Multilayer perceptron MPPT Maximum power point tracking OC Open circuit OPC Open platform communications PV Photovoltaic panels PVG Photovoltaic generator RBF Radial basis function SATA Serial advanced technology attachment SC Short circuit SCADA Supervisory control and data acquisition SEM Scanning electron microscopy 
+
+
+References 
+
+1. 
+Li, B.; Delpha, C.; Diallo, D.; Migan-Dubois, A. Application of Artifcial Neural Networks to photovoltaic fault detection and diagnosis: A review. Renew. Sust. Energy Rev. 2021, 138, 110512. [CrossRef] 
+
+2. 
+Dhimish, M.; Holmes, V. Fault detection algorithm for grid-connected photovoltaic plants. Sol. Energy 2016, 137, 236–245. [CrossRef] 
+
+3. 
+Madeti, S.R.; Singh, S.N. Online fault detection and the economic analysis of grid-connected photovoltaic systems. Energy 2017, 134, 121–135. [CrossRef] 
+
+4. 
+Garoudja, E.; Harrou, F.; Sun, Y.; Kara, K.; Chouder, A.; Silvestre, S. Statistical fault detection in photovoltaic systems. Sol. Energy 2017, 150, 485–499. [CrossRef] 
+
+5. 
+Ali, M.H.; Rabhi, A.; El Hajjaji, A.; Tina, G.M. Real time fault detection in photovoltaic systems. Energy Proc. 2017, 111, 914–923. [CrossRef] 
+
+6. 
+Li, C.; Yang, Y.; Zhang, K.; Zhu, C.; Wei, H. A fast MPPT-based anomaly detection and accurate fault diagnosis technique for PV arrays. Energy Convers. Manag. 2021, 234, 113950. [CrossRef] 
+
+7. 
+Van Gompel, J.; Spina, D.; Develder, C. Satellite based fault diagnosis of photovoltaic systems using recurrent neural networks. Appl. Energy 2022, 305, 117874. [CrossRef] 
+
+8. 
+Chen, Z.; Wu, L.; Cheng, S.; Lin, P.; Wu, Y.; Lin, W. Intelligent fault diagnosis of photovoltaic arrays based on optimized kernel extreme learning machine and IV characteristics. Appl. Energy 2017, 204, 912–931. [CrossRef] 
+
+9. 
+Wu, J.; Yan, S.; Xie, L. Reliability analysis method of a solar array by using fault tree analysis and fuzzy reasoning Petri net. Act. Astronaut. 2011, 69, 960–968. [CrossRef] 
+
+10. 
+Ventura, C.; Tina, G.M. Development of models for on-line diagnostic and energy assessment analysis of PV power plants: The study case of 1 MW Sicilian PV plant. Energy Proc. 2015, 83, 248–257. [CrossRef] 
+
+11. 
+Dhimish, M.; Holmes, V.; Dales, M. Parallel fault detection algorithm for grid-connected photovoltaic plants. Renew. Energy 2017, 113, 94–111. [CrossRef] 
+
+12. 
+Izgi, E.; Öztopal, A.; Yerli, B.; Kaymak, M.K.; Sahin, A.D. Short–mid-term solar power prediction by using artifcial neural
+
+¸ networks. Sol. Energy 2012, 86, 725–733. [CrossRef] 
+
+13. 
+Ji, D.; Zhang, C.; Lv, M.; Ma, Y.; Guan, N. Photovoltaic array fault detection by automatic reconfguration. Energies 2017, 10, 699. [CrossRef] 
+
+14. 
+Duman, S.; Li, J.; Wu, L.; Yorukeren, N. Symbiotic organisms search algorithm-based security-constrained AC–DC OPF regarding uncertainty of wind, PV and PEV systems. Soft Comput. 2021, 25, 9389–9426. [CrossRef] 
+
+15. 
+Ziar, H.; Manganiello, P.; Isabella, O.; Zeman, M. Photovoltatronics: Intelligent PV-based devices for energy and information applications. Energy Environ. Sci. 2021, 14, 106–126. [CrossRef] 
+
+16. 
+He, P.; Li, Z.; Zheng, M.; Wen, F.; Ji, Y.; Wu, X. Damping Characteristics of Interconnected Power Systems with Wind-Photovoltaic-Thermal-Bundled Power Transmitted by AC/DC Systems. J. Energy Eng. 2021, 147, 4021029. [CrossRef] 
+
+17. 
+Doshi, K.; Harish, V.S.K.V. Analysis of a wind-PV battery hybrid renewable energy system for a dc microgrid. Mat. Tod. Proc. 2021, 46, 5451–5457. [CrossRef] 
+
+18. 
+Wasu, A.A.; Kariya, H.M.; Tote, S.S. Evaluating renewable energy using data mining techniques in developing India. Int. J. Sci. Eng. Res. 2013, 4, 232. 
+
+19. 
+De Keizer, A.C.; Vajen, K.; Jordan, U. Review of long-term fault detection approaches in solar thermal systems. Sol. Energy 2011, 85, 1430–1439. [CrossRef] 
+
+20. 
+Cai, B.; Liu, Y.; Ma, Y.; Huang, L.; Liu, Z. A framework for the reliability evaluation of grid-connected photovoltaic systems in the presence of intermittent faults. Energy 2015, 93, 1308–1320. [CrossRef] 
+
+21. 
+Taveres-Cachat, E.; Goia, F. Exploring the impact of problem formulation in numerical optimization: A case study of the design of PV integrated shading systems. Build. Environ. 2021, 188, 107422. [CrossRef] 
+
+22. 
+Zsiborács, H.; Zentkó, L.; Pintér, G.; Vincze, A.; Baranyai, N.H. Assessing shading losses of photovoltaic power plants based on string data. Energy Rep. 2021, 7, 3400–3409. [CrossRef] 
+
+23. 
+Zhang, K.; Yu, J.; Ren, Y. Research on the size optimization of photovoltaic panels and integrated application with Chinese solar greenhouses. Renew. Energy 2021, 182, 536–551. [CrossRef] 
+
+24. 
+Zhang, W.; Liu, S.; Gandhi, O.; Rodríguez-Gallegos, C.D.; Quan, H.; Srinivasan, D. Deep-Learning-Based Probabilistic Estimation of Solar PV Soiling Loss. IEEE Trans. Sust. Energy 2021, 12, 2436–2444. [CrossRef] 
+
+25. 
+Martin, J.; Jaskie, K.; Tofs, Y.; Spanias, A. PV Array Soiling Detection using Machine Learning. In Proceedings of the 12th International Conference on Information, Intelligence, Systems & Applications (IISA), Creete, Greece, 12–14 July 2021; pp. 1–4. 
+
+26. 
+Iftikhar, H.; Sarquis, E.; Branco, P.J. Why Can Simple Operation and Maintenance (O&M) Practices in Large-Scale Grid-Connected PV Power Plants Play a Key Role in Improving Its Energy Output? Energies 2021, 14, 3798. 
+
+27. 
+Fan, S.; Wang, Y.; Cao, S.; Zhao, B.; Sun, T.; Liu, P. A deep residual neural network identifcation method for uneven dust accumulation on photovoltaic (PV) panels. Energy 2022, 239, 122302. [CrossRef] 
+
+28. 
+Zhao, W.; Lv, Y.; Wei, Z.; Yan, W.; Zhou, Q. Review on dust deposition and cleaning methods for solar PV modules. J. Renew. Sustain. Energy 2021, 13, 032701. [CrossRef] 
+
+29. 
+Chanchangi, Y.N.; Ghosh, A.; Baig, H.; Sundaram, S.; Mallick, T.K. Soiling on PV performance infuenced by weather parameters in Northern Nigeria. Renew. Energy 2021, 180, 874–892. [CrossRef] 
+
+30. 
+Acharya, S.K.; Wi, Y.M.; Lee, J. Weather Data Mixing Models for Day-Ahead PV Forecasting in Small-Scale PV Plants. Energies 2021, 14, 2998. [CrossRef] 
+
+31. 
+Farahmand, M.Z.; Nazari, M.E.; Shamlou, S.; Shafe-khah, M. The Simultaneous Impacts of Seasonal Weather and Solar Conditions on PV Panels Electrical Characteristics. Energies 2021, 14, 845. [CrossRef] 
+
+32. 
+Aldosary, A.; Rawa, M.; Ali, Z.M.; Abusorrah, A.; Rezvani, A.; Suzuki, K. Applying a Theta-Krill Herd Algorithm to Energy Management of a Microgrid Considering Renewable Energies and Varying Weather Conditions. J. Energy Res. Technol. 2021, 143, 082108. [CrossRef] 
+
+
+33. Poulek, V.; Šafránková, J.; .Cerná, L.; Libra, M.; Beránek, V.; Finsterle, T.; Hrzina, P. PV panel and PV inverter damages caused by combination of edge delamination, water penetration, and high string voltage in moderate climate. IEEE J. Photovolt. 2021, 11, 561–565. [CrossRef] 
+34. 
+Dobra, T.; Vollprecht, D.; Pomberger, R. Thermal delamination of end-of-life crystalline silicon photovoltaic modules. Waste Man. Res. 2021. [CrossRef] 
+
+35. 
+Hasan, A.A.; Ahmed Alkahtani, A.; Shahahmadi, S.A.; Alam, N.E.; Islam, M.A.; Amin, N. Delamination-and Electromigration-Related Failures in Solar Panels—A Review. Sustainability 2021, 13, 6882. [CrossRef] 
+
+36. 
+Huot, M.; Kumar, L.; Selvaraj, J.; Hasanuzzaman, M.; Rahim, N.A. Performance Investigation of Tempered Glass-Based Monocrystalline and Polycrystalline Solar Photovoltaic Panels. Int. J. Photoenergy 2021, 2021, 2335805. [CrossRef] 
+
+37. 
+Kim, J.; Rabelo, M.; Padi, S.P.; Yousuf, H.; Cho, E.C.; Yi, J. A Review of the Degradation of Photovoltaic Modules for Life Expectancy. Energies 2021, 14, 4278. [CrossRef] 
+
+38. 
+Hara, K.; Chiba, Y. Spectroscopic investigation of long-term outdoor-exposed crystalline silicon photovoltaic modules. J. Photochem. Photobiol. A Chem. 2021, 404, 112891. [CrossRef] 
+
+39. 
+Arcelay, I.; Goti, A.; Oyarbide-Zubillaga, A.; Akyazi, T.; Alberdi, E.; Garcia-Bringas, P. Defnition of the Future Skills Needs of Job Profles in the Renewable Energy Sector. Energies 2021, 14, 2609. [CrossRef] 
+
+40. 
+Shin, W.; Han, J.; Rhee, W. AI-assistance for predictive maintenance of renewable energy systems. Energy 2021, 221, 119775. [CrossRef] 
+
+41. 
+Bonsignore, L.; Davarifar, M.; Rabhi, A.; Tina, G.M.; Elhajjaji, A. Neuro-fuzzy fault detection method for photovoltaic systems. Energy Proc. 2014, 62, 431–441. [CrossRef] 
+
+42. 
+Chine, W.; Mellit, A.; Lughi, V.; Malek, A.; Sulligoi, G.; Pavan, A.M. A novel fault diagnosis technique for photovoltaic systems based on artifcial neural networks. Renew. Energy 2016, 90, 501–512. [CrossRef] 
+
+43. 
+Youssef, A.; El-Telbany, M.; Zekry, A. The role of artifcial intelligence in photo-voltaic systems design and control: A review. Renew. Sustain. Energy Rev. 2017, 78, 72–79. [CrossRef] 
+
+44. 
+Yang, Q.; Li, J.; Le Blond, S.; Wang, C. Artifcial neural network based fault detection and fault location in the DC microgrid. Energy Proc. 2016, 103, 129–134. [CrossRef] 
+
+45. 
+Wu, Y.; Chen, Z.; Wu, L.; Lin, P.; Cheng, S.; Lu, P. An intelligent fault diagnosis approach for PV array based on SA-RBF kernel extreme learning machine. Energy Proc. 2017, 105, 1070–1076. [CrossRef] 
+
+46. 
+Dhimish, M.; Holmes, V.; Mehrdadi, B.; Dales, M.; Mather, P. Photovoltaic fault detection algorithm based on theoretical curves modelling and fuzzy classifcation system. Energy 2017, 140, 276–290. [CrossRef] 
+
+47. 
+Hazra, A.; Das, S.; Basu, M. An effcient fault diagnosis method for PV systems following string current. J. Clean. Prod. 2017, 154, 220–232. [CrossRef] 
+
+48. 
+Grichting, B.; Goette, J.; Jacomet, M. Cascaded fuzzy logic based arc fault detection in photovoltaic applications. In Proceedings of the 2015 International Conference on Clean Electrical Power (ICCEP), Taormina, Italy, 16–18 June 2015; Volume 16, pp. 178–183. 
+
+49. 
+Jaffery, Z.A.; Dubey, A.K.; Haque, A. Scheme for predictive fault diagnosis in photo-voltaic modules using thermal imaging. Inf. Phys. Technol. 2017, 83, 182–187. [CrossRef] 
+
+50. 
+Hare, J.; Shi, X.; Gupta, S.; Bazzi, A. Fault diagnostics in smart micro-grids: A survey. Renew. Sustain. Energy Rev. 2016, 60, 1114–1124. [CrossRef] 
+
+51. 
+Chunlai, L.; Xianshuang, Z. A New Fault Diagnosis and Positioning Method for Photovoltaic Array. In Proceedings of the 2016 International Conference on Smart City and Systems Engineering (ICSCSE), Hunan, China, 25–26 November 2016; Volume 25, pp. 475–478. 
+
+52. 
+Bressan, M.; El Basri, Y.; Galeano, A.G.; Alonso, C. A shadow fault detection method based on the standard error analysis of IV curves. Renew. Energy 2016, 99, 1181–1190. [CrossRef] 
+
+53. 
+Vargas, J.P.; Goss, B.; Gottschalg, R. Large scale PV systems under non-uniform and fault conditions. Sol. Energy 2015, 116, 303–313. [CrossRef] 
+
+54. 
+Silvestre, S.; Mora-López, L.; Kichou, S.; Sánchez-Pacheco, F.; Dominguez-Pumar, M. Remote supervision and fault detection on OPC monitored PV systems. Sol. Energy 2016, 137, 424–433. [CrossRef] 
+
+55. 
+Chao, K.H.; Chen, C.T. A remote supervision fault diagnosis meter for photovoltaic power generation systems. Measurement 2017, 104, 93–104. [CrossRef] 
+
+56. 
+Hu, Y.; Gao, B.; Song, X.; Tian, G.Y.; Li, K.; He, X. Photovoltaic fault detection using a parameter based model. Sol. Energy 2013, 96, 96–102. [CrossRef] 
+
+57. 
+Hachana, O.; Tina, G.M.; Hemsas, K.E. PV array fault Diagnostic Technique for BIPV systems. Energy Build. 2016, 126, 263–274. [CrossRef] 
+
+58. 
+Gokmen, N.; Karatepe, E.; Celik, B.; Silvestre, S. Simple diagnostic approach for determining of faulted PV modules in string based PV arrays. Sol. Energy 2012, 86, 3364–3377. [CrossRef] 
+
+59. 
+Madeti, S.R.; Singh, S.N. Online modular level fault detection algorithm for grid-tied and off-grid PV systems. Sol. Energy 2017, 157, 349–364. [CrossRef] 
+
+60. 
+Sun, J.; Sun, F.; Fan, J.; Liang, Y. Fault diagnosis model of photovoltaic array based on least squares support vector machine in Bayesian framework. Appl. Sci. 2017, 7, 1199. [CrossRef] 
+
+61. 
+Hu, Y.; Zhang, J.; Cao, W.; Wu, J.; Tian, G.Y.; Finney, S.J.; Kirtley, J.L. Online two-section PV array fault diagnosis with optimized voltage sensor locations. IEEE Trans. Ind. Elect. 2015, 62, 7237–7246. [CrossRef] 
+
+62. 
+Li, B.; Delpha, C.; Migan-Dubois, A.; Diallo, D. Fault diagnosis of photovoltaic panels using full I–V characteristics and machine learning techniques. Energy Convers. Manag. 2021, 248, 114785. [CrossRef] 
+
+63. 
+Mohamed, A.H.; Marzouk, K.H. Optimizing Neuro-Fuzzy Fault Diagnostic Algorithm for Photovoltaic Systems. IOSR J. Comput. Eng. 2016, 18, 64–71. [CrossRef] 
+
+64. 
+Zhang, Z.; Ma, M.; Wang, H.; Wang, H.; Ma, W.; Zhang, X. A fault diagnosis method for photovoltaic module current mismatch based on numerical analysis and statistics. Sol. Energy 2021, 225, 221–236. [CrossRef] 
+
+65. 
+Lu, X.; Lin, P.; Cheng, S.; Fang, G.; He, X.; Chen, Z.; Wu, L. Fault diagnosis model for photovoltaic array using a dual-channels convolutional neural network with a feature selection structure. Energy Convers. Manag. 2021, 248, 114777. [CrossRef] 
+
+66. 
+Mansouri, M.; Trabelsi, M.; Nounou, H.; Nounou, M. Deep Learning based Fault Diagnosis of Photovoltaic Systems: A Comprehensive Review and Enhancement Prospects. IEEE Access 2021, 9, 126286–126306. [CrossRef] 
+
+67. 
+Xi, P.; Lin, P.; Lin, Y.; Zhou, H.; Cheng, S.; Chen, Z.; Wu, L. Online fault diagnosis for photovoltaic arrays based on fsher discrimination dictionary learning for sparse representation. IEEE Access 2021, 9, 30180–30192. [CrossRef] 
+
+68. 
+Kapucu, C.; Cubukcu, M. A supervised ensemble learning method for fault diagnosis in photovoltaic strings. Energy 2021, 227, 120463. [CrossRef] 
+
+69. 
+Pan, J.; He, W.; Shi, Y.; Hou, R.; Zhu, H. Uncertainty analysis based on non-parametric statistical modelling method for photovoltaic array output and its application in fault diagnosis. Sol. Energy 2021, 225, 831–841. [CrossRef] 
+
+70. 
+Ma, M.; Wang, H.; Xiang, N.; Yun, P.; Wang, H. Fault diagnosis of PID in crystalline silicon photovoltaic modules through IV curve. Microelectron. Reliab. 2021, 114236. [CrossRef] 
+
+
+
+

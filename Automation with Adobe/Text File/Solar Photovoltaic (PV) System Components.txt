@@ -1,0 +1,150 @@
+University of Arizona, College of Agriculture and LIfe Sciences, Cooperative Extension.
+az1742 May 2018 
+Solar Photovoltaic (PV) System Components 
+Dr. Ed Franklin 
+Introduction 
+Solar photovoltaic (PV) energy systems are made up of
+different components. Each component has a specific role. 
+The type of component in the system depends on the type 
+of system and the purpose. For example, a simple PV-direct 
+system is composed of a solar module or array (two or more 
+modules wired together) and the load (energy-using device) it powers. The most common loads are submersible water pumps, and ventilation fans. Asolar energy system producesdirect current (DC). This is electricity which travels in one direction. The loads in a simple PV system also operate on direct current (DC). A stand-alone system with energy storage (a battery) will have more components than a PV-direct system. This fact sheet will present the different solar PV system components and describe their use in the different types of solar PV systems. 
+
+Matching Module to Load 
+To match the solar module to the load, first determine the energy needs of the load. For example, a submersible fountainpump normally attached to a 12 volt battery can be powered using a solar module. The battery provides a specific amount of power (measured in watts) to energize the pump. Here, a pump operates on 12 volts DC, and 2.5 amps (maximum) of electric current. The total power (watts) of the pump is found by multiplying the volts (12 V) by the amperage (2.1 A). The total power is 30 watts. Amodule with the capacity of
+producing at least 12 volts is necessary to push the electrical 
+current through the pump motor. 
+
+
+Solar Module 
+The majority of solar modules available on the market and usedfor residential andcommercial solar systemsare silicon-crystalline. These modules consist of multiple strings of solar cells, wired in series (positive to negative), and are mounted in an aluminum frame. Each solar cell is capable of producing
+0.5volts. A36-cell module is rated to produce 18 volts. Larger modules will have 60 or 72 cells in a frame. The size or area of the cell determines the amount of amperage. The larger the cell, the higher the amperage. 
+
+
+Figure 1. A 12 volt bilge pump works very well in a bucket wired to a solar module. This module produces 17 volts DC and moves water very handily when exposed to the sun. 
+Graphic showing cells wired together and mounted in a frame compose a solar module. 
+Figure 2. The solar cell is the basic component. Cells wired togetherand mounted in a frame compose a solar module. Several modules wired together form an array. 
+Example of mono-crystalline solar PV modules. Mono-crystalline were first produced and used by NASA and the US military.  
+Example of poly-crystalline solar PV modules.  Poly-crystalline are less expensive, and found world-wide on the renewable energy market. 
+Figure 3. Examples of mono-crystalline (left) and poly-crystalline 
+solar PV modules. Mono-crystalline were first produced and used 
+by NASA and the US military. Poly-crystalline are less expensive, and found world-wide on the renewable energy market. 
+Early modules were mono-crystalline and had round cells. The manufacturing process resulted in a more efficient cell, but resulted in waste, and is an expensive process. Today’s crystalline modules are poly-crystalline and are cut into squareor rectangular-shaped cells. The process wastes less material, but produces a less efficient module. However, decreased costshas made it a competitive process. 
+
+
+Solar Array 
+The solar array is made up of multiple PV modules wired together. Connecting the negative (-) wire of one module to the positive (+) wire of a second module is the beginning of a seriesstring. Wiring modulesin seriesresultsin thevoltage ofeach of the two modules is added together. For example, a 20­
+Photo of a solar array pole-mounted.
+Photo of a solar array ground-mounted.
+Source: NREL Source: Author 
+Photo of a roof-top solar array mounted on a flat-roof.
+Photo of a roof-top solar array mounted on a pitched-roof.
+Source: Author Source: Nunutak Energy 
+Figure 4. Modules mounted together on racks and wired togther to create series strings. Arrays can be pole-mounted (left), ground-
+mounted (right). Roof-top arrays can be mounted using flat-roof 
+rackinging, and pitched-roof mounting systems 
+wattmodule rated at17.2 volts and 1.2 amps is wired in seriesto second similar module. The result is a series string capable of producing 34.4 volts (17.2V +17.2V = 34.4V). However, the current each module produces, stays the same. 
+A series string represents the summed voltages of each individual module. Each module should be the same voltage and current. The negative cable of one module is connected to the positive cable of the next module. In a large system, multiple strings are assembled and the non-connected ends areconnected to homerun leads which are landed at the terminals of an enclosure located near the array. For example, if an array is made up of a string of 10 modules, each rated at 30 volts and 4 amps, the string would be rated at producing 300 volts (10 x 30 volts) and 4 amps, or a total of 1,200 watts (1.2 kW). The goal is to wire modules in series to build voltage. Since the AC voltage in a residence operates on 120 to 240 volts, it is desirable to achieve the voltage necessary to operate the loads in the residence 
+
+Combiner Box 
+A PV system array with multiple strings of modules will 
+have a positive lead and a negative lead on the end of each 
+string. The positive leads will be connected to individual fuses and the negative leads will be connected to a negative busbar in an enclosure. This is called the source circuit. The combiner box serves to “combine” multiple series strings into one parallel circuit. For example, an array with three strings of 10 modules wired in series would produce 300 volts (10 modules x 30 volts) per string and 4 amps per string. When the leads are landed in the combiner box, the circuit would produce 300 volts at 12 amps (3 strings x 4 amps/string). Once the circuits are combined, leaving the box it is referred to as the “output circuit”. 
+
+Photo of a combiner box supporting two strings.
+Photo of a commercial-sized combiner box supporting several strings.
+Photo of a combiner box supporting four strings.
+Source: AltE Store Source: Wiley Source: Author 
+Figure 5.  Examples of different size combiner boxes. The positive (+) lead is connected to the fuse. The negative (-) lead is connected to grounded buss bar. The box on the left supports two strings. The box in the center supports four strings. The box on the right is a commercial-sized combiner box supporting several strings. 
+Illustration of a combiner box wiring
+Figure 6. Three strings of 10 PV modules, each rated at 35.4 volts max power (Vmp) and 4.95 Amps are wired in series. Each string has a total volts max power of 354 volts max power (Vmp) and 4.95 Amps, (current, max power --- Imp). The positive (+) lead from each string is connected a fuse, and the three are connected to an output circuit. The negative (-) leads from the three series strings are landed onto a bus bar in the combiner box. The output circuit is a result of the parallel connection. The 30 modules are expected to produce 354 volts max power (Vmp) and 14.85 amps max power (Imp). The solar array is capable of producing 5,257 watts (5.3 kilowatts) of power. 
+
+PV Disconnect 
+Adirectcurrent(DC) disconnectswitch is installed between the inverter load and the solar array. The disconnect switch is used to safely de-energize the array and isolate the inverter from the power source. The switch is sized to fit the voltage of the solar array and is connected to the ungrounded conductor. On a solar PV system, the ungrounded conductor is usually the positive (+) conductor. The negative (-) conductors are grounded, and a ground conductor bonds the system to an electric ground, as required by the local electrical code. Local utilities may require disconnects accessible by utility personnel on a grid-connected PV system. Another disconnect, on the AC-side of the inverter, isinstalledbefore the AC service panel. The AC disconnect serves to isolate the inverter from the AC service panel in a grid-connect PV system. 
+Photo of DC safety disconnect switch boxes. 
+Photo of a DC safety disconnect switch box properly labeled as a PV DC dsiconnect switch with the amount of energy coming through it. 
+Source: Author 
+Figure 7. Examples of DC safety disconnect switch boxes. The one on the left is part of an active solar array. The box is properlylabeled as a PV DC disconnect switch with the amount of energy coming through it. 
+Photo of a smaller-sized charger controller rated for 10 amps.
+Photo of a smaller-sized charger controller rated for 15 amps.
+Photo of a larger-sized battery charger rated for a range of 12 volts to 48 volts, and 30 amps.
+Figure 9. An example of a larger-sized battery charger. This model is rated for a range of 12 volts to 48 volts, and 30 amps. Controllersregulate energy. 
+
+Charge Controller 
+A charge controller regulates the amount of charge going into the battery from the module to keep from overcharging the battery. Charge controllers can vary in the amount of amperage they can regulate. Some models will include additional features such as connecting and operating DC loads, and regulating energy going to a load based on the amount of charge in a battery. During daylight, the array sends power to the controller and to the battery. The controller monitors the level of energy to keep the battery fully charged. At night, when the array is not sending energy, the controller allows the battery to energize the load as demanded. 
+
+Battery 
+When solar energyis to be stored for use when the sun is not shining, a battery isused. The most commonly usedbattery for residential PV applications is the lead-acid battery. The solar user should look for a deep-cycle battery, similar to what is used in a golf cart, but designed for renewable energysystems. There are two types of lead-acid batteries: flooded lead-acid (FLA), sealed absorbed glass mat (AGM). The battery voltage can vary from 2, 6, and 12 volts. Individual amp-hours can vary. For example, battery “A” (pictured below) is rated at 12 volts, and 35 amp-hours, while battery “B” is rated at 12 volts and 58 amp-hours. Dimensions of individual batteries can vary. 
+ Battery “A” 
+Photo of a sealed lead-acid solar battery. Rating at 12 volts - 35 amp-hours.
+Photo showing a label of a solar battery. Rating at 12 volts - 35 amp-hours.
+Source: Author 
+Figure 10. Example of a sealed lead-acid solar battery. Rating at12 volts – 35 amp-hours.
+ Battery “B” 
+Photo of a gel battery, rated at 12 volts and 58 amp-hours
+Photo of a label of a gel battery. Rating at 12 volts - 58 amp-hours.
+Figure 11  An example of a gel battery, rated at 12 volts and 58 amp-hours. 
+Photo of a two sealed solar batteries. 
+Source: Author 
+Photo of a lead-acid deep-cycle battery
+
+
+
+Battery Banks 
+If the total voltage needs is greater than what one battery can provide, a number of batteries are connected together to form a bank. For example, two 12-volt batteries wired in series (positive terminal to negative terminal), produces a battery bank capable of providing up to24 voltsof DC energy, and four batteries wired in series produces 48 volts. Battery banks are sized to allow loads to operate for multiple days during cloudy weather conditions when the array is not able to charge the battery bank. Batteries have a limited life cycle. A cycle consists of discharging a battery and recharging it to full capacity. The life cycle of a battery can be lengthened if the battery is not discharged all the way to 0% charge. A reasonable design is to have batteries discharge to 50% then recharge to full. However, this design may require having more batteries in the bank. Batteries used in solar systems are classified as deep-cycle batteries and may be discharged up to 80% of its storage capacity. 
+Photo of a 6 volt batteries connected in a series string.
+
+Photo of a bank of two strings 2 volt batteries wired series
+
+Inverters 
+Energy from an array or a battery bank is direct current (DC). This will provide for DC loads such a lights, fans, pumps, motors, and some specialty equipment. However, if the energy is to be used to power loads that operate on alternating current (AC), as what is found in a residence, the current needs to be converted. The inverter changes DC energyto AC energy. Inverters are available in many different sizes for various-sized loads. Asmall inverter can be plugged into the power outlet of a vehicle to change the 12 volt DC energy from the vehicle’s battery, to 120 volt AC energy to power a laptop computer.Largerinvertersareavailabletopowerlargerloads. For example, a 4000 watt inverter can be connected to a12 volt battery and used for energizing small AC appliances. A string inverter is used to convert DC power from a solar array to AC power and can be connected to an AC distributionpower panel (service panel) in a residence or facility. Stringinverters are available in different sizes depending on the sizeof the AC loads. 
+
+AC Disconnect Switch 
+Safety disconnect switch are required by the National Electric Code (NEC) on the AC-side of the inverter to safely disconnect and isolate the inverter from the AC circuit. This is for troubleshooting and performing maintenance on the system. For grid-connected systems, this component may be required by the local utility. 
+
+
+AC Breaker Panel 
+In a residence or commercial business receiving electrical energy from a local utility, the AC energy is tied into a service entrance panel (SEP). The panel consists of circuitbreakers anddivides the service into separate branch circuits. Acircuit mayprovide 120 volts or 240 volts. The size of the circuit depends onthesizeoftheloads.Householdcircuitsaresizedat 15ampsof current. Larger circuits of 20 amps, 30 amps, or 50 amps, are found where larger appliances or electrical equipment are used. A grid-connected PV system will have a circuit connecting theAC-sideof the invertertothe ACservice panel. 
+
+
+
+
+
+
+System Metering 
+Several tools are available to help the solar user to monitor their system. On stand-alone or off-grid PV systems, the battery meter is used to measure the energy coming in and going out of the battery bank. Charging and discharging of batteries, and proper functioning of the charging system is important to alert the user to incomplete charging, battery decline, or possible system shutdown. System monitoringwith web-based tools and apps allow the solar user to see system activity using a cell phone or tablet from a location away from their system. 
+
+Conclusion 
+Solar energy systems can be simple or complex, depending on the needs of the solar user. The common component of all systemswill be the solar module or solar array. Solar modules, though similar in design (silicon crystalline-type) will vary bysize and power produced. Readers are encouraged to refer to the Extension factsheet, “Demystifying the Solar Module” (AZ1701) for information about solar PV modules. Simplesystemshave fewer components, but are limitedto providing energy when the sun is shining. More complex systems have multiple components and can involve storing energy, regulating energy, converting energy, and disconnecting energy. Knowledge of the basic components found in each 
+type of system will help the solar user to determine their
+individual needs. Most components are available in different sizes and capacities, depending on the energy needs (and the budget) of the solar user. 
+As always, when working with the solar energy systems and electricity, the user is advised to take the proper safety precautions. The National Electric Code (NEC) has a specific section for solar photovoltaic energy systems. Shut down or disconnect a system from an energy source when making adjustments. Always consult an energy professional before making any connections to existing energized systems. 
+
+
+Resources 
+Franklin, E. (2016). Demystifying the Solar Module, AZ1701. TheUniversity of ArizonaCooperative Extension,Tucson,AZ. 
+Franklin, E. (2016). Hand Tools Used for Solar Photovoltaic (PV) Systems, AZ1702. The University of Arizona Cooperative Extension, Tucson, AZ. 
+Sanchez, J. & Woofenden, I. (2011). PV systems simplified. Home Power Magazine #144, 70-78. Retrieved from: https://www.homepower.com/articles/solar-electricity/equipment-products/pv-systems-simplified 
+Solar Energy International. (2013). Components chapter, p.54-79. Solar Electric Handbook: Photovoltaic Fundamentals and Applications (2nd Ed.). Pearson Learning Solutions. Boston, MA. 
+Woofenden, I. (2012). Energy Basics: PV System Types. Home Power Magazine 151. Retrieved from: http://www.homepower.com/articles/solar-electricity/equipment­products/energy-basics-pv-system-types. 
+
+
+
+Figure 19  Example of meters used to monitor system performance including battery-bank charging, and energy (kWh) production of a PV system. 
+
+THE UNIVERSITY OF ARIZONA COLLEGE OF AGRICULTURE AND LIFE SCIENCES TUCSON, ARIZONA 85721 
+DR. EDWARD A. FRANKLIN 
+Associate Professor, Agriculture Education, Associate Professor, Agricultural-Biosystems Engineering 
+CONTACT: DR. EDWARD A. FRANKLIN 
+eafrank@ag.arizona.edu 
+This information has been reviewed by University faculty.
+extension.arizona.edu/pubs/az1742-2018.pdf 
+Other titles from Arizona Cooperative Extensioncan be found at: 
+extension.arizona.edu/pubs 
+
+Any products, services or organizations that are mentioned, shown or indirectly implied in this publicationdo not imply endorsement by The University of Arizona. 
+Issued in furtherance of Cooperative Extension work, acts of May 8 and June 30, 1914, in cooperation with the U.S. Department of Agriculture, Jeffrey C.
+Silvertooth, Associate Dean & Director, Extension & Economic Development, College of Agriculture Life Sciences, The University of Arizona.
+
+
+

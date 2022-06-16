@@ -1,0 +1,123 @@
+
+International Conference on Materials for Advanced Technologies 2011, Symposium O 
+The Effect of Dust on Transmission and Self-cleaning Property of Solar Panels 
+Jia Yun Heea, Lalit Verma Kumarb, Aaron James Dannerb, Hyunsoo Yangb and Charanjit Singh Bhatiab,* 
+a Hwa Chong Institution (College), 661 Bukit Timah Road, Singapore 269734, Singapore b Department of Electrical and Computer Engineering, National University of Singapore, 4 Engineering Drive 3, Block E4, Singapore 117576, Singapore 
+Abstract 
+
+While how to improve the efficiency of solar cells is commonly researched, the effect of dust-fall on solar cell efficiency in the local Singapore weather has been largely neglected. In this work we investigated the conditions affecting dust-fall in Singapore and its effect on the optical transmission through glass modules. It was found that for bare glass samples, transmission reduces despite the heavy rains in Singapore over several months. After 33 days, transmission through plain glass slides reduced from 90.7% to 87.6%. Samples located nearer sources of dust and other contaminant particles such as heavy traffic, were more adversely affected compared to those which were situated in greenery. We also investigated the effect of substrate tilt in keeping them clean. Bare glass substrates were tilted at angles of 0, 10, 20, 30, 40, 50, 60, 70, 80 and 90 degrees during outdoor exposure. The transmission through the lower parts of the substrates tilted at a fixed angle, was generally worse than the upper part as dust is washed downwards. After 33 days, the average transmission through the upper part of sides was 88.7%, while through the lower part it was 87.9%. We also investigated the performance of TiO2 films as an outdoor self-cleaning coating for solar panels. TiO2 films of different thicknesses were deposited on glass substrate by hydrolysis method which is a low-cost and commercially viable process. We will present the outdoor performance of TiO2 films, and discuss the optimised film parameters for solar cell applications. 
+© 2011 Published by Elsevier Ltd. Selection and/or peer-review under responsibility of the organizing committee of International Conference on Materials for Advanced Technologies. Open access under CC BY-NC-ND license.
+– 
+
+Keywords: Solar panels; dust accumulation; transmission; titanium oxide 
+* Corresponding author. Tel.: +65 6516 7216; fax: +65 6779 1103 E-mail address: elebcs@nus.edu.sg 
+Open access under CC BY-NC-ND license. 
+
+Jia Yun Hee Et Al. / Energy Procedia 15 (2012) 421 – 427 
+1. Introduction 
+While how to improve the efficiency of solar cells is commonly researched, the effect of dust-fall on efficiency has been largely neglected [1-3], and even more so locally. However, the accumulation of dust on photovoltaic modules is of more concern in the tropics than elsewhere because of the lower installed tilt angle of photovoltaic systems [4]. Hence, the purpose of the first part of this project is to investigate the situation of and conditions affecting dust-fall in Singapore and its effect on transmission through glass. Since TiO2 is known to have self-cleaning properties, it was tested as a potential solution in the second part of this experiment to determine its effectiveness. 
+2. Aims and objectives 
+Hence, the objectives of research were as follows: 
+• 
+To investigate the impact of dust accumulation on transmission through glass 
+
+• 
+To investigate the factors affecting the extent of dust accumulation on glass 
+
+• 
+To determine the effectiveness of TiO2 coatings in reducing dust accumulation on glass 
+
+
+3. Methodology 
+
+3.1. Investigating the factors affecting dust accumulation and hence transmission for plain glass 
+Before experimentation, 80 glass slides were cleaned. This was to ensure that there was no dust on them. 8 slide holders that could hold 10 glass slides tilted at angles with successive increments of 10° (Fig. 1) were used. Each slide holder was elevated with a 1 cm thick styrofoam pieces at the sides, so as to minimise the amount of dust being blown on from the ground. Two experimental locations were used: Hwa Chong Institution and building E2 of the National University of Singapore. 4 sets of slide holders were placed on the rooftops of both locations, such that they were oriented towards the northeast, northwest, southwest, or southeast. 
+
+NW SE 
+NE 
+
+Fig. 1. (a) Slide holders facing 4 different directions; (b) Slide holders tilted at various angles with 10° intervals 
+On day 0, the glass slides were placed in the slide holders. Factoring in lag time, the slides were tested every 10 days with a Shimadzu UV1700 spectrophotometer. Using the spectrophotometer, light of 600 nm was consistently passed through the slides. This was because the response of a silicon solar cell under glass to light approaches ideal at this wavelength. The Shimadzu spectrophotometer used was a double beam spectrophotometer. Hence, the difference in light intensity between two light paths is measured. One path contains no sample and the other the test sample. Hence, air was used as the reference. Since the slit for light to pass through was quite much smaller than the slide, for greater accuracy, the light was passed through the bottom centre, bottom right, bottom left, lower centre, top centre, top right, top left, upper centre for each slide, and the average taken. 
+3.2. Investigating the effect of TiO2 coatings on dust accumulation and hence transmission for glass 
+Before experimentation, 27 glass slides were cleaned. This was to ensure that there was no dust on them. 7 slides were then coated with a 40 nm thick TiO2 film, and 10 slides were coated with a 60 nm thick TiO2 film. Since TiO2 itself lowers transmission slightly, the average transmission through all slides was tested using a spectrophotometer. 
+The slides were then placed on 3 sets of slide holders (the same as those for part 1). The slide holders were then placed side by side on the NUS rooftop, facing northeast, since the experiment was carried out during the northeast monsoon period, and such an orientation would allow the slides to receive maximum wind and thus rain. This way, the effect of rain on TiO2-coated and non TiO2-coated would result in more pronounced differences. After 10 days, the average transmission through the slides was measured and compared to their respective original transmissions. 
+4. Results and discussion 
+
+
+4.1. Angle 
+
+As shown in Fig. 2, it was discovered that the angle of tilt did not seem to have a significant impact on dust accumulation. This was as transmission through the glass slides did not appear to have any signifi­cant relationship with the angle of tilt. However, further studies will be required to confirm this. 
+
+0 5 101520253035404550556065707580859095 
+
+Fig. 2. Graph showing that average transmission through glass slides does not appear to be significantly affected by the angle at which they are tilted. 
+As can be seen in Fig. 3, the trend of transmission over time was similar for the various angles of tilt. Hence, for the analysis of the following factors, the data was averaged over various tilt angles. 
+Jia Yun Hee Et Al. / Energy Procedia 15 (2012) 421 – 427 
+
+0 2 4 6 8 1012141618202224262830323436 
+
+Fig. 3. Graph showing that trend of average transmission through glass slides over time is similar for various angles of tilt 
+4.2. Time 
+Through the course of experimentation, it was found that the greater the length of time, the further transmission through slides decreases, though at a slower rate. Over a period of approximately 4 months, the transmission through the glass slides dropped by around 4 percentage points as shown in Fig. 4. Since the main modification to blank slides when left on the roof is the accumulation of dust, this decrease in transmission can be attributed to accumulation of dust. 
+
+0 5 10 15 20 25 30 35 40 45 50 55 60 65 70 75 80 85 90 95 100105110115120125 
+
+Fig. 4. Graph showing the observed decrease in average transmission through 10 glass slides tilted at different angles, all facing northeast, over 116 days 
+4.3. Direction 
+From experimental data, it appeared that slides facing the wind had the least dust accumulated on them and those facing the opposite direction had the most dust on them. The initial 33 days of experimentation were conducted between July and September. Based on weather data, the wind was blowing from the south or southeast during this period. For this initial period of experimentation, slides placed facing the southeast always had the highest or near the highest transmission, whereas those facing the opposite direction (northwest) always had the lowest or near the lowest transmission as shown in Fig. 5. 
+Jia Yun Hee et al. / Energy Procedia 15 (2012) 421 – 427 
+
+
+92 91 90 89 88 87 86 85
+
+
+0 2 4 6 8 1012141618202224262830323436 
+Fig. 5. (a) Regional wind chart for the June to September period from the National Environmental Agency [5], showing south-eastern or southern winds for Singapore. This corresponded with data from the NUS weather station; 
+(b) Graph showing that the average transmission for slides facing the wind (southeast) was the highest and that of slides facing away from the wind (northwest) was the lowest. 
+It is hypothesised that there are two ways in which wind may affect the accumulation of dust – firstly, by blowing dust on slides, and secondly by blowing dust off, or blowing rain to wash dust off. A possible explanation for the observations is that wind itself blows more dust on slides than off it (which is why there is dust impacting transmission on slides tilted at 90°). This would perhaps mean that in the absence of rain, the slides facing the wind would have the most dust. However, rain washes dust off, though never completely. Given that raindrops are heavier than dust, weaker wind may not be able to blow raindrops effectively, while still being able to blow dust. In other words, the effect of wind-blown rain on removing dust is larger than the effect of wind-blown dust accumulation. This hypothesis is as illustrated in the schematic below. 
+
+
+Dust accumulation 
+
+Facing wind Away from wind Facing wind 
+
+Away from wind (Absence of rain)    (Presence of rain) 
+Fig. 6. Schematic showing a proposed theory of how wind and rain can possibly interact reduce dust accumulation. 
+Thus, rain appears to contribute to lowering dust accumulation. Hence, if a method is found for rain to wash dust off slides even more effectively, it could make a significant impact on the amount of dust collected. This supports the necessity for experimentation with TiO2, to improve the effect of rain on removing dust. As illustrated in Fig. 6, hence, if rain is present and wind is strong, for the least dust to be collected on slides, it would be most ideal if solar panels were facing the wind. On the other hand, if there is no rain and wind is weak, it might be better for slides to face away from the wind. However, further research needs to be done to confirm this. 
+Jia Yun Hee Et Al. / Energy Procedia 15 (2012) 421 – 427 
+4.4. Height 
+It was discovered that average transmission through the top portion of slides appeared to be often higher than that through the bottom portion of slides, as can be seen in Fig. 7. 
+
+0 2 4 6 8 1012141618202224262830323436 
+
+Fig. 7. Graph showing that average transmission through the top half of slides is higher than that through the lower half of slides 
+It may be surmised that dust accumulated and transmission was decreased at a faster rate for the bottom portion of the slide. This supports the hypothesis that wind blows rain which washes dust off, because if this is the case, dust from the top part of slides would be washed to the bottom part of the slide, before being washed off. As a result, the top part of the slide would experience less dust and better trans­mission, as reflected in the results. 
+Further research will be required to determine whether this means that solar panels with a shorter vertical length will have better transmission. 
+4.5. TiO2 
+It can be seen that a coating of TiO2 does in general allow for lower impact of dust on transmission in Fig. 8. At its most effective, the TiO2 coating allowed for a 0.9 percentage point lower decrease in trans­mission than plain glass slides after 10 days. This is likely to be because the self-cleaning effect of TiO2 allows rain that falls on the slides to wash dust off more efficiently. 
+Although the coating of TiO2 itself does lower transmission slightly, it reduces the rate at which trans­mission decreases over time. In the long run, when the effect of dust on transmission becomes significant, it is hypothesised based on the trend that slides coated with TiO2 will eventually have higher trans­missions than plain glass slides, since dust is removed more efficiently. Also, the more concentrated the coating of TiO2, the stronger its effect, as can be seen by the lower reduction in transmission over time for slides with a 60 nm thick TiO2 film than slides with a 40 nm thick TiO2 film. Therefore, it might be better for solar panels to be coated with a 60 nm-thick TiO2 film than a 40 nm-thick one, so as to reduce the rate at which transmission worsens over time. However, further studies will be required to determine an ideal thickness of the TiO2 film solar panels should be coated with for maximum transmission over time. 
+
+Graph of Transmission/% against Time/days 
+01 234 5 67 8 91011 
+
+Fig. 8. Graph showing that average transmission through slides decreased at a slower rate with a thicker TiO2 coating 
+5. Conclusion 
+
+In this study, we have demonstrated that dust accumulation definitely results in reduced transmission through glass. However, dust accumulation tends to be less severe when the glass is facing the wind. Also, the further down the same piece of glass, the greater the severity of dust accumulation. Finally, TiO2 coatings do indeed help to reduce the effect of dust on transmission, with a thicker 60 nm coating being more effective than a 40 nm one. Based on this knowledge, solar panels can be constructed such that dust accumulation on them is minimised. However, while this study has shown that such conditions would be beneficial, the extent to which such conditions are to be applied for maximum effectiveness remains unknown. Hence, more work can be done in this respect. For example, glass slides with varying length or with TiO2 coatings of various thicknesses can be tested out. 
+Finally, other factors that may affect dust accumulation can be examined in greater scope. For instance, similar experiments can be conducted in many locations in Singapore to determine where there is less dust accumulation. These places would be more conducive for the installation of solar panels, as their transmission would be less affected by dust. 
+Acknowledgements 
+This work is supported by Singapore National Research Foundation grant number NRF2008EWT­CERP02-032. 
+References 
+
+[1] Hegazy AA. Effect of dust accumulation on solar transmittance through the glass covers of plate-type collectors. Renewable Energy 2001; 22:525-40. 
+[2] Mastekbayeva G, Kumar S. Effect of dust on the transmission of low density polyethene glazing in a tropical climate. Sol. Energy 2000; 68:135-41. 
+[3] Elminir HK, Ghitas AE, Hamid R, El-Hussainy F, Beheary M, Abdel-Moneim KM. Effect of dust on the transparent cover of solar collectors. Energy Conversion and Management 2006; 47:3192-3203. 
+[4] Kern J, Harris I. On the optimum tilt of a solar collector. Sol. Energy 1975; 17:97-120. 
+[5] National Environmental Agency. Weatherwise Singapore. [Online]. Available: http://app2.nea.gov.sg/data/cmsresource/ 20090721544571208250.pdf. [Accessed on 22 Nov 2010]. 
+
+
+
+
+
+
+

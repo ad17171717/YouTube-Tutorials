@@ -1,0 +1,124 @@
+
+Impact of solar panels on global climate 
+Aixue Hu1*, Samuel Levis1†, Gerald A. Meehl1, Weiqing Han2, Warren M. Washington1, Keith W. Oleson1, Bas J. van Ruijven1, Mingqiong He3 and Warren G. Strand1 
+Regardless of the harmful e.ects of burning fossil fuels on global climate1,2, other energy sources will become more important in the future because fossil fuels could run out by the early twenty-second century3 given the present rate of consumption4. This implies that sooner or later humanity will rely heavily on renewable energy sources. Here we model the e.ects of an idealized large-scale application of renewable energy on global and regional climate relative to a background climate of the representative concentration pathway2.6 scenario (RCP2.6; ref. 5). Wefndthat solarpanels alone induce regional cooling by converting incoming solar energy to electricity in comparison to the climate without solar panels. The conversion of this electricity to heat, primarily in urban areas, increases regional and global temperatures which compensate the cooling e.ect. However, there are consequences involved with these processes that modulate the global atmospheric circulation, resulting in changes in regional precipitation. 
+Solar power is the most abundant available renewable energy source6,7. The solar power reaching the Earth’s surface is about 86,000 TW (1 TW = 1012 J s-1; refs 6,8), but the harvestable solar power is much less than this7. Recent estimates of achievable solar power in the world range from ~400 to 8,800 TW, given the current system performance, topographic limitations and environmental and land-use constraints7. In 2010, the average global power con­sumption was about 17.5 TW (ref. 4), so harvesting a few percent of the achievable solar power would provide enough energy for all hu­mans today. Here we apply the Community Climate System Model version 4 (CCSM4; ref. 9) to investigate how the required large-scale solar panel installations might a.ect the global climate. This was achieved through a set of idealized climate model sensitivity experiments where all future energy is derived from solar power alone. (A climate model sensitivity experiment is a standard climate modelling methodology that employs an idealized large forcing in the model to produce a high-amplitude response with a significant and unambiguous signal. The results from such sensitivity experi­ments are used to provide insights into processes and mechanisms in the climate system and to help interpret responses from experiments with smaller amplitude and more realistic forcings.) 
+Ideally, solar panels should be installed in regions with little cloud cover to maximize electricity production. We emphasize the climate signal, by hypothetically installing the solar panels in all the major desert regions of the world (Northern Sahara desert and the desert areas of Asia, North America and Australia) in our simulations (Supplementary Fig. 1a). However, energy demand centres are not always collocated with the best locations for solar panels, so we also test the decentralized installation of solar panels in urban areas around the globe (Supplementary Fig. 1b). 
+Four idealized simulations are carried out. The first simulation is a control simulation (hereafter Control) with the climatic boundary condition from RCP2.6 (2006–2100; ref. 5)—the lowest emission scenario for the Coupled Model Intercomparison Project phase 5 (CMIP5). The second is the same as the Control but with solar panels installed in the desert areas and in all urban regions (Supplementary Fig. 1). This simulation tests the impact of the solar power production alone on regional and global climate (hereafter SPDU). The third simulation is the same as the second, but we further test the climate impact of consuming the power produced by solar panels in urban areas by hypothetically making interior building thermostat settings globally equal to those used in the United States in the CCSM urban module (hereafter SPDU+UH) (see Supplementary Information)10. The last experiment is the same as SPDU, but the solar panel installation is limited to part of Egypt only (Supplementary Fig. 1 green stippling region). This tests the climate impact of a more realistic projection of future energy demand as outlined below (hereafter SPDLess). 
+For its Fifth Assessment Report, the IPCC collected a large set of global energy and climate scenarios11. The scenarios in this database comprise a wide range of di.erent futures with respect to population, economic growth, energy use, technology development and availability, and climate policies. We have sampled this database to identify the potential range of future solar energy demand. The upper bound of solar power production in these scenarios increases from 0.5 EJ yr-1 in 2010 (0.015 TW) to 525 EJ yr-1 in 2100 (17 TW). However, the upper bound of total primary energy use increases from 523 EJ yr-1 in 2010 (17 TW) to 1,980 EJ yr-1 in 2100 (63 TW). Assuming final energy use in all sectors would change from fossil fuels to electricity (see Supplementary Methods), having to be transported over long distances, the upper bound for solar electricity demand would be around 1,420 EJ yr-1 (45 TW) by 2100. 
+There are three main ways to convert solar power to electricity: photovoltaic (PV) panels that convert light directly to electricity, thermophotovoltaic (TPV) panels that convert radiant heat di.erentials to electricity via photons, and concentrated solar power (CSP) using mirrors or lenses to concentrate sunlight to heat a fluid to drive a turbine and generate power (see Supplementary Information). The present e.ciency of these panels ranges from less than 20% (PV) to over 40% (TPV and CSP; refs 12,13), and concentrated PV panels (CPV) using multi-junctions can also reach an e.ciency of ~40% (ref. 14). However, potential solar panel e.ciency could reach 60% (ref. 15). Here we conservatively assume this e.ciency to be 30% by assuming a combination of CPV and CSP panels, but excluding TPV panels because these panels are too expensive to be installed at large scale. On this basis, we assume 10% of the incident solar radiation is either reflected by the solar panels, as a result of panels’ glare and glint, or lost owing to the 
+
+1Climate and Global Dynamics Division, National Center for Atmospheric Research, Boulder, Colorado 80305, USA. 2Department of Atmospheric and Oceanic Sciences, University of Colorado, Boulder, Colorado 80301, USA. 3Meteorological Bureau of Hubei Province, Wuhan, Hubei Province 430074, China. †Present address: The Climate Corporation, San Francisco, California 94103, USA. *e-mail: ahu@ucar.edu 
+NATURE CLIMATE CHANGE | VOL 6 | MARCH 2016 | www.nature.com/natureclimatechange 
+
+
+Figure 1 | Surface temperature. a, Surface temperature in the Control experiment. b, Surface temperature anomaly relative to the Control experiment in the SPDU experiment. c, Surface temperature anomaly relative to the SPDU experiment in the SPDU+UH experiment. d, Surface temperature anomaly relative to the Control experiment in the SPDLess experiment. The numbers at the upper right corner of each panel represent the global average. Stippling indicates the changes are statistically signifcant at the 95% level using a double-sided Student’s t-test. 
+conversion from direct current to alternating current and the local wire thermal loss before the electricity feeds into the main grid (e.ectively this is parameterized as reflection in the model). The remainder (90%) is partitioned as 30% (of the remaining 90%) absorbed by the panels and converted to electricity, and the other 70% (of the remaining 90%) transmitted through the panels and absorbed by the underlying surface. Thus the e.ective solar panel e.ciency in our simulations is 27% (90% × 30%). 
+It takes about five years for the surface climate to reach a quasi-equilibrium state in the three sensitivity simulations (SPDU, SPDU+UH, SPDLess; Supplementary Fig. 2). Thus we analyse the last 90 years from each of these simulations. The results discussed below are the 90-year means in each of the simulations and can be considered as representing conditions for the mid-twenty-first century. In the following analysis, the changes of climate properties in these sensitivity simulations relative to Control and relative to each other are discussed. 
+First we examine whether the solar panels in these idealized experiments could produce enough power to satisfy human demand. Power production by solar panels is ~740 ± 5 TW (uncertainty values here and throughout the text are ±1 s.d.) in desert regions and 48 ± 1 TW in the urban areas in both the SPDU and SPDU+UH simulations (Supplementary Table 1). Even after the solar panel installation is scaled back in the SPDLess simulation, the power production is still about 59 ± 1 TW, roughly 30% more than the upper bound of a fully solar-based energy system by 2100, suggesting that solar power in these experiments has the potential to satisfy human demand now and in the future. However, in these idealized sensitivity experiments, solar panels cover 100% of the urban and desert regions, as shown in Supplementary Fig. 1. In reality, this coverage would be at most 40%. Thus the actual solar power production in our simulations would be about 60% less than the numbers mentioned above (see Supplementary Information; ref. 16). 
+Climate change may a.ect the amount of solar radiation reaching the Earth’s surface17. For example, reduced sea ice, snow and ice sheet coverage will increase the absorption of solar radiation at the surface, but the increased cloudiness induced by an enhanced hydrologic cycle may reflect more solar radiation. Here we find that solar panel electricity generation will redistribute the energy from the sun, thus a.ecting regional and global climates. Without the solar panels, solar radiation reaching the surface is partitioned into absorption and reflection. The transmission part of the solar radiation is eventually either reflected or absorbed by the Earth’s surface in the annual mean, thus it is not explicitly considered here. With the solar panels, a portion of absorbed solar radiation is diverted to electricity generation. In the regions with solar panels installed, the direct shortwave radiation incident on the solar panels increases slightly in all experiments relative to the Control owing to a reduction of cloudiness (Supplementary Tables 1 and 2). However, local absorption of direct shortwave radiation decreases by up to 19% in the SPDU and SPDU+UH experiments, with an 
+NATURE CLIMATE CHANGE | VOL 6 | MARCH 2016 | www.nature.com/natureclimatechange 
+
+
+Figure 2 | Precipitation. a, Annual total precipitation in the Control experiment. b, Precipitation anomaly relative to the Control experiment in the SPDU experiment. c, Precipitation anomaly relative to the SPDU experiment in the SPDU+UH experiment. d, Precipitation anomaly relative to the Control experiment in the SPDLess experiment. The numbers at the upper right corner of each panel represent the global average. Stippling indicates the changes are statistically signifcant at 95% level using a double-sided Student’s t-test. 
+increase of 4% in the SPDLess experiment (Supplementary Table 2). The reflected direct solar radiation is reduced by 44% in the SPDU and SPDU+UH experiments, but by 77% in the SPDLess experiment. Therefore, the total solar panel power production in the SPDU and SPDU+UH experiments is from the reduction of both reflected and absorbed direct incident solar (about 50% each) in comparison to the Control. In the SPDLess experiment, this power production is entirely from reduced reflection, because the absorption is slightly increased. 
+In general, the changes in the reflected solar radiation do not directly a.ect the regional and global climate, but the changes in absorbed solar radiation do. Reduced absorption of solar radiation leads to a significant local cooling by more than -2 .C relative to Control averaged in the desert regions with installed solar panels in the SPDU and SPDU+UH experiments (Fig. 1 and Supplemen­
+tary Tables 1 and 2). In contrast, the temperature in these regions is projected to increase by 1~2.5 .C in the four RCP scenarios (RCP2.6, RCP4.5, RCP6.0 and RCP8.5) in CCSM4. Projected global and regional temperature changes in CCSM4 are comparable to the multi-model ensemble temperature changes for CMIP5 mod­els (Supplementary Figs 3 and 4 and Supplementary Tables 4–6). Therefore, hereafter, we compare the results in the sensitivity simu­lations only with the RCP scenarios using CCSM4. In SPDLess, a slight increase of absorbed solar radiation induces little warming (Supplementary Table 1). Precipitation in these desert regions is reduced by over 20% for the SPDU and SPDU+UH simulations (Supplementary Table 2) in contrast to a minor 2–4% increase in the RCP scenarios (Supplementary Tables 4 and 6). The precipitation changes in the SPDLess simulation are also large (~20%), but statis­tically insignificant owing to large internal variability. In the urban regions, solar panels induce a moderate cooling of about -0.26 .C in the SPDU experiment, agreeing with previous studies18–20 . 
+The above local cooling in desert regions generates significant climate responses in remote areas (Fig. 1b). In contrast to a projected warming almost everywhere from the CMIP5 future climate change experiments21 (see Supplementary Fig. 5 for CCSM4), hemispheric-scale cooling of up to 1 .C relative to the Control in the SPDU simulation occurs to the east of the solar panels or downstream from the prevailing westerly winds, except in a few places, such as India and the west coast of North America, which actually warm by up to 1 .C. In the Southern Hemisphere, the cooling e.ect is considerably less owing to a much smaller area with solar panels installed. Along with the temperature changes, the global precipitation pattern also changes significantly (Fig. 2b). The annual mean precipitation is reduced by up to 0.25 m yr-1 in Central, East and Southeast Asia, parts of the Middle East, Australia and part of the tropical Pacific, increasing by up to 0.25 m yr-1 in the SPDU experiment in Europe, the North Pacific, western North America, tropical Africa, and the southeast Indian Ocean. These precipitation changes are, in general, opposite to the CMIP5 projections21 (Supplementary Fig. 5). 
+
+NATURE CLIMATE CHANGE | VOL 6 | MARCH 2016 | www.nature.com/natureclimatechange 
+
+The warming in India and eastern Australia is associated with a precipitation feedback on land. Precipitation is reduced in these two regions when the solar panels are installed (Fig. 2b). This reduces the evaporative cooling on land (Supplementary Fig. 6a) and leads to warming. In response to the reduced rainfall, plant leaf area declines in these regions (Supplementary Fig. 6c), contributing to a reduced transpiration cooling e.ect, which also leads to warming. The warming in northwest North America is caused by enhanced southerly flow related to the deepening of the Aleutian Low (Supple­mentary Fig. 6d). This southerly flow brings warmer ocean air into northwest North America, leading to higher temperatures there. 
+The cooling shown in Fig. 1b also induces robust changes in atmospheric circulation. Corresponding to the surface cooling, there are positive surface pressure anomalies which produce a divergent flow that drives cold air to surrounding regions (Supplementary Fig. 6d). At 500 hPa, there are five negative geopotential height anomaly centres and cyclonic wind anomalies in mid-latitudes, located over northwest Africa, the Middle East, eastern China, North Pacific and North America (Supplementary Fig. 7b). These changes in wind patterns signify a strengthening of the jet stream south of 45. N and a weakening north of 45. N, leading to an equatorward shift of the jet stream (Supplementary Fig. 8b). In the Southern Hemisphere, the changes of the jet stream are less significant in comparison to those in the Northern Hemisphere owing to the smaller surface temperature change. These changes of the jet location are consistent with the thermal wind relationship. The larger cooling in the mid to high latitudes increases the temperature contrast between low and mid to high latitudes, leading to a strengthening of the jet. 
+An earlier study22 suggests that heat released to the environment due to human energy usage will not change the global mean surface temperature much, but could generate regional temperature changes of up to 1 .C with waste heat added to the system at the rate of about 42% (6.7 TW) of the energy consumption in 2006. In the SPDU+UH experiment, about 110 TW of heat is added to the climate system as waste heat in urban regions. As a result, global mean temperature rises by 0.09 ± 0.12 .C, about nine times more than in the earlier study22. If we linearly scale up this temperature change to consume all the power produced in the SPDU+UH experiment, the global mean temperature could rise by 0.63 .C, which will not only compensate the cooling induced by solar panel power production, but also lead to a few tenths of a degree warming relative to the Control (0.63 - 0.25 = 0.38 .C). However, with a power consumption of ~800 TW (about 45 times higher than current global energy consumption), the resulting slight warming is much less than the greenhouse-gas-induced surface temperature increase inany RCP scenario(for example, Supplementary Fig. 5). In the urban areas, the power consumption induces a mean surface air temperature increase of 1.1 ± 0.2 .C in the SPDU+UH experiment relative to the SPDU experiment. Globally, as shown in Fig. 1c, warming occurs almost everywhere due to this energy usage, with a warming of up to a few degrees in India, equatorial Africa and Midwestern America. Consistent with ref. 22, this surface warming generates opposite changes of the subtropical jet stream to those in the SPDU experiment (see Supplementary Fig. 7c). 
+Because the total energy production is far beyond the expected maximum usage (45 TW by 2100) in the SPDU and SPDU+UH simulations, we use the SPDLess experiment to further evaluate the impact of solar panels on regional and global climate. The solar panel installed area in the SPDLess experiment is only about 10% of that in the SPDU experiment (Supplementary Fig. 1). The energy production is about 59 ± 1 TW, with an associated global cooling of 0.04 ± 0.13 .C. The pattern of surface temperature change is similar to that in the SPDU experiment, but with a much reduced magnitude (Fig. 1d). This suggests that the impact of solar panels on regional and global climate is qualitatively the same in all experiments, but that more realistic ranges of solar power production would result in a negligible impact on global mean temperature. In fact, our sensitivity experiments with solar panels in deserts only and solar panels in both desert and urban areas show a smaller impact on temperature and precipitation for the latter than for the former, suggesting a more distributed solar panel installation could reduce the impact of the solar panels on regional and global climate (see Supplementary Information and Supplementary Fig. 9). 
+By using RCP2.6 as the background reference climate, our results suggest that idealized massive-scale installations of solar panels can generate enough power for human usage now and in the future, although there are consequences that involve impacts on the climate system. Such a large number of solar panels redistributes the incoming solar radiation and changes the local radiation balance, resulting in changes in atmospheric circulation, thus a.ecting regional and global climate. Overall, regardless of its capacity (as large as ~800 TW or a more realistic projection of 45 TW), the potential global mean climate changes induced by the use of solar panels are small in comparison to the expected climate change owing to fossil fuel consumption, which could raise the global mean temperature by a few degrees by 2100 relative to pre-industrial climate21. However, some of the regional climate changes induced by solar panels could be much greater than the global mean. 
+Received 5 May 2015; accepted 27 September 2015; published online 2 November 2015 
+References 
+1. 
+IPCC in Climate Change 2014: Impacts, Adaptation, and Vulnerability (eds Field, C. B. et al.) (Cambridge Univ. Press, 2014). 
+
+2. 
+IPCC in Climate Change 2013: The Physical Science Basis (eds Stocker, T. F. et al.) (Cambridge Univ. Press, 2013). 
+
+3. 
+Shafiee, S. & Topal, E. When will fossil fuel reserves be diminished? Energy Policy 37, 181–189 (2009). 
+
+4. 
+Key World Energy Statistics (International Energy Agency, 2013). 
+
+5. 
+Van Vuuren, D. P. et al. RCP2.6: Exploring the possibility to keep global mean temperature increase below 2 . C. Clim. Dynam. 109, 95–116 (2011). 
+
+6. 
+International Energy Outlook 2013 DOE/EIA-0484 (US Energy Information Administration, US Department of Energy, 2013). 
+
+7. 
+Rogner, H.-H. et al. Global Energy Assessment-Toward a Sustainable Future Ch. 7, 423–512 (Cambridge Univ. Press and the International Institute for Applied Systems Analysis, 2012). 
+
+8. 
+Kamat, P. V. Meeting the clean energy demand: Nanostructure architectures for solar energy conversion. J. Phys. Chem. 111, 2834–2860 (2007). 
+
+9. 
+Gent, P. R. et al. The Community Climate System Model version 4. J. Clim. 24, 4973–4991 (2011). 
+
+10. 
+Oleson, K. W., Bonan, G. B., Feddema, J. & Jackson, T. An examination of urban heat island characteristics in a global climate model. Int. J. Clim. 31, 1848–1865 (2010). 
+
+11. 
+Clarke, L. et al. in Climate Change 2014: Mitigation of Climate Change (eds Edenhofer, O. et al.) 413–510 (IPCC, Cambridge Univ. Press, 2014). 
+
+12. 
+Rephaeli, E. & Fan, S. Absorber and emitter for solar thermo-phtovoltaic systems to achieve e.ciency exceeding the Shockley–Queisser limit. Opt. Express 17, 15145–15159 (2009). 
+
+13. 
+Bermel, P. et al. Design and global optimization of high-e.ciency thermophotovoltaic systems. Opt. Express 18, A314–A334 (2010). 
+
+14. 
+Chukwula, C. & Folly, K. A. Overview of concentrated photovoltaic (CPV) cells. J. Power Energy Eng. 2, 1–8 (2014). 
+
+15. 
+Lenert, A. et al. A nanophotonic solar thermophotovoltaic device. Nature Nanotech. 9, 126–130 (2014). 
+
+16. 
+Kurokawa, K. et al. (eds) Energy from the Desert: Very Large Scale Photovoltaic System (Earthscan, 2007). 
+
+17. 
+Meehl et al. in Climate Change 2007: The Physical Science Basis (eds Solomon, S. et al.) 747–845 (IPCC, Cambridge Univ. Press, 2007). 
+
+18. 
+Millstein, D. & Menon, S. Regional climate consequences of large scale cool roof and photovoltaic array deployment. Environ. Res. Lett. 6, 034001 (2011). 
+
+19. 
+Taha, H. The potential for air-temperature impact from large scale deployment of solar photovoltaic arrays in urban areas. Sol. Energy 91, 358–367 (2013). 
+
+20. 
+Masson, V. et al. Solar panels reduce both global warming and urban heat island. Front. Environ. Sci. 2, 14 (2014). 
+
+21. 
+Collins, M. et al. in Climate Change 2013: The Physical Science Basis (eds Stocker, T. F. et al.) 1029–1136 (Cambridge Univ. Press, 2013). 
+
+
+NATURE CLIMATE CHANGE | VOL 6 | MARCH 2016 | www.nature.com/natureclimatechange 
+
+22. Zhang, G. J., Cai, M. & Hu, A. Energy consumption and the unexplained winter warming over northern Asia and North America. Nature Clim. Change 3, 466–470 (2013). 
+
+
+Acknowledgements 
+A portion of this study was supported by the Regional and Global Climate Modelling Program (RGCM) of the US Department of Energy’s O.ce of Science (BER), Cooperative Agreement No. DE-FC02-97ER62402. This research used computing resources of the Climate Simulation Laboratory at the National Center for Atmospheric Research (NCAR), which is sponsored by the National Science Foundation; the Oak Ridge Leadership Computing Facility, which is supported by the O.ce of Science of the US Department of Energy under Contract DE-AC05-00OR22725. The National Center for Atmospheric Research is sponsored by the National Science Foundation. 
+
+Author contributions 
+A.H. designed and led the study. A.H., S.L., G.A.M., W.H., W.M.W., K.W.O., B.J.v.R., 
+M.H. and W.G.S. contributed to the model simulations, data analysis, and all authors actively contributed towards writing the manuscript. 
+
+Additional information 
+Supplementary information is available in the online version of the paper. Reprints and permissions information is available online at www.nature.com/reprints. Correspondence and requests for materials should be addressed to A.H. 
+
+
+Competing fnancial interests 
+The authors declare no competing financial interests. 
+
+NATURE CLIMATE CHANGE | VOL 6 | MARCH 2016 | www.nature.com/natureclimatechange 
+
+
+
