@@ -1,1 +1,0 @@
-move-item -path C:\Users\Adrian\Downloads\tech -destination C:\Users\Adrian\Downloads\stock_data
