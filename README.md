@@ -6,4 +6,4 @@ You can also connect with Adrian on [LinkedIn](https://www.linkedin.com/in/adria
 
 # Playlists
 
-[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/PLzj-vuiuluGYDHQQkMsXFimzJo5pvbntT/0.jpg)](https://www.youtube.com/watch?v=PLzj-vuiuluGYDHQQkMsXFimzJo5pvbntT)
+[![python](https://img.youtube.com/vi/PLzj-vuiuluGYDHQQkMsXFimzJo5pvbntT/0.jpg)](https://www.youtube.com/watch?v=PLzj-vuiuluGYDHQQkMsXFimzJo5pvbntT)
