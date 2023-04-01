@@ -6,6 +6,19 @@ You can also connect with Adrian on [LinkedIn](https://www.linkedin.com/in/adria
 
 # YouTube Links
 
+
+## Finance with Python Tutorials
+
+### Finance with Python! Black Scholes Merton Model for European Options
+[![finbsm](https://img.youtube.com/vi/QXLS5k0oVRI/0.jpg)](https://www.youtube.com/watch?v=QXLS5k0oVRI)
+
+### Finance with Python! Dividend Discount Model
+[![finddm](https://img.youtube.com/vi/G5ko7rLqjhk/0.jpg)](https://www.youtube.com/watch?v=G5ko7rLqjhk)
+
+### Finance with Python! Downloading Financial Data 
+[![findowdE](https://img.youtube.com/vi/TB_rj_IzLRA/0.jpg)](https://www.youtube.com/watch?v=TB_rj_IzLRA) 
+
+
 ## Google Colab & Jupyter Notebook Tutorials
 
 ### Google Colab - Exporting to a PDF Format!
@@ -17,7 +30,8 @@ You can also connect with Adrian on [LinkedIn](https://www.linkedin.com/in/adria
 ### Google Colab + Kaggle - Downloading Datasets & Uploading Submissions from a Notebook
 [![colabkaggle](https://img.youtube.com/vi/m-As6o-SLtI/0.jpg)](https://www.youtube.com/watch?v=m-As6o-SLtI)
 
-## PowerShell
+
+## PowerShell Tutorials
 
 ### PowerShell! Converting Text Files to csv
 [![powershellconvertxtcsv](https://img.youtube.com/vi/FVu-CCq2mSk/0.jpg)](https://www.youtube.com/watch?v=FVu-CCq2mSk)
