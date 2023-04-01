@@ -45,10 +45,13 @@ You can also connect with Adrian on [LinkedIn](https://www.linkedin.com/in/adria
 
 ### Statistics with Python 
 
+### Statistics with Python! Mean, Median and Mode
 [![meanmedianmode](https://img.youtube.com/vi/5cKcTmQiz1A/0.jpg)](https://www.youtube.com/watch?v=5cKcTmQiz1A)
 
+### Statistics with Python! Monte Carlo Integration 
 [![montecarlo](https://img.youtube.com/vi/HXg2Jy_Bwa4/0.jpg)](https://www.youtube.com/watch?v=HXg2Jy_Bwa4)
 
+### Statistics with Python! Variance and Standard Deviation
 [![varstdev](https://img.youtube.com/vi/lwfAJM3KZCE/0.jpg)](https://www.youtube.com/watch?v=lwfAJM3KZCE)
 
 
