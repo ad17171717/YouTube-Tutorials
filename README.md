@@ -6,4 +6,4 @@ You can also connect with Adrian on [LinkedIn](https://www.linkedin.com/in/adria
 
 # Google Colab & Jupyter Notebook Tutorials
 
-[![python](https://img.youtube.com/vi/-Ti9Mm21uVc)](https://www.youtube.com/watch?v=-Ti9Mm21uVc)
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/-Ti9Mm21uVc/0.jpg)](https://www.youtube.com/watch?v=-Ti9Mm21uVc)
