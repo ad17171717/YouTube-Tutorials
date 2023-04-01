@@ -43,9 +43,14 @@ You can also connect with Adrian on [LinkedIn](https://www.linkedin.com/in/adria
 [![powershellpythonscript](https://img.youtube.com/vi/8RHtbfx2r_E/0.jpg)](https://www.youtube.com/watch?v=8RHtbfx2r_E)
 
 
+### Statistics with Python 
+
+[![meanmedianmode](https://img.youtube.com/vi/5cKcTmQiz1A/0.jpg)](https://www.youtube.com/watch?v=5cKcTmQiz1A)
+
+[![montecarlo](https://img.youtube.com/vi/HXg2Jy_Bwa4/0.jpg)](https://www.youtube.com/watch?v=HXg2Jy_Bwa4)
+
+[![varstdev](https://img.youtube.com/vi/lwfAJM3KZCE/0.jpg)](https://www.youtube.com/watch?v=lwfAJM3KZCE)
 
 
 
 
-
-[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](https://www.youtube.com/watch?v=YOUTUBE_VIDEO_ID_HERE)
