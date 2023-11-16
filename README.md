@@ -1,6 +1,6 @@
 # YouTube-Tutorials
 
-<img alt="Static Badge" src="https://img.shields.io/badge/YouTube%20Channel-red">
+<a target="new" href="https://www.youtube.com/@AdrianDolinay"><img border=0 src="https://img.shields.io/badge/YouTube%20Channel-red"></a>
 
 Repo containing scripts for videos featured on Adrian Dolinay's [YouTube channel](https://www.youtube.com/c/AdrianDolinay1).
 
