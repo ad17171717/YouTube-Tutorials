@@ -2,7 +2,10 @@
 
 <a target="new" href="https://www.youtube.com/@AdrianDolinay"><img border=0 src="https://img.shields.io/badge/YouTube-red?style=for-the-badge&logo=youtube&logoColor=white"></a>
 <a target="new" href="https://www.linkedin.com/in/adrian-dolinay-frm-96a289106/"><img border=0 src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a>
-<a target="new" href="https://img.shields.io/twitter/follow/DolinayG"><img border=0 src="https://twitter.com/DolinayG"></a>
+<a target="new" href="https://img.shields.io/twitter/follow/:DolinayG"><img border=0 src="https://twitter.com/DolinayG"></a>
+<a target="new" href="https://img.shields.io/badge/Medium-darkblue"><img border=0 src="https://adriandolinay.medium.com/"></a>
+<a target="new" href="https://img.shields.io/badge/Odysee-hotpink"><img border=0 src="https://odysee.com/@adriandolinay:0"></a>
+
 
 Repo containing scripts for videos featured on Adrian Dolinay's [YouTube channel](https://www.youtube.com/c/AdrianDolinay1).
 
