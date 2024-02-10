@@ -2,6 +2,15 @@
 
 #Source: https://docs.docker.com/engine/install/ubuntu/
 
+#############################
+########## READ ME ##########
+#############################
+
+#This bash script is intended to install Docker Engine on Ubuntu Jammy Jellyfish.
+#Before installing, please make sure your machine meet the pre-requisites listed by the Docker Documentation (see source link above).
+
+#########################################################################################################################################################
+
 # Add Docker's official GPG key
 sudo apt-get update && \
 sudo apt-get install ca-certificates curl && \
