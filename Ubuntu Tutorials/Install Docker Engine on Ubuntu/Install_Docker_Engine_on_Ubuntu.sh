@@ -7,7 +7,7 @@
 #############################
 
 #This bash script is intended to install Docker Engine on Ubuntu Jammy Jellyfish.
-#Before installing, please make sure your machine meet the pre-requisites listed by the Docker Documentation (see source link above).
+#Before installing, please make sure your machine meets the pre-requisites listed by the Docker Documentation (see source link above).
 
 #########################################################################################################################################################
 
