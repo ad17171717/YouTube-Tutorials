@@ -17,7 +17,7 @@ echo \
 sudo apt-get update
 
 #install Docker Engine
-sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
+sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin -y
 
 #Add user to Docker Group
 sudo usermod -aG docker ${USER}
