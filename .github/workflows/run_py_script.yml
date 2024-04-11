@@ -24,3 +24,15 @@ jobs:
       - name: Run py script
         run: python3 stock_download.py
         working-directory: 'GitHub Actions/Stock Download'
+
+      # New step to commit and push the changes
+      - name: Commit and push changes
+        run: |
+          git config --global user.name 'ad17171717'
+          git config --global user.email 'ad17171717@gmail.com'
+          git add .
+          git commit -m "Update aapl_data.csv"
+          git push
+        working-directory: 'GitHub Actions/Stock Download'
+        env:
+          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
