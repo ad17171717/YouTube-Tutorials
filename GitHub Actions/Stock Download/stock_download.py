@@ -6,7 +6,7 @@ from pytz import timezone
 if __name__ == '__main__':
 
     #read the csv into a pandas DataFrame
-    df = pd.read_csv('YouTube-Tutorials/GitHub Actions/Stock Download/aapl_data.csv')
+    df = pd.read_csv('GitHub Actions/Stock Download/aapl_data.csv')
 
     #set the yfinance Ticker module to download Apple's stock data
     stock = yf.Ticker('AAPL')
@@ -23,5 +23,5 @@ if __name__ == '__main__':
     #combine the existing data with the new data
     df = pd.concat([df, update_df], ignore_index=True)
     #write the full data to a csv file
-    df.to_csv('YouTube-Tutorials/GitHub Actions/Stock Download/aapl_data.csv', index=False)
+    df.to_csv('GitHub Actions/Stock Download/aapl_data.csv', index=False)
     print(df)

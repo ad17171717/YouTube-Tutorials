@@ -18,11 +18,9 @@ jobs:
           python-version: '3.12.3'
 
       - name: Install dependencies
-        run: |
-          cd GitHub\ Actions/Stock\ Download
-          pip install -r requirements.txt
+        run: pip install -r requirements.txt
+        working-directory: GitHub\ Actions/Stock\ Download
 
       - name: Run py script
-        run: |
-          cd GitHub\ Actions/Stock\ Download
-          python3 stock_download.py
+        run: python3 stock_download.py
+        working-directory: GitHub\ Actions/Stock\ Download
