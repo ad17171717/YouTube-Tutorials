@@ -19,10 +19,10 @@ jobs:
 
       - name: Install dependencies
         run: |
-          cd YouTube-Tutorials/GitHub\ Actions/Stock\ Download
+          cd GitHub\ Actions/Stock\ Download
           pip install -r requirements.txt
 
       - name: Run py script
         run: |
-          cd YouTube-Tutorials/GitHub\ Actions/Stock\ Download
+          cd GitHub\ Actions/Stock\ Download
           python3 stock_download.py
