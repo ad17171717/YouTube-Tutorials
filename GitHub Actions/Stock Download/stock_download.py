@@ -6,7 +6,7 @@ from pytz import timezone
 if __name__ == '__main__':
 
     #read the csv into a pandas DataFrame
-    df = pd.read_csv('/content/aapl_data.csv')
+    df = pd.read_csv('aapl_data.csv')
 
     #set the yfinance Ticker module to download Apple's stock data
     stock = yf.Ticker('AAPL')
