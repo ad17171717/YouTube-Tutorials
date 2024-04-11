@@ -19,8 +19,8 @@ jobs:
 
       - name: Install dependencies
         run: pip install -r requirements.txt
-        working-directory: 'YouTube-Tutorials/GitHub Actions/Stock Download'
+        working-directory: 'GitHub Actions/Stock Download'
 
       - name: Run py script
         run: python3 stock_download.py
-        working-directory: 'YouTube-Tutorials/GitHub Actions/Stock Download'
+        working-directory: 'GitHub Actions/Stock Download'
