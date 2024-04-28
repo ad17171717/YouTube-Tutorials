@@ -35,4 +35,4 @@ jobs:
           git push
         working-directory: 'GitHub Actions/Stock Download'
         env:
-          GITHUB_TOKEN: ${{ secrets.GHA_TOKEN }}
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
