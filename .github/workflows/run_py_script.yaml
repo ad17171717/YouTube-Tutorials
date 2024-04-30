@@ -7,8 +7,8 @@ on:
 
 jobs:
   execute_python_script:
-  runs-on: ubuntu-latest
-  steps:
+    runs-on: ubuntu-latest
+    steps:
     - name: Checkout code
       uses: actions/checkout@v4
 
