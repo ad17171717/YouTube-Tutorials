@@ -1,0 +1,2653 @@
+[
+    {
+      "time": "2024-08-01T08:00:00.000Z",
+      "resourceId": "/subscriptions/12345678-1234-1234-1234-123456789012/resourceGroups/myResourceGroup/providers/Microsoft.Compute/virtualMachines/vm1",
+      "operationName": "Microsoft.Compute/virtualMachines/start/action",
+      "category": "Administrative",
+      "resultType": "Success",
+      "resultSignature": "Started",
+      "durationMs": 1300,
+      "callerIpAddress": "192.168.1.10",
+      "correlationId": "abcdef12-3456-7890-abcd-ef1234567890",
+      "identity": {
+        "type": "User",
+        "userId": "user1@example.com"
+      },
+      "properties": {
+        "statusCode": "OK",
+        "serviceRequestId": "abcdefgh-ijkl-mnop-qrst-uvwxyz123456",
+        "eventCategory": "Administrative",
+        "eventName": {
+          "value": "StartVirtualMachine",
+          "localizedValue": "Start virtual machine"
+        },
+        "level": "Informational"
+      }
+    },
+    {
+      "time": "2024-08-01T08:30:00.000Z",
+      "resourceId": "/subscriptions/12345678-1234-1234-1234-123456789012/resourceGroups/myResourceGroup/providers/Microsoft.Compute/virtualMachines/vm1",
+      "operationName": "Microsoft.Compute/virtualMachines/restart/action",
+      "category": "Administrative",
+      "resultType": "Success",
+      "resultSignature": "Restarted",
+      "durationMs": 1500,
+      "callerIpAddress": "192.168.1.10",
+      "correlationId": "abcdef12-3456-7890-abcd-ef1234567890",
+      "identity": {
+        "type": "User",
+        "userId": "user1@example.com"
+      },
+      "properties": {
+        "statusCode": "OK",
+        "serviceRequestId": "ijklmnop-qrst-uvwx-yzab-cdefghijklmn",
+        "eventCategory": "Administrative",
+        "eventName": {
+          "value": "RestartVirtualMachine",
+          "localizedValue": "Restart virtual machine"
+        },
+        "level": "Informational"
+      }
+    },
+    {
+      "time": "2024-08-01T09:00:00.000Z",
+      "resourceId": "/subscriptions/12345678-1234-1234-1234-123456789012/resourceGroups/myResourceGroup/providers/Microsoft.Network/networkSecurityGroups/nsg1",
+      "operationName": "Microsoft.Network/networkSecurityGroups/securityRules/create",
+      "category": "Administrative",
+      "resultType": "Success",
+      "resultSignature": "Created",
+      "durationMs": 800,
+      "callerIpAddress": "192.168.1.20",
+      "correlationId": "mnopqrst-uvwx-yzab-cdef-ghijklmnopqr",
+      "identity": {
+        "type": "User",
+        "userId": "admin@example.com"
+      },
+      "properties": {
+        "statusCode": "OK",
+        "serviceRequestId": "opqrstuv-wxyz-abcd-efgh-ijklmnopqrst",
+        "eventCategory": "Administrative",
+        "eventName": {
+          "value": "CreateSecurityRule",
+          "localizedValue": "Create security rule"
+        },
+        "level": "Informational"
+      }
+    },
+    {
+      "time": "2024-08-01T09:30:00.000Z",
+      "resourceId": "/subscriptions/12345678-1234-1234-1234-123456789012/resourceGroups/myResourceGroup/providers/Microsoft.Storage/storageAccounts/storage1",
+      "operationName": "Microsoft.Storage/storageAccounts/listKeys/action",
+      "category": "Administrative",
+      "resultType": "Success",
+      "resultSignature": "Listed",
+      "durationMs": 500,
+      "callerIpAddress": "192.168.1.30",
+      "correlationId": "abcdef12-3456-7890-abcd-ef1234567890",
+      "identity": {
+        "type": "User",
+        "userId": "security@example.com"
+      },
+      "properties": {
+        "statusCode": "OK",
+        "serviceRequestId": "mnopqrst-uvwx-yzab-cdef-ghijklmnopqr",
+        "eventCategory": "Administrative",
+        "eventName": {
+          "value": "ListStorageAccountKeys",
+          "localizedValue": "List storage account keys"
+        },
+        "level": "Informational"
+      }
+    },
+    {
+      "time": "2024-08-01T10:00:00.000Z",
+      "resourceId": "/subscriptions/12345678-1234-1234-1234-123456789012/resourceGroups/myResourceGroup/providers/Microsoft.Sql/servers/sqlServer1/databases/db1",
+      "operationName": "Microsoft.Sql/servers/databases/backup/action",
+      "category": "Administrative",
+      "resultType": "Success",
+      "resultSignature": "BackupStarted",
+      "durationMs": 2000,
+      "callerIpAddress": "192.168.1.40",
+      "correlationId": "uvwxyzab-cdef-ghij-klmn-opqrstuvwxyz",
+      "identity": {
+        "type": "User",
+        "userId": "dbadmin@example.com"
+      },
+      "properties": {
+        "statusCode": "OK",
+        "serviceRequestId": "ijklmnop-qrst-uvwx-yzab-cdefghijklmn",
+        "eventCategory": "Administrative",
+        "eventName": {
+          "value": "BackupDatabase",
+          "localizedValue": "Backup database"
+        },
+        "level": "Informational"
+      }
+    },
+    {
+      "time": "2024-08-01T11:00:00.000Z",
+      "resourceId": "/subscriptions/12345678-1234-1234-1234-123456789012/resourceGroups/myResourceGroup/providers/Microsoft.Network/networkInterfaces/nic1",
+      "operationName": "Microsoft.Network/networkInterfaces/delete",
+      "category": "Administrative",
+      "resultType": "Success",
+      "resultSignature": "Deleted",
+      "durationMs": 1100,
+      "callerIpAddress": "192.168.1.50",
+      "correlationId": "mnopqrst-uvwx-yzab-cdef-ghijklmnopqr",
+      "identity": {
+        "type": "User",
+        "userId": "netadmin@example.com"
+      },
+      "properties": {
+        "statusCode": "OK",
+        "serviceRequestId": "opqrstuv-wxyz-abcd-efgh-ijklmnopqrst",
+        "eventCategory": "Administrative",
+        "eventName": {
+          "value": "DeleteNetworkInterface",
+          "localizedValue": "Delete network interface"
+        },
+        "level": "Informational"
+      }
+    },
+    {
+      "time": "2024-08-01T12:00:00.000Z",
+      "resourceId": "/subscriptions/12345678-1234-1234-1234-123456789012/resourceGroups/myResourceGroup/providers/Microsoft.Compute/virtualMachines/vm1",
+      "operationName": "Microsoft.Compute/virtualMachines/deallocate/action",
+      "category": "Administrative",
+      "resultType": "Success",
+      "resultSignature": "Deallocated",
+      "durationMs": 1800,
+      "callerIpAddress": "192.168.1.10",
+      "correlationId": "ghijklmn-opqr-stuv-wxyz-abcdefghijkl",
+      "identity": {
+        "type": "User",
+        "userId": "ops@example.com"
+      },
+      "properties": {
+        "statusCode": "OK",
+        "serviceRequestId": "qrstuvwx-yzab-cdef-ghij-klmnopqrstuv",
+        "eventCategory": "Administrative",
+        "eventName": {
+          "value": "DeallocateVirtualMachine",
+          "localizedValue": "Deallocate virtual machine"
+        },
+        "level": "Informational"
+      }
+    },
+    {
+      "time": "2024-08-01T13:00:00.000Z",
+      "resourceId": "/subscriptions/12345678-1234-1234-1234-123456789012/resourceGroups/myResourceGroup/providers/Microsoft.Compute/virtualMachines/vm2",
+      "operationName": "Microsoft.Compute/virtualMachines/start/action",
+      "category": "Administrative",
+      "resultType": "Success",
+      "resultSignature": "Started",
+      "durationMs": 1400,
+      "callerIpAddress": "192.168.1.11",
+      "correlationId": "cdefghij-klmn-opqr-stuv-wxyzabcdefg",
+      "identity": {
+        "type": "User",
+        "userId": "user2@example.com"
+      },
+      "properties": {
+        "statusCode": "OK",
+        "serviceRequestId": "abcdefgh-ijkl-mnop-qrst-uvwxyzabcdef",
+        "eventCategory": "Administrative",
+        "eventName": {
+          "value": "StartVirtualMachine",
+          "localizedValue": "Start virtual machine"
+        },
+        "level": "Informational"
+      }
+    },
+    {
+      "time": "2024-08-01T14:00:00.000Z",
+      "resourceId": "/subscriptions/12345678-1234-1234-1234-123456789012/resourceGroups/myResourceGroup/providers/Microsoft.Compute/virtualMachines/vm2",
+      "operationName": "Microsoft.Compute/virtualMachines/restart/action",
+      "category": "Administrative",
+      "resultType": "Success",
+      "resultSignature": "Restarted",
+      "durationMs": 1600,
+      "callerIpAddress": "192.168.1.11",
+      "correlationId": "cdefghij-klmn-opqr-stuv-wxyzabcdefg",
+      "identity": {
+        "type": "User",
+        "userId": "user2@example.com"
+      },
+      "properties": {
+        "statusCode": "OK",
+        "serviceRequestId": "ijklmnop-qrst-uvwx-yzab-cdefghijklmn",
+        "eventCategory": "Administrative",
+        "eventName": {
+          "value": "RestartVirtualMachine",
+          "localizedValue": "Restart virtual machine"
+        },
+        "level": "Informational"
+      }
+    },
+    {
+      "time": "2024-08-01T15:00:00.000Z",
+      "resourceId": "/subscriptions/12345678-1234-1234-1234-123456789012/resourceGroups/myResourceGroup/providers/Microsoft.Network/networkSecurityGroups/nsg2",
+      "operationName": "Microsoft.Network/networkSecurityGroups/securityRules/delete",
+      "category": "Administrative",
+      "resultType": "Success",
+      "resultSignature": "Deleted",
+      "durationMs": 900,
+      "callerIpAddress": "192.168.1.21",
+      "correlationId": "opqrstuv-wxyz-abcd-efgh-ijklmnopqrst",
+      "identity": {
+        "type": "User",
+        "userId": "admin2@example.com"
+      },
+      "properties": {
+        "statusCode": "OK",
+        "serviceRequestId": "qrstuvwx-yzab-cdef-ghij-klmnopqrstuv",
+        "eventCategory": "Administrative",
+        "eventName": {
+          "value": "DeleteSecurityRule",
+          "localizedValue": "Delete security rule"
+        },
+        "level": "Informational"
+      }
+    },
+    {
+      "time": "2024-08-01T16:00:00.000Z",
+      "resourceId": "/subscriptions/12345678-1234-1234-1234-123456789012/resourceGroups/myResourceGroup/providers/Microsoft.Storage/storageAccounts/storage2",
+      "operationName": "Microsoft.Storage/storageAccounts/delete",
+      "category": "Administrative",
+      "resultType": "Success",
+      "resultSignature": "Deleted",
+      "durationMs": 600,
+      "callerIpAddress": "192.168.1.31",
+      "correlationId": "cdefghij-klmn-opqr-stuv-wxyzabcdefg",
+      "identity": {
+        "type": "User",
+        "userId": "security2@example.com"
+      },
+      "properties": {
+        "statusCode": "OK",
+        "serviceRequestId": "mnopqrst-uvwx-yzab-cdef-ghijklmnopqr",
+        "eventCategory": "Administrative",
+        "eventName": {
+          "value": "DeleteStorageAccount",
+          "localizedValue": "Delete storage account"
+        },
+        "level": "Informational"
+      }
+    },
+    {
+      "time": "2024-08-01T17:00:00.000Z",
+      "resourceId": "/subscriptions/12345678-1234-1234-1234-123456789012/resourceGroups/myResourceGroup/providers/Microsoft.Sql/servers/sqlServer2/databases/db2",
+      "operationName": "Microsoft.Sql/servers/databases/drop/action",
+      "category": "Administrative",
+      "resultType": "Success",
+      "resultSignature": "Dropped",
+      "durationMs": 2100,
+      "callerIpAddress": "192.168.1.41",
+      "correlationId": "cdefghij-klmn-opqr-stuv-wxyzabcdefg",
+      "identity": {
+        "type": "User",
+        "userId": "dbadmin2@example.com"
+      },
+      "properties": {
+        "statusCode": "OK",
+        "serviceRequestId": "ijklmnop-qrst-uvwx-yzab-cdefghijklmn",
+        "eventCategory": "Administrative",
+        "eventName": {
+          "value": "DropDatabase",
+          "localizedValue": "Drop database"
+        },
+        "level": "Informational"
+      }
+    },
+    {
+      "time": "2024-08-01T18:00:00.000Z",
+      "resourceId": "/subscriptions/12345678-1234-1234-1234-123456789012/resourceGroups/myResourceGroup/providers/Microsoft.Compute/virtualMachines/vm1",
+      "operationName": "Microsoft.Compute/virtualMachines/start/action",
+      "category": "Administrative",
+      "resultType": "Success",
+      "resultSignature": "Started",
+      "durationMs": 1300,
+      "callerIpAddress": "192.168.1.10",
+      "correlationId": "abcdef12-3456-7890-abcd-ef1234567890",
+      "identity": {
+        "type": "User",
+        "userId": "user1@example.com"
+      },
+      "properties": {
+        "statusCode": "OK",
+        "serviceRequestId": "abcdefgh-ijkl-mnop-qrst-uvwxyz123456",
+        "eventCategory": "Administrative",
+        "eventName": {
+          "value": "StartVirtualMachine",
+          "localizedValue": "Start virtual machine"
+        },
+        "level": "Informational"
+      }
+    },
+    {
+      "time": "2024-08-01T19:00:00.000Z",
+      "resourceId": "/subscriptions/12345678-1234-1234-1234-123456789012/resourceGroups/myResourceGroup/providers/Microsoft.Compute/virtualMachines/vm3",
+      "operationName": "Microsoft.Compute/virtualMachines/start/action",
+      "category": "Administrative",
+      "resultType": "Success",
+      "resultSignature": "Started",
+      "durationMs": 1300,
+      "callerIpAddress": "192.168.1.12",
+      "correlationId": "abcdef12-3456-7890-abcd-ef1234567890",
+      "identity": {
+        "type": "User",
+        "userId": "user3@example.com"
+      },
+      "properties": {
+        "statusCode": "OK",
+        "serviceRequestId": "abcdefgh-ijkl-mnop-qrst-uvwxyz123456",
+        "eventCategory": "Administrative",
+        "eventName": {
+          "value": "StartVirtualMachine",
+          "localizedValue": "Start virtual machine"
+        },
+        "level": "Informational"
+      }
+    },
+    {
+      "time": "2024-08-01T20:00:00.000Z",
+      "resourceId": "/subscriptions/12345678-1234-1234-1234-123456789012/resourceGroups/myResourceGroup/providers/Microsoft.Network/networkSecurityGroups/nsg1",
+      "operationName": "Microsoft.Network/networkSecurityGroups/securityRules/create",
+      "category": "Administrative",
+      "resultType": "Success",
+      "resultSignature": "Created",
+      "durationMs": 800,
+      "callerIpAddress": "192.168.1.20",
+      "correlationId": "mnopqrst-uvwx-yzab-cdef-ghijklmnopqr",
+      "identity": {
+        "type": "User",
+        "userId": "admin@example.com"
+      },
+      "properties": {
+        "statusCode": "OK",
+        "serviceRequestId": "opqrstuv-wxyz-abcd-efgh-ijklmnopqrst",
+        "eventCategory": "Administrative",
+        "eventName": {
+          "value": "CreateSecurityRule",
+          "localizedValue": "Create security rule"
+        },
+        "level": "Informational"
+      }
+    },
+    {
+      "time": "2024-08-01T21:00:00.000Z",
+      "resourceId": "/subscriptions/12345678-1234-1234-1234-123456789012/resourceGroups/myResourceGroup/providers/Microsoft.Storage/storageAccounts/storage1",
+      "operationName": "Microsoft.Storage/storageAccounts/listKeys/action",
+      "category": "Administrative",
+      "resultType": "Success",
+      "resultSignature": "Listed",
+      "durationMs": 500,
+      "callerIpAddress": "192.168.1.30",
+      "correlationId": "abcdef12-3456-7890-abcd-ef1234567890",
+      "identity": {
+        "type": "User",
+        "userId": "security@example.com"
+      },
+      "properties": {
+        "statusCode": "OK",
+        "serviceRequestId": "mnopqrst-uvwx-yzab-cdef-ghijklmnopqr",
+        "eventCategory": "Administrative",
+        "eventName": {
+          "value": "ListStorageAccountKeys",
+          "localizedValue": "List storage account keys"
+        },
+        "level": "Informational"
+      }
+    },
+    {
+      "time": "2024-08-01T22:00:00.000Z",
+      "resourceId": "/subscriptions/12345678-1234-1234-1234-123456789012/resourceGroups/myResourceGroup/providers/Microsoft.Sql/servers/sqlServer1/databases/db1",
+      "operationName": "Microsoft.Sql/servers/databases/backup/action",
+      "category": "Administrative",
+      "resultType": "Success",
+      "resultSignature": "BackupStarted",
+      "durationMs": 2000,
+      "callerIpAddress": "192.168.1.40",
+      "correlationId": "uvwxyzab-cdef-ghij-klmn-opqrstuvwxyz",
+      "identity": {
+        "type": "User",
+        "userId": "dbadmin@example.com"
+      },
+      "properties": {
+        "statusCode": "OK",
+        "serviceRequestId": "ijklmnop-qrst-uvwx-yzab-cdefghijklmn",
+        "eventCategory": "Administrative",
+        "eventName": {
+          "value": "BackupDatabase",
+          "localizedValue": "Backup database"
+        },
+        "level": "Informational"
+      }
+    },
+    {
+      "time": "2024-08-01T23:00:00.000Z",
+      "resourceId": "/subscriptions/12345678-1234-1234-1234-123456789012/resourceGroups/myResourceGroup/providers/Microsoft.Compute/virtualMachines/vm4",
+      "operationName": "Microsoft.Compute/virtualMachines/restart/action",
+      "category": "Administrative",
+      "resultType": "Success",
+      "resultSignature": "Restarted",
+      "durationMs": 1600,
+      "callerIpAddress": "192.168.1.13",
+      "correlationId": "cdefghij-klmn-opqr-stuv-wxyzabcdefg",
+      "identity": {
+        "type": "User",
+        "userId": "user4@example.com"
+      },
+      "properties": {
+        "statusCode": "OK",
+        "serviceRequestId": "ijklmnop-qrst-uvwx-yzab-cdefghijklmn",
+        "eventCategory": "Administrative",
+        "eventName": {
+          "value": "RestartVirtualMachine",
+          "localizedValue": "Restart virtual machine"
+        },
+        "level": "Informational"
+      }
+    },
+    {
+      "time": "2024-08-02T01:00:00.000Z",
+      "resourceId": "/subscriptions/12345678-1234-1234-1234-123456789012/resourceGroups/myResourceGroup/providers/Microsoft.Network/networkSecurityGroups/nsg3",
+      "operationName": "Microsoft.Network/networkSecurityGroups/securityRules/create",
+      "category": "Administrative",
+      "resultType": "Success",
+      "resultSignature": "Created",
+      "durationMs": 800,
+      "callerIpAddress": "192.168.1.22",
+      "correlationId": "mnopqrst-uvwx-yzab-cdef-ghijklmnopqr",
+      "identity": {
+        "type": "User",
+        "userId": "admin3@example.com"
+      },
+      "properties": {
+        "statusCode": "OK",
+        "serviceRequestId": "opqrstuv-wxyz-abcd-efgh-ijklmnopqrst",
+        "eventCategory": "Administrative",
+        "eventName": {
+          "value": "CreateSecurityRule",
+          "localizedValue": "Create security rule"
+        },
+        "level": "Informational"
+      }
+    },
+    {
+      "time": "2024-08-02T02:00:00.000Z",
+      "resourceId": "/subscriptions/12345678-1234-1234-1234-123456789012/resourceGroups/myResourceGroup/providers/Microsoft.Storage/storageAccounts/storage3",
+      "operationName": "Microsoft.Storage/storageAccounts/delete",
+      "category": "Administrative",
+      "resultType": "Success",
+      "resultSignature": "Deleted",
+      "durationMs": 600,
+      "callerIpAddress": "192.168.1.32",
+      "correlationId": "cdefghij-klmn-opqr-stuv-wxyzabcdefg",
+      "identity": {
+        "type": "User",
+        "userId": "security3@example.com"
+      },
+      "properties": {
+        "statusCode": "OK",
+        "serviceRequestId": "mnopqrst-uvwx-yzab-cdef-ghijklmnopqr",
+        "eventCategory": "Administrative",
+        "eventName": {
+          "value": "DeleteStorageAccount",
+          "localizedValue": "Delete storage account"
+        },
+        "level": "Informational"
+      }
+    },
+    {
+      "time": "2024-08-02T03:00:00.000Z",
+      "resourceId": "/subscriptions/12345678-1234-1234-1234-123456789012/resourceGroups/myResourceGroup/providers/Microsoft.Sql/servers/sqlServer3/databases/db3",
+      "operationName": "Microsoft.Sql/servers/databases/drop/action",
+      "category": "Administrative",
+      "resultType": "Success",
+      "resultSignature": "Dropped",
+      "durationMs": 2100,
+      "callerIpAddress": "192.168.1.42",
+      "correlationId": "cdefghij-klmn-opqr-stuv-wxyzabcdefg",
+      "identity": {
+        "type": "User",
+        "userId": "dbadmin3@example.com"
+      },
+      "properties": {
+        "statusCode": "OK",
+        "serviceRequestId": "ijklmnop-qrst-uvwx-yzab-cdefghijklmn",
+        "eventCategory": "Administrative",
+        "eventName": {
+          "value": "DropDatabase",
+          "localizedValue": "Drop database"
+        },
+        "level": "Informational"
+      }
+    },
+    {
+      "time": "2024-08-02T04:00:00.000Z",
+      "resourceId": "/subscriptions/12345678-1234-1234-1234-123456789012/resourceGroups/myResourceGroup/providers/Microsoft.Compute/virtualMachines/vm5",
+      "operationName": "Microsoft.Compute/virtualMachines/start/action",
+      "category": "Administrative",
+      "resultType": "Success",
+      "resultSignature": "Started",
+      "durationMs": 1400,
+      "callerIpAddress": "192.168.1.14",
+      "correlationId": "cdefghij-klmn-opqr-stuv-wxyzabcdefg",
+      "identity": {
+        "type": "User",
+        "userId": "user5@example.com"
+      },
+      "properties": {
+        "statusCode": "OK",
+        "serviceRequestId": "abcdefgh-ijkl-mnop-qrst-uvwxyzabcdef",
+        "eventCategory": "Administrative",
+        "eventName": {
+          "value": "StartVirtualMachine",
+          "localizedValue": "Start virtual machine"
+        },
+        "level": "Informational"
+      }
+    },
+    {
+      "time": "2024-08-02T05:00:00.000Z",
+      "resourceId": "/subscriptions/12345678-1234-1234-1234-123456789012/resourceGroups/myResourceGroup/providers/Microsoft.Compute/virtualMachines/vm5",
+      "operationName": "Microsoft.Compute/virtualMachines/restart/action",
+      "category": "Administrative",
+      "resultType": "Success",
+      "resultSignature": "Restarted",
+      "durationMs": 1600,
+      "callerIpAddress": "192.168.1.14",
+      "correlationId": "cdefghij-klmn-opqr-stuv-wxyzabcdefg",
+      "identity": {
+        "type": "User",
+        "userId": "user5@example.com"
+      },
+      "properties": {
+        "statusCode": "OK",
+        "serviceRequestId": "ijklmnop-qrst-uvwx-yzab-cdefghijklmn",
+        "eventCategory": "Administrative",
+        "eventName": {
+          "value": "RestartVirtualMachine",
+          "localizedValue": "Restart virtual machine"
+        },
+        "level": "Informational"
+      }
+    },
+    {
+      "time": "2024-08-02T06:00:00.000Z",
+      "resourceId": "/subscriptions/12345678-1234-1234-1234-123456789012/resourceGroups/myResourceGroup/providers/Microsoft.Network/networkSecurityGroups/nsg4",
+      "operationName": "Microsoft.Network/networkSecurityGroups/securityRules/delete",
+      "category": "Administrative",
+      "resultType": "Success",
+      "resultSignature": "Deleted",
+      "durationMs": 900,
+      "callerIpAddress": "192.168.1.23",
+      "correlationId": "opqrstuv-wxyz-abcd-efgh-ijklmnopqrst",
+      "identity": {
+        "type": "User",
+        "userId": "admin4@example.com"
+      },
+      "properties": {
+        "statusCode": "OK",
+        "serviceRequestId": "qrstuvwx-yzab-cdef-ghij-klmnopqrstuv",
+        "eventCategory": "Administrative",
+        "eventName": {
+          "value": "DeleteSecurityRule",
+          "localizedValue": "Delete security rule"
+        },
+        "level": "Informational"
+      }
+    },
+    {
+      "time": "2024-08-02T07:00:00.000Z",
+      "resourceId": "/subscriptions/12345678-1234-1234-1234-123456789012/resourceGroups/myResourceGroup/providers/Microsoft.Storage/storageAccounts/storage4",
+      "operationName": "Microsoft.Storage/storageAccounts/delete",
+      "category": "Administrative",
+      "resultType": "Success",
+      "resultSignature": "Deleted",
+      "durationMs": 600,
+      "callerIpAddress": "192.168.1.33",
+      "correlationId": "cdefghij-klmn-opqr-stuv-wxyzabcdefg",
+      "identity": {
+        "type": "User",
+        "userId": "security4@example.com"
+      },
+      "properties": {
+        "statusCode": "OK",
+        "serviceRequestId": "mnopqrst-uvwx-yzab-cdef-ghijklmnopqr",
+        "eventCategory": "Administrative",
+        "eventName": {
+          "value": "DeleteStorageAccount",
+          "localizedValue": "Delete storage account"
+        },
+        "level": "Informational"
+      }
+    },
+    {
+      "time": "2024-08-02T08:00:00.000Z",
+      "resourceId": "/subscriptions/12345678-1234-1234-1234-123456789012/resourceGroups/myResourceGroup/providers/Microsoft.Sql/servers/sqlServer4/databases/db4",
+      "operationName": "Microsoft.Sql/servers/databases/drop/action",
+      "category": "Administrative",
+      "resultType": "Success",
+      "resultSignature": "Dropped",
+      "durationMs": 2100,
+      "callerIpAddress": "192.168.1.43",
+      "correlationId": "cdefghij-klmn-opqr-stuv-wxyzabcdefg",
+      "identity": {
+        "type": "User",
+        "userId": "dbadmin4@example.com"
+      },
+      "properties": {
+        "statusCode": "OK",
+        "serviceRequestId": "ijklmnop-qrst-uvwx-yzab-cdefghijklmn",
+        "eventCategory": "Administrative",
+        "eventName": {
+          "value": "DropDatabase",
+          "localizedValue": "Drop database"
+        },
+        "level": "Informational"
+      }
+    },
+    {
+      "time": "2024-08-02T09:00:00.000Z",
+      "resourceId": "/subscriptions/12345678-1234-1234-1234-123456789012/resourceGroups/myResourceGroup/providers/Microsoft.Compute/virtualMachines/vm6",
+      "operationName": "Microsoft.Compute/virtualMachines/start/action",
+      "category": "Administrative",
+      "resultType": "Success",
+      "resultSignature": "Started",
+      "durationMs": 1400,
+      "callerIpAddress": "192.168.1.15",
+      "correlationId": "cdefghij-klmn-opqr-stuv-wxyzabcdefg",
+      "identity": {
+        "type": "User",
+        "userId": "user6@example.com"
+      },
+      "properties": {
+        "statusCode": "OK",
+        "serviceRequestId": "abcdefgh-ijkl-mnop-qrst-uvwxyzabcdef",
+        "eventCategory": "Administrative",
+        "eventName": {
+          "value": "StartVirtualMachine",
+          "localizedValue": "Start virtual machine"
+        },
+        "level": "Informational"
+      }
+    },
+    {
+      "time": "2024-08-02T10:00:00.000Z",
+      "resourceId": "/subscriptions/12345678-1234-1234-1234-123456789012/resourceGroups/myResourceGroup/providers/Microsoft.Compute/virtualMachines/vm6",
+      "operationName": "Microsoft.Compute/virtualMachines/restart/action",
+      "category": "Administrative",
+      "resultType": "Success",
+      "resultSignature": "Restarted",
+      "durationMs": 1600,
+      "callerIpAddress": "192.168.1.15",
+      "correlationId": "cdefghij-klmn-opqr-stuv-wxyzabcdefg",
+      "identity": {
+        "type": "User",
+        "userId": "user6@example.com"
+      },
+      "properties": {
+        "statusCode": "OK",
+        "serviceRequestId": "ijklmnop-qrst-uvwx-yzab-cdefghijklmn",
+        "eventCategory": "Administrative",
+        "eventName": {
+          "value": "RestartVirtualMachine",
+          "localizedValue": "Restart virtual machine"
+        },
+        "level": "Informational"
+      }
+    },
+    {
+      "time": "2024-08-02T11:00:00.000Z",
+      "resourceId": "/subscriptions/12345678-1234-1234-1234-123456789012/resourceGroups/myResourceGroup/providers/Microsoft.Network/networkSecurityGroups/nsg5",
+      "operationName": "Microsoft.Network/networkSecurityGroups/securityRules/delete",
+      "category": "Administrative",
+      "resultType": "Success",
+      "resultSignature": "Deleted",
+      "durationMs": 900,
+      "callerIpAddress": "192.168.1.24",
+      "correlationId": "opqrstuv-wxyz-abcd-efgh-ijklmnopqrst",
+      "identity": {
+        "type": "User",
+        "userId": "admin5@example.com"
+      },
+      "properties": {
+        "statusCode": "OK",
+        "serviceRequestId": "qrstuvwx-yzab-cdef-ghij-klmnopqrstuv",
+        "eventCategory": "Administrative",
+        "eventName": {
+          "value": "DeleteSecurityRule",
+          "localizedValue": "Delete security rule"
+        },
+        "level": "Informational"
+      }
+    },
+    {
+      "time": "2024-08-02T12:00:00.000Z",
+      "resourceId": "/subscriptions/12345678-1234-1234-1234-123456789012/resourceGroups/myResourceGroup/providers/Microsoft.Storage/storageAccounts/storage5",
+      "operationName": "Microsoft.Storage/storageAccounts/delete",
+      "category": "Administrative",
+      "resultType": "Success",
+      "resultSignature": "Deleted",
+      "durationMs": 600,
+      "callerIpAddress": "192.168.1.34",
+      "correlationId": "cdefghij-klmn-opqr-stuv-wxyzabcdefg",
+      "identity": {
+        "type": "User",
+        "userId": "security5@example.com"
+      },
+      "properties": {
+        "statusCode": "OK",
+        "serviceRequestId": "mnopqrst-uvwx-yzab-cdef-ghijklmnopqr",
+        "eventCategory": "Administrative",
+        "eventName": {
+          "value": "DeleteStorageAccount",
+          "localizedValue": "Delete storage account"
+        },
+        "level": "Informational"
+      }
+    },
+    {
+      "time": "2024-08-02T13:00:00.000Z",
+      "resourceId": "/subscriptions/12345678-1234-1234-1234-123456789012/resourceGroups/myResourceGroup/providers/Microsoft.Sql/servers/sqlServer5/databases/db5",
+      "operationName": "Microsoft.Sql/servers/databases/drop/action",
+      "category": "Administrative",
+      "resultType": "Success",
+      "resultSignature": "Dropped",
+      "durationMs": 2100,
+      "callerIpAddress": "192.168.1.44",
+      "correlationId": "cdefghij-klmn-opqr-stuv-wxyzabcdefg",
+      "identity": {
+        "type": "User",
+        "userId": "dbadmin5@example.com"
+      },
+      "properties": {
+        "statusCode": "OK",
+        "serviceRequestId": "ijklmnop-qrst-uvwx-yzab-cdefghijklmn",
+        "eventCategory": "Administrative",
+        "eventName": {
+          "value": "DropDatabase",
+          "localizedValue": "Drop database"
+        },
+        "level": "Informational"
+      }
+    },
+    {
+      "time": "2024-08-02T14:00:00.000Z",
+      "resourceId": "/subscriptions/12345678-1234-1234-1234-123456789012/resourceGroups/myResourceGroup/providers/Microsoft.Compute/virtualMachines/vm7",
+      "operationName": "Microsoft.Compute/virtualMachines/start/action",
+      "category": "Administrative",
+      "resultType": "Success",
+      "resultSignature": "Started",
+      "durationMs": 1400,
+      "callerIpAddress": "192.168.1.16",
+      "correlationId": "cdefghij-klmn-opqr-stuv-wxyzabcdefg",
+      "identity": {
+        "type": "User",
+        "userId": "user7@example.com"
+      },
+      "properties": {
+        "statusCode": "OK",
+        "serviceRequestId": "abcdefgh-ijkl-mnop-qrst-uvwxyzabcdef",
+        "eventCategory": "Administrative",
+        "eventName": {
+          "value": "StartVirtualMachine",
+          "localizedValue": "Start virtual machine"
+        },
+        "level": "Informational"
+      }
+    },
+    {
+      "time": "2024-08-02T15:00:00.000Z",
+      "resourceId": "/subscriptions/12345678-1234-1234-1234-123456789012/resourceGroups/myResourceGroup/providers/Microsoft.Compute/virtualMachines/vm7",
+      "operationName": "Microsoft.Compute/virtualMachines/restart/action",
+      "category": "Administrative",
+      "resultType": "Success",
+      "resultSignature": "Restarted",
+      "durationMs": 1600,
+      "callerIpAddress": "192.168.1.16",
+      "correlationId": "cdefghij-klmn-opqr-stuv-wxyzabcdefg",
+      "identity": {
+        "type": "User",
+        "userId": "user7@example.com"
+      },
+      "properties": {
+        "statusCode": "OK",
+        "serviceRequestId": "ijklmnop-qrst-uvwx-yzab-cdefghijklmn",
+        "eventCategory": "Administrative",
+        "eventName": {
+          "value": "RestartVirtualMachine",
+          "localizedValue": "Restart virtual machine"
+        },
+        "level": "Informational"
+      }
+    },
+    {
+      "time": "2024-08-02T16:00:00.000Z",
+      "resourceId": "/subscriptions/12345678-1234-1234-1234-123456789012/resourceGroups/myResourceGroup/providers/Microsoft.Network/networkSecurityGroups/nsg6",
+      "operationName": "Microsoft.Network/networkSecurityGroups/securityRules/delete",
+      "category": "Administrative",
+      "resultType": "Success",
+      "resultSignature": "Deleted",
+      "durationMs": 900,
+      "callerIpAddress": "192.168.1.25",
+      "correlationId": "opqrstuv-wxyz-abcd-efgh-ijklmnopqrst",
+      "identity": {
+        "type": "User",
+        "userId": "admin6@example.com"
+      },
+      "properties": {
+        "statusCode": "OK",
+        "serviceRequestId": "qrstuvwx-yzab-cdef-ghij-klmnopqrstuv",
+        "eventCategory": "Administrative",
+        "eventName": {
+          "value": "DeleteSecurityRule",
+          "localizedValue": "Delete security rule"
+        },
+        "level": "Informational"
+      }
+    },
+    {
+      "time": "2024-08-02T17:00:00.000Z",
+      "resourceId": "/subscriptions/12345678-1234-1234-1234-123456789012/resourceGroups/myResourceGroup/providers/Microsoft.Storage/storageAccounts/storage6",
+      "operationName": "Microsoft.Storage/storageAccounts/delete",
+      "category": "Administrative",
+      "resultType": "Success",
+      "resultSignature": "Deleted",
+      "durationMs": 600,
+      "callerIpAddress": "192.168.1.35",
+      "correlationId": "cdefghij-klmn-opqr-stuv-wxyzabcdefg",
+      "identity": {
+        "type": "User",
+        "userId": "security6@example.com"
+      },
+      "properties": {
+        "statusCode": "OK",
+        "serviceRequestId": "mnopqrst-uvwx-yzab-cdef-ghijklmnopqr",
+        "eventCategory": "Administrative",
+        "eventName": {
+          "value": "DeleteStorageAccount",
+          "localizedValue": "Delete storage account"
+        },
+        "level": "Informational"
+      }
+    },
+    {
+      "time": "2024-08-02T18:00:00.000Z",
+      "resourceId": "/subscriptions/12345678-1234-1234-1234-123456789012/resourceGroups/myResourceGroup/providers/Microsoft.Sql/servers/sqlServer6/databases/db6",
+      "operationName": "Microsoft.Sql/servers/databases/drop/action",
+      "category": "Administrative",
+      "resultType": "Success",
+      "resultSignature": "Dropped",
+      "durationMs": 2100,
+      "callerIpAddress": "192.168.1.45",
+      "correlationId": "cdefghij-klmn-opqr-stuv-wxyzabcdefg",
+      "identity": {
+        "type": "User",
+        "userId": "dbadmin6@example.com"
+      },
+      "properties": {
+        "statusCode": "OK",
+        "serviceRequestId": "ijklmnop-qrst-uvwx-yzab-cdefghijklmn",
+        "eventCategory": "Administrative",
+        "eventName": {
+          "value": "DropDatabase",
+          "localizedValue": "Drop database"
+        },
+        "level": "Informational"
+      }
+    },
+    {
+      "time": "2024-08-02T19:00:00.000Z",
+      "resourceId": "/subscriptions/12345678-1234-1234-1234-123456789012/resourceGroups/myResourceGroup/providers/Microsoft.Compute/virtualMachines/vm8",
+      "operationName": "Microsoft.Compute/virtualMachines/start/action",
+      "category": "Administrative",
+      "resultType": "Success",
+      "resultSignature": "Started",
+      "durationMs": 1400,
+      "callerIpAddress": "192.168.1.17",
+      "correlationId": "cdefghij-klmn-opqr-stuv-wxyzabcdefg",
+      "identity": {
+        "type": "User",
+        "userId": "user8@example.com"
+      },
+      "properties": {
+        "statusCode": "OK",
+        "serviceRequestId": "abcdefgh-ijkl-mnop-qrst-uvwxyzabcdef",
+        "eventCategory": "Administrative",
+        "eventName": {
+          "value": "StartVirtualMachine",
+          "localizedValue": "Start virtual machine"
+        },
+        "level": "Informational"
+      }
+    },
+    {
+      "time": "2024-08-02T20:00:00.000Z",
+      "resourceId": "/subscriptions/12345678-1234-1234-1234-123456789012/resourceGroups/myResourceGroup/providers/Microsoft.Compute/virtualMachines/vm8",
+      "operationName": "Microsoft.Compute/virtualMachines/restart/action",
+      "category": "Administrative",
+      "resultType": "Success",
+      "resultSignature": "Restarted",
+      "durationMs": 1600,
+      "callerIpAddress": "192.168.1.17",
+      "correlationId": "cdefghij-klmn-opqr-stuv-wxyzabcdefg",
+      "identity": {
+        "type": "User",
+        "userId": "user8@example.com"
+      },
+      "properties": {
+        "statusCode": "OK",
+        "serviceRequestId": "ijklmnop-qrst-uvwx-yzab-cdefghijklmn",
+        "eventCategory": "Administrative",
+        "eventName": {
+          "value": "RestartVirtualMachine",
+          "localizedValue": "Restart virtual machine"
+        },
+        "level": "Informational"
+      }
+    },
+    {
+      "time": "2024-08-02T21:00:00.000Z",
+      "resourceId": "/subscriptions/12345678-1234-1234-1234-123456789012/resourceGroups/myResourceGroup/providers/Microsoft.Network/networkSecurityGroups/nsg7",
+      "operationName": "Microsoft.Network/networkSecurityGroups/securityRules/delete",
+      "category": "Administrative",
+      "resultType": "Success",
+      "resultSignature": "Deleted",
+      "durationMs": 900,
+      "callerIpAddress": "192.168.1.26",
+      "correlationId": "opqrstuv-wxyz-abcd-efgh-ijklmnopqrst",
+      "identity": {
+        "type": "User",
+        "userId": "admin7@example.com"
+      },
+      "properties": {
+        "statusCode": "OK",
+        "serviceRequestId": "qrstuvwx-yzab-cdef-ghij-klmnopqrstuv",
+        "eventCategory": "Administrative",
+        "eventName": {
+          "value": "DeleteSecurityRule",
+          "localizedValue": "Delete security rule"
+        },
+        "level": "Informational"
+      }
+    },
+    {
+      "time": "2024-08-02T22:00:00.000Z",
+      "resourceId": "/subscriptions/12345678-1234-1234-1234-123456789012/resourceGroups/myResourceGroup/providers/Microsoft.Storage/storageAccounts/storage7",
+      "operationName": "Microsoft.Storage/storageAccounts/delete",
+      "category": "Administrative",
+      "resultType": "Success",
+      "resultSignature": "Deleted",
+      "durationMs": 600,
+      "callerIpAddress": "192.168.1.36",
+      "correlationId": "cdefghij-klmn-opqr-stuv-wxyzabcdefg",
+      "identity": {
+        "type": "User",
+        "userId": "security7@example.com"
+      },
+      "properties": {
+        "statusCode": "OK",
+        "serviceRequestId": "mnopqrst-uvwx-yzab-cdef-ghijklmnopqr",
+        "eventCategory": "Administrative",
+        "eventName": {
+          "value": "DeleteStorageAccount",
+          "localizedValue": "Delete storage account"
+        },
+        "level": "Informational"
+      }
+    },
+    {
+      "time": "2024-08-02T23:00:00.000Z",
+      "resourceId": "/subscriptions/12345678-1234-1234-1234-123456789012/resourceGroups/myResourceGroup/providers/Microsoft.Sql/servers/sqlServer7/databases/db7",
+      "operationName": "Microsoft.Sql/servers/databases/drop/action",
+      "category": "Administrative",
+      "resultType": "Success",
+      "resultSignature": "Dropped",
+      "durationMs": 2100,
+      "callerIpAddress": "192.168.1.46",
+      "correlationId": "cdefghij-klmn-opqr-stuv-wxyzabcdefg",
+      "identity": {
+        "type": "User",
+        "userId": "dbadmin7@example.com"
+      },
+      "properties": {
+        "statusCode": "OK",
+        "serviceRequestId": "ijklmnop-qrst-uvwx-yzab-cdefghijklmn",
+        "eventCategory": "Administrative",
+        "eventName": {
+          "value": "DropDatabase",
+          "localizedValue": "Drop database"
+        },
+        "level": "Informational"
+      }
+    },
+    {
+      "time": "2024-08-03T00:00:00.000Z",
+      "resourceId": "/subscriptions/12345678-1234-1234-1234-123456789012/resourceGroups/myResourceGroup/providers/Microsoft.Compute/virtualMachines/vm9",
+      "operationName": "Microsoft.Compute/virtualMachines/start/action",
+      "category": "Administrative",
+      "resultType": "Success",
+      "resultSignature": "Started",
+      "durationMs": 1400,
+      "callerIpAddress": "192.168.1.18",
+      "correlationId": "cdefghij-klmn-opqr-stuv-wxyzabcdefg",
+      "identity": {
+        "type": "User",
+        "userId": "user9@example.com"
+      },
+      "properties": {
+        "statusCode": "OK",
+        "serviceRequestId": "abcdefgh-ijkl-mnop-qrst-uvwxyzabcdef",
+        "eventCategory": "Administrative",
+        "eventName": {
+          "value": "StartVirtualMachine",
+          "localizedValue": "Start virtual machine"
+        },
+        "level": "Informational"
+      }
+    },
+    {
+      "time": "2024-08-03T01:00:00.000Z",
+      "resourceId": "/subscriptions/12345678-1234-1234-1234-123456789012/resourceGroups/myResourceGroup/providers/Microsoft.Compute/virtualMachines/vm9",
+      "operationName": "Microsoft.Compute/virtualMachines/restart/action",
+      "category": "Administrative",
+      "resultType": "Success",
+      "resultSignature": "Restarted",
+      "durationMs": 1600,
+      "callerIpAddress": "192.168.1.18",
+      "correlationId": "cdefghij-klmn-opqr-stuv-wxyzabcdefg",
+      "identity": {
+        "type": "User",
+        "userId": "user9@example.com"
+      },
+      "properties": {
+        "statusCode": "OK",
+        "serviceRequestId": "ijklmnop-qrst-uvwx-yzab-cdefghijklmn",
+        "eventCategory": "Administrative",
+        "eventName": {
+          "value": "RestartVirtualMachine",
+          "localizedValue": "Restart virtual machine"
+        },
+        "level": "Informational"
+      }
+    },
+    {
+      "time": "2024-08-03T02:00:00.000Z",
+      "resourceId": "/subscriptions/12345678-1234-1234-1234-123456789012/resourceGroups/myResourceGroup/providers/Microsoft.Network/networkSecurityGroups/nsg8",
+      "operationName": "Microsoft.Network/networkSecurityGroups/securityRules/delete",
+      "category": "Administrative",
+      "resultType": "Success",
+      "resultSignature": "Deleted",
+      "durationMs": 900,
+      "callerIpAddress": "192.168.1.27",
+      "correlationId": "opqrstuv-wxyz-abcd-efgh-ijklmnopqrst",
+      "identity": {
+        "type": "User",
+        "userId": "admin8@example.com"
+      },
+      "properties": {
+        "statusCode": "OK",
+        "serviceRequestId": "qrstuvwx-yzab-cdef-ghij-klmnopqrstuv",
+        "eventCategory": "Administrative",
+        "eventName": {
+          "value": "DeleteSecurityRule",
+          "localizedValue": "Delete security rule"
+        },
+        "level": "Informational"
+      }
+    },
+    {
+      "time": "2024-08-03T03:00:00.000Z",
+      "resourceId": "/subscriptions/12345678-1234-1234-1234-123456789012/resourceGroups/myResourceGroup/providers/Microsoft.Storage/storageAccounts/storage8",
+      "operationName": "Microsoft.Storage/storageAccounts/delete",
+      "category": "Administrative",
+      "resultType": "Success",
+      "resultSignature": "Deleted",
+      "durationMs": 600,
+      "callerIpAddress": "192.168.1.37",
+      "correlationId": "cdefghij-klmn-opqr-stuv-wxyzabcdefg",
+      "identity": {
+        "type": "User",
+        "userId": "security8@example.com"
+      },
+      "properties": {
+        "statusCode": "OK",
+        "serviceRequestId": "mnopqrst-uvwx-yzab-cdef-ghijklmnopqr",
+        "eventCategory": "Administrative",
+        "eventName": {
+          "value": "DeleteStorageAccount",
+          "localizedValue": "Delete storage account"
+        },
+        "level": "Informational"
+      }
+    },
+    {
+      "time": "2024-08-03T04:00:00.000Z",
+      "resourceId": "/subscriptions/12345678-1234-1234-1234-123456789012/resourceGroups/myResourceGroup/providers/Microsoft.Sql/servers/sqlServer8/databases/db8",
+      "operationName": "Microsoft.Sql/servers/databases/drop/action",
+      "category": "Administrative",
+      "resultType": "Success",
+      "resultSignature": "Dropped",
+      "durationMs": 2100,
+      "callerIpAddress": "192.168.1.47",
+      "correlationId": "cdefghij-klmn-opqr-stuv-wxyzabcdefg",
+      "identity": {
+        "type": "User",
+        "userId": "dbadmin8@example.com"
+      },
+      "properties": {
+        "statusCode": "OK",
+        "serviceRequestId": "ijklmnop-qrst-uvwx-yzab-cdefghijklmn",
+        "eventCategory": "Administrative",
+        "eventName": {
+          "value": "DropDatabase",
+          "localizedValue": "Drop database"
+        },
+        "level": "Informational"
+      }
+    },
+    {
+      "time": "2024-08-03T05:00:00.000Z",
+      "resourceId": "/subscriptions/12345678-1234-1234-1234-123456789012/resourceGroups/myResourceGroup/providers/Microsoft.Compute/virtualMachines/vm10",
+      "operationName": "Microsoft.Compute/virtualMachines/start/action",
+      "category": "Administrative",
+      "resultType": "Success",
+      "resultSignature": "Started",
+      "durationMs": 1400,
+      "callerIpAddress": "192.168.1.19",
+      "correlationId": "cdefghij-klmn-opqr-stuv-wxyzabcdefg",
+      "identity": {
+        "type": "User",
+        "userId": "user10@example.com"
+      },
+      "properties": {
+        "statusCode": "OK",
+        "serviceRequestId": "abcdefgh-ijkl-mnop-qrst-uvwxyzabcdef",
+        "eventCategory": "Administrative",
+        "eventName": {
+          "value": "StartVirtualMachine",
+          "localizedValue": "Start virtual machine"
+        },
+        "level": "Informational"
+      }
+    },
+    {
+      "time": "2024-08-03T06:00:00.000Z",
+      "resourceId": "/subscriptions/12345678-1234-1234-1234-123456789012/resourceGroups/myResourceGroup/providers/Microsoft.Compute/virtualMachines/vm10",
+      "operationName": "Microsoft.Compute/virtualMachines/restart/action",
+      "category": "Administrative",
+      "resultType": "Success",
+      "resultSignature": "Restarted",
+      "durationMs": 1600,
+      "callerIpAddress": "192.168.1.19",
+      "correlationId": "cdefghij-klmn-opqr-stuv-wxyzabcdefg",
+      "identity": {
+        "type": "User",
+        "userId": "user10@example.com"
+      },
+      "properties": {
+        "statusCode": "OK",
+        "serviceRequestId": "ijklmnop-qrst-uvwx-yzab-cdefghijklmn",
+        "eventCategory": "Administrative",
+        "eventName": {
+          "value": "RestartVirtualMachine",
+          "localizedValue": "Restart virtual machine"
+        },
+        "level": "Informational"
+      }
+    },
+    {
+      "time": "2024-08-03T07:00:00.000Z",
+      "resourceId": "/subscriptions/12345678-1234-1234-1234-123456789012/resourceGroups/myResourceGroup/providers/Microsoft.Network/networkSecurityGroups/nsg9",
+      "operationName": "Microsoft.Network/networkSecurityGroups/securityRules/delete",
+      "category": "Administrative",
+      "resultType": "Success",
+      "resultSignature": "Deleted",
+      "durationMs": 900,
+      "callerIpAddress": "192.168.1.28",
+      "correlationId": "opqrstuv-wxyz-abcd-efgh-ijklmnopqrst",
+      "identity": {
+        "type": "User",
+        "userId": "admin9@example.com"
+      },
+      "properties": {
+        "statusCode": "OK",
+        "serviceRequestId": "qrstuvwx-yzab-cdef-ghij-klmnopqrstuv",
+        "eventCategory": "Administrative",
+        "eventName": {
+          "value": "DeleteSecurityRule",
+          "localizedValue": "Delete security rule"
+        },
+        "level": "Informational"
+      }
+    },
+    {
+      "time": "2024-08-03T08:00:00.000Z",
+      "resourceId": "/subscriptions/12345678-1234-1234-1234-123456789012/resourceGroups/myResourceGroup/providers/Microsoft.Storage/storageAccounts/storage9",
+      "operationName": "Microsoft.Storage/storageAccounts/delete",
+      "category": "Administrative",
+      "resultType": "Success",
+      "resultSignature": "Deleted",
+      "durationMs": 600,
+      "callerIpAddress": "192.168.1.38",
+      "correlationId": "cdefghij-klmn-opqr-stuv-wxyzabcdefg",
+      "identity": {
+        "type": "User",
+        "userId": "security9@example.com"
+      },
+      "properties": {
+        "statusCode": "OK",
+        "serviceRequestId": "mnopqrst-uvwx-yzab-cdef-ghijklmnopqr",
+        "eventCategory": "Administrative",
+        "eventName": {
+          "value": "DeleteStorageAccount",
+          "localizedValue": "Delete storage account"
+        },
+        "level": "Informational"
+      }
+    },
+    {
+      "time": "2024-08-03T09:00:00.000Z",
+      "resourceId": "/subscriptions/12345678-1234-1234-1234-123456789012/resourceGroups/myResourceGroup/providers/Microsoft.Sql/servers/sqlServer9/databases/db9",
+      "operationName": "Microsoft.Sql/servers/databases/drop/action",
+      "category": "Administrative",
+      "resultType": "Success",
+      "resultSignature": "Dropped",
+      "durationMs": 2100,
+      "callerIpAddress": "192.168.1.48",
+      "correlationId": "cdefghij-klmn-opqr-stuv-wxyzabcdefg",
+      "identity": {
+        "type": "User",
+        "userId": "dbadmin9@example.com"
+      },
+      "properties": {
+        "statusCode": "OK",
+        "serviceRequestId": "ijklmnop-qrst-uvwx-yzab-cdefghijklmn",
+        "eventCategory": "Administrative",
+        "eventName": {
+          "value": "DropDatabase",
+          "localizedValue": "Drop database"
+        },
+        "level": "Informational"
+      }
+    },
+    {
+      "time": "2024-08-03T10:00:00.000Z",
+      "resourceId": "/subscriptions/12345678-1234-1234-1234-123456789012/resourceGroups/myResourceGroup/providers/Microsoft.Compute/virtualMachines/vm11",
+      "operationName": "Microsoft.Compute/virtualMachines/start/action",
+      "category": "Administrative",
+      "resultType": "Success",
+      "resultSignature": "Started",
+      "durationMs": 1400,
+      "callerIpAddress": "192.168.1.11",
+      "correlationId": "cdefghij-klmn-opqr-stuv-wxyzabcdefg",
+      "identity": {
+        "type": "User",
+        "userId": "user11@example.com"
+      },
+      "properties": {
+        "statusCode": "OK",
+        "serviceRequestId": "abcdefgh-ijkl-mnop-qrst-uvwxyzabcdef",
+        "eventCategory": "Administrative",
+        "eventName": {
+          "value": "StartVirtualMachine",
+          "localizedValue": "Start virtual machine"
+        },
+        "level": "Informational"
+      }
+    },
+    {
+      "time": "2024-08-03T11:00:00.000Z",
+      "resourceId": "/subscriptions/12345678-1234-1234-1234-123456789012/resourceGroups/myResourceGroup/providers/Microsoft.Compute/virtualMachines/vm11",
+      "operationName": "Microsoft.Compute/virtualMachines/restart/action",
+      "category": "Administrative",
+      "resultType": "Success",
+      "resultSignature": "Restarted",
+      "durationMs": 1600,
+      "callerIpAddress": "192.168.1.11",
+      "correlationId": "cdefghij-klmn-opqr-stuv-wxyzabcdefg",
+      "identity": {
+        "type": "User",
+        "userId": "user11@example.com"
+      },
+      "properties": {
+        "statusCode": "OK",
+        "serviceRequestId": "ijklmnop-qrst-uvwx-yzab-cdefghijklmn",
+        "eventCategory": "Administrative",
+        "eventName": {
+          "value": "RestartVirtualMachine",
+          "localizedValue": "Restart virtual machine"
+        },
+        "level": "Informational"
+      }
+    },
+    {
+      "time": "2024-08-03T12:00:00.000Z",
+      "resourceId": "/subscriptions/12345678-1234-1234-1234-123456789012/resourceGroups/myResourceGroup/providers/Microsoft.Network/networkSecurityGroups/nsg10",
+      "operationName": "Microsoft.Network/networkSecurityGroups/securityRules/delete",
+      "category": "Administrative",
+      "resultType": "Success",
+      "resultSignature": "Deleted",
+      "durationMs": 900,
+      "callerIpAddress": "192.168.1.29",
+      "correlationId": "opqrstuv-wxyz-abcd-efgh-ijklmnopqrst",
+      "identity": {
+        "type": "User",
+        "userId": "admin10@example.com"
+      },
+      "properties": {
+        "statusCode": "OK",
+        "serviceRequestId": "qrstuvwx-yzab-cdef-ghij-klmnopqrstuv",
+        "eventCategory": "Administrative",
+        "eventName": {
+          "value": "DeleteSecurityRule",
+          "localizedValue": "Delete security rule"
+        },
+        "level": "Informational"
+      }
+    },
+    {
+      "time": "2024-08-03T13:00:00.000Z",
+      "resourceId": "/subscriptions/12345678-1234-1234-1234-123456789012/resourceGroups/myResourceGroup/providers/Microsoft.Storage/storageAccounts/storage10",
+      "operationName": "Microsoft.Storage/storageAccounts/delete",
+      "category": "Administrative",
+      "resultType": "Success",
+      "resultSignature": "Deleted",
+      "durationMs": 600,
+      "callerIpAddress": "192.168.1.39",
+      "correlationId": "cdefghij-klmn-opqr-stuv-wxyzabcdefg",
+      "identity": {
+        "type": "User",
+        "userId": "security10@example.com"
+      },
+      "properties": {
+        "statusCode": "OK",
+        "serviceRequestId": "mnopqrst-uvwx-yzab-cdef-ghijklmnopqr",
+        "eventCategory": "Administrative",
+        "eventName": {
+          "value": "DeleteStorageAccount",
+          "localizedValue": "Delete storage account"
+        },
+        "level": "Informational"
+      }
+    },
+    {
+      "time": "2024-08-03T14:00:00.000Z",
+      "resourceId": "/subscriptions/12345678-1234-1234-1234-123456789012/resourceGroups/myResourceGroup/providers/Microsoft.Sql/servers/sqlServer10/databases/db10",
+      "operationName": "Microsoft.Sql/servers/databases/drop/action",
+      "category": "Administrative",
+      "resultType": "Success",
+      "resultSignature": "Dropped",
+      "durationMs": 2100,
+      "callerIpAddress": "192.168.1.49",
+      "correlationId": "cdefghij-klmn-opqr-stuv-wxyzabcdefg",
+      "identity": {
+        "type": "User",
+        "userId": "dbadmin10@example.com"
+      },
+      "properties": {
+        "statusCode": "OK",
+        "serviceRequestId": "ijklmnop-qrst-uvwx-yzab-cdefghijklmn",
+        "eventCategory": "Administrative",
+        "eventName": {
+          "value": "DropDatabase",
+          "localizedValue": "Drop database"
+        },
+        "level": "Informational"
+      }
+    },
+    {
+      "time": "2024-08-03T15:00:00.000Z",
+      "resourceId": "/subscriptions/12345678-1234-1234-1234-123456789012/resourceGroups/myResourceGroup/providers/Microsoft.Compute/virtualMachines/vm12",
+      "operationName": "Microsoft.Compute/virtualMachines/start/action",
+      "category": "Administrative",
+      "resultType": "Success",
+      "resultSignature": "Started",
+      "durationMs": 1400,
+      "callerIpAddress": "192.168.1.20",
+      "correlationId": "cdefghij-klmn-opqr-stuv-wxyzabcdefg",
+      "identity": {
+        "type": "User",
+        "userId": "user12@example.com"
+      },
+      "properties": {
+        "statusCode": "OK",
+        "serviceRequestId": "abcdefgh-ijkl-mnop-qrst-uvwxyzabcdef",
+        "eventCategory": "Administrative",
+        "eventName": {
+          "value": "StartVirtualMachine",
+          "localizedValue": "Start virtual machine"
+        },
+        "level": "Informational"
+      }
+    },
+    {
+      "time": "2024-08-03T16:00:00.000Z",
+      "resourceId": "/subscriptions/12345678-1234-1234-1234-123456789012/resourceGroups/myResourceGroup/providers/Microsoft.Compute/virtualMachines/vm12",
+      "operationName": "Microsoft.Compute/virtualMachines/restart/action",
+      "category": "Administrative",
+      "resultType": "Success",
+      "resultSignature": "Restarted",
+      "durationMs": 1600,
+      "callerIpAddress": "192.168.1.20",
+      "correlationId": "cdefghij-klmn-opqr-stuv-wxyzabcdefg",
+      "identity": {
+        "type": "User",
+        "userId": "user12@example.com"
+      },
+      "properties": {
+        "statusCode": "OK",
+        "serviceRequestId": "ijklmnop-qrst-uvwx-yzab-cdefghijklmn",
+        "eventCategory": "Administrative",
+        "eventName": {
+          "value": "RestartVirtualMachine",
+          "localizedValue": "Restart virtual machine"
+        },
+        "level": "Informational"
+      }
+    },
+    {
+      "time": "2024-08-03T17:00:00.000Z",
+      "resourceId": "/subscriptions/12345678-1234-1234-1234-123456789012/resourceGroups/myResourceGroup/providers/Microsoft.Network/networkSecurityGroups/nsg11",
+      "operationName": "Microsoft.Network/networkSecurityGroups/securityRules/delete",
+      "category": "Administrative",
+      "resultType": "Success",
+      "resultSignature": "Deleted",
+      "durationMs": 900,
+      "callerIpAddress": "192.168.1.30",
+      "correlationId": "opqrstuv-wxyz-abcd-efgh-ijklmnopqrst",
+      "identity": {
+        "type": "User",
+        "userId": "admin11@example.com"
+      },
+      "properties": {
+        "statusCode": "OK",
+        "serviceRequestId": "qrstuvwx-yzab-cdef-ghij-klmnopqrstuv",
+        "eventCategory": "Administrative",
+        "eventName": {
+          "value": "DeleteSecurityRule",
+          "localizedValue": "Delete security rule"
+        },
+        "level": "Informational"
+      }
+    },
+    {
+      "time": "2024-08-03T18:00:00.000Z",
+      "resourceId": "/subscriptions/12345678-1234-1234-1234-123456789012/resourceGroups/myResourceGroup/providers/Microsoft.Storage/storageAccounts/storage11",
+      "operationName": "Microsoft.Storage/storageAccounts/delete",
+      "category": "Administrative",
+      "resultType": "Success",
+      "resultSignature": "Deleted",
+      "durationMs": 600,
+      "callerIpAddress": "192.168.1.40",
+      "correlationId": "cdefghij-klmn-opqr-stuv-wxyzabcdefg",
+      "identity": {
+        "type": "User",
+        "userId": "security11@example.com"
+      },
+      "properties": {
+        "statusCode": "OK",
+        "serviceRequestId": "mnopqrst-uvwx-yzab-cdef-ghijklmnopqr",
+        "eventCategory": "Administrative",
+        "eventName": {
+          "value": "DeleteStorageAccount",
+          "localizedValue": "Delete storage account"
+        },
+        "level": "Informational"
+      }
+    },
+    {
+      "time": "2024-08-03T19:00:00.000Z",
+      "resourceId": "/subscriptions/12345678-1234-1234-1234-123456789012/resourceGroups/myResourceGroup/providers/Microsoft.Sql/servers/sqlServer11/databases/db11",
+      "operationName": "Microsoft.Sql/servers/databases/drop/action",
+      "category": "Administrative",
+      "resultType": "Success",
+      "resultSignature": "Dropped",
+      "durationMs": 2100,
+      "callerIpAddress": "192.168.1.50",
+      "correlationId": "cdefghij-klmn-opqr-stuv-wxyzabcdefg",
+      "identity": {
+        "type": "User",
+        "userId": "dbadmin11@example.com"
+      },
+      "properties": {
+        "statusCode": "OK",
+        "serviceRequestId": "ijklmnop-qrst-uvwx-yzab-cdefghijklmn",
+        "eventCategory": "Administrative",
+        "eventName": {
+          "value": "DropDatabase",
+          "localizedValue": "Drop database"
+        },
+        "level": "Informational"
+      }
+    },
+    {
+      "time": "2024-08-03T20:00:00.000Z",
+      "resourceId": "/subscriptions/12345678-1234-1234-1234-123456789012/resourceGroups/myResourceGroup/providers/Microsoft.Compute/virtualMachines/vm13",
+      "operationName": "Microsoft.Compute/virtualMachines/start/action",
+      "category": "Administrative",
+      "resultType": "Success",
+      "resultSignature": "Started",
+      "durationMs": 1400,
+      "callerIpAddress": "192.168.1.21",
+      "correlationId": "cdefghij-klmn-opqr-stuv-wxyzabcdefg",
+      "identity": {
+        "type": "User",
+        "userId": "user13@example.com"
+      },
+      "properties": {
+        "statusCode": "OK",
+        "serviceRequestId": "abcdefgh-ijkl-mnop-qrst-uvwxyzabcdef",
+        "eventCategory": "Administrative",
+        "eventName": {
+          "value": "StartVirtualMachine",
+          "localizedValue": "Start virtual machine"
+        },
+        "level": "Informational"
+      }
+    },
+    {
+      "time": "2024-08-03T21:00:00.000Z",
+      "resourceId": "/subscriptions/12345678-1234-1234-1234-123456789012/resourceGroups/myResourceGroup/providers/Microsoft.Compute/virtualMachines/vm13",
+      "operationName": "Microsoft.Compute/virtualMachines/restart/action",
+      "category": "Administrative",
+      "resultType": "Success",
+      "resultSignature": "Restarted",
+      "durationMs": 1600,
+      "callerIpAddress": "192.168.1.21",
+      "correlationId": "cdefghij-klmn-opqr-stuv-wxyzabcdefg",
+      "identity": {
+        "type": "User",
+        "userId": "user13@example.com"
+      },
+      "properties": {
+        "statusCode": "OK",
+        "serviceRequestId": "ijklmnop-qrst-uvwx-yzab-cdefghijklmn",
+        "eventCategory": "Administrative",
+        "eventName": {
+          "value": "RestartVirtualMachine",
+          "localizedValue": "Restart virtual machine"
+        },
+        "level": "Informational"
+      }
+    },
+    {
+      "time": "2024-08-03T22:00:00.000Z",
+      "resourceId": "/subscriptions/12345678-1234-1234-1234-123456789012/resourceGroups/myResourceGroup/providers/Microsoft.Network/networkSecurityGroups/nsg12",
+      "operationName": "Microsoft.Network/networkSecurityGroups/securityRules/delete",
+      "category": "Administrative",
+      "resultType": "Success",
+      "resultSignature": "Deleted",
+      "durationMs": 900,
+      "callerIpAddress": "192.168.1.31",
+      "correlationId": "opqrstuv-wxyz-abcd-efgh-ijklmnopqrst",
+      "identity": {
+        "type": "User",
+        "userId": "admin12@example.com"
+      },
+      "properties": {
+        "statusCode": "OK",
+        "serviceRequestId": "qrstuvwx-yzab-cdef-ghij-klmnopqrstuv",
+        "eventCategory": "Administrative",
+        "eventName": {
+          "value": "DeleteSecurityRule",
+          "localizedValue": "Delete security rule"
+        },
+        "level": "Informational"
+      }
+    },
+    {
+      "time": "2024-08-03T23:00:00.000Z",
+      "resourceId": "/subscriptions/12345678-1234-1234-1234-123456789012/resourceGroups/myResourceGroup/providers/Microsoft.Storage/storageAccounts/storage12",
+      "operationName": "Microsoft.Storage/storageAccounts/delete",
+      "category": "Administrative",
+      "resultType": "Success",
+      "resultSignature": "Deleted",
+      "durationMs": 600,
+      "callerIpAddress": "192.168.1.41",
+      "correlationId": "cdefghij-klmn-opqr-stuv-wxyzabcdefg",
+      "identity": {
+        "type": "User",
+        "userId": "security12@example.com"
+      },
+      "properties": {
+        "statusCode": "OK",
+        "serviceRequestId": "mnopqrst-uvwx-yzab-cdef-ghijklmnopqr",
+        "eventCategory": "Administrative",
+        "eventName": {
+          "value": "DeleteStorageAccount",
+          "localizedValue": "Delete storage account"
+        },
+        "level": "Informational"
+      }
+    },
+    {
+      "time": "2024-08-04T00:00:00.000Z",
+      "resourceId": "/subscriptions/12345678-1234-1234-1234-123456789012/resourceGroups/myResourceGroup/providers/Microsoft.Sql/servers/sqlServer12/databases/db12",
+      "operationName": "Microsoft.Sql/servers/databases/drop/action",
+      "category": "Administrative",
+      "resultType": "Success",
+      "resultSignature": "Dropped",
+      "durationMs": 2100,
+      "callerIpAddress": "192.168.1.51",
+      "correlationId": "cdefghij-klmn-opqr-stuv-wxyzabcdefg",
+      "identity": {
+        "type": "User",
+        "userId": "dbadmin12@example.com"
+      },
+      "properties": {
+        "statusCode": "OK",
+        "serviceRequestId": "ijklmnop-qrst-uvwx-yzab-cdefghijklmn",
+        "eventCategory": "Administrative",
+        "eventName": {
+          "value": "DropDatabase",
+          "localizedValue": "Drop database"
+        },
+        "level": "Informational"
+      }
+    },
+    {
+      "time": "2024-08-04T01:00:00.000Z",
+      "resourceId": "/subscriptions/12345678-1234-1234-1234-123456789012/resourceGroups/myResourceGroup/providers/Microsoft.Compute/virtualMachines/vm14",
+      "operationName": "Microsoft.Compute/virtualMachines/start/action",
+      "category": "Administrative",
+      "resultType": "Success",
+      "resultSignature": "Started",
+      "durationMs": 1400,
+      "callerIpAddress": "192.168.1.22",
+      "correlationId": "cdefghij-klmn-opqr-stuv-wxyzabcdefg",
+      "identity": {
+        "type": "User",
+        "userId": "user14@example.com"
+      },
+      "properties": {
+        "statusCode": "OK",
+        "serviceRequestId": "abcdefgh-ijkl-mnop-qrst-uvwxyzabcdef",
+        "eventCategory": "Administrative",
+        "eventName": {
+          "value": "StartVirtualMachine",
+          "localizedValue": "Start virtual machine"
+        },
+        "level": "Informational"
+      }
+    },
+    {
+      "time": "2024-08-04T02:00:00.000Z",
+      "resourceId": "/subscriptions/12345678-1234-1234-1234-123456789012/resourceGroups/myResourceGroup/providers/Microsoft.Compute/virtualMachines/vm14",
+      "operationName": "Microsoft.Compute/virtualMachines/restart/action",
+      "category": "Administrative",
+      "resultType": "Success",
+      "resultSignature": "Restarted",
+      "durationMs": 1600,
+      "callerIpAddress": "192.168.1.22",
+      "correlationId": "cdefghij-klmn-opqr-stuv-wxyzabcdefg",
+      "identity": {
+        "type": "User",
+        "userId": "user14@example.com"
+      },
+      "properties": {
+        "statusCode": "OK",
+        "serviceRequestId": "ijklmnop-qrst-uvwx-yzab-cdefghijklmn",
+        "eventCategory": "Administrative",
+        "eventName": {
+          "value": "RestartVirtualMachine",
+          "localizedValue": "Restart virtual machine"
+        },
+        "level": "Informational"
+      }
+    },
+    {
+      "time": "2024-08-04T03:00:00.000Z",
+      "resourceId": "/subscriptions/12345678-1234-1234-1234-123456789012/resourceGroups/myResourceGroup/providers/Microsoft.Network/networkSecurityGroups/nsg13",
+      "operationName": "Microsoft.Network/networkSecurityGroups/securityRules/delete",
+      "category": "Administrative",
+      "resultType": "Success",
+      "resultSignature": "Deleted",
+      "durationMs": 900,
+      "callerIpAddress": "192.168.1.32",
+      "correlationId": "opqrstuv-wxyz-abcd-efgh-ijklmnopqrst",
+      "identity": {
+        "type": "User",
+        "userId": "admin13@example.com"
+      },
+      "properties": {
+        "statusCode": "OK",
+        "serviceRequestId": "qrstuvwx-yzab-cdef-ghij-klmnopqrstuv",
+        "eventCategory": "Administrative",
+        "eventName": {
+          "value": "DeleteSecurityRule",
+          "localizedValue": "Delete security rule"
+        },
+        "level": "Informational"
+      }
+    },
+    {
+      "time": "2024-08-04T04:00:00.000Z",
+      "resourceId": "/subscriptions/12345678-1234-1234-1234-123456789012/resourceGroups/myResourceGroup/providers/Microsoft.Storage/storageAccounts/storage13",
+      "operationName": "Microsoft.Storage/storageAccounts/delete",
+      "category": "Administrative",
+      "resultType": "Success",
+      "resultSignature": "Deleted",
+      "durationMs": 600,
+      "callerIpAddress": "192.168.1.42",
+      "correlationId": "cdefghij-klmn-opqr-stuv-wxyzabcdefg",
+      "identity": {
+        "type": "User",
+        "userId": "security13@example.com"
+      },
+      "properties": {
+        "statusCode": "OK",
+        "serviceRequestId": "mnopqrst-uvwx-yzab-cdef-ghijklmnopqr",
+        "eventCategory": "Administrative",
+        "eventName": {
+          "value": "DeleteStorageAccount",
+          "localizedValue": "Delete storage account"
+        },
+        "level": "Informational"
+      }
+    },
+    {
+      "time": "2024-08-04T05:00:00.000Z",
+      "resourceId": "/subscriptions/12345678-1234-1234-1234-123456789012/resourceGroups/myResourceGroup/providers/Microsoft.Sql/servers/sqlServer13/databases/db13",
+      "operationName": "Microsoft.Sql/servers/databases/drop/action",
+      "category": "Administrative",
+      "resultType": "Success",
+      "resultSignature": "Dropped",
+      "durationMs": 2100,
+      "callerIpAddress": "192.168.1.52",
+      "correlationId": "cdefghij-klmn-opqr-stuv-wxyzabcdefg",
+      "identity": {
+        "type": "User",
+        "userId": "dbadmin13@example.com"
+      },
+      "properties": {
+        "statusCode": "OK",
+        "serviceRequestId": "ijklmnop-qrst-uvwx-yzab-cdefghijklmn",
+        "eventCategory": "Administrative",
+        "eventName": {
+          "value": "DropDatabase",
+          "localizedValue": "Drop database"
+        },
+        "level": "Informational"
+      }
+    },
+    {
+      "time": "2024-08-04T06:00:00.000Z",
+      "resourceId": "/subscriptions/12345678-1234-1234-1234-123456789012/resourceGroups/myResourceGroup/providers/Microsoft.Compute/virtualMachines/vm15",
+      "operationName": "Microsoft.Compute/virtualMachines/start/action",
+      "category": "Administrative",
+      "resultType": "Success",
+      "resultSignature": "Started",
+      "durationMs": 1400,
+      "callerIpAddress": "192.168.1.23",
+      "correlationId": "cdefghij-klmn-opqr-stuv-wxyzabcdefg",
+      "identity": {
+        "type": "User",
+        "userId": "user15@example.com"
+      },
+      "properties": {
+        "statusCode": "OK",
+        "serviceRequestId": "abcdefgh-ijkl-mnop-qrst-uvwxyzabcdef",
+        "eventCategory": "Administrative",
+        "eventName": {
+          "value": "StartVirtualMachine",
+          "localizedValue": "Start virtual machine"
+        },
+        "level": "Informational"
+      }
+    },
+    {
+      "time": "2024-08-04T07:00:00.000Z",
+      "resourceId": "/subscriptions/12345678-1234-1234-1234-123456789012/resourceGroups/myResourceGroup/providers/Microsoft.Compute/virtualMachines/vm15",
+      "operationName": "Microsoft.Compute/virtualMachines/restart/action",
+      "category": "Administrative",
+      "resultType": "Success",
+      "resultSignature": "Restarted",
+      "durationMs": 1600,
+      "callerIpAddress": "192.168.1.23",
+      "correlationId": "cdefghij-klmn-opqr-stuv-wxyzabcdefg",
+      "identity": {
+        "type": "User",
+        "userId": "user15@example.com"
+      },
+      "properties": {
+        "statusCode": "OK",
+        "serviceRequestId": "ijklmnop-qrst-uvwx-yzab-cdefghijklmn",
+        "eventCategory": "Administrative",
+        "eventName": {
+          "value": "RestartVirtualMachine",
+          "localizedValue": "Restart virtual machine"
+        },
+        "level": "Informational"
+      }
+    },
+    {
+      "time": "2024-08-04T08:00:00.000Z",
+      "resourceId": "/subscriptions/12345678-1234-1234-1234-123456789012/resourceGroups/myResourceGroup/providers/Microsoft.Network/networkSecurityGroups/nsg14",
+      "operationName": "Microsoft.Network/networkSecurityGroups/securityRules/delete",
+      "category": "Administrative",
+      "resultType": "Success",
+      "resultSignature": "Deleted",
+      "durationMs": 900,
+      "callerIpAddress": "192.168.1.33",
+      "correlationId": "opqrstuv-wxyz-abcd-efgh-ijklmnopqrst",
+      "identity": {
+        "type": "User",
+        "userId": "admin14@example.com"
+      },
+      "properties": {
+        "statusCode": "OK",
+        "serviceRequestId": "qrstuvwx-yzab-cdef-ghij-klmnopqrstuv",
+        "eventCategory": "Administrative",
+        "eventName": {
+          "value": "DeleteSecurityRule",
+          "localizedValue": "Delete security rule"
+        },
+        "level": "Informational"
+      }
+    },
+    {
+      "time": "2024-08-04T09:00:00.000Z",
+      "resourceId": "/subscriptions/12345678-1234-1234-1234-123456789012/resourceGroups/myResourceGroup/providers/Microsoft.Storage/storageAccounts/storage14",
+      "operationName": "Microsoft.Storage/storageAccounts/delete",
+      "category": "Administrative",
+      "resultType": "Success",
+      "resultSignature": "Deleted",
+      "durationMs": 600,
+      "callerIpAddress": "192.168.1.43",
+      "correlationId": "cdefghij-klmn-opqr-stuv-wxyzabcdefg",
+      "identity": {
+        "type": "User",
+        "userId": "security14@example.com"
+      },
+      "properties": {
+        "statusCode": "OK",
+        "serviceRequestId": "mnopqrst-uvwx-yzab-cdef-ghijklmnopqr",
+        "eventCategory": "Administrative",
+        "eventName": {
+          "value": "DeleteStorageAccount",
+          "localizedValue": "Delete storage account"
+        },
+        "level": "Informational"
+      }
+    },
+    {
+      "time": "2024-08-04T10:00:00.000Z",
+      "resourceId": "/subscriptions/12345678-1234-1234-1234-123456789012/resourceGroups/myResourceGroup/providers/Microsoft.Sql/servers/sqlServer14/databases/db14",
+      "operationName": "Microsoft.Sql/servers/databases/drop/action",
+      "category": "Administrative",
+      "resultType": "Success",
+      "resultSignature": "Dropped",
+      "durationMs": 2100,
+      "callerIpAddress": "192.168.1.53",
+      "correlationId": "cdefghij-klmn-opqr-stuv-wxyzabcdefg",
+      "identity": {
+        "type": "User",
+        "userId": "dbadmin14@example.com"
+      },
+      "properties": {
+        "statusCode": "OK",
+        "serviceRequestId": "ijklmnop-qrst-uvwx-yzab-cdefghijklmn",
+        "eventCategory": "Administrative",
+        "eventName": {
+          "value": "DropDatabase",
+          "localizedValue": "Drop database"
+        },
+        "level": "Informational"
+      }
+    },
+    {
+      "time": "2024-08-04T11:00:00.000Z",
+      "resourceId": "/subscriptions/12345678-1234-1234-1234-123456789012/resourceGroups/myResourceGroup/providers/Microsoft.Compute/virtualMachines/vm16",
+      "operationName": "Microsoft.Compute/virtualMachines/start/action",
+      "category": "Administrative",
+      "resultType": "Success",
+      "resultSignature": "Started",
+      "durationMs": 1400,
+      "callerIpAddress": "192.168.1.24",
+      "correlationId": "cdefghij-klmn-opqr-stuv-wxyzabcdefg",
+      "identity": {
+        "type": "User",
+        "userId": "user16@example.com"
+      },
+      "properties": {
+        "statusCode": "OK",
+        "serviceRequestId": "abcdefgh-ijkl-mnop-qrst-uvwxyzabcdef",
+        "eventCategory": "Administrative",
+        "eventName": {
+          "value": "StartVirtualMachine",
+          "localizedValue": "Start virtual machine"
+        },
+        "level": "Informational"
+      }
+    },
+    {
+      "time": "2024-08-04T12:00:00.000Z",
+      "resourceId": "/subscriptions/12345678-1234-1234-1234-123456789012/resourceGroups/myResourceGroup/providers/Microsoft.Compute/virtualMachines/vm16",
+      "operationName": "Microsoft.Compute/virtualMachines/restart/action",
+      "category": "Administrative",
+      "resultType": "Success",
+      "resultSignature": "Restarted",
+      "durationMs": 1600,
+      "callerIpAddress": "192.168.1.24",
+      "correlationId": "cdefghij-klmn-opqr-stuv-wxyzabcdefg",
+      "identity": {
+        "type": "User",
+        "userId": "user16@example.com"
+      },
+      "properties": {
+        "statusCode": "OK",
+        "serviceRequestId": "ijklmnop-qrst-uvwx-yzab-cdefghijklmn",
+        "eventCategory": "Administrative",
+        "eventName": {
+          "value": "RestartVirtualMachine",
+          "localizedValue": "Restart virtual machine"
+        },
+        "level": "Informational"
+      }
+    },
+    {
+      "time": "2024-08-04T13:00:00.000Z",
+      "resourceId": "/subscriptions/12345678-1234-1234-1234-123456789012/resourceGroups/myResourceGroup/providers/Microsoft.Network/networkSecurityGroups/nsg15",
+      "operationName": "Microsoft.Network/networkSecurityGroups/securityRules/delete",
+      "category": "Administrative",
+      "resultType": "Success",
+      "resultSignature": "Deleted",
+      "durationMs": 900,
+      "callerIpAddress": "192.168.1.34",
+      "correlationId": "opqrstuv-wxyz-abcd-efgh-ijklmnopqrst",
+      "identity": {
+        "type": "User",
+        "userId": "admin15@example.com"
+      },
+      "properties": {
+        "statusCode": "OK",
+        "serviceRequestId": "qrstuvwx-yzab-cdef-ghij-klmnopqrstuv",
+        "eventCategory": "Administrative",
+        "eventName": {
+          "value": "DeleteSecurityRule",
+          "localizedValue": "Delete security rule"
+        },
+        "level": "Informational"
+      }
+    },
+    {
+      "time": "2024-08-04T14:00:00.000Z",
+      "resourceId": "/subscriptions/12345678-1234-1234-1234-123456789012/resourceGroups/myResourceGroup/providers/Microsoft.Storage/storageAccounts/storage15",
+      "operationName": "Microsoft.Storage/storageAccounts/delete",
+      "category": "Administrative",
+      "resultType": "Success",
+      "resultSignature": "Deleted",
+      "durationMs": 600,
+      "callerIpAddress": "192.168.1.44",
+      "correlationId": "cdefghij-klmn-opqr-stuv-wxyzabcdefg",
+      "identity": {
+        "type": "User",
+        "userId": "security15@example.com"
+      },
+      "properties": {
+        "statusCode": "OK",
+        "serviceRequestId": "mnopqrst-uvwx-yzab-cdef-ghijklmnopqr",
+        "eventCategory": "Administrative",
+        "eventName": {
+          "value": "DeleteStorageAccount",
+          "localizedValue": "Delete storage account"
+        },
+        "level": "Informational"
+      }
+    },
+    {
+      "time": "2024-08-04T15:00:00.000Z",
+      "resourceId": "/subscriptions/12345678-1234-1234-1234-123456789012/resourceGroups/myResourceGroup/providers/Microsoft.Sql/servers/sqlServer15/databases/db15",
+      "operationName": "Microsoft.Sql/servers/databases/drop/action",
+      "category": "Administrative",
+      "resultType": "Success",
+      "resultSignature": "Dropped",
+      "durationMs": 2100,
+      "callerIpAddress": "192.168.1.54",
+      "correlationId": "cdefghij-klmn-opqr-stuv-wxyzabcdefg",
+      "identity": {
+        "type": "User",
+        "userId": "dbadmin15@example.com"
+      },
+      "properties": {
+        "statusCode": "OK",
+        "serviceRequestId": "ijklmnop-qrst-uvwx-yzab-cdefghijklmn",
+        "eventCategory": "Administrative",
+        "eventName": {
+          "value": "DropDatabase",
+          "localizedValue": "Drop database"
+        },
+        "level": "Informational"
+      }
+    },
+    {
+      "time": "2024-08-04T16:00:00.000Z",
+      "resourceId": "/subscriptions/12345678-1234-1234-1234-123456789012/resourceGroups/myResourceGroup/providers/Microsoft.Compute/virtualMachines/vm17",
+      "operationName": "Microsoft.Compute/virtualMachines/start/action",
+      "category": "Administrative",
+      "resultType": "Success",
+      "resultSignature": "Started",
+      "durationMs": 1400,
+      "callerIpAddress": "192.168.1.25",
+      "correlationId": "cdefghij-klmn-opqr-stuv-wxyzabcdefg",
+      "identity": {
+        "type": "User",
+        "userId": "user17@example.com"
+      },
+      "properties": {
+        "statusCode": "OK",
+        "serviceRequestId": "abcdefgh-ijkl-mnop-qrst-uvwxyzabcdef",
+        "eventCategory": "Administrative",
+        "eventName": {
+          "value": "StartVirtualMachine",
+          "localizedValue": "Start virtual machine"
+        },
+        "level": "Informational"
+      }
+    },
+    {
+      "time": "2024-08-04T17:00:00.000Z",
+      "resourceId": "/subscriptions/12345678-1234-1234-1234-123456789012/resourceGroups/myResourceGroup/providers/Microsoft.Compute/virtualMachines/vm17",
+      "operationName": "Microsoft.Compute/virtualMachines/restart/action",
+      "category": "Administrative",
+      "resultType": "Success",
+      "resultSignature": "Restarted",
+      "durationMs": 1600,
+      "callerIpAddress": "192.168.1.25",
+      "correlationId": "cdefghij-klmn-opqr-stuv-wxyzabcdefg",
+      "identity": {
+        "type": "User",
+        "userId": "user17@example.com"
+      },
+      "properties": {
+        "statusCode": "OK",
+        "serviceRequestId": "ijklmnop-qrst-uvwx-yzab-cdefghijklmn",
+        "eventCategory": "Administrative",
+        "eventName": {
+          "value": "RestartVirtualMachine",
+          "localizedValue": "Restart virtual machine"
+        },
+        "level": "Informational"
+      }
+    },
+    {
+      "time": "2024-08-04T18:00:00.000Z",
+      "resourceId": "/subscriptions/12345678-1234-1234-1234-123456789012/resourceGroups/myResourceGroup/providers/Microsoft.Network/networkSecurityGroups/nsg16",
+      "operationName": "Microsoft.Network/networkSecurityGroups/securityRules/delete",
+      "category": "Administrative",
+      "resultType": "Success",
+      "resultSignature": "Deleted",
+      "durationMs": 900,
+      "callerIpAddress": "192.168.1.35",
+      "correlationId": "opqrstuv-wxyz-abcd-efgh-ijklmnopqrst",
+      "identity": {
+        "type": "User",
+        "userId": "admin16@example.com"
+      },
+      "properties": {
+        "statusCode": "OK",
+        "serviceRequestId": "qrstuvwx-yzab-cdef-ghij-klmnopqrstuv",
+        "eventCategory": "Administrative",
+        "eventName": {
+          "value": "DeleteSecurityRule",
+          "localizedValue": "Delete security rule"
+        },
+        "level": "Informational"
+      }
+    },
+    {
+      "time": "2024-08-04T19:00:00.000Z",
+      "resourceId": "/subscriptions/12345678-1234-1234-1234-123456789012/resourceGroups/myResourceGroup/providers/Microsoft.Storage/storageAccounts/storage16",
+      "operationName": "Microsoft.Storage/storageAccounts/delete",
+      "category": "Administrative",
+      "resultType": "Success",
+      "resultSignature": "Deleted",
+      "durationMs": 600,
+      "callerIpAddress": "192.168.1.45",
+      "correlationId": "cdefghij-klmn-opqr-stuv-wxyzabcdefg",
+      "identity": {
+        "type": "User",
+        "userId": "security16@example.com"
+      },
+      "properties": {
+        "statusCode": "OK",
+        "serviceRequestId": "mnopqrst-uvwx-yzab-cdef-ghijklmnopqr",
+        "eventCategory": "Administrative",
+        "eventName": {
+          "value": "DeleteStorageAccount",
+          "localizedValue": "Delete storage account"
+        },
+        "level": "Informational"
+      }
+    },
+    {
+      "time": "2024-08-04T20:00:00.000Z",
+      "resourceId": "/subscriptions/12345678-1234-1234-1234-123456789012/resourceGroups/myResourceGroup/providers/Microsoft.Sql/servers/sqlServer16/databases/db16",
+      "operationName": "Microsoft.Sql/servers/databases/drop/action",
+      "category": "Administrative",
+      "resultType": "Success",
+      "resultSignature": "Dropped",
+      "durationMs": 2100,
+      "callerIpAddress": "192.168.1.55",
+      "correlationId": "cdefghij-klmn-opqr-stuv-wxyzabcdefg",
+      "identity": {
+        "type": "User",
+        "userId": "dbadmin16@example.com"
+      },
+      "properties": {
+        "statusCode": "OK",
+        "serviceRequestId": "ijklmnop-qrst-uvwx-yzab-cdefghijklmn",
+        "eventCategory": "Administrative",
+        "eventName": {
+          "value": "DropDatabase",
+          "localizedValue": "Drop database"
+        },
+        "level": "Informational"
+      }
+    },
+    {
+      "time": "2024-08-04T21:00:00.000Z",
+      "resourceId": "/subscriptions/12345678-1234-1234-1234-123456789012/resourceGroups/myResourceGroup/providers/Microsoft.Compute/virtualMachines/vm18",
+      "operationName": "Microsoft.Compute/virtualMachines/start/action",
+      "category": "Administrative",
+      "resultType": "Success",
+      "resultSignature": "Started",
+      "durationMs": 1400,
+      "callerIpAddress": "192.168.1.26",
+      "correlationId": "cdefghij-klmn-opqr-stuv-wxyzabcdefg",
+      "identity": {
+        "type": "User",
+        "userId": "user18@example.com"
+      },
+      "properties": {
+        "statusCode": "OK",
+        "serviceRequestId": "abcdefgh-ijkl-mnop-qrst-uvwxyzabcdef",
+        "eventCategory": "Administrative",
+        "eventName": {
+          "value": "StartVirtualMachine",
+          "localizedValue": "Start virtual machine"
+        },
+        "level": "Informational"
+      }
+    },
+    {
+      "time": "2024-08-04T22:00:00.000Z",
+      "resourceId": "/subscriptions/12345678-1234-1234-1234-123456789012/resourceGroups/myResourceGroup/providers/Microsoft.Compute/virtualMachines/vm18",
+      "operationName": "Microsoft.Compute/virtualMachines/restart/action",
+      "category": "Administrative",
+      "resultType": "Success",
+      "resultSignature": "Restarted",
+      "durationMs": 1600,
+      "callerIpAddress": "192.168.1.26",
+      "correlationId": "cdefghij-klmn-opqr-stuv-wxyzabcdefg",
+      "identity": {
+        "type": "User",
+        "userId": "user18@example.com"
+      },
+      "properties": {
+        "statusCode": "OK",
+        "serviceRequestId": "ijklmnop-qrst-uvwx-yzab-cdefghijklmn",
+        "eventCategory": "Administrative",
+        "eventName": {
+          "value": "RestartVirtualMachine",
+          "localizedValue": "Restart virtual machine"
+        },
+        "level": "Informational"
+      }
+    },
+    {
+      "time": "2024-08-04T23:00:00.000Z",
+      "resourceId": "/subscriptions/12345678-1234-1234-1234-123456789012/resourceGroups/myResourceGroup/providers/Microsoft.Network/networkSecurityGroups/nsg17",
+      "operationName": "Microsoft.Network/networkSecurityGroups/securityRules/delete",
+      "category": "Administrative",
+      "resultType": "Success",
+      "resultSignature": "Deleted",
+      "durationMs": 900,
+      "callerIpAddress": "192.168.1.36",
+      "correlationId": "opqrstuv-wxyz-abcd-efgh-ijklmnopqrst",
+      "identity": {
+        "type": "User",
+        "userId": "admin17@example.com"
+      },
+      "properties": {
+        "statusCode": "OK",
+        "serviceRequestId": "qrstuvwx-yzab-cdef-ghij-klmnopqrstuv",
+        "eventCategory": "Administrative",
+        "eventName": {
+          "value": "DeleteSecurityRule",
+          "localizedValue": "Delete security rule"
+        },
+        "level": "Informational"
+      }
+    },
+    {
+      "time": "2024-08-05T00:00:00.000Z",
+      "resourceId": "/subscriptions/12345678-1234-1234-1234-123456789012/resourceGroups/myResourceGroup/providers/Microsoft.Storage/storageAccounts/storage17",
+      "operationName": "Microsoft.Storage/storageAccounts/delete",
+      "category": "Administrative",
+      "resultType": "Success",
+      "resultSignature": "Deleted",
+      "durationMs": 600,
+      "callerIpAddress": "192.168.1.46",
+      "correlationId": "cdefghij-klmn-opqr-stuv-wxyzabcdefg",
+      "identity": {
+        "type": "User",
+        "userId": "security17@example.com"
+      },
+      "properties": {
+        "statusCode": "OK",
+        "serviceRequestId": "mnopqrst-uvwx-yzab-cdef-ghijklmnopqr",
+        "eventCategory": "Administrative",
+        "eventName": {
+          "value": "DeleteStorageAccount",
+          "localizedValue": "Delete storage account"
+        },
+        "level": "Informational"
+      }
+    },
+    {
+      "time": "2024-08-05T01:00:00.000Z",
+      "resourceId": "/subscriptions/12345678-1234-1234-1234-123456789012/resourceGroups/myResourceGroup/providers/Microsoft.Sql/servers/sqlServer17/databases/db17",
+      "operationName": "Microsoft.Sql/servers/databases/drop/action",
+      "category": "Administrative",
+      "resultType": "Success",
+      "resultSignature": "Dropped",
+      "durationMs": 2100,
+      "callerIpAddress": "192.168.1.56",
+      "correlationId": "cdefghij-klmn-opqr-stuv-wxyzabcdefg",
+      "identity": {
+        "type": "User",
+        "userId": "dbadmin17@example.com"
+      },
+      "properties": {
+        "statusCode": "OK",
+        "serviceRequestId": "ijklmnop-qrst-uvwx-yzab-cdefghijklmn",
+        "eventCategory": "Administrative",
+        "eventName": {
+          "value": "DropDatabase",
+          "localizedValue": "Drop database"
+        },
+        "level": "Informational"
+      }
+    },
+    {
+      "time": "2024-08-05T02:00:00.000Z",
+      "resourceId": "/subscriptions/12345678-1234-1234-1234-123456789012/resourceGroups/myResourceGroup/providers/Microsoft.Compute/virtualMachines/vm19",
+      "operationName": "Microsoft.Compute/virtualMachines/start/action",
+      "category": "Administrative",
+      "resultType": "Success",
+      "resultSignature": "Started",
+      "durationMs": 1400,
+      "callerIpAddress": "192.168.1.27",
+      "correlationId": "cdefghij-klmn-opqr-stuv-wxyzabcdefg",
+      "identity": {
+        "type": "User",
+        "userId": "user19@example.com"
+      },
+      "properties": {
+        "statusCode": "OK",
+        "serviceRequestId": "abcdefgh-ijkl-mnop-qrst-uvwxyzabcdef",
+        "eventCategory": "Administrative",
+        "eventName": {
+          "value": "StartVirtualMachine",
+          "localizedValue": "Start virtual machine"
+        },
+        "level": "Informational"
+      }
+    },
+    {
+      "time": "2024-08-05T03:00:00.000Z",
+      "resourceId": "/subscriptions/12345678-1234-1234-1234-123456789012/resourceGroups/myResourceGroup/providers/Microsoft.Compute/virtualMachines/vm19",
+      "operationName": "Microsoft.Compute/virtualMachines/restart/action",
+      "category": "Administrative",
+      "resultType": "Success",
+      "resultSignature": "Restarted",
+      "durationMs": 1600,
+      "callerIpAddress": "192.168.1.27",
+      "correlationId": "cdefghij-klmn-opqr-stuv-wxyzabcdefg",
+      "identity": {
+        "type": "User",
+        "userId": "user19@example.com"
+      },
+      "properties": {
+        "statusCode": "OK",
+        "serviceRequestId": "ijklmnop-qrst-uvwx-yzab-cdefghijklmn",
+        "eventCategory": "Administrative",
+        "eventName": {
+          "value": "RestartVirtualMachine",
+          "localizedValue": "Restart virtual machine"
+        },
+        "level": "Informational"
+      }
+    },
+    {
+      "time": "2024-08-05T04:00:00.000Z",
+      "resourceId": "/subscriptions/12345678-1234-1234-1234-123456789012/resourceGroups/myResourceGroup/providers/Microsoft.Network/networkSecurityGroups/nsg18",
+      "operationName": "Microsoft.Network/networkSecurityGroups/securityRules/delete",
+      "category": "Administrative",
+      "resultType": "Success",
+      "resultSignature": "Deleted",
+      "durationMs": 900,
+      "callerIpAddress": "192.168.1.37",
+      "correlationId": "opqrstuv-wxyz-abcd-efgh-ijklmnopqrst",
+      "identity": {
+        "type": "User",
+        "userId": "admin18@example.com"
+      },
+      "properties": {
+        "statusCode": "OK",
+        "serviceRequestId": "qrstuvwx-yzab-cdef-ghij-klmnopqrstuv",
+        "eventCategory": "Administrative",
+        "eventName": {
+          "value": "DeleteSecurityRule",
+          "localizedValue": "Delete security rule"
+        },
+        "level": "Informational"
+      }
+    },
+    {
+      "time": "2024-08-05T05:00:00.000Z",
+      "resourceId": "/subscriptions/12345678-1234-1234-1234-123456789012/resourceGroups/myResourceGroup/providers/Microsoft.Storage/storageAccounts/storage18",
+      "operationName": "Microsoft.Storage/storageAccounts/delete",
+      "category": "Administrative",
+      "resultType": "Success",
+      "resultSignature": "Deleted",
+      "durationMs": 600,
+      "callerIpAddress": "192.168.1.47",
+      "correlationId": "cdefghij-klmn-opqr-stuv-wxyzabcdefg",
+      "identity": {
+        "type": "User",
+        "userId": "security18@example.com"
+      },
+      "properties": {
+        "statusCode": "OK",
+        "serviceRequestId": "mnopqrst-uvwx-yzab-cdef-ghijklmnopqr",
+        "eventCategory": "Administrative",
+        "eventName": {
+          "value": "DeleteStorageAccount",
+          "localizedValue": "Delete storage account"
+        },
+        "level": "Informational"
+      }
+    },
+    {
+      "time": "2024-08-05T06:00:00.000Z",
+      "resourceId": "/subscriptions/12345678-1234-1234-1234-123456789012/resourceGroups/myResourceGroup/providers/Microsoft.Sql/servers/sqlServer18/databases/db18",
+      "operationName": "Microsoft.Sql/servers/databases/drop/action",
+      "category": "Administrative",
+      "resultType": "Success",
+      "resultSignature": "Dropped",
+      "durationMs": 2100,
+      "callerIpAddress": "192.168.1.57",
+      "correlationId": "cdefghij-klmn-opqr-stuv-wxyzabcdefg",
+      "identity": {
+        "type": "User",
+        "userId": "dbadmin18@example.com"
+      },
+      "properties": {
+        "statusCode": "OK",
+        "serviceRequestId": "ijklmnop-qrst-uvwx-yzab-cdefghijklmn",
+        "eventCategory": "Administrative",
+        "eventName": {
+          "value": "DropDatabase",
+          "localizedValue": "Drop database"
+        },
+        "level": "Informational"
+      }
+    },
+    {
+      "time": "2024-08-05T07:00:00.000Z",
+      "resourceId": "/subscriptions/12345678-1234-1234-1234-123456789012/resourceGroups/myResourceGroup/providers/Microsoft.Compute/virtualMachines/vm20",
+      "operationName": "Microsoft.Compute/virtualMachines/start/action",
+      "category": "Administrative",
+      "resultType": "Success",
+      "resultSignature": "Started",
+      "durationMs": 1400,
+      "callerIpAddress": "192.168.1.28",
+      "correlationId": "cdefghij-klmn-opqr-stuv-wxyzabcdefg",
+      "identity": {
+        "type": "User",
+        "userId": "user20@example.com"
+      },
+      "properties": {
+        "statusCode": "OK",
+        "serviceRequestId": "abcdefgh-ijkl-mnop-qrst-uvwxyzabcdef",
+        "eventCategory": "Administrative",
+        "eventName": {
+          "value": "StartVirtualMachine",
+          "localizedValue": "Start virtual machine"
+        },
+        "level": "Informational"
+      }
+    },
+    {
+      "time": "2024-08-05T08:00:00.000Z",
+      "resourceId": "/subscriptions/12345678-1234-1234-1234-123456789012/resourceGroups/myResourceGroup/providers/Microsoft.Compute/virtualMachines/vm20",
+      "operationName": "Microsoft.Compute/virtualMachines/restart/action",
+      "category": "Administrative",
+      "resultType": "Success",
+      "resultSignature": "Restarted",
+      "durationMs": 1600,
+      "callerIpAddress": "192.168.1.28",
+      "correlationId": "cdefghij-klmn-opqr-stuv-wxyzabcdefg",
+      "identity": {
+        "type": "User",
+        "userId": "user20@example.com"
+      },
+      "properties": {
+        "statusCode": "OK",
+        "serviceRequestId": "ijklmnop-qrst-uvwx-yzab-cdefghijklmn",
+        "eventCategory": "Administrative",
+        "eventName": {
+          "value": "RestartVirtualMachine",
+          "localizedValue": "Restart virtual machine"
+        },
+        "level": "Informational"
+      }
+    },
+    {
+      "time": "2024-08-05T09:00:00.000Z",
+      "resourceId": "/subscriptions/12345678-1234-1234-1234-123456789012/resourceGroups/myResourceGroup/providers/Microsoft.Network/networkSecurityGroups/nsg19",
+      "operationName": "Microsoft.Network/networkSecurityGroups/securityRules/delete",
+      "category": "Administrative",
+      "resultType": "Success",
+      "resultSignature": "Deleted",
+      "durationMs": 900,
+      "callerIpAddress": "192.168.1.38",
+      "correlationId": "opqrstuv-wxyz-abcd-efgh-ijklmnopqrst",
+      "identity": {
+        "type": "User",
+        "userId": "admin19@example.com"
+      },
+      "properties": {
+        "statusCode": "OK",
+        "serviceRequestId": "qrstuvwx-yzab-cdef-ghij-klmnopqrstuv",
+        "eventCategory": "Administrative",
+        "eventName": {
+          "value": "DeleteSecurityRule",
+          "localizedValue": "Delete security rule"
+        },
+        "level": "Informational"
+      }
+    },
+    {
+      "time": "2024-08-05T10:00:00.000Z",
+      "resourceId": "/subscriptions/12345678-1234-1234-1234-123456789012/resourceGroups/myResourceGroup/providers/Microsoft.Storage/storageAccounts/storage19",
+      "operationName": "Microsoft.Storage/storageAccounts/delete",
+      "category": "Administrative",
+      "resultType": "Success",
+      "resultSignature": "Deleted",
+      "durationMs": 600,
+      "callerIpAddress": "192.168.1.48",
+      "correlationId": "cdefghij-klmn-opqr-stuv-wxyzabcdefg",
+      "identity": {
+        "type": "User",
+        "userId": "security19@example.com"
+      },
+      "properties": {
+        "statusCode": "OK",
+        "serviceRequestId": "mnopqrst-uvwx-yzab-cdef-ghijklmnopqr",
+        "eventCategory": "Administrative",
+        "eventName": {
+          "value": "DeleteStorageAccount",
+          "localizedValue": "Delete storage account"
+        },
+        "level": "Informational"
+      }
+    },
+    {
+      "time": "2024-08-05T11:00:00.000Z",
+      "resourceId": "/subscriptions/12345678-1234-1234-1234-123456789012/resourceGroups/myResourceGroup/providers/Microsoft.Sql/servers/sqlServer19/databases/db19",
+      "operationName": "Microsoft.Sql/servers/databases/drop/action",
+      "category": "Administrative",
+      "resultType": "Success",
+      "resultSignature": "Dropped",
+      "durationMs": 2100,
+      "callerIpAddress": "192.168.1.58",
+      "correlationId": "cdefghij-klmn-opqr-stuv-wxyzabcdefg",
+      "identity": {
+        "type": "User",
+        "userId": "dbadmin19@example.com"
+      },
+      "properties": {
+        "statusCode": "OK",
+        "serviceRequestId": "ijklmnop-qrst-uvwx-yzab-cdefghijklmn",
+        "eventCategory": "Administrative",
+        "eventName": {
+          "value": "DropDatabase",
+          "localizedValue": "Drop database"
+        },
+        "level": "Informational"
+      }
+    },
+    {
+      "time": "2024-08-05T12:00:00.000Z",
+      "resourceId": "/subscriptions/12345678-1234-1234-1234-123456789012/resourceGroups/myResourceGroup/providers/Microsoft.Compute/virtualMachines/vm21",
+      "operationName": "Microsoft.Compute/virtualMachines/start/action",
+      "category": "Administrative",
+      "resultType": "Success",
+      "resultSignature": "Started",
+      "durationMs": 1400,
+      "callerIpAddress": "192.168.1.29",
+      "correlationId": "cdefghij-klmn-opqr-stuv-wxyzabcdefg",
+      "identity": {
+        "type": "User",
+        "userId": "user21@example.com"
+      },
+      "properties": {
+        "statusCode": "OK",
+        "serviceRequestId": "abcdefgh-ijkl-mnop-qrst-uvwxyzabcdef",
+        "eventCategory": "Administrative",
+        "eventName": {
+          "value": "StartVirtualMachine",
+          "localizedValue": "Start virtual machine"
+        },
+        "level": "Informational"
+      }
+    },
+    {
+      "time": "2024-08-05T13:00:00.000Z",
+      "resourceId": "/subscriptions/12345678-1234-1234-1234-123456789012/resourceGroups/myResourceGroup/providers/Microsoft.Compute/virtualMachines/vm21",
+      "operationName": "Microsoft.Compute/virtualMachines/restart/action",
+      "category": "Administrative",
+      "resultType": "Success",
+      "resultSignature": "Restarted",
+      "durationMs": 1600,
+      "callerIpAddress": "192.168.1.29",
+      "correlationId": "cdefghij-klmn-opqr-stuv-wxyzabcdefg",
+      "identity": {
+        "type": "User",
+        "userId": "user21@example.com"
+      },
+      "properties": {
+        "statusCode": "OK",
+        "serviceRequestId": "ijklmnop-qrst-uvwx-yzab-cdefghijklmn",
+        "eventCategory": "Administrative",
+        "eventName": {
+          "value": "RestartVirtualMachine",
+          "localizedValue": "Restart virtual machine"
+        },
+        "level": "Informational"
+      }
+    },
+    {
+      "time": "2024-08-05T14:00:00.000Z",
+      "resourceId": "/subscriptions/12345678-1234-1234-1234-123456789012/resourceGroups/myResourceGroup/providers/Microsoft.Network/networkSecurityGroups/nsg20",
+      "operationName": "Microsoft.Network/networkSecurityGroups/securityRules/delete",
+      "category": "Administrative",
+      "resultType": "Success",
+      "resultSignature": "Deleted",
+      "durationMs": 900,
+      "callerIpAddress": "192.168.1.39",
+      "correlationId": "opqrstuv-wxyz-abcd-efgh-ijklmnopqrst",
+      "identity": {
+        "type": "User",
+        "userId": "admin20@example.com"
+      },
+      "properties": {
+        "statusCode": "OK",
+        "serviceRequestId": "qrstuvwx-yzab-cdef-ghij-klmnopqrstuv",
+        "eventCategory": "Administrative",
+        "eventName": {
+          "value": "DeleteSecurityRule",
+          "localizedValue": "Delete security rule"
+        },
+        "level": "Informational"
+      }
+    },
+    {
+      "time": "2024-08-05T15:00:00.000Z",
+      "resourceId": "/subscriptions/12345678-1234-1234-1234-123456789012/resourceGroups/myResourceGroup/providers/Microsoft.Storage/storageAccounts/storage20",
+      "operationName": "Microsoft.Storage/storageAccounts/delete",
+      "category": "Administrative",
+      "resultType": "Success",
+      "resultSignature": "Deleted",
+      "durationMs": 600,
+      "callerIpAddress": "192.168.1.49",
+      "correlationId": "cdefghij-klmn-opqr-stuv-wxyzabcdefg",
+      "identity": {
+        "type": "User",
+        "userId": "security20@example.com"
+      },
+      "properties": {
+        "statusCode": "OK",
+        "serviceRequestId": "mnopqrst-uvwx-yzab-cdef-ghijklmnopqr",
+        "eventCategory": "Administrative",
+        "eventName": {
+          "value": "DeleteStorageAccount",
+          "localizedValue": "Delete storage account"
+        },
+        "level": "Informational"
+      }
+    },
+    {
+      "time": "2024-08-05T16:00:00.000Z",
+      "resourceId": "/subscriptions/12345678-1234-1234-1234-123456789012/resourceGroups/myResourceGroup/providers/Microsoft.Sql/servers/sqlServer20/databases/db20",
+      "operationName": "Microsoft.Sql/servers/databases/drop/action",
+      "category": "Administrative",
+      "resultType": "Success",
+      "resultSignature": "Dropped",
+      "durationMs": 2100,
+      "callerIpAddress": "192.168.1.59",
+      "correlationId": "cdefghij-klmn-opqr-stuv-wxyzabcdefg",
+      "identity": {
+        "type": "User",
+        "userId": "dbadmin20@example.com"
+      },
+      "properties": {
+        "statusCode": "OK",
+        "serviceRequestId": "ijklmnop-qrst-uvwx-yzab-cdefghijklmn",
+        "eventCategory": "Administrative",
+        "eventName": {
+          "value": "DropDatabase",
+          "localizedValue": "Drop database"
+        },
+        "level": "Informational"
+      }
+    }
+  ]
+  
