@@ -12,7 +12,7 @@ jobs:
 
     steps:
     - name: Run Trivy scan on python:3.13-slim
-      uses: aquasecurity/trivy-action@v0.57.0
+      uses: aquasecurity/trivy-action@v0.28.0
       with:
         image-ref: python:3.13-slim
         format: table
