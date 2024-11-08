@@ -1,0 +1,24 @@
+name: Trivy Security Scan for Python 3.13-slim
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  trivy-scan:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Run Trivy scan on python:3.13-slim
+      uses: aquasecurity/trivy-action@v0.11.0
+      with:
+        image-ref: python:3.13-slim
+        format: table
+        exit-code: 0
+        severity: CRITICAL,HIGH
+
+    - name: Check for vulnerabilities
+      if: ${{ steps.trivy-scan.outcome == 'failure' }}
+      run: exit 1
