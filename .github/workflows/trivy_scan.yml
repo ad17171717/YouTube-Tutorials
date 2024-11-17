@@ -27,7 +27,7 @@ jobs:
           curl -sfL https://raw.githubusercontent.com/aquasecurity/trivy/main/contrib/install.sh | sudo sh -s -- -b /usr/local/bin v0.57.0
 
       - name: Clear Trivy cache
-        run: trivy --reset
+        run: trivy clean
 
       - name: Update Trivy database
         run: trivy --download-db-only
