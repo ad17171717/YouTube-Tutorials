@@ -14,12 +14,22 @@ jobs:
     runs-on: ubuntu-20.04
 
     steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+        
+      - name: Create output directory
+        run: mkdir -p "GitHub Actions/Trivy Automation"
+
       - name: Run Trivy vulnerability scanner
         uses: aquasecurity/trivy-action@master
         with:
           image-ref: 'python:3.13-slim'
-          format: 'table'
-          exit-code: '1' 
+          format: 'json'
+          exit-code: '1'
           ignore-unfixed: true
           vuln-type: 'os,library'
           severity: 'CRITICAL,HIGH'
+          output: "GitHub Actions/Trivy Automation/scan-results.json"
+
+      - name: Display results
+        run: cat "GitHub Actions/Trivy Automation/scan-results.json"
