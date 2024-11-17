@@ -43,8 +43,8 @@ jobs:
         run: |
           DATE=$(date +"%m.%d.%Y")
           TMP_FILE="GitHub Actions/Trivy Automation/scan-results.tmp.json"
-          jq --arg date "$DATE" '. + {scanDate: $date}' "GitHub Actions/Trivy Automation/scan-results.json" > $TMP_FILE
-          mv $TMP_FILE "GitHub Actions/Trivy Automation/scan-results.json"
+          jq --arg date "$DATE" '. + {scanDate: $date}' "GitHub Actions/Trivy Automation/scan-results.json" > "$TMP_FILE"
+          mv "$TMP_FILE" "GitHub Actions/Trivy Automation/scan-results.json"
 
       - name: Display Trivy scan results
         run: cat "GitHub Actions/Trivy Automation/scan-results.json"
