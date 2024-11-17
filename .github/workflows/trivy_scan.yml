@@ -30,31 +30,24 @@ jobs:
         run: trivy image --download-db-only
 
       - name: Run Trivy vulnerability scanner
-        uses: aquasecurity/trivy-action@master
-        with:
-          image-ref: 'nginx:latest'
-          format: 'json'
-          ignore-unfixed: false
-          vuln-type: 'os,library'
-          severity: 'CRITICAL,HIGH,MEDIUM,LOW'
-          output: "GitHub Actions/Trivy Automation/scan-results.json"
-
-      - name: Add date to scan results
         run: |
           DATE=$(date +"%m.%d.%Y")
-          TMP_FILE="GitHub Actions/Trivy Automation/scan-results.tmp.json"
-          jq --arg date "$DATE" '. + {scanDate: $date}' "GitHub Actions/Trivy Automation/scan-results.json" > "$TMP_FILE"
-          mv "$TMP_FILE" "GitHub Actions/Trivy Automation/scan-results.json"
+          mkdir -p "GitHub Actions/Trivy Automation"
+          OUTPUT_FILE="GitHub Actions/Trivy Automation/scan-results-${DATE}.json"
+          trivy image --format json --ignore-unfixed --vuln-type os,library --severity CRITICAL,HIGH,MEDIUM,LOW -o "$OUTPUT_FILE" nginx:latest
 
       - name: Display Trivy scan results
-        run: cat "GitHub Actions/Trivy Automation/scan-results.json"
+        run: |
+          DATE=$(date +"%m.%d.%Y")
+          cat "GitHub Actions/Trivy Automation/scan-results-${DATE}.json"
 
       - name: Push results back to repository
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
+          DATE=$(date +"%m.%d.%Y")
           git config --global user.name "GitHub Actions"
           git config --global user.email "actions@github.com"
-          git add "GitHub Actions/Trivy Automation/scan-results.json"
-          git commit -m "Add Trivy scan results"
+          git add "GitHub Actions/Trivy Automation/scan-results-${DATE}.json"
+          git commit -m "Add Trivy scan results (${DATE})"
           git push origin HEAD:main
