@@ -1,4 +1,4 @@
-name: Trivy Security Scan for Python 3.13-slim
+name: Trivy Security Scan for NGINX
 
 on:
   push:
@@ -10,7 +10,7 @@ on:
 
 jobs:
   build:
-    name: Scan Python 3.13-slim with Trivy
+    name: Scan nginx:latest with Trivy
     runs-on: ubuntu-20.04
 
     steps:
@@ -20,18 +20,30 @@ jobs:
       - name: Create output directory
         run: mkdir -p "GitHub Actions/Trivy Automation"
 
+      - name: Clear Trivy cache
+        run: trivy --reset
+
+      - name: Update Trivy database
+        run: trivy --download-db-only
+
       - name: Run Trivy vulnerability scanner
         uses: aquasecurity/trivy-action@master
         with:
           image-ref: 'nginx:latest'
           format: 'json'
-          exit-code: '1'
-          ignore-unfixed: true
+          ignore-unfixed: false
           vuln-type: 'os,library'
-          severity: 'CRITICAL,HIGH'
+          severity: 'CRITICAL,HIGH,MEDIUM,LOW'
           output: "GitHub Actions/Trivy Automation/scan-results.json"
 
-      - name: Display results
+      - name: Add date to scan results
+        run: |
+          DATE=$(date +"%m.%d.%Y")
+          TMP_FILE="GitHub Actions/Trivy Automation/scan-results.tmp.json"
+          jq --arg date "$DATE" '. + {scanDate: $date}' "GitHub Actions/Trivy Automation/scan-results.json" > $TMP_FILE
+          mv $TMP_FILE "GitHub Actions/Trivy Automation/scan-results.json"
+
+      - name: Display Trivy scan results
         run: cat "GitHub Actions/Trivy Automation/scan-results.json"
 
       - name: Push results back to repository
