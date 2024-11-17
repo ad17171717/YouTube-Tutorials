@@ -1,83 +1,131 @@
 {
   "SchemaVersion": 2,
-  "CreatedAt": "2024-11-17T11:27:52.243786089Z",
-  "ArtifactName": "python:3.13-slim",
+  "CreatedAt": "2024-11-17T11:37:06.521001265Z",
+  "ArtifactName": "nginx:latest",
   "ArtifactType": "container_image",
   "Metadata": {
     "OS": {
       "Family": "debian",
       "Name": "12.8"
     },
-    "ImageID": "sha256:66ba4da5ff2114093a34ea61ee5c4cf7e2f707366bf189eb57add955c48fae1d",
+    "ImageID": "sha256:60c8a892f36faf6c9215464005ee6fb8cf0585f70b113c0b030f6cb497a41876",
     "DiffIDs": [
       "sha256:c3548211b8264f8bfa47a6727043a64f1791b82ac965a284a7ea187e971a95e2",
-      "sha256:2f130876ec2ff3f92dcf2d3d40848dcf1424aded2dc577b57a927ec54f8eb615",
-      "sha256:1ed447603d2036003069550d6675135ab2142de492255ce5d50ab23215be8d0f",
-      "sha256:40ac043c693960632ef4db9082a3e59342426dfc43b26add350d5abac67f249e"
+      "sha256:7dca41ff148690a71f3a18230b037c224699bddca66451edfc3e0875c38266a5",
+      "sha256:ffe4285e29068b1a6112d99b633535058b91344bb1eac41cbec3c319c908cc43",
+      "sha256:19b722697f76432e2991f3ddbfe83ff062c58cbc81ae86a209cc1a907281ed33",
+      "sha256:a1fe8b721bb198a7416c45774b913499e3d32da7e49c36a173ab9eab1f16f651",
+      "sha256:a0c145a29c8d0bd6496ca844601ea021aaeef71ab28a060cc9b4e3f0031d2eb6",
+      "sha256:61ef4e878aac3937fc88785022b0a2b9b7791455b3a34b72eb5a77fd1bdbc7fd"
     ],
     "RepoTags": [
-      "python:3.13-slim"
+      "nginx:latest"
     ],
     "RepoDigests": [
-      "python@sha256:4efa69bf17cfbd83a9942e60e2642335c3b397448e00410063a0421f9727c4c4"
+      "nginx@sha256:bc5eac5eafc581aeda3008b4b1f07ebba230de2f27d47767129a6a905c84f470"
     ],
     "ImageConfig": {
       "architecture": "amd64",
-      "created": "2024-10-18T23:23:40Z",
+      "created": "2024-10-02T17:55:35Z",
       "history": [
         {
-          "created": "2024-10-18T23:23:40Z",
+          "created": "2024-10-02T17:55:35Z",
           "created_by": "ADD rootfs.tar.xz / # buildkit",
           "comment": "buildkit.dockerfile.v0"
         },
         {
-          "created": "2024-10-18T23:23:40Z",
+          "created": "2024-10-02T17:55:35Z",
           "created_by": "CMD [\"bash\"]",
           "comment": "buildkit.dockerfile.v0",
           "empty_layer": true
         },
         {
-          "created": "2024-10-18T23:23:40Z",
-          "created_by": "ENV PATH=/usr/local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+          "created": "2024-10-02T17:55:35Z",
+          "created_by": "LABEL maintainer=NGINX Docker Maintainers \u003cdocker-maint@nginx.com\u003e",
           "comment": "buildkit.dockerfile.v0",
           "empty_layer": true
         },
         {
-          "created": "2024-10-18T23:23:40Z",
-          "created_by": "RUN /bin/sh -c set -eux; \tapt-get update; \tapt-get install -y --no-install-recommends \t\tca-certificates \t\tnetbase \t\ttzdata \t; \trm -rf /var/lib/apt/lists/* # buildkit",
+          "created": "2024-10-02T17:55:35Z",
+          "created_by": "ENV NGINX_VERSION=1.27.2",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2024-10-02T17:55:35Z",
+          "created_by": "ENV NJS_VERSION=0.8.6",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2024-10-02T17:55:35Z",
+          "created_by": "ENV NJS_RELEASE=1~bookworm",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2024-10-02T17:55:35Z",
+          "created_by": "ENV PKG_RELEASE=1~bookworm",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2024-10-02T17:55:35Z",
+          "created_by": "ENV DYNPKG_RELEASE=1~bookworm",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2024-10-02T17:55:35Z",
+          "created_by": "RUN /bin/sh -c set -x     \u0026\u0026 groupadd --system --gid 101 nginx     \u0026\u0026 useradd --system --gid nginx --no-create-home --home /nonexistent --comment \"nginx user\" --shell /bin/false --uid 101 nginx     \u0026\u0026 apt-get update     \u0026\u0026 apt-get install --no-install-recommends --no-install-suggests -y gnupg1 ca-certificates     \u0026\u0026     NGINX_GPGKEYS=\"573BFD6B3D8FBC641079A6ABABF5BD827BD9BF62 8540A6F18833A80E9C1653A42FD21310B49F6B46 9E9BE90EACBCDE69FE9B204CBCDCD8A38D88A2B3\";     NGINX_GPGKEY_PATH=/etc/apt/keyrings/nginx-archive-keyring.gpg;     export GNUPGHOME=\"$(mktemp -d)\";     found='';     for NGINX_GPGKEY in $NGINX_GPGKEYS; do     for server in         hkp://keyserver.ubuntu.com:80         pgp.mit.edu     ; do         echo \"Fetching GPG key $NGINX_GPGKEY from $server\";         gpg1 --keyserver \"$server\" --keyserver-options timeout=10 --recv-keys \"$NGINX_GPGKEY\" \u0026\u0026 found=yes \u0026\u0026 break;     done;     test -z \"$found\" \u0026\u0026 echo \u003e\u00262 \"error: failed to fetch GPG key $NGINX_GPGKEY\" \u0026\u0026 exit 1;     done;     gpg1 --export \"$NGINX_GPGKEYS\" \u003e \"$NGINX_GPGKEY_PATH\" ;     rm -rf \"$GNUPGHOME\";     apt-get remove --purge --auto-remove -y gnupg1 \u0026\u0026 rm -rf /var/lib/apt/lists/*     \u0026\u0026 dpkgArch=\"$(dpkg --print-architecture)\"     \u0026\u0026 nginxPackages=\"         nginx=${NGINX_VERSION}-${PKG_RELEASE}         nginx-module-xslt=${NGINX_VERSION}-${DYNPKG_RELEASE}         nginx-module-geoip=${NGINX_VERSION}-${DYNPKG_RELEASE}         nginx-module-image-filter=${NGINX_VERSION}-${DYNPKG_RELEASE}         nginx-module-njs=${NGINX_VERSION}+${NJS_VERSION}-${NJS_RELEASE}     \"     \u0026\u0026 case \"$dpkgArch\" in         amd64|arm64)             echo \"deb [signed-by=$NGINX_GPGKEY_PATH] https://nginx.org/packages/mainline/debian/ bookworm nginx\" \u003e\u003e /etc/apt/sources.list.d/nginx.list             \u0026\u0026 apt-get update             ;;         *)             tempDir=\"$(mktemp -d)\"             \u0026\u0026 chmod 777 \"$tempDir\"                         \u0026\u0026 savedAptMark=\"$(apt-mark showmanual)\"                         \u0026\u0026 apt-get update             \u0026\u0026 apt-get install --no-install-recommends --no-install-suggests -y                 curl                 devscripts                 equivs                 git                 libxml2-utils                 lsb-release                 xsltproc             \u0026\u0026 (                 cd \"$tempDir\"                 \u0026\u0026 REVISION=\"${NGINX_VERSION}-${PKG_RELEASE}\"                 \u0026\u0026 REVISION=${REVISION%~*}                 \u0026\u0026 curl -f -L -O https://github.com/nginx/pkg-oss/archive/${REVISION}.tar.gz                 \u0026\u0026 PKGOSSCHECKSUM=\"6982e2df739645fc72db5bdf994032f799718230e7016e811d9d482e5cf41814c888660ca9a68814d5e99ab571e892ada3bd43166e720cbf04c7f85b6934772c *${REVISION}.tar.gz\"                 \u0026\u0026 if [ \"$(openssl sha512 -r ${REVISION}.tar.gz)\" = \"$PKGOSSCHECKSUM\" ]; then                     echo \"pkg-oss tarball checksum verification succeeded!\";                 else                     echo \"pkg-oss tarball checksum verification failed!\";                     exit 1;                 fi                 \u0026\u0026 tar xzvf ${REVISION}.tar.gz                 \u0026\u0026 cd pkg-oss-${REVISION}                 \u0026\u0026 cd debian                 \u0026\u0026 for target in base module-geoip module-image-filter module-njs module-xslt; do                     make rules-$target;                     mk-build-deps --install --tool=\"apt-get -o Debug::pkgProblemResolver=yes --no-install-recommends --yes\"                         debuild-$target/nginx-$NGINX_VERSION/debian/control;                 done                 \u0026\u0026 make base module-geoip module-image-filter module-njs module-xslt             )                         \u0026\u0026 apt-mark showmanual | xargs apt-mark auto \u003e /dev/null             \u0026\u0026 { [ -z \"$savedAptMark\" ] || apt-mark manual $savedAptMark; }                         \u0026\u0026 ls -lAFh \"$tempDir\"             \u0026\u0026 ( cd \"$tempDir\" \u0026\u0026 dpkg-scanpackages . \u003e Packages )             \u0026\u0026 grep '^Package: ' \"$tempDir/Packages\"             \u0026\u0026 echo \"deb [ trusted=yes ] file://$tempDir ./\" \u003e /etc/apt/sources.list.d/temp.list             \u0026\u0026 apt-get -o Acquire::GzipIndexes=false update             ;;     esac         \u0026\u0026 apt-get install --no-install-recommends --no-install-suggests -y                         $nginxPackages                         gettext-base                         curl     \u0026\u0026 apt-get remove --purge --auto-remove -y \u0026\u0026 rm -rf /var/lib/apt/lists/* /etc/apt/sources.list.d/nginx.list         \u0026\u0026 if [ -n \"$tempDir\" ]; then         apt-get purge -y --auto-remove         \u0026\u0026 rm -rf \"$tempDir\" /etc/apt/sources.list.d/temp.list;     fi     \u0026\u0026 ln -sf /dev/stdout /var/log/nginx/access.log     \u0026\u0026 ln -sf /dev/stderr /var/log/nginx/error.log     \u0026\u0026 mkdir /docker-entrypoint.d # buildkit",
           "comment": "buildkit.dockerfile.v0"
         },
         {
-          "created": "2024-10-18T23:23:40Z",
-          "created_by": "ENV GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305",
-          "comment": "buildkit.dockerfile.v0",
-          "empty_layer": true
-        },
-        {
-          "created": "2024-10-18T23:23:40Z",
-          "created_by": "ENV PYTHON_VERSION=3.13.0",
-          "comment": "buildkit.dockerfile.v0",
-          "empty_layer": true
-        },
-        {
-          "created": "2024-10-18T23:23:40Z",
-          "created_by": "ENV PYTHON_SHA256=086de5882e3cb310d4dca48457522e2e48018ecd43da9cdf827f6a0759efb07d",
-          "comment": "buildkit.dockerfile.v0",
-          "empty_layer": true
-        },
-        {
-          "created": "2024-10-18T23:23:40Z",
-          "created_by": "RUN /bin/sh -c set -eux; \t\tsavedAptMark=\"$(apt-mark showmanual)\"; \tapt-get update; \tapt-get install -y --no-install-recommends \t\tdpkg-dev \t\tgcc \t\tgnupg \t\tlibbluetooth-dev \t\tlibbz2-dev \t\tlibc6-dev \t\tlibdb-dev \t\tlibffi-dev \t\tlibgdbm-dev \t\tliblzma-dev \t\tlibncursesw5-dev \t\tlibreadline-dev \t\tlibsqlite3-dev \t\tlibssl-dev \t\tmake \t\ttk-dev \t\tuuid-dev \t\twget \t\txz-utils \t\tzlib1g-dev \t; \t\twget -O python.tar.xz \"https://www.python.org/ftp/python/${PYTHON_VERSION%%[a-z]*}/Python-$PYTHON_VERSION.tar.xz\"; \techo \"$PYTHON_SHA256 *python.tar.xz\" | sha256sum -c -; \twget -O python.tar.xz.asc \"https://www.python.org/ftp/python/${PYTHON_VERSION%%[a-z]*}/Python-$PYTHON_VERSION.tar.xz.asc\"; \tGNUPGHOME=\"$(mktemp -d)\"; export GNUPGHOME; \tgpg --batch --keyserver hkps://keys.openpgp.org --recv-keys \"$GPG_KEY\"; \tgpg --batch --verify python.tar.xz.asc python.tar.xz; \tgpgconf --kill all; \trm -rf \"$GNUPGHOME\" python.tar.xz.asc; \tmkdir -p /usr/src/python; \ttar --extract --directory /usr/src/python --strip-components=1 --file python.tar.xz; \trm python.tar.xz; \t\tcd /usr/src/python; \tgnuArch=\"$(dpkg-architecture --query DEB_BUILD_GNU_TYPE)\"; \t./configure \t\t--build=\"$gnuArch\" \t\t--enable-loadable-sqlite-extensions \t\t--enable-optimizations \t\t--enable-option-checking=fatal \t\t--enable-shared \t\t--with-lto \t\t--with-ensurepip \t; \tnproc=\"$(nproc)\"; \tEXTRA_CFLAGS=\"$(dpkg-buildflags --get CFLAGS)\"; \tLDFLAGS=\"$(dpkg-buildflags --get LDFLAGS)\"; \tLDFLAGS=\"${LDFLAGS:--Wl},--strip-all\"; \tmake -j \"$nproc\" \t\t\"EXTRA_CFLAGS=${EXTRA_CFLAGS:-}\" \t\t\"LDFLAGS=${LDFLAGS:-}\" \t; \trm python; \tmake -j \"$nproc\" \t\t\"EXTRA_CFLAGS=${EXTRA_CFLAGS:-}\" \t\t\"LDFLAGS=${LDFLAGS:--Wl},-rpath='\\$\\$ORIGIN/../lib'\" \t\tpython \t; \tmake install; \t\tcd /; \trm -rf /usr/src/python; \t\tfind /usr/local -depth \t\t\\( \t\t\t\\( -type d -a \\( -name test -o -name tests -o -name idle_test \\) \\) \t\t\t-o \\( -type f -a \\( -name '*.pyc' -o -name '*.pyo' -o -name 'libpython*.a' \\) \\) \t\t\\) -exec rm -rf '{}' + \t; \t\tldconfig; \t\tapt-mark auto '.*' \u003e /dev/null; \tapt-mark manual $savedAptMark; \tfind /usr/local -type f -executable -not \\( -name '*tkinter*' \\) -exec ldd '{}' ';' \t\t| awk '/=\u003e/ { so = $(NF-1); if (index(so, \"/usr/local/\") == 1) { next }; gsub(\"^/(usr/)?\", \"\", so); printf \"*%s\\n\", so }' \t\t| sort -u \t\t| xargs -r dpkg-query --search \t\t| cut -d: -f1 \t\t| sort -u \t\t| xargs -r apt-mark manual \t; \tapt-get purge -y --auto-remove -o APT::AutoRemove::RecommendsImportant=false; \trm -rf /var/lib/apt/lists/*; \t\texport PYTHONDONTWRITEBYTECODE=1; \tpython3 --version; \tpip3 --version # buildkit",
+          "created": "2024-10-02T17:55:35Z",
+          "created_by": "COPY docker-entrypoint.sh / # buildkit",
           "comment": "buildkit.dockerfile.v0"
         },
         {
-          "created": "2024-10-18T23:23:40Z",
-          "created_by": "RUN /bin/sh -c set -eux; \tfor src in idle3 pip3 pydoc3 python3 python3-config; do \t\tdst=\"$(echo \"$src\" | tr -d 3)\"; \t\t[ -s \"/usr/local/bin/$src\" ]; \t\t[ ! -e \"/usr/local/bin/$dst\" ]; \t\tln -svT \"$src\" \"/usr/local/bin/$dst\"; \tdone # buildkit",
+          "created": "2024-10-02T17:55:35Z",
+          "created_by": "COPY 10-listen-on-ipv6-by-default.sh /docker-entrypoint.d # buildkit",
           "comment": "buildkit.dockerfile.v0"
         },
         {
-          "created": "2024-10-18T23:23:40Z",
-          "created_by": "CMD [\"python3\"]",
+          "created": "2024-10-02T17:55:35Z",
+          "created_by": "COPY 15-local-resolvers.envsh /docker-entrypoint.d # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2024-10-02T17:55:35Z",
+          "created_by": "COPY 20-envsubst-on-templates.sh /docker-entrypoint.d # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2024-10-02T17:55:35Z",
+          "created_by": "COPY 30-tune-worker-processes.sh /docker-entrypoint.d # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2024-10-02T17:55:35Z",
+          "created_by": "ENTRYPOINT [\"/docker-entrypoint.sh\"]",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2024-10-02T17:55:35Z",
+          "created_by": "EXPOSE map[80/tcp:{}]",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2024-10-02T17:55:35Z",
+          "created_by": "STOPSIGNAL SIGQUIT",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2024-10-02T17:55:35Z",
+          "created_by": "CMD [\"nginx\" \"-g\" \"daemon off;\"]",
           "comment": "buildkit.dockerfile.v0",
           "empty_layer": true
         }
@@ -87,36 +135,48 @@
         "type": "layers",
         "diff_ids": [
           "sha256:c3548211b8264f8bfa47a6727043a64f1791b82ac965a284a7ea187e971a95e2",
-          "sha256:2f130876ec2ff3f92dcf2d3d40848dcf1424aded2dc577b57a927ec54f8eb615",
-          "sha256:1ed447603d2036003069550d6675135ab2142de492255ce5d50ab23215be8d0f",
-          "sha256:40ac043c693960632ef4db9082a3e59342426dfc43b26add350d5abac67f249e"
+          "sha256:7dca41ff148690a71f3a18230b037c224699bddca66451edfc3e0875c38266a5",
+          "sha256:ffe4285e29068b1a6112d99b633535058b91344bb1eac41cbec3c319c908cc43",
+          "sha256:19b722697f76432e2991f3ddbfe83ff062c58cbc81ae86a209cc1a907281ed33",
+          "sha256:a1fe8b721bb198a7416c45774b913499e3d32da7e49c36a173ab9eab1f16f651",
+          "sha256:a0c145a29c8d0bd6496ca844601ea021aaeef71ab28a060cc9b4e3f0031d2eb6",
+          "sha256:61ef4e878aac3937fc88785022b0a2b9b7791455b3a34b72eb5a77fd1bdbc7fd"
         ]
       },
       "config": {
         "Cmd": [
-          "python3"
+          "nginx",
+          "-g",
+          "daemon off;"
+        ],
+        "Entrypoint": [
+          "/docker-entrypoint.sh"
         ],
         "Env": [
-          "PATH=/usr/local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
-          "GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305",
-          "PYTHON_VERSION=3.13.0",
-          "PYTHON_SHA256=086de5882e3cb310d4dca48457522e2e48018ecd43da9cdf827f6a0759efb07d"
+          "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+          "NGINX_VERSION=1.27.2",
+          "NJS_VERSION=0.8.6",
+          "NJS_RELEASE=1~bookworm",
+          "PKG_RELEASE=1~bookworm",
+          "DYNPKG_RELEASE=1~bookworm"
         ],
+        "Labels": {
+          "maintainer": "NGINX Docker Maintainers \u003cdocker-maint@nginx.com\u003e"
+        },
         "WorkingDir": "/",
-        "ArgsEscaped": true
+        "ExposedPorts": {
+          "80/tcp": {}
+        },
+        "ArgsEscaped": true,
+        "StopSignal": "SIGQUIT"
       }
     }
   },
   "Results": [
     {
-      "Target": "python:3.13-slim (debian 12.8)",
+      "Target": "nginx:latest (debian 12.8)",
       "Class": "os-pkgs",
       "Type": "debian"
-    },
-    {
-      "Target": "Python",
-      "Class": "lang-pkgs",
-      "Type": "python-pkg"
     }
   ]
 }
