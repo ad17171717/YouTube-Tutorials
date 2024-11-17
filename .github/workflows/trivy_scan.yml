@@ -20,6 +20,13 @@ jobs:
       - name: Create output directory
         run: mkdir -p "GitHub Actions/Trivy Automation"
 
+      - name: Install Trivy
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y wget
+          wget -qO- https://github.com/aquasecurity/trivy/releases/latest/download/trivy_0.43.1_Linux-64bit.tar.gz | tar xz
+          sudo mv trivy /usr/local/bin/
+
       - name: Clear Trivy cache
         run: trivy --reset
 
