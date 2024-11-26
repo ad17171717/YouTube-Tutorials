@@ -26,15 +26,18 @@ jobs:
           sudo apt-get install -y curl
           curl -sfL https://raw.githubusercontent.com/aquasecurity/trivy/main/contrib/install.sh | sudo sh -s -- -b /usr/local/bin v0.57.0
 
-      - name: Download Trivy vulnerability database
-        run: trivy image --download-db-only
+      - name: Log in to GitHub Container Registry
+        run: echo "${{ secrets.GHCR_PAT }}" | docker login ghcr.io -u ${{ github.actor }} --password-stdin
+
+      - name: Pre-download Java DB
+        run: trivy --cache-dir /tmp/trivy-cache image --download-java-db
 
       - name: Run Trivy vulnerability scanner
         run: |
           DATE=$(date +"%m.%d.%Y")
           mkdir -p "GitHub Actions/Trivy Automation"
           OUTPUT_FILE="GitHub Actions/Trivy Automation/scan-results-${DATE}.json"
-          trivy image --format json --ignore-unfixed --vuln-type os,library --severity CRITICAL,HIGH,MEDIUM,LOW -o "$OUTPUT_FILE" nginx:latest
+          trivy image --format json --ignore-unfixed --scanners vuln --severity CRITICAL,HIGH,MEDIUM,LOW -o "$OUTPUT_FILE" nginx:latest
 
       - name: Display Trivy scan results
         run: |
