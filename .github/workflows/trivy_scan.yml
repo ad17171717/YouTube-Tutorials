@@ -30,7 +30,7 @@ jobs:
         run: echo "${{ secrets.GHCR_PAT }}" | docker login ghcr.io -u ${{ github.actor }} --password-stdin
 
       - name: Pre-download Java DB
-        run: trivy --cache-dir /tmp/trivy-cache image --download-java-db
+        run: trivy --cache-dir /tmp/trivy-cache --download-java-db-only
 
       - name: Run Trivy vulnerability scanner
         run: |
