@@ -1,3 +1,4 @@
+#test
 name: Trivy Security Scan for NGINX
 
 on:
