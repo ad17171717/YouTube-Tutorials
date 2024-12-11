@@ -31,13 +31,19 @@ jobs:
 
       - name: Run Trivy vulnerability scanner
         run: |
+          set -x
           DATE=$(date +"%m.%d.%Y")
           OUTPUT_FILE="GitHub Actions/Trivy Automation/scan-results-${DATE}.json"
+          mkdir -p "GitHub Actions/Trivy Automation"
           trivy image --format json --ignore-unfixed --vuln-type os,library --severity CRITICAL,HIGH,MEDIUM,LOW -o "$OUTPUT_FILE" nginx:latest
+
+      - name: Verify scan results exist
+        run: |
+          DATE=$(date +"%m.%d.%Y")
+          ls -l "GitHub Actions/Trivy Automation/scan-results-${DATE}.json"
 
       - name: Upload scan results
         uses: actions/upload-artifact@v3
         with:
           name: Trivy-Scan-Results
-          path: "GitHub Actions/Trivy Automation/scan-results-${DATE}.json"
-          
+          path: "GitHub Actions/Trivy Automation/scan-results-${{ steps.date.outputs.date }}.json"
