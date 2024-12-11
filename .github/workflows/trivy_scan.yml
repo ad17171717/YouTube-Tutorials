@@ -40,3 +40,4 @@ jobs:
         with:
           name: Trivy-Scan-Results
           path: "GitHub Actions/Trivy Automation/scan-results-${DATE}.json"
+          
