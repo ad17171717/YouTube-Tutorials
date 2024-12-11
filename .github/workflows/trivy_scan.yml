@@ -42,8 +42,12 @@ jobs:
       - name: Verify scan results exist
         run: ls -l "GitHub Actions/Trivy Automation/"
 
-      - name: Upload scan results
-        uses: actions/upload-artifact@v3
-        with:
-          name: Trivy-Scan-Results
-          path: "GitHub Actions/Trivy Automation/scan-results-${{ env.DATE }}.json"
+      - name: Commit scan results to repository
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          git config --global user.name "GitHub Actions"
+          git config --global user.email "actions@github.com"
+          git add "GitHub Actions/Trivy Automation/scan-results-${DATE}.json"
+          git commit -m "Add Trivy scan results (${DATE})"
+          git push origin HEAD:main
