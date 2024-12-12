@@ -1,0 +1,56 @@
+name: Trivy Security Scan for NGINX
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  build:
+    name: Scan nginx:latest with Trivy
+    runs-on: ubuntu-20.04
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Set Date
+        id: set-date
+        run: echo "DATE=$(date +%m.%d.%Y)" >> $GITHUB_ENV
+
+      - name: Create output directory
+        run: mkdir -p "GitHub Actions/Trivy Automation"
+
+      - name: Install Trivy
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y curl
+          curl -sfL https://raw.githubusercontent.com/aquasecurity/trivy/main/contrib/install.sh | sudo sh -s -- -b /usr/local/bin v0.57.0
+
+      - name: Log in to GitHub Container Registry
+        run: echo "${{ secrets.GHCR_PAT }}" | docker login ghcr.io -u ${{ github.actor }} --password-stdin
+
+      - name: Download Trivy vulnerability database
+        run: trivy image --download-db-only
+
+      - name: Run Trivy vulnerability scanner
+        run: |
+          OUTPUT_FILE="GitHub Actions/Trivy Automation/scan-results-${DATE}.json"
+          mkdir -p "GitHub Actions/Trivy Automation"
+          trivy image --format json --ignore-unfixed --vuln-type os,library --severity CRITICAL,HIGH,MEDIUM,LOW -o "$OUTPUT_FILE" nginx:latest
+
+      - name: Verify scan results exist
+        run: ls -l "GitHub Actions/Trivy Automation/"
+
+      - name: Commit scan results to repository
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          git config --global user.name "GitHub Actions"
+          git config --global user.email "actions@github.com"
+          git add "GitHub Actions/Trivy Automation/scan-results-${DATE}.json"
+          git commit -m "Add Trivy scan results (${DATE})"
+          git push origin HEAD:main
