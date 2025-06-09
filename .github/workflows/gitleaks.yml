@@ -9,7 +9,6 @@ on:
     branches: [ main ]
   pull_request:
   schedule:
-    #runs every monday
     - cron: '0 3 * * 1'
 
 permissions:
@@ -29,29 +28,20 @@ jobs:
       with:
         fetch-depth: 0
 
-    #run gitleaks and generate a SARIF format report
+    #run Gitleaks using the built-in defaults and required GITHUB_TOKEN
     - name: Run Gitleaks
-      id: gitleaks
       uses: gitleaks/gitleaks-action@v2
-      with:
-        args: >
-          detect
-          --source .
-          --report-format sarif       # standard format used by GitHub scanners
-          --report-path gitleaks.sarif
-          --verbose
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-    #combined validation and findings check
+    #combined validation + findings check: treats missing SARIF as no leaks
     - name: Determine if leaks were found
       id: findings
       run: |
-        # default to no leaks
         echo "found=false" >> $GITHUB_OUTPUT
-
-        # only inspect the SARIF if it exists
-        if [ -f gitleaks.sarif ]; then
-          # use jq to count results | length > 0
-          if jq '.runs[].results | length > 0' gitleaks.sarif | grep -q '^true$'; then
+        SARIF_FILE="gitleaks-results.sarif"
+        if [ -f "$SARIF_FILE" ]; then
+          if jq '.runs[].results | length > 0' "$SARIF_FILE" | grep -q '^true$'; then
             echo "Secrets/leaks detected!"
             echo "found=true" >> $GITHUB_OUTPUT
           else
@@ -67,4 +57,4 @@ jobs:
       uses: actions/upload-artifact@v4
       with:
         name: gitleaks-report
-        path: gitleaks.sarif
+        path: gitleaks-results.sarif
