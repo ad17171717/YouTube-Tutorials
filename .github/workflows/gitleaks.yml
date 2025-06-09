@@ -1,0 +1,70 @@
+name: Secret Scan (Gitleaks)
+
+#workflow runs:
+# - on every push to 'main'
+# - on every pull request (targeting any branch)
+# - on a weekly schedule: Mondays at 03:00 UTC
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+  schedule:
+    #runs every monday
+    - cron: '0 3 * * 1'
+
+permissions:
+  #required to checkout code
+  contents: read
+  #allows the action to read its own metadata
+  actions: read
+
+jobs:
+  gitleaks:
+    runs-on: ubuntu-latest
+
+    steps:
+    #pulls full repo history so gitleaks can scan diffs across all commits if needed
+    - name: Checkout code
+      uses: actions/checkout@v4
+      with:
+        fetch-depth: 0
+
+    #run gitleaks and generate a SARIF format report
+    - name: Run Gitleaks
+      id: gitleaks
+      uses: gitleaks/gitleaks-action@v2
+      with:
+        args: >
+          detect
+          --source .
+          --report-format sarif       # standard format used by GitHub scanners
+          --report-path gitleaks.sarif
+          --verbose
+
+    #combined validation and findings check
+    - name: Determine if leaks were found
+      id: findings
+      run: |
+        # default to no leaks
+        echo "found=false" >> $GITHUB_OUTPUT
+
+        # only inspect the SARIF if it exists
+        if [ -f gitleaks.sarif ]; then
+          # use jq to count results | length > 0
+          if jq '.runs[].results | length > 0' gitleaks.sarif | grep -q '^true$'; then
+            echo "Secrets/leaks detected!"
+            echo "found=true" >> $GITHUB_OUTPUT
+          else
+            echo "No secrets found in SARIF."
+          fi
+        else
+          echo "No SARIF file; assuming no leaks."
+        fi
+
+    #only upload the SARIF report as an artifact if findings were detected
+    - name: Upload report if leaks were found
+      if: steps.findings.outputs.found == 'true'
+      uses: actions/upload-artifact@v4
+      with:
+        name: gitleaks-report
+        path: gitleaks.sarif
