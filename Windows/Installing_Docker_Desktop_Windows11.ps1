@@ -30,12 +30,6 @@ wsl --install --no-distribution
 #check WSL installation details
 wsl --version
 
-#download and install Docker Desktop manually
-Start-Process "https://desktop.docker.com/win/main/amd64/Docker%20Desktop%20Installer.exe"
-
-#prompt user to install manually if installer doesn't auto-run
-Write-Host "Please follow the Docker Desktop installer. Ensure 'Use WSL 2' is checked. Then sign out and sign back in."
-
 #after login check Docker version and run test container
 docker version
 #if you see "Hello from Docker!" the installation is successful
