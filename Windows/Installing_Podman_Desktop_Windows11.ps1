@@ -1,4 +1,4 @@
-#Source: https://www.docker.com/products/docker-desktop
+#Source: https://podman-desktop.io/downloads
 #         https://learn.microsoft.com/windows/wsl/install
 
 #############################
@@ -6,7 +6,7 @@
 #############################
 
 #This PowerShell script lists the commands to install Podman Desktop on Windows 11.
-#It enables WSL 2 and required features, installs the kernel, Podman Docker and verifies installation.
+#It enables WSL 2 and required features, installs the kernel, Podman and verifies installation.
 #This script assumes you are running as Administrator on a Windows 11 machine with internet access.
 
 #⚠Please Note you should run these commands individually rather than executing the script because you must restart⚠
