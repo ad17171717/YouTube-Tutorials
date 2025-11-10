@@ -1,3 +1,5 @@
+#INTENTIONALLY INSECURE EXAMPLE FOR TESTING SCANNERS ONLY
+#NEVER use or commit real credentials like this.
 from flask import Flask, jsonify
 import boto3
 
