@@ -4,15 +4,15 @@
 from flask import Flask, jsonify
 import boto3
 
-#fake AWS credentials
+#FAKE AWS CREDENTIALS FORMATTED TO BE DETECTABLE
 AWS_ACCESS_KEY_ID = 'AKIAIOSFODNN7EXAMPLE'
 AWS_SECRET_ACCESS_KEY = 'wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY'
-AWS_SESSION_TOKEN = 'IQoJb3JpZ2luX2VjECoaCXVzLWVhc3QtMSoEFAKEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA'
+AWS_SESSION_TOKEN = 'IQoJb3JpZ2luX2VjECoaCXVzLWVhc3QtMSoFAkK0BBCtGk527D/PjT3R6pTfPCdJpZYbFp4/bLzaf8PjT3R6pTfPCdJpZYbFp4/bLzaf8bFp4/bLzaf8='
 
 APP_CONFIG = {
     'aws': {
-        'accessKeyId': 'AKIAFAKEKEYID123456',
-        'secretAccessKey': 'abcdEFGHijklMNOPqrstUVWXyz0123456789abcdFAKE',
+        'accessKeyId': 'AKIATESTING123456789',
+        'secretAccessKey': 'aBcDeFgHiJkLnMOPqRsTuVwXyZ123456789aBcDeFgH',
         'region': 'us-east-1',
     },
     'app': {'name': 'toy-webapp', 'debug': False},
